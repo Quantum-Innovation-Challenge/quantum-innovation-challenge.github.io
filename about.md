@@ -57,14 +57,13 @@ To contact us about the quantum challenge, please contact us via mail. -->
     </tr>
     <tr>
         <td>
-            <img alt="Francesco Russo" src="...">
+            <img alt="Francesco Russo" src="https://novonordiskfonden.dk//app/uploads/Francesco_Russo_FRU_NNF_TEMP-150x150.jpg">
         </td>
         <td>
             <strong>Francesco Russo</strong>
              <span class="profile-links">
-                <a title="Website" href="..."><i class="bi bi-globe2"></i></a>
-                <a title="GitHub" href="..."><i class="bi bi-github"></i></a>
-                <a title="LinkedIn" href="..."><i class="bi bi-twitter"></i></a>
+                <a title="Website" href="https://novonordiskfonden.dk/"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/russof85"><i class="bi bi-twitter"></i></a>
             </span>
             <br>Novo Nordisk Foundation
             <br>Scientific Manager
@@ -72,14 +71,13 @@ To contact us about the quantum challenge, please contact us via mail. -->
     </tr>
     <tr>
         <td>
-            <img alt="Cathal Mahon" src="...">
+            <img alt="Cathal Mahon" src="https://bii.dk/media/jdejbvl4/cathal-00648-g.jpg?rxy=0.6401117218224771,0.3826642854564162&width=366&height=355&v=1dba9ead369cf90&format=webp&quality=85">
         </td>
         <td>
             <strong>Cathal Mahon</strong>
             <span class="profile-links">
-                <a title="Website" href="..."><i class="bi bi-globe2"></i></a>
-                <a title="GitHub" href="..."><i class="bi bi-github"></i></a>
-                <a title="LinkedIn" href="..."><i class="bi bi-twitter"></i></a>
+                <a title="Website" href="https://bii.dk/"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/cathalmahon"><i class="bi bi-twitter"></i></a>
             </span>
             <br>Bio Innovation Institute
             <br>Chief Business Officer

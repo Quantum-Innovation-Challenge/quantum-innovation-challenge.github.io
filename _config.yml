@@ -1,8 +1,8 @@
-title: Quantum Innovation Challenge 2025
+title:
 nav_title: Quantum Innovation Challenge
 
-event_date: 10-12 November 2025
-event_start_date: 23 June 2025
+event_date: Conference in November 2025
+event_start_date: 01 July 2025
 event_close_date: 15 September 2025
 registration_opens_date: 01 July 2025
 registration_closes_date: 15 September 2025
@@ -13,8 +13,8 @@ author:
 mailbox_address: quantum_challenge@mqs.dk
 
 description:
-  The BII Quantum Challenge for Pharmaceutical Development is a virtual competition combined with a pitch presentation event,
-  organized by the Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS), Novo Nordisk, QAI Ventures and Roche.
+  The Life Science Quantum Innovation Challenge for Pharmaceutical Development is a virtual competition combined with a pitch presentation event,
+  organized by the Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS) and QAI Ventures.
   Leading up to and at the beginning of the event, participants will
   brainstorm projects and form teams. Over the course of the event, teams will
   work together to deliver the project and showcase their project at the end of phase 1 (July-September).
@@ -22,8 +22,8 @@ description:
   Phase 2 will run in October/November. The winner teams will be invited to showcase their project Q1 of 2025 at a selected conference.
   Come join us to explore, collaborate, innovate, and contribute to the advancement of quantum computing and quantum-inspired computing for pharmaceutical development!
 
-url: "https://bii-quantum.github.io/"
-github_repo: BII-Quantum
+url: "https://quantum-innovation-challenge.github.io/"
+github_repo: Quantum-Innovation-Challenge
 
 theme: minima
 
