@@ -71,7 +71,7 @@ Training and orientation resources are available on the [resources page](_/../re
 
 ## Logistics
 
-[Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members (see also https://element.io).
+[Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members (see also [https://element.io](https://element.io)).
 
 Questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
 
@@ -94,25 +94,20 @@ We want to express our gratitude to all the participants for their contributions
 
 ## Prizes
 
-{% if event_status != "over" %}
+Five teams will be selected for their outstanding contributions during Phase 1 of the challenge and will receive access to Gefion during Phase 2!
+[agenda](_/../agenda.md)
 
-Gefion access has been given to the five highest-ranked projects [agenda](_/../agenda.md).
-
-
-{% else %}
-Five teams will be selected for their outstanding contributions during the phase 1 of the challenge and will receive access to Gefion during phase 2! The top-ranked projects from the showcase and judging session will be highlighted here:
+The top-ranked projects will be highlighted here:
 
 | Rank | Project #                                            | Team Name | Project Name |
 | ---  | ---------------------------------------------------- | --------- | ------------ |
-| 1st  | [Project xx](https://bii-quantum.github.io/projects) |           |              |
-| 2nd  | [Project xx](https://bii-quantum.github.io/projects) |           |              |
-| 3rd  | [Project xx](https://bii-quantum.github.io/projects) |           |              |
-| 4th  | [Project xx](https://bii-quantum.github.io/projects) |           |              |
-| 5th  | [Project xx](https://bii-quantum.github.io/projects) |           |              |
+| 1st  | [Project xx]()                                       |           |              |
+| 2nd  | [Project xx]()                                       |           |              |
+| 3rd  | [Project xx]()                                       |           |              |
+| 4th  | [Project xx]()                                       |           |              |
+| 5th  | [Project xx]()                                       |           |              |
 
-For a full list of the challenge projects, we encourage you to check out the [projects page](_/../projects.md).
-
-{% endif %}
+For a full list of the challenge projects, we encourage you to take a look at the [projects page](_/../projects.md).
 
 
 ## Partners
