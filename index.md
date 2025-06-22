@@ -50,7 +50,9 @@ menu_icon: house-door
         <dd>Applications close</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Quantum Innovation Challenge Final Projects Presentation</dd>
+        <dd>Quantum Innovation Challenge projects presentations and winner announcement at the European Quantum Technologies Conference in Copenhagen (10-12 Nov)</dd>
+        
+        <dd>Final winner presentation at leading quantum computing conference in spring 2025</dd>
     </dl>
 </div>
 
@@ -78,11 +80,11 @@ By the end of the event, we hope you will have formed new connections, learned n
 
 {% else %}
 
-With the completion of the BII Quantum Challenge 2025, we thank participants for exploring, collaborating, innovating, and contributing to the advancement of quantum computing and quantum-inspired methods for pharmaceutical development.
+With the completion of the Quantum Innovation Challenge 2025, we thank participants for exploring, collaborating, innovating, and contributing to the advancement of quantum computing and quantum-inspired methods for pharmaceutical development.
 
 During the hackathon, researchers had the opportunity to develop with a use-case example provided by Novo Nordisk.
 
-Although the event has concluded, the outputs from the quantum challenge, including applied and developed algorithms, benchmarks, etc. will continue to serve as valuable resources for the research community. Outputs from teams that have participated  are available at [https://github.com/BII-Quantum/Quantum-Challenge-2025](https://github.com/BII-Quantum/Quantum-Challenge-2025).
+Although the event has concluded, the outputs from the quantum challenge, including applied and developed algorithms, benchmarks, etc. will continue to serve as valuable resources for the research community. Outputs from teams that have participated  are available at [https://github.com/Quantum-Innovation-Challenge](https://github.com/Quantum-Innovation-Challenge).
 
 We want to express our gratitude to all the participants for their contributions, and we look forward to future collaborations.
 {% endif %}

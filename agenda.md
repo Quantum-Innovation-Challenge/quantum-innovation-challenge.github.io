@@ -51,11 +51,12 @@ Brainstorm, build, team up.
 During the first two weeks of Phase 1 we will compile an extensive Q&A summary with all your questions. From the 15th of July we will not respond to questions anymore and you will have time until the 31st of August to submit your project via a pull request to the Quantum-Challenge-2025 repository. 
 
 
-### Phase 2: Sep 01 - Oct 15
+### Phase 2: Sep 15 - Oct 15
 
 
 ### Final presentations 
 
+- European Quantum Technologies Conference 2025 (10-12 November)
 
 
 ### After the challenge

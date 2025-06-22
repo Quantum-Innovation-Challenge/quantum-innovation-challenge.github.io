@@ -13,7 +13,7 @@ Below the project topic of this year's Quantum Innovation Challenge is presented
 
 As the three team leaders, to initialize your project[<sup>(?)</sup>][faq]{:title="Can I participate in multiple projects?"}, please follow these steps:
 
-1. Use [this link to open up an issue in the respective challenge repository](https://github.com/BII-Quantum/quantum-challenge-2025/issues). For example, if your team name is "Bayes Bandits", the file should be named `project-bayes-bandits.md`.
+1. Use [this link to open up an issue in the respective challenge repository](https://github.com/Quantum-Innovation-Challenge/). For example, if your team name is "Bayes Bandits", the file should be named `project-bayes-bandits.md`.
 The team name can be whatever you want it to be as long it aligns with our code of conduct.
 Further, please also state the project name, your three team members names, GitHub usernames, and your company/institution affiliations.
 
