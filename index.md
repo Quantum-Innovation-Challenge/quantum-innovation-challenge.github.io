@@ -47,12 +47,12 @@ menu_icon: house-door
         {% endif %}
 
         <dt>{{ site.registration_closes_date }}</dt>
-        <dd>Applications close</dd>
+        <dd>Applications for Phase I close. Evaluation within two weeks and top five projects will receive access to Gefion Supercomputer for Phase II project development.</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Five selected projects presentations and winner announcement at the European Quantum Technologies Conference in Copenhagen</dd>
+        <dd>Top five projects presentations and winner announcement at the European Quantum Technologies (EQT) Conference in Copenhagen.</dd>
         
-        <dd>Final winner presentation at leading quantum computing conference in spring 2025</dd>
+        <dd>Final winner presentation at leading quantum computing conference in spring 2025.</dd>
     </dl>
 </div>
 
