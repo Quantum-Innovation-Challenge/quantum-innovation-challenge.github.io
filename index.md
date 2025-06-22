@@ -50,7 +50,7 @@ menu_icon: house-door
         <dd>Applications close</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Quantum Innovation Challenge projects presentations and winner announcement at the European Quantum Technologies Conference in Copenhagen (10-12 Nov)</dd>
+        <dd>Five selected projects presentations and winner announcement at the European Quantum Technologies Conference in Copenhagen</dd>
         
         <dd>Final winner presentation at leading quantum computing conference in spring 2025</dd>
     </dl>
@@ -68,11 +68,13 @@ After the challenge, results will be collated and secured under open-source and 
 Prior programming experience is required and basic familiarity with git and GitHub.
 Training and orientation resources are available on the [resources page](_/../resources.md).
 
+
 ## Logistics
 
-([Element](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members.
+[Element](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members.
 
 Questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase and will be collectively answered via the Q&A page.
+
 
 ## Outputs
 
@@ -88,6 +90,7 @@ Although the event has concluded, the outputs from the quantum challenge, includ
 
 We want to express our gratitude to all the participants for their contributions, and we look forward to future collaborations.
 {% endif %}
+
 
 ## Prizes
 
