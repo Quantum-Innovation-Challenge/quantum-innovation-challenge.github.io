@@ -35,8 +35,7 @@ The event included researchers and industrial participants at all levels who are
 
 ### The organizing team
 
-<!-- {:.lead}
-To contact us about the quantum challenge, please contact us via mail. -->
+To contact us about the quantum challenge, please contact us via mail (quantum_challenge@mqs.dk). Molecular Quantum Solutions (MQS) is the technical support of this challenge.
 
 <table class="team-list">
     <tr>
@@ -46,9 +45,8 @@ To contact us about the quantum challenge, please contact us via mail. -->
         <td>
             <strong>Mark Nicholas Jones</strong>
             <span class="profile-links">
-                <a title="Profile &amp; contact" href=""><i class="bi bi-person-lines-fill"></i></a>
                 <a title="Website" href="https://mqs.dk/"><i class="bi bi-globe2"></i></a> 
-                <a title="GitHub" href="https://github.com/sgbaird"><i class="bi bi-github"></i></a>
+                <a title="GitHub" href="https://github.com/MQS-mark"><i class="bi bi-github"></i></a>
                 <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Molecular Quantum Solutions (MQS)
@@ -63,7 +61,7 @@ To contact us about the quantum challenge, please contact us via mail. -->
             <strong>Francesco Russo</strong>
              <span class="profile-links">
                 <a title="Website" href="https://novonordiskfonden.dk/"><i class="bi bi-globe2"></i></a>
-                <a title="LinkedIn" href="https://www.linkedin.com/in/russof85"><i class="bi bi-twitter"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/russof85"><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Novo Nordisk Foundation
             <br>Scientific Manager
@@ -77,7 +75,7 @@ To contact us about the quantum challenge, please contact us via mail. -->
             <strong>Cathal Mahon</strong>
             <span class="profile-links">
                 <a title="Website" href="https://bii.dk/"><i class="bi bi-globe2"></i></a>
-                <a title="LinkedIn" href="https://www.linkedin.com/in/cathalmahon"><i class="bi bi-twitter"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/cathalmahon"><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Bio Innovation Institute
             <br>Chief Business Officer

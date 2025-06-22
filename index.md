@@ -115,20 +115,30 @@ For a full list of the challenge projects, we encourage you to check out the [pr
 - [Danish Business Authority](https://danishbusinessauthority.dk/)
 - [Danish Centre for AI Innovation - Gefion](https://dcai.dk/)
 
-## Hosts
+## Partners
 
 <div style="display: flex; align-items: center; justify-content: center;">
+    <a href="https://novonordiskfonden.dk/">
+        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:300px; margin-right: 20px;">
+    </a>
     <a href="https://bii.dk/">
-        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:400px; margin-right: 20px;">
+        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:300px; margin-right: 20px;">
     </a>
     <a href="https://mqs.dk">
-        <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:500px; margin-left: 20px;">
+        <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:300px; margin-left: 20px;">
+    </a>
+    <a href="https://qai-ventures.com">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="width:150px; margin-right: 20px;">
+    </a>
+    <a href="https://icdk.dk/">
+        <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:300px; margin-right: 20px;">
     </a>
 </div>
 
-## Prize Sponsor
+## Sponsors
 
 <div style="display: flex; align-items: center; justify-content: center;">
+
     <a href="https://danishbusinessauthority.dk/">
         <img src="https://stateofgreen.com/en/wp-content/uploads/2018/05/profile_logo_6283_460x160-4-240x83.png" alt="Danish Business Authority" style="width:200px;">
     </a>
