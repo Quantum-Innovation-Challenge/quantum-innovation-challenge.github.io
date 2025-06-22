@@ -71,9 +71,9 @@ Training and orientation resources are available on the [resources page](_/../re
 
 ## Logistics
 
-[Element](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members.
+[Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members (see also https://element.io).
 
-Questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase and will be collectively answered via the Q&A page.
+Questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
 
 
 ## Outputs
