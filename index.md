@@ -68,7 +68,7 @@ Training and orientation resources are available on the [resources page](_/../re
 
 ## Logistics
 
-([Element](https://) for ongoing comms, especially for the participants to find other team members.
+([Element](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members.
 
 Questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase and will be collectively answered via the Q&A page.
 
@@ -114,7 +114,7 @@ For a full list of the challenge projects, we encourage you to check out the [pr
 
 <div style="display: flex; align-items: center; justify-content: center;">
     <a href="https://novonordiskfonden.dk/">
-        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:300px; margin-right: 40px;">
+        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:300px; margin-right: 60px;">
     </a>
     <a href="https://bii.dk/">
         <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:300px; margin-right: 20px;">
