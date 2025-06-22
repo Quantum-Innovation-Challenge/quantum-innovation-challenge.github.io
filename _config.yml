@@ -1,0 +1,83 @@
+title: Quantum Innovation Challenge 2025
+nav_title: Quantum Innovation Challenge
+
+event_date: 10-12 November 2025
+event_start_date: 23 June 2025
+event_close_date: 15 September 2025
+registration_opens_date: 01 July 2025
+registration_closes_date: 15 September 2025
+
+submissions_due: <a href="https://everytimezone.com/s/56bc0d6b">September 15 at 10:00 AM Central European Time (CET)</a>
+
+author:
+mailbox_address: quantum_challenge@mqs.dk
+
+description:
+  The BII Quantum Challenge for Pharmaceutical Development is a virtual competition combined with a pitch presentation event,
+  organized by the Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS), Novo Nordisk, QAI Ventures and Roche.
+  Leading up to and at the beginning of the event, participants will
+  brainstorm projects and form teams. Over the course of the event, teams will
+  work together to deliver the project and showcase their project at the end of phase 1 (July-September).
+  After phase 1, 5 teams with an academic affiliation will be selected and will retrieve access to Denmark's supercomputer Gefion (Phase 2).
+  Phase 2 will run in October/November. The winner teams will be invited to showcase their project Q1 of 2025 at a selected conference.
+  Come join us to explore, collaborate, innovate, and contribute to the advancement of quantum computing and quantum-inspired computing for pharmaceutical development!
+
+url: "https://bii-quantum.github.io/"
+github_repo: BII-Quantum
+
+theme: minima
+
+# The actual visibility of the nav bar links is influenced by the event_status
+# and registration_status flags below
+header_pages:
+  - registration.md
+  - agenda.md
+  - projects.md
+  - submission.md
+  - videos-slides.md
+  - resources.md
+  - faq.md
+  - about.md
+
+# Event status
+#   soon = event is yet to happen
+#    now = event is currently happening
+#   over = event has happened
+#  (demo = show all pages to demonstrate the template)
+event_status: soon
+
+# Open and close the registration form
+#   soon = Registration has not yet opened
+#   open = Registration form is open
+# closed = Registration form is now closed
+#  (demo = show all pages to demonstrate the template)
+registration_status: soon
+
+# Remove ".html" from default permalinks
+permalink: pretty
+
+# (See default layout below)
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Social media links
+# (See default layout below)
+twitter:
+  card: summary_large_image
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/advert.png
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Simplify tables of contents
+kramdown:
+  toc_levels: "2,3"
