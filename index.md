@@ -114,10 +114,10 @@ For a full list of the challenge projects, we encourage you to check out the [pr
 
 <div style="display: flex; align-items: center; justify-content: center;">
     <a href="https://novonordiskfonden.dk/">
-        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:250px; margin-right: 60px;">
+        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:250px; margin-right: 70px;">
     </a>
     <a href="https://bii.dk/">
-        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:250px; margin-right: 20px;">
+        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:250px; margin-right: 15px;">
     </a>
     <a href="https://mqs.dk">
         <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:300px; margin-left: 20px;">
