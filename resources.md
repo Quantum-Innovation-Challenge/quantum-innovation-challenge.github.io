@@ -14,9 +14,11 @@ menu_icon: journal-code
 
 #### [Project Proposals](_/../submission.md) - team leaders should submit their project proposals using the instructions here
 
+<!--
 #### [Topical Project Introduction Video]() - ...
 
 {% include youtube.html video="" title="..." %}
+-->
 
 </li>
 
@@ -39,12 +41,19 @@ For those looking for a refresher on Python programming or to implement a simple
 
 ### Introduction
 
+[The prospects of quantum computing in computational molecular biology](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1481)
+
 ### Simulators
 
 ### Quantum-inspired computing
 
-### Quantum computers and simulators as samplers
+### Sampling
 
+[Quantum sampling problems, BosonSampling and quantum supremacy](https://www.nature.com/articles/s41534-017-0018-2)
+
+[Sampling Problems on a Quantum Computer](https://arxiv.org/abs/2402.16341)
+
+[Quantum Circuits for the Metropolis-Hastings Algorithm](https://arxiv.org/abs/2506.11576)
 
 </li>
 

@@ -1,32 +1,27 @@
 ---
-title: Hackathon videos and slides
+title: Videos and Slides
 menu_title: Videos & slides
 menu_icon: film
 ---
 
-## Talks
+## Videos
 
-Below are dedicated topical video presentations for this year's Quantum Innovation Challenge.
+Below are dedicated topical video presentations which might be helpful for this year's Quantum Innovation Challenge.
 
 <ul class="grid">
 
 <li class="video" markdown="1">
 
-{% include youtube.html video="" title="..." %}
+{% include youtube.html video="1dynR7LlgO8" title="A quantum computing algorithm to speed up Metropolis sampling" %}
 
-Video 1
 </li>
 
 <li class="video" markdown="1">
-{% include youtube.html video="" title="" %}
-
-Video 2
+{% include youtube.html video="5VNaZE3vIxg" title="Intro to Quantum Gibbs Samplers: Algorithmic Ingredients" %}
 </li>
 
 <li class="video" markdown="1">
-{% include youtube.html video="" title="" %}
-
-Video 3
+{% include youtube.html video="bHwmuqJxAS8" title="Classical algorithm for simulating experimental Gaussian boson sampling" %}
 </li>
 
 </ul>

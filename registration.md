@@ -1,5 +1,5 @@
 ---
-title: Quantum Challenge registration
+title: Quantum Challenge Registration
 menu_title: Registration
 menu_icon: clipboard-check
 event_status: soon
@@ -35,11 +35,11 @@ Registration opens on {{ site.registration_opens_date }}.
 {% endif %}
 The closing date for applications is {{ site.registration_closes_date }}.
 
-The hackathon is open to everyone, regardless of background or experience. Prior programming experience is not required, but it is recommended for coding projects[<sup>(?)</sup>][faq]{:title="Am I eligible to participate in the hackathon?"}. Please review the [project submission page](_/../submission.md) to learn more about the types of projects within the scope of the hackathon as well the [resources page](_/../resources.md) for other information you need to prepare. During the hackathon, the organizers will be available to support you. After the hackathon, if you choose to and you meet the guidelines[<sup>(?)</sup>][faq]{:title="What is required for me to participate in the scholarly article?"}, you can contribute to the scholarly article. If you are interested in acting as a judge[<sup>(?)</sup>][faq]{:title="What is expected from me if I act as a judge?"}, please indicate so in the corresponding question on the registration form.
+The Quantum Innovation Challenge is open to everyone, regardless of background or experience. Prior programming experience is not required, but it is recommended for coding projects[<sup>(?)</sup>][faq]{:title="Am I eligible to participate in the hackathon?"}. Please review the [project submission page](_/../submission.md) to learn more about the types of projects within the scope of the hackathon as well the [resources page](_/../resources.md) for other information you need to prepare. During the hackathon, the organizers will be available to support you. After the hackathon, if you choose to and you meet the guidelines[<sup>(?)</sup>][faq]{:title="What is required for me to participate in the scholarly article?"}, you can contribute to the scholarly article. If you are interested in acting as a judge[<sup>(?)</sup>][faq]{:title="What is expected from me if I act as a judge?"}, please indicate so in the corresponding question on the registration form.
 
 <div class="aside" markdown="1">
-This virtual event will require some commitment prior to and including the
-hackathon event which will take part from {{ site.event_date }}.
+This challenge will require commitment prior to and including the
+Phase I and Phase II projects developments which will take part before {{ site.event_date }}.
 
 {% if registration_status == "soon" or registration_status == "demo" %}
   <a class="btn disabled">Registration opens soon</a>
