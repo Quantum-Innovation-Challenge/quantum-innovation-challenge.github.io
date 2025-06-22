@@ -57,7 +57,7 @@ menu_icon: house-door
 {% if event_status != "over" %}
 
 With the emergence of near term intermediate quantum computers and quantum-inspired algorithms powered by GPUs, it is important to understand their strengths and weaknesses, reduce the barrier to use, and adapt them for pharmaceutical development apart from drug discovery (e.g. docking and binding analysis).
-The Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS), Novo Nordisk, QAI Ventures and Roche are hosting the virtual quantum challenge for researchers all over the world to work collaboratively in teams on projects. 
+The Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS) and QAI Ventures are hosting the virtual quantum challenge for researchers all over the world to work collaboratively in teams on projects.
 
 Researchers can propose projects with respect to this year's [challenge topic](_/../projects.md) applying quantum computing and quantum-inspired algorithms to existing benchmarks, developing new benchmarks involving quantum computing methods, creating sub-aglorithms based on quantum computing methods, proposing quantum computing based sampling and optimization methods, and more.
 After the challenge, results will be collated and secured under open-source and free license agreements (Apache/MIT) in the dedicated Quantum-Challenge-2025 repository.
@@ -114,10 +114,10 @@ For a full list of the challenge projects, we encourage you to check out the [pr
 
 <div style="display: flex; align-items: center; justify-content: center;">
     <a href="https://novonordiskfonden.dk/">
-        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:300px; margin-right: 60px;">
+        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:250px; margin-right: 60px;">
     </a>
     <a href="https://bii.dk/">
-        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:300px; margin-right: 20px;">
+        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:250px; margin-right: 20px;">
     </a>
     <a href="https://mqs.dk">
         <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:300px; margin-left: 20px;">
@@ -126,7 +126,7 @@ For a full list of the challenge projects, we encourage you to check out the [pr
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="width:150px; margin-right: 20px;">
     </a>
     <a href="https://icdk.dk/">
-        <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:300px; margin-right: 20px;">
+        <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:250px; margin-right: 20px;">
     </a>
 </div>
 
