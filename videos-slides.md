@@ -1,6 +1,6 @@
 ---
 title: Videos and Slides
-menu_title: Videos & slides
+menu_title: Videos & Slides
 menu_icon: film
 ---
 
@@ -22,6 +22,11 @@ Below are dedicated topical video presentations which might be helpful for this 
 
 <li class="video" markdown="1">
 {% include youtube.html video="bHwmuqJxAS8" title="Classical algorithm for simulating experimental Gaussian boson sampling" %}
+</li>
+
+
+<li class="video" markdown="1">
+{% include youtube.html video="lkmehsypdag" title="Quantum neural networks" %}
 </li>
 
 </ul>
