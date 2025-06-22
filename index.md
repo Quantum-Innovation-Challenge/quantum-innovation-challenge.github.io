@@ -109,11 +109,6 @@ For a full list of the challenge projects, we encourage you to check out the [pr
 
 {% endif %}
 
-## Sponsors
-
-- [Novo Nordisk Foundation](https://novonordiskfonden.dk/)
-- [Danish Business Authority](https://danishbusinessauthority.dk/)
-- [Danish Centre for AI Innovation - Gefion](https://dcai.dk/)
 
 ## Partners
 
@@ -135,13 +130,12 @@ For a full list of the challenge projects, we encourage you to check out the [pr
     </a>
 </div>
 
+
 ## Sponsors
 
-<div style="display: flex; align-items: center; justify-content: center;">
 
-    <a href="https://danishbusinessauthority.dk/">
-        <img src="https://stateofgreen.com/en/wp-content/uploads/2018/05/profile_logo_6283_460x160-4-240x83.png" alt="Danish Business Authority" style="width:200px;">
-    </a>
-</div>
+- [Novo Nordisk Foundation](https://novonordiskfonden.dk/)
+- [Danish Business Authority](https://danishbusinessauthority.dk/)
+- [Danish Centre for AI Innovation - Gefion](https://dcai.dk/)
 
 [faq]: {{ site.baseurl }}{% link faq.md %}

@@ -47,7 +47,7 @@ To contact us about the quantum challenge, please contact us via mail (quantum_c
             <span class="profile-links">
                 <a title="Website" href="https://mqs.dk/"><i class="bi bi-globe2"></i></a> 
                 <a title="GitHub" href="https://github.com/MQS-mark"><i class="bi bi-github"></i></a>
-                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/mark-nicholas-jones-7730b1b4/?"><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Molecular Quantum Solutions (MQS)
             <br>CEO/CTO
