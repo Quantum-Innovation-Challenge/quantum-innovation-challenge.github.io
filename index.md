@@ -114,7 +114,7 @@ For a full list of the challenge projects, we encourage you to check out the [pr
 
 <div style="display: flex; align-items: center; justify-content: center;">
     <a href="https://novonordiskfonden.dk/">
-        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:300px; margin-right: 20px;">
+        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:300px; margin-right: 40px;">
     </a>
     <a href="https://bii.dk/">
         <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:300px; margin-right: 20px;">
