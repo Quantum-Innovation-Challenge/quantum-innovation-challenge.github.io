@@ -134,6 +134,9 @@ For a full list of .he submitted challenge projects, we encourage you to take a 
     <a href="https://investindk.com/">
         <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:250px; margin-right: 20px;">
     </a>
+    <a href="https://novoholdings.dk/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:250px; margin-right: 20px;">
+    </a>
     <br>
     <br>
     <a href="https://danishbusinessauthority.dk/">
