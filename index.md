@@ -50,7 +50,7 @@ menu_icon: house-door
         <dd>Applications for Phase I closes. Evaluation within two weeks and top five projects will receive access to the Gefion Supercomputer for the Phase II project developments.</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Top five projects presentations at the European Quantum Technologies (EQT) Conference in Copenhagen.</dd>
+        <dd>Top five projects presentations at the <a href="https://qt.eu/events/eqtc2025">European Quantum Technologies Conference (EQTC)</a> in Copenhagen.</dd>
         
         <dd>Final winner presentation at leading quantum computing conference in spring 2026.</dd>
     </dl>
@@ -131,8 +131,8 @@ For a full list of .he submitted challenge projects, we encourage you to take a 
     </a>
     <br>
     <br>
-    <a href=" ">
-        <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt=" Danish Center for AI Innovation (DCAI)" style="width:250px; margin-right: 20px;">
+    <a href="https://investindk.com/">
+        <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:250px; margin-right: 20px;">
     </a>
     <br>
     <br>
