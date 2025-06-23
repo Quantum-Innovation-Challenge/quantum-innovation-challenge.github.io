@@ -1,7 +1,7 @@
 ---
 layout: project_list
-title: Quantum Challenge 2025 projects
-menu_title: Projects
+title: Quantum Challenge 2025 & Projects
+menu_title: Quantum Challenge 2025 & Projects
 menu_icon: briefcase
 ---
 
@@ -27,14 +27,13 @@ menu_icon: briefcase
     {% assign event_status = 'over' %}
 {% endif %}
 
-{% if event_status != "over" %}
+# Quantum Challenge 2025
 
-Find below the webpages for each of the projects. This list will be updated on an ongoing basis to reflect the accepted project proposals. For details on how to submit a project, see the [submission page](_/../submission.md).
+TBA
 
-{% else %}
 
-The BII Quantum Challenge '25 has concluded. See below for teams, project descriptions, videos, and GitHub repositories for each of the projects below.
+# Quantum Challenge 2025 Projects
 
-{% endif %}
-
-[faq]: {{ site.baseurl }}{% link faq.md %}
+Find below the links for each of the projects.
+This list will be updated on an ongoing basis to track the submitted projects.
+For details on how to submit a project, see the [submission page](_/../submission.md).

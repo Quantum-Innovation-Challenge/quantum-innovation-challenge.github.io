@@ -121,21 +121,4 @@ Use of the tools listed on this page is not a requirement. A diverse set of pack
 
 </li>
 
-<li class="resource-block" markdown="1">
-
-
 </ul>
-
-<ul class="grid">
-
-<li class="resource-block" markdown="1">
-
-## Guidelines
-
-### [Submission](_/../submission.md) - The quantum challenge workflow for phase 1 submissions, including the project topic and proposal instructions
-
-</li>
-
-</ul>
-
-[faq]: {{ site.baseurl }}{% link faq.md %}
