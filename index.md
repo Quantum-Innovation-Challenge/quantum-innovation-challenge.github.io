@@ -73,9 +73,9 @@ Training and orientation resources are available on the [resources page](_/../re
 
 [Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members (see also [https://element.io](https://element.io)).
 
-A condition to be accepted for the submission of a project application is the clear documentation of an academic participant in form of a main team member of the project.
+A condition to be accepted for the submission of a project application is the clear documentation of an academic participant in form of a main team member of the project. More details about this on the eligibility page.
 
-Questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
+Pre-registrations and questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
 
 
 ## Outputs
@@ -109,22 +109,25 @@ The top-ranked projects will be highlighted here:
 | 4th  | []()                                                 |           |              |
 | 5th  | []()                                                 |           |              |
 
-For a full list of .he submitted challenge projects, we encourage you to take a look at the [challenge page](_/../projects.md).
+For a full list of the submitted challenge projects, we encourage you to take a look at the [challenge page](_/../projects.md).
 
 
 ## Partners
 
 <div style="display: flex; align-items: center; justify-content: center;">
     <a href="https://novonordiskfonden.dk/">
-        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:250px; margin-right: 70px;">
+        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:200px; margin-right: 70px;">
     </a>
     <a href="https://bii.dk/">
-        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:250px; margin-challenge5px;">
+        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:200px; margin-challenge5px;">
     </a>
     <br>
     <br>
     <a href="https://mqs.dk">
         <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:300px; margin-left: 20px;">
+    </a>
+    <a href="https://dcai.dk/">
+        <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:300px; margin-left: 20px;">
     </a>
     <a href="https://qai-ventures.com">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="width:150px; margin-right: 20px;">
@@ -135,7 +138,7 @@ For a full list of .he submitted challenge projects, we encourage you to take a 
         <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:250px; margin-right: 20px;">
     </a>
     <a href="https://novoholdings.dk/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:250px; margin-right: 20px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:200px; margin-right: 20px;">
     </a>
     <br>
     <br>
