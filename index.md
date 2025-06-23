@@ -27,7 +27,7 @@ menu_icon: house-door
 {% endif %}
 
 {:.secondary}
-# sponsored by the Novo Nordisk Foundation, Danish Business Authority and Danish Centre for AI Innovation - Gefion
+# sponsored by the Novo Nordisk Foundation, Danish Business Authority and Danish Centre for AI Innovation.
 
 <div class="aside">
     <h2><i class="bi bi-calendar3"></i> Event timeline</h2>
@@ -47,12 +47,12 @@ menu_icon: house-door
         {% endif %}
 
         <dt>{{ site.registration_closes_date }}</dt>
-        <dd>Applications for Phase I close. Evaluation within two weeks and top five projects will receive access to Gefion Supercomputer for Phase II project development.</dd>
+        <dd>Applications for Phase I closes. Evaluation within two weeks and top five projects will receive access to the Gefion Supercomputer for the Phase II project developments.</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Top five projects presentations and winner announcement at the European Quantum Technologies (EQT) Conference in Copenhagen.</dd>
+        <dd>Top five projects presentations at the European Quantum Technologies (EQT) Conference in Copenhagen.</dd>
         
-        <dd>Final winner presentation at leading quantum computing conference in spring 2025.</dd>
+        <dd>Final winner presentation at leading quantum computing conference in spring 2026.</dd>
     </dl>
 </div>
 
@@ -69,9 +69,11 @@ Prior programming experience is required and basic familiarity with git and GitH
 Training and orientation resources are available on the [resources page](_/../resources.md).
 
 
-## Logistics
+## Logistics and Eligibility
 
 [Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members (see also [https://element.io](https://element.io)).
+
+A condition to be accepted for the submission of a project application is the clear documentation of an academic participant in form of a main team member of the project.
 
 Questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
 
@@ -94,20 +96,20 @@ We want to express our gratitude to all the participants for their contributions
 
 ## Prizes
 
-Five teams will be selected for their outstanding contributions during Phase 1 of the challenge and will receive access to Gefion during Phase 2!
+Five teams will be selected for their outstanding contributions after Phase 1 of the challenge and will receive access to Gefion during Phase 2.
 [agenda](_/../agenda.md)
 
 The top-ranked projects will be highlighted here:
 
 | Rank | Project #                                            | Team Name | Project Name |
 | ---  | ---------------------------------------------------- | --------- | ------------ |
-| 1st  | [Project xx]()                                       |           |              |
-| 2nd  | [Project xx]()                                       |           |              |
-| 3rd  | [Project xx]()                                       |           |              |
-| 4th  | [Project xx]()                                       |           |              |
-| 5th  | [Project xx]()                                       |           |              |
+| 1st  | []()                                                 |           |              |
+| 2nd  | []()                                                 |           |              |
+| 3rd  | []()                                                 |           |              |
+| 4th  | []()                                                 |           |              |
+| 5th  | []()                                                 |           |              |
 
-For a full list of the challenge projects, we encourage you to take a look at the [projects page](_/../projects.md).
+For a full list of .he submitted challenge projects, we encourage you to take a look at the [challenge page](_/../projects.md).
 
 
 ## Partners
@@ -117,13 +119,18 @@ For a full list of the challenge projects, we encourage you to take a look at th
         <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:250px; margin-right: 70px;">
     </a>
     <a href="https://bii.dk/">
-        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:250px; margin-right: 15px;">
+        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:250px; margin-challenge5px;">
     </a>
+    <br>
     <a href="https://mqs.dk">
         <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:300px; margin-left: 20px;">
     </a>
     <a href="https://qai-ventures.com">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="width:150px; margin-right: 20px;">
+    </a>
+    <br>
+    <a href="https://danishbusinessauthority.dk/">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&s" alt="Danish Business Authority" style="width:250px; margin-right: 20px;">
     </a>
     <a href="https://icdk.dk/">
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:250px; margin-right: 20px;">
@@ -132,7 +139,6 @@ For a full list of the challenge projects, we encourage you to take a look at th
 
 
 ## Sponsors
-
 
 - [Novo Nordisk Foundation](https://novonordiskfonden.dk/)
 - [Danish Business Authority](https://danishbusinessauthority.dk/)
