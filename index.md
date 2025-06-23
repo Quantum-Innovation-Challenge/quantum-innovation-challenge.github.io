@@ -37,7 +37,7 @@ menu_icon: house-door
             <dd>
                 Applications open for participants<br>
                 {% if registration_status == 'open' %}
-                    <a href="{{ site.baseurl }}{% link registration.md %}" class="btn">Register now</a>
+                    <a href="mailto:quantum_challenge@mqs.dk" class="btn">Register now</a>
                 {% elsif registration_status == 'closed' %}
                     <a class="btn disabled">Registration has closed</a>
                 {% elsif registration_status == 'soon' %}
@@ -75,7 +75,7 @@ Training and orientation resources are available on the [resources page](_/../re
 
 A condition to be accepted for the submission of a project application is the clear documentation of an academic participant in form of a main team member of the project. More details about this on the eligibility page.
 
-Pre-registrations and questions via email can be sent to quantum_challenge@mqs.dk during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
+Pre-registrations and questions via email can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a> during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
 
 
 ## Outputs
@@ -97,7 +97,7 @@ We want to express our gratitude to all the participants for their contributions
 ## Prizes
 
 Five teams will be selected for their outstanding contributions after Phase 1 of the challenge and will receive access to Gefion during Phase 2.
-[agenda](_/../agenda.md)
+See also the [agenda](_/../agenda.md) to get a timeline overview.
 
 The top-ranked projects will be highlighted here:
 
@@ -151,7 +151,7 @@ For a full list of the submitted challenge projects, we encourage you to take a 
 </div>
 
 
-## Sponsors
+## Financial Sponsors
 
 - [Novo Nordisk Foundation](https://novonordiskfonden.dk/)
 - [Danish Business Authority](https://danishbusinessauthority.dk/)
