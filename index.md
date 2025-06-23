@@ -122,12 +122,19 @@ For a full list of .he submitted challenge projects, we encourage you to take a 
         <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:250px; margin-challenge5px;">
     </a>
     <br>
+    <br>
     <a href="https://mqs.dk">
         <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:300px; margin-left: 20px;">
     </a>
     <a href="https://qai-ventures.com">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="width:150px; margin-right: 20px;">
     </a>
+    <br>
+    <br>
+    <a href=" ">
+        <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt=" Danish Center for AI Innovation (DCAI)" style="width:250px; margin-right: 20px;">
+    </a>
+    <br>
     <br>
     <a href="https://danishbusinessauthority.dk/">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&s" alt="Danish Business Authority" style="width:250px; margin-right: 20px;">
