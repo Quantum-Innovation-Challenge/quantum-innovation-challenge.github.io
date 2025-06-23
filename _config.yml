@@ -49,7 +49,7 @@ event_status: soon
 #   open = Registration form is open
 # closed = Registration form is now closed
 #  (demo = show all pages to demonstrate the template)
-registration_status: soon
+registration_status: open
 
 # Remove ".html" from default permalinks
 permalink: pretty
