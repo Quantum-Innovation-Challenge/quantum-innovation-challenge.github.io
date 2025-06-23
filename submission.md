@@ -4,12 +4,7 @@ menu_title: Submission
 menu_icon: cloud-arrow-up
 ---
 
-Below the project topic of this year's Quantum Innovation Challenge is presented.
-
-## Quantum Innovation Challenge 2025: Applying Algorithms to Benchmark Tasks
-
-
-## Project initialization
+# Project initialization
 
 As the three team leaders, to initialize your project[<sup>(?)</sup>][faq]{:title="Can I participate in multiple projects?"}, please follow these steps:
 
@@ -98,11 +93,12 @@ will be replaced with:
 github: <Quantum-Innovation-Challenge>/<Quantum-Challenge-2025>
 ```
 
-## Project showcase and judging
+# Project showcase and evaluation
 
 You can showcase your project in multiple ways and it is up to you how you would like to communicate your project in form of a video, a pdf report, a poster, or even an prototype software tool on-boarding documentation.
 
 It is very important that your submitted pull request with the repo content holds all the needed information and links to be able to judge your project fully.
+
 
 ## End of Quantum Challenge
 
@@ -126,6 +122,7 @@ youtube_video: <your-video-id>
 For the social media post, you would add a sentence like `Check out our social media post on [LinkedIn](<your link here>)!` before the References section.
 
 This pull request will be considered your final submission for phase 1 of the challenge.
+
 
 ## Evaluation criteria
 
