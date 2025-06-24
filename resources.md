@@ -20,13 +20,15 @@ menu_icon: journal-code
 
 ## Orientation Modules
 
-Please complete the following orientation assignments in preparation for the hackathon to familiarize the tools and concepts you'll need. You will need to [create a GitHub account](https://github.com/join) to access these resources. In addition to these orientation modules, we also recommend that you [familiarize yourself with Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) if this is new to you.
+Please familiarize yourself the tools and concepts which you will need to deliver a project for this challenge.
+You will need to [create a GitHub account](https://github.com/join) to submit your project until the deadline.
+In addition to [git](https://git-scm.com/), we also recommend that you [familiarize yourself with Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) if this is new to you.
 
 </li>
 
 <li class="resource-block" markdown="1">
 
-## Quantum computing
+## Quantum Computing
 
 ### Introduction
 
@@ -35,7 +37,7 @@ Please complete the following orientation assignments in preparation for the hac
 [Unitary Foundation 2024 Quantum Open Source Survey](https://unitaryfoundation.github.io/survey-2024/)
 
 
-### Simulators
+### Quantum Computing Packages and Simulators
 
 [Qiskit](https://qiskit.github.io/qiskit-aer/)
 
@@ -49,10 +51,18 @@ Please complete the following orientation assignments in preparation for the hac
 
 [Strawberry Fields](https://strawberryfields.readthedocs.io/en/stable/introduction/introduction.html)
 
+[pytket](https://docs.quantinuum.com/tket/api-docs/index.html)
 
-### Quantum-inspired computing
+[qrisp](https://qrisp.eu/index.html)
+
+[amazon-braket-sdk](https://github.com/amazon-braket/amazon-braket-sdk-python)
+
+
+### Quantum-inspired Computing
 
 [Simulated Annealing](https://www.nature.com/articles/s41598-025-90520-3)
+
+[Simulated Annealing via GPU-pSAv](https://github.com/nonizawa/GPU-pSAv)
 
 [Quantum Annealing via QuantRS2](https://github.com/cool-japan/quantrs)
 
@@ -107,6 +117,10 @@ Use of the tools listed on this page is not a requirement. A diverse set of pack
 
 #### [QuTip](https://qutip.org/)
 
+<div style="text-align: center;">
+<img src="https://qutip.org/images/logo.png" alt="QuTip" style="width=150px">
+</div>
+
 [QuantumToolbox.jl](https://github.com/qutip/QuantumToolbox.jl)
 
 </li>
@@ -115,9 +129,33 @@ Use of the tools listed on this page is not a requirement. A diverse set of pack
 
 #### [OpenACC](https://www.openacc.org/)
 
+
+<div style="text-align: center;">
+<img src="https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/computeworks/images/OpenACC-logo-tagline-2C-RGB.png" alt="OpenACC" style="width=150px">
+</div>
+
+
 [OpenACC and Cuda for Beginners](https://enccs.github.io/OpenACC-CUDA-beginners/)
 
 [OpenACC: More Science Less Programming](https://developer.nvidia.com/openacc)
+
+</li>
+
+#### [quimb](https://quimb.readthedocs.io/en/latest/)
+
+
+<div style="text-align: center;">
+<img src="https://quimb.readthedocs.io/en/latest/_static/quimb_logo_title.png" alt="quimb" style="width=150px">
+</div>
+
+
+[Introducing matrix product states for quantum practitioners](https://pennylane.ai/qml/demos/tutorial_mps)
+
+[Simulating quantum circuits with tensor networks](https://www.icfo.eu/download-file/files/event_documents/30032023132546000000.pdf)
+
+[Qiskit Quimb Simulator](https://docs.quantum.ibm.com/api/qiskit-addon-aqc-tensor/simulation-quimb-quimb-simulator)
+
+[Tensor Network Quantum Virtual Machine for Simulating Quantum Circuits at Exascale](https://arxiv.org/abs/2104.10523)
 
 </li>
 

@@ -58,8 +58,10 @@ menu_icon: house-door
 
 {% if event_status != "over" %}
 
-With the emergence of near term intermediate quantum computers and quantum-inspired algorithms powered by GPUs, it is important to understand their strengths and weaknesses, reduce the barrier to use, and adapt them for pharmaceutical development apart from drug discovery (e.g. docking and binding analysis).
-The Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS) and QAI Ventures are hosting the virtual quantum challenge for researchers all over the world to work collaboratively in teams on projects.
+The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnovation Institute (BII)](https://bii.dk/), [Danish Centre for AI Innovation (DCAI)](https://dcai.dk/), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [Novo Holdings](https://novoholdings.dk/) and [QAI Ventures](https://qai-ventures.com/), together with [The Danish Business Authority](https://danishbusinessauthority.dk/), [Invest in Denmark](https://investindk.com/) and [Innovation Centre Denmark](https://icdk.dk/) and a number of collaborators and partners yet to be announced, have partnered up for organizing the Quantum Computing Innovation Challenge within the Life Sciences.
+
+With the emergence of near term intermediate quantum computers and quantum-inspired algorithms powered by GPUs, it is important to understand their strengths and weaknesses, reduce the barrier to use, and adapt them for (bio)pharmaceutical development.
+The virtual quantum challenge is designed for researchers all over the world to work collaboratively in teams on projects.
 
 Researchers can propose projects with respect to this year's [challenge topic](_/../projects.md) applying quantum computing and quantum-inspired algorithms to existing benchmarks, developing new benchmarks involving quantum computing methods, creating sub-aglorithms based on quantum computing methods, proposing quantum computing based sampling and optimization methods, and more.
 After the challenge, results will be collated and secured under open-source and free license agreements (Apache/MIT) in the dedicated Quantum-Challenge-2025 repository.
@@ -78,25 +80,13 @@ A condition to be accepted for the submission of a project application is the cl
 Pre-registrations and questions via email can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a> during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
 
 
-## Outputs
+## Why participate?
 
-By the end of the event, we hope you will have formed new connections, learned new skills, and been inspired with new ideas!
+A total of five submissions will be selected for presentation during the EQTC conference to be held in Copenhagen this year.
+In addition, these 5 teams will each receive a voucher giving them access to the Gefion AI Supercomputer to test and validate their proposals.
+The winning solution will be announced in conjunction with another leading European quantum conference in the Spring of 2026.
+Don't miss this opportunity to be part of a revolution that could change the world.
 
-{% else %}
-
-With the completion of the Quantum Innovation Challenge 2025, we thank participants for exploring, collaborating, innovating, and contributing to the advancement of quantum computing and quantum-inspired methods for pharmaceutical development.
-
-During the hackathon, researchers had the opportunity to develop with a use-case example provided by Novo Nordisk.
-
-Although the event has concluded, the outputs from the quantum challenge, including applied and developed algorithms, benchmarks, etc. will continue to serve as valuable resources for the research community. Outputs from teams that have participated  are available at [https://github.com/Quantum-Innovation-Challenge](https://github.com/Quantum-Innovation-Challenge).
-
-We want to express our gratitude to all the participants for their contributions, and we look forward to future collaborations.
-{% endif %}
-
-
-## Prizes
-
-Five teams will be selected for their outstanding contributions after Phase 1 of the challenge and will receive access to Gefion during Phase 2.
 See also the [agenda](_/../agenda.md) to get a timeline overview.
 
 The top-ranked projects will be highlighted here:
