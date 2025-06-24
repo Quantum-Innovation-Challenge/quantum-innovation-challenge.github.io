@@ -56,8 +56,6 @@ menu_icon: house-door
     </dl>
 </div>
 
-{% if event_status != "over" %}
-
 The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnovation Institute (BII)](https://bii.dk/), [Danish Centre for AI Innovation (DCAI)](https://dcai.dk/), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [Novo Holdings](https://novoholdings.dk/) and [QAI Ventures](https://qai-ventures.com/), together with [The Danish Business Authority](https://danishbusinessauthority.dk/), [Invest in Denmark](https://investindk.com/) and [Innovation Centre Denmark](https://icdk.dk/) and a number of collaborators and partners yet to be announced, have partnered up for organizing the Quantum Computing Innovation Challenge within the Life Sciences.
 
 With the emergence of near term intermediate quantum computers and quantum-inspired algorithms powered by GPUs, it is important to understand their strengths and weaknesses, reduce the barrier to use, and adapt them for (bio)pharmaceutical development.
