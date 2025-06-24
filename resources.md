@@ -141,13 +141,13 @@ Use of the tools listed on this page is not a requirement. A diverse set of pack
 
 </li>
 
-#### [quimb](https://quimb.readthedocs.io/en/latest/)
+<li class="resource-block" markdown="1">
 
+#### [quimb](https://quimb.readthedocs.io/en/latest/)
 
 <div style="text-align: center;">
 <img src="https://quimb.readthedocs.io/en/latest/_static/quimb_logo_title.png" alt="quimb" style="width=150px">
 </div>
-
 
 [Introducing matrix product states for quantum practitioners](https://pennylane.ai/qml/demos/tutorial_mps)
 
