@@ -20,7 +20,7 @@ menu_icon: journal-code
 
 ## Orientation Modules
 
-Please familiarize yourself the tools and concepts which you will need to deliver a project for this challenge.
+Please familiarize yourself with the tools and concepts which you will need to deliver a project for this challenge.
 You will need to [create a GitHub account](https://github.com/join) to submit your project until the deadline.
 In addition to [git](https://git-scm.com/), we also recommend that you [familiarize yourself with Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) if this is new to you.
 
