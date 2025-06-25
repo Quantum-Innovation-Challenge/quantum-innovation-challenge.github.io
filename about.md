@@ -63,8 +63,8 @@ To contact us about the quantum challenge, please contact us via mail (quantum_c
                 <a title="Website" href="https://bii.dk"><i class="bi bi-globe2"></i></a> 
                 <a title="LinkedIn" href="https://www.linkedin.com/in/raheestynem"><i class="bi bi-linkedin"></i></a>
             </span>
-            <br>Molecular Quantum Solutions (MQS)
-            <br>CEO/CTO
+            <br>Bio Innovation Institute (BII)
+            <br>Business Developer
         </td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@ To contact us about the quantum challenge, please contact us via mail (quantum_c
                 <a title="Website" href="https://bii.dk/"><i class="bi bi-globe2"></i></a>
                 <a title="LinkedIn" href="https://www.linkedin.com/in/cathalmahon"><i class="bi bi-linkedin"></i></a>
             </span>
-            <br>Bio Innovation Institute
+            <br>Bio Innovation Institute (BII)
             <br>Chief Business Officer
         </td>
     </tr>
