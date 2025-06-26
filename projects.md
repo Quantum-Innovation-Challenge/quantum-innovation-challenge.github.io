@@ -1,6 +1,6 @@
 ---
 layout: project_list
-title: Quantum Challenge 2025 & Projects
+title: Challenge 2025 & Projects
 menu_title: Quantum Challenge 2025 & Projects
 menu_icon: briefcase
 ---
