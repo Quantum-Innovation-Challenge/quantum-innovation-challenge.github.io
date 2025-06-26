@@ -95,6 +95,34 @@ To contact us about the quantum challenge, please contact us via mail (quantum_c
             <br>Chief Business Officer
         </td>
     </tr>
+        <tr>
+        <td>
+            <img alt="Morten Bache" src="https://media.licdn.com/dms/image/v2/C4D03AQEaKrX4l2GVKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535103225764?e=2147483647&v=beta&t=C4hMV2s6Y6P1_eUMOS-DOas00NqQY2F94ZJThQAQcdE">
+        </td>
+        <td>
+            <strong>Morten Bache</strong>
+             <span class="profile-links">
+                <a title="Website" href="https://novonordiskfonden.dk/"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/mortenbache/"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Novo Nordisk Foundation
+            <br>Scientific Director
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img alt="Ulrik Nicolai de Lichtenberg" src="https://cdn.sanity.io/images/knlngdbx/production/10ca7a817012ceef49820dac49a0540ccaf3da2a-6338x4225.jpg?w=1920&q=75&fit=clip&auto=format">
+        </td>
+        <td>
+            <strong>Ulrik Nicolai de Lichtenberg</strong>
+             <span class="profile-links">
+                <a title="Website" href="https://dcai.dk"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/ulrik-nicolai-de-lichtenberg"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Danish Centre for AI Innovation (DCAI)
+            <br>Director, Scientific Projects @ Gefion
+        </td>
+    </tr>
     <!--
     <tr>
         <td>
