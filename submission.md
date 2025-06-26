@@ -124,7 +124,7 @@ For the social media post, you would add a sentence like `Check out our social m
 This pull request will be considered your final submission for phase 1 of the challenge.
 
 
-## Evaluation criteria
+## Assessment criteria
 
 ### 1. Problem Understanding & Approach (0-5 pts)
 
