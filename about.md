@@ -111,7 +111,7 @@ To contact us about the quantum challenge, please contact us via mail (quantum_c
     </tr>
     <tr>
         <td>
-            <img alt="Ulrik Nicolai de Lichtenberg" src="https://cdn.sanity.io/images/knlngdbx/production/10ca7a817012ceef49820dac49a0540ccaf3da2a-6338x4225.jpg?w=1920&q=75&fit=clip&auto=format">
+            <img alt="Ulrik Nicolai de Lichtenberg" src="https://media.licdn.com/dms/image/v2/D4E03AQGU0Z-c6a_c_g/profile-displayphoto-shrink_200_200/B4EZTwjmTMHcAY-/0/1739202651786?e=1756339200&v=beta&t=CMwib8lDoCb0RQEtv1isPoVrpGQvALT1EzWCTQ6vz9g">
         </td>
         <td>
             <strong>Ulrik Nicolai de Lichtenberg</strong>
