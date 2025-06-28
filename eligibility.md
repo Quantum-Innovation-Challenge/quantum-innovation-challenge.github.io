@@ -2,6 +2,7 @@
 layout: page
 title: Eligibility Criteria
 menu_title: Eligibility
+menu_icon: person-exclamation
 ---
 
 # Introduction
