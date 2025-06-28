@@ -11,9 +11,7 @@ Below are dedicated topical video presentations which might be helpful for this 
 <ul class="grid">
 
 <li class="video" markdown="1">
-
 {% include youtube.html video="1dynR7LlgO8" title="A quantum computing algorithm to speed up Metropolis sampling" %}
-
 </li>
 
 <li class="video" markdown="1">
@@ -24,9 +22,12 @@ Below are dedicated topical video presentations which might be helpful for this 
 {% include youtube.html video="bHwmuqJxAS8" title="Classical algorithm for simulating experimental Gaussian boson sampling" %}
 </li>
 
-
 <li class="video" markdown="1">
 {% include youtube.html video="lkmehsypdag" title="Quantum neural networks" %}
+</li>
+
+<li class="video" markdown="1">
+{% include youtube.html video="peazYkETsUY" title="Quantum Clinical Trial Optimization Challenge Winner Presentations – Presented by Ingenii & Aqora" %}
 </li>
 
 </ul>

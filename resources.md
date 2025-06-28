@@ -51,6 +51,8 @@ In addition to [git](https://git-scm.com/), we also recommend that you [familiar
 
 [Strawberry Fields](https://strawberryfields.readthedocs.io/en/stable/introduction/introduction.html)
 
+[IQM](https://docs.meetiqm.com/)
+
 [pytket](https://docs.quantinuum.com/tket/api-docs/index.html)
 
 [qrisp](https://qrisp.eu/index.html)
@@ -136,6 +138,7 @@ If you would like to see a specific tool listed here, please navigate to the "Im
 <img src="https://qutip.org/images/logo.png" alt="QuTip" style="width=150px">
 </div>
 
+
 [Monte Carlo Solver](https://qutip.readthedocs.io/en/latest/guide/dynamics/dynamics-monte.html)
 
 [Generating Random Quantum States & Operators](https://qutip.readthedocs.io/en/latest/guide/guide-random.html)
@@ -167,6 +170,7 @@ If you would like to see a specific tool listed here, please navigate to the "Im
 <div style="text-align: center;">
 <img src="https://quimb.readthedocs.io/en/latest/_static/quimb_logo_title.png" alt="quimb" style="width=150px">
 </div>
+
 
 [Introducing matrix product states for quantum practitioners](https://pennylane.ai/qml/demos/tutorial_mps)
 
