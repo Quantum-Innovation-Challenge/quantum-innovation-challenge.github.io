@@ -78,7 +78,7 @@ In addition to [git](https://git-scm.com/), we also recommend that you [familiar
 
 ### Quantum Computing for Clinical Research
 
-[https://www.sdu.dk/-/media/files/forskning/dias/research/dias-grantapplication.pdf](file:///home/mark/Hentet/dias-grantapplication-2.pdf)
+[Quantum computing for clinical research](https://www.sdu.dk/-/media/files/forskning/dias/research/dias-grantapplication.pdf)
 
 [How can quantum computing be applied in clinical trial design and optimization?](https://doi.org/10.1016/j.tips.2024.08.005)
 
