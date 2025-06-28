@@ -118,7 +118,10 @@ If you have no prior programming experience, you may wish to start with the [Pyt
 
 ## Quantum Computing Tools/Packages
 
-Use of the tools listed on this page is not a requirement. A diverse set of packages and implementations is encouraged. Likewise, multiple teams using the same package is not a problem, in part because implementations can remain private during the course of the hackathon.[<sup>(?)</sup>][faq]{:title="Does my GitHub repository need to be public?"} If you'd like to see a specific tool listed here, please navigate to the "Improve this page" link at the bottom of the page and open a pull request. See also the [Acceleration Consortium's curated list of optimization tools](https://github.com/AccelerationConsortium/awesome-self-driving-labs#optimization).
+Use of the tools listed on this page is not a requirement.
+A diverse set of packages and implementations is encouraged.
+Likewise, multiple teams using the same package is not a problem, in part because implementations can remain private during the course of the challenge and since solutions will still vary considerably.
+If you would like to see a specific tool listed here, please navigate to the "Improve this page" link at the bottom of the page and open a pull request.
 
 </li>
 
