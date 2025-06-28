@@ -123,36 +123,34 @@ To contact us about the quantum challenge, please contact us via mail (quantum_c
             <br>Director, Scientific Projects @ Gefion
         </td>
     </tr>
-    <!--
     <tr>
         <td>
-            <img alt="KJ Schmidt" src="../assets/kj.jpeg">
+            <img alt="Marius Almstedt" src="https://images.squarespace-cdn.com/content/v1/659418820e4ebd577040f8e7/7c12748e-26b5-43f7-a27f-d270344268b0/Marius+Almstedt.jpg?format=500w">
         </td>
         <td>
-            <strong>KJ Schmidt</strong>
+            <strong>Marius Almstedt</strong>
             <span class="profile-links">
-                <a title="Website" href="http://kjschmidt.us/"><i class="bi bi-globe2"></i></a>
-                <a title="GitHub" href="https://github.com/kjschmidt913"><i class="bi bi-github"></i></a>
-                <a title="Twitter" href="https://twitter.com/kj_schmidt"><i class="bi bi-twitter"></i></a>
+                <a title="Website" href="https://qai-ventures.com"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/mariusalmstedt/"><i class="bi bi-linkedin"></i></a>
             </span>
-            <br>University of Chicago/Argonne National Lab
-            <br>Research Scientist
+            <br>QAI Ventures
+            <br>Director Strategy & Growth
         </td>
     </tr>
         <tr>
         <td>
-            <img alt="Ari Scourtas" src="../assets/ari.JPG">
+            <img alt="Tobias Denzler" src="https://images.squarespace-cdn.com/content/v1/659418820e4ebd577040f8e7/4738aa39-1aa1-422b-ac6e-ce593bedee82/Tobias-Denzler_QAI-Ventures.jpg?format=500w">
         </td>
         <td>
-            <strong>Aristana Scourtas</strong>
+            <strong>Tobias Denzler</strong>
             <span class="profile-links">
-                <a title="GitHub" href="https://github.com/ascourtas"><i class="bi bi-github"></i></a>
-                <a title="Twitter" href="https://twitter.com/aristana_s"><i class="bi bi-twitter"></i></a>
+                <a title="Website" href="https://qai-ventures.com"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/tdenzler/"><i class="bi bi-linkedin"></i></a>
             </span>
-            <br>University of Chicago/Argonne National Lab
-            <br>Research Scientist
+            <br>QAI Ventures
+            <br>Head Science & Technology
         </td>
-    </tr> -->
+    </tr>
 </table>
 
 ### Acknowledgements

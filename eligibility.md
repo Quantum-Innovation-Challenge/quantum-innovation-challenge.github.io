@@ -9,9 +9,12 @@ menu_icon: person-exclamation
 
 The Quantum Innovation Challenge consists of two phases. During Phase 1, you will form your team, and you will submit your proposal. After the evaluation of the proposals, the best five proposals will enter a Phase 2, where the teams will have the opportunity to access the Gefion AI Supercomputer. The access to Gefion will be shared among the team members.
 
-The Danish Centre for AI Innovation (DCAI) runs and operates Gefion, a large-scale NVIDIA DGX SuperPOD. It comprises 191 NVIDIA DGX H100 systems for a total of 1,528 NVIDIA H100 Tensor Core GPUs (more information at https://dcai.dk/).
-Project submission requirements
-The projects must be submitted via a GitHub pull request where your code repository is licensed under the MIT (http://opensource.org/licenses/MIT)  or Apache Version 2.0 license (http://www.apache.org/licenses/LICENSE-2.0). If your submitted repository has no license affiliated with it, then your submission will be regarded as invalid and not taken into evaluation.
+The [Danish Centre for AI Innovation (DCAI)](https://dcai.dk) runs and operates Gefion, a large-scale NVIDIA DGX SuperPOD. It comprises 191 NVIDIA DGX H100 systems for a total of 1,528 NVIDIA H100 Tensor Core GPUs.
+
+
+# Project submission requirements
+
+The projects must be submitted via a GitHub pull request where your code repository is licensed under the MIT ([http://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)) or Apache Version 2.0 license ([http://apache.org/licenses/LICENSE-2.0](http://apache.org/licenses/LICENSE-2.0)). If your submitted repository has no license affiliated with it, then your submission will be regarded as invalid and not taken into evaluation.
 
 
 # Eligibility
