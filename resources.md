@@ -66,6 +66,7 @@ In addition to [git](https://git-scm.com/), we also recommend that you [familiar
 
 [Quantum Annealing via QuantRS2](https://github.com/cool-japan/quantrs)
 
+[Quantum Annealing Enhanced Markov-Chain Monte Carlo](https://arxiv.org/abs/2502.08060)
 
 ### Sampling
 
@@ -74,6 +75,8 @@ In addition to [git](https://git-scm.com/), we also recommend that you [familiar
 [Sampling Problems on a Quantum Computer](https://arxiv.org/abs/2402.16341)
 
 [Quantum Circuits for the Metropolis-Hastings Algorithm](https://arxiv.org/abs/2506.11576)
+
+[Quantum Metropolis Sampling via Weak Measurement](https://arxiv.org/abs/2406.16023)
 
 
 ### Quantum Computing for Clinical Research
@@ -132,6 +135,10 @@ If you would like to see a specific tool listed here, please navigate to the "Im
 <div style="text-align: center;">
 <img src="https://qutip.org/images/logo.png" alt="QuTip" style="width=150px">
 </div>
+
+[Monte Carlo Solver](https://qutip.readthedocs.io/en/latest/guide/dynamics/dynamics-monte.html)
+
+[Generating Random Quantum States & Operators](https://qutip.readthedocs.io/en/latest/guide/guide-random.html)
 
 [QuantumToolbox.jl](https://github.com/qutip/QuantumToolbox.jl)
 
