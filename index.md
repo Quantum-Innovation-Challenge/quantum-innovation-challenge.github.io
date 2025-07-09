@@ -67,7 +67,6 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
     </a>
 </div>
 <br>
-<br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
         <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:45px;">
@@ -76,7 +75,6 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
         <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
     </a>
 </div>
-<br>
 <br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://qai-ventures.com">
@@ -87,7 +85,6 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
     </a>
 </div>
 <br>
-<br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novoholdings.dk/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:150px; margin-right:70px;">
@@ -96,7 +93,6 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&s" alt="Danish Business Authority" style="width:175px;">
     </a>
 </div>
-<br>
 <br>
 <div style="display: flex; align-items: center; justify-content: center;">
     <a href="https://icdk.dk/">
