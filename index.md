@@ -58,9 +58,11 @@ menu_icon: house-door
 
 The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnovation Institute (BII)](https://bii.dk/), [Danish Centre for AI Innovation (DCAI)](https://dcai.dk/), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [Novo Holdings](https://novoholdings.dk/) and [QAI Ventures](https://qai-ventures.com/), together with [The Danish Business Authority](https://danishbusinessauthority.dk/), [Invest in Denmark](https://investindk.com/) and [Innovation Centre Denmark](https://icdk.dk/) and a number of collaborators and partners yet to be announced, have partnered up for organizing the Quantum Computing Innovation Challenge within the Life Sciences.
 
-<!--
-With industry supporting the challenge 2025 topic. The content has been created collaboratively with experts from the industry partners Novo Nordisk and Roche with experts from leading industry partners from Novo Nordisk and Roche. For further information see the list of experts on the about page.
--->
+The 2025 challenge is supported by industry experts from:
+
+[logos from Roche & Novo Nordisk A/S]
+
+For further information see the list of experts on the [about page](_/../about.md).
 
 With the emergence of near term intermediate quantum computers and quantum-inspired algorithms powered by GPUs, it is important to understand their strengths and weaknesses, reduce the barrier to use, and adapt them for (bio)pharmaceutical development.
 The virtual quantum challenge is designed for researchers all over the world to work collaboratively in teams on projects.
