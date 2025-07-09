@@ -58,9 +58,58 @@ menu_icon: house-door
 
 The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnovation Institute (BII)](https://bii.dk/), [Danish Centre for AI Innovation (DCAI)](https://dcai.dk/), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [Novo Holdings](https://novoholdings.dk/) and [QAI Ventures](https://qai-ventures.com/), together with [The Danish Business Authority](https://danishbusinessauthority.dk/), [Invest in Denmark](https://investindk.com/) and [Innovation Centre Denmark](https://icdk.dk/) and a number of collaborators and partners yet to be announced, have partnered up for organizing the Quantum Computing Innovation Challenge within the Life Sciences.
 
-The 2025 challenge is supported by industry experts from:
 
-[logos from Roche & Novo Nordisk A/S]
+<div style="display: flex; align-items: left; justify-content: left;">
+    <a href="https://novonordiskfonden.dk/">
+        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:200px; margin-right: 70px;">
+    </a>
+    <a href="https://bii.dk/">
+        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:200px; margin-challenge5px;">
+    </a>
+    <br>
+    <br>
+    <a href="https://mqs.dk">
+        <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:300px; margin-left: 20px;">
+    </a>
+    <a href="https://dcai.dk/">
+        <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:300px; margin-left: 20px;">
+    </a>
+</div>
+
+<div style="display: flex; align-items: left; justify-content: left;">
+    <a href="https://qai-ventures.com">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="width:150px; margin-right: 20px;">
+    </a>
+    <br>
+    <br>
+    <a href="https://investindk.com/">
+        <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:250px; margin-right: 20px;">
+    </a>
+    <a href="https://novoholdings.dk/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:200px; margin-right: 20px;">
+    </a>
+    <br>
+    <br>
+    <a href="https://danishbusinessauthority.dk/">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&s" alt="Danish Business Authority" style="width:250px; margin-right: 20px;">
+    </a>
+    <a href="https://icdk.dk/">
+        <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:250px; margin-right: 20px;">
+    </a>
+</div>
+
+
+The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:
+
+<div style="display: flex; align-items: left; justify-content: left;">
+    <a href="https://novonordisk.com/">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Novo_Nordisk_-_Logo.svg" alt="Novo Nordisk A/S" style="width:300px; margin-left: 20px;">
+    </a>
+    <a href="https://roche.com/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hoffmann-La_Roche_logo.svg/1200px-Hoffmann-La_Roche_logo.svg.png" alt="Roche Holding AG" style="width:300px; margin-left: 20px;">
+    </a>
+</div>
+
 
 For further information see the list of experts on the [about page](_/../about.md).
 
@@ -105,7 +154,7 @@ The top-ranked projects will be highlighted here:
 
 For a full list of the submitted challenge projects, we encourage you to take a look at the [challenge page](_/../projects.md).
 
-
+<!--
 ## Partners
 
 <div style="display: flex; align-items: center; justify-content: center;">
@@ -143,7 +192,7 @@ For a full list of the submitted challenge projects, we encourage you to take a 
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:250px; margin-right: 20px;">
     </a>
 </div>
-
+-->
 
 ## Financial Sponsors
 

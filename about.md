@@ -155,4 +155,5 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
 
 ### Acknowledgements
 
-We thank Sterling G. Baird, and the rest of the organizing team for the [Bayesian Optimization Hackathon for Chemistry and Materials](https://github.com/AC-BO-Hackathon/ac-bo-hackathon.github.io) which has built on top of the [LLMs in Materials and Chemistry '23 Hackathon](https://materials-data-facility.github.io/llm-hackathon/).
+We thank Sterling G. Baird and the rest of the organizing team for the [Bayesian Optimization Hackathon for Chemistry and Materials](https://github.com/AC-BO-Hackathon/ac-bo-hackathon.github.io) for their github repository which we have adapted for this quantum challenge initiative.
+The AC-BO-Hackathon repository has built on top of the [LLMs in Materials and Chemistry '23 Hackathon](https://materials-data-facility.github.io/llm-hackathon/) repository.
