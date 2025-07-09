@@ -65,15 +65,20 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
     <a href="https://bii.dk/">
         <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="height:75px; margin-right: 70px;">
     </a>
+</div>
+
+
+<div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
         <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="height:75px;">
     </a>
-</div>
-
-<div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://dcai.dk/">
         <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="height:75px; margin-right: 70px;">
     </a>
+</div>
+
+
+<div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://qai-ventures.com">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="height:75px; margin-right: 70px;">
     </a>
@@ -89,8 +94,11 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
     <a href="https://danishbusinessauthority.dk/">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&s" alt="Danish Business Authority" style="height:75px; margin-right: 70px;">
     </a>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: center;">
     <a href="https://icdk.dk/">
-        <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="height:250px;">
+        <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="height:75px;">
     </a>
 </div>
 
