@@ -54,7 +54,7 @@ When all proposals have been assessed, teams will be notified about whether they
 - Comparison to state of the art: Does the team clearly define the problem and put it into context?
 - Technical Feasibility: Is the approach reasonable given current or near turn quantum computational/AI hardware capacities? 
 - Innovativeness: Does the solution bring a novel perspective or improvement compared to existing approaches? Has the participant demonstrated (potential) advantage over classical methods (e.g. speedup, accuracy, resource efficiency)? 
-- Scalability: Can the approach be extended or scaled up? For larger PKPD datasets can this solution adapted for another use case such as drug resistance prediction?
+- Scalability: Can the approach be extended or scaled up? For larger datasets can this solution be adapted for another use case such as other prediction cases?
 
 # 2. Computational Resource Estimation (0-5 pts)
 - Hardware Requirements: Did the team estimate the needed computational resources (GPUs, CPUs)? 

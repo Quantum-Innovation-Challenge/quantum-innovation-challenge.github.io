@@ -26,16 +26,16 @@ menu_icon: globe2
 {% endif %}
 
 {% if event_status != "over" %}
-The Quantum Innovation Challenge is a virtual competition and organised by the [Bio Innovation Institute (BII)](https://), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [QAI Ventures](https://).
+The Quantum Innovation Challenge is a virtual competition and organised by the [Bio Innovation Institute (BII)](https://bii.dk), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [Danish Centre for AI Innovation Center (DCAI)](https://dcai.dk) and [QAI Ventures](https://qai-ventures.com).
 The competition is open to researchers and industrial participants at all levels who are interested in applying quantum computing and quantum-inspired algorithms to pharmaceutical development.
 {% else %}
-The Quantum Innovation Challenge was a hosted on {{ site.event_date }}, organised by the [Bio Innovation Institute (BII)](https://), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [QAI Ventures](https://).
+The Quantum Innovation Challenge was a hosted on {{ site.event_date }}, organised by the [Bio Innovation Institute (BII)](https://bii.dk), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [Danish Centre for AI Innovation Center (DCAI)](https://dcai.dk) and [QAI Ventures](https://qai-ventures.com).
 The event included researchers and industrial participants at all levels who are interested in applying quantum computing and quantum-inspired algorithms to pharmaceutical development.
 {% endif %}
 
 ### The organizing team
 
-To contact us about the quantum challenge, please contact us via mail (quantum_challenge@mqs.dk). Molecular Quantum Solutions (MQS) is the technical support of this challenge.
+To contact us about the quantum challenge, please contact us via mail quantum_challenge@mqs.dk. Molecular Quantum Solutions (MQS) is the technical support of this challenge.
 
 <table class="team-list">
     <tr>

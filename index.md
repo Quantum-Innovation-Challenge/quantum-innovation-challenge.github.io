@@ -58,13 +58,17 @@ menu_icon: house-door
 
 The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnovation Institute (BII)](https://bii.dk/), [Danish Centre for AI Innovation (DCAI)](https://dcai.dk/), [Molecular Quantum Solutions (MQS)](https://mqs.dk), [Novo Holdings](https://novoholdings.dk/) and [QAI Ventures](https://qai-ventures.com/), together with [The Danish Business Authority](https://danishbusinessauthority.dk/), [Invest in Denmark](https://investindk.com/) and [Innovation Centre Denmark](https://icdk.dk/) and a number of collaborators and partners yet to be announced, have partnered up for organizing the Quantum Computing Innovation Challenge within the Life Sciences.
 
+<!--
+With industry supporting the challenge 2025 topic. The content has been created collaboratively with experts from the industry partners Novo Nordisk and Roche with experts from leading industry partners from Novo Nordisk and Roche. For further information see the list of experts on the about page.
+-->
+
 With the emergence of near term intermediate quantum computers and quantum-inspired algorithms powered by GPUs, it is important to understand their strengths and weaknesses, reduce the barrier to use, and adapt them for (bio)pharmaceutical development.
 The virtual quantum challenge is designed for researchers all over the world to work collaboratively in teams on projects.
 
-Researchers can propose projects with respect to this year's [challenge topic](_/../projects.md) applying quantum computing and quantum-inspired algorithms to existing benchmarks, developing new benchmarks involving quantum computing methods, creating sub-aglorithms based on quantum computing methods, proposing quantum computing based sampling and optimization methods, and more.
+Academic/industrial researchers, start-ups and students can propose projects with respect to this year's [challenge topic](_/../projects.md) applying quantum computing and quantum-inspired algorithms to existing benchmarks, developing new benchmarks involving quantum computing methods, creating sub-algorithms based on quantum computing methods, proposing quantum computing based sampling and optimization methods, and more.
 After the challenge, results will be collated and secured under open-source and free license agreements (Apache/MIT) in the dedicated Quantum-Challenge-2025 repository.
 
-[This opportunity](_/../registration.md) is open to researchers at all levels who are interested in quantum computing for better informed pharmaceutical development in the low data regime.
+[This opportunity](_/../registration.md) is open to researchers at all levels who are interested in quantum computing for better informed pharmaceutical development.
 Prior programming experience is required and basic familiarity with git and GitHub.
 Training and orientation resources are available on the [resources page](_/../resources.md).
 
@@ -73,15 +77,15 @@ Training and orientation resources are available on the [resources page](_/../re
 
 [Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) for ongoing comms, especially for the participants to find other team members (see also [https://element.io](https://element.io)).
 
-A condition to be accepted for the submission of a project application is the clear documentation of an academic participant in form of a main team member of the project. More details about this on the eligibility page.
+A condition to be accepted for the submission of a project application is the clear documentation of an academic participant in form of a main team member of the project. More details about this on the [eligibility page](_/../eligibility.md).
 
-Pre-registrations and questions via email can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a> during the two weeks Q&A phase (1st of July until the 15th of July) and will be collectively answered via the Q&A/FQA page.
+Pre-registrations and questions via email can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a> and will be collectively answered via the [FQA page](_/../faq.md).
 
 
 ## Why participate?
 
-A total of five submissions will be selected for presentation during the EQTC conference to be held in Copenhagen this year.
-In addition, these 5 teams will each receive a voucher giving them access to the Gefion AI Supercomputer to test and validate their proposals.
+A total of five submissions will be selected for presentation during the [European Quantum Technologies Conference 2025 (EQTC)](_/../about.md) to be held in Copenhagen this year.
+In addition, the top 5 teams will each receive a voucher giving them access to the Gefion AI Supercomputer to test and validate their proposals.
 The winning solution will be announced in conjunction with another leading European quantum conference in the Spring of 2026.
 Don't miss this opportunity to be part of a revolution that could change the world.
 

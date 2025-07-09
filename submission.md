@@ -112,7 +112,7 @@ Here is a guideline for the optional presentation of your project:
 
 2. Upload your video to YouTube (unlisted is fine) and post about it on social media (e.g., BlueSky, LinkedIn, etc.)
 
-3. With the pull request, update your project file with the YouTube video ID (e.g., `IVaWl2tL06c` for `https://youtu.be/IVaWl2tL06c`) and a sentence with a link to the social media post:
+3. With the pull request, update your project file with the YouTube video ID (e.g., IVaWl2tL06c` for https://youtu.be/IVaWl2tL06c`) and a sentence with a link to the social media post:
 
 ```markdown
 github: Quantum-Challenge-2025/<project-name>
@@ -131,7 +131,7 @@ This pull request will be considered your final submission for phase 1 of the ch
 - Comparison to state of the art: Does the team clearly define the problem and put it into context?
 - Technical Feasibility: Is the approach reasonable given current or near turn quantum computational/AI hardware capacities? 
 - Innovativeness: Does the solution bring a novel perspective or improvement compared to existing approaches? Has the participant demonstrated (potential) advantage over classical methods (e.g. speedup, accuracy, resource efficiency)? 
-- Scalability: Can the approach be extended or scaled up? For larger PKPD datasets can this solution adapted for another use case such as drug resistance prediction?
+- Scalability: Can the approach be extended or scaled up? For larger datasets can this solution adapted for another use case?
 
 ### 2. Computational Resource Estimation (0-5 pts)
 - Hardware Requirements: Did the team estimate the needed computational resources (GPUs, CPUs)? 
