@@ -151,6 +151,63 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Head Science & Technology
         </td>
     </tr>
+     <tr>
+        <td>
+            <img alt="Maxime Oliva" src="https://media.licdn.com/dms/image/v2/D4E03AQFAol6_qNk28w/profile-displayphoto-crop_800_800/B4EZfvGHdNHEAI-/0/1752063047959?e=1757548800&v=beta&t=AQEDd5F13Pr4HTsQF28yrRK7jG8mHaZH8h0ae7hWkbA">
+        </td>
+        <td>
+            <strong>Maxime Oliva</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://novonordisk.com"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Novo Nordisk A/S
+            <br>Senior Quantum Computing Scientist
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img alt="Niels Rode Kristensen" src=" ">
+        </td>
+        <td>
+            <strong>Niels Rode Kristensen</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://novonordisk.com"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Novo Nordisk A/S
+            <br>Senior Director, Phamacometrics
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <img alt="Henrik Lindén" src="https://media.licdn.com/dms/image/v2/D4D03AQEg8vAWmvuRIA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726240331849?e=1757548800&v=beta&t=BpUfM9Qkf_jG4kYLLGh3MmKVnOEZt2LwzMdRTAMFumw">
+        </td>
+        <td>
+            <strong>Henrik Lindén</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://novonordisk.com"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Novo Nordisk A/S
+            <br>Senior Research Scientist, Discorey PKPD and QSP modelling
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img alt="Jeppe Guilford Manuel" src="https://media.licdn.com/dms/image/v2/C5603AQGjoiskafwvWA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1536676282951?e=1757548800&v=beta&t=fNVWKne-8FuBk_lKoI57x_TQyUuTByS4RqZP59X_9Mc">
+        </td>
+        <td>
+            <strong>Jeppe Guilford Manuel</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://novonordisk.com"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Novo Nordisk A/S
+            <br>Data Science External Affiars & Intelligence Director
+        </td>
+    </tr>
+
 </table>
 
 ### Acknowledgements
