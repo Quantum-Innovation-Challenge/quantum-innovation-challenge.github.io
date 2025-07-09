@@ -167,7 +167,7 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
     </tr>
     <tr>
         <td>
-            <img alt="Niels Rode Kristensen" src=" ">
+            <img alt="" src=" ">
         </td>
         <td>
             <strong>Niels Rode Kristensen</strong>

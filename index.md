@@ -66,16 +66,14 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
         <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:150px;">
     </a>
 </div>
-<br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
-        <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:200px; margin-right:20px;">
+        <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:220px;">
     </a>
     <a href="https://dcai.dk/">
         <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
     </a>
 </div>
-<br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://qai-ventures.com">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="width:125px; margin-right:95px;">
@@ -84,7 +82,6 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
         <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:200px;">
     </a>
 </div>
-<br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novoholdings.dk/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:150px; margin-right:70px;">
@@ -100,7 +97,6 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
 </div>
 <br>
 <br>
-<br>
 The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:
 
 <div style="display: flex; align-items: left; justify-content: center;">
@@ -111,8 +107,7 @@ The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Ro
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hoffmann-La_Roche_logo.svg/1200px-Hoffmann-La_Roche_logo.svg.png" alt="Roche Holding AG" style="height:75px;">
     </a>
 </div>
-
-
+<br>
 For further information see the list of experts on the [about page](_/../about.md).
 
 With the emergence of near term intermediate quantum computers and quantum-inspired algorithms powered by GPUs, it is important to understand their strengths and weaknesses, reduce the barrier to use, and adapt them for (bio)pharmaceutical development.
