@@ -66,6 +66,7 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
         <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:150px;">
     </a>
 </div>
+<br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
         <img src="https://mqs.dk/Images/Logo/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:220px;">
@@ -82,6 +83,7 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
         <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:200px;">
     </a>
 </div>
+<br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novoholdings.dk/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:150px; margin-right:70px;">
@@ -95,10 +97,7 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px;">
     </a>
 </div>
-<br>
-<br>
 The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:
-
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novonordisk.com/">
         <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Novo_Nordisk_-_Logo.svg" alt="Novo Nordisk A/S" style="height:75px; margin-right: 70px;">
