@@ -136,6 +136,15 @@ dl {
 }
 
 .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+
+    div {
+        margin-right: 10px;
+        width: 500px;
+    }
+
     td {
         border: none;
     } 

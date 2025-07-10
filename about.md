@@ -38,6 +38,7 @@ The event included researchers and industrial participants at all levels who are
 To contact us about the quantum challenge, please contact us via mail quantum_challenge@mqs.dk. Molecular Quantum Solutions (MQS) is the technical support of this challenge.
 
 <table class="team-list">
+<div>
     <tr>
         <td>
             <img alt="Mark Nicholas Jones" src="https://avatars.githubusercontent.com/u/61972059?v=4">
@@ -53,6 +54,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>CEO/CTO
         </td>
     </tr>
+    </div>
+    <div>
        <tr>
         <td>
             <img alt="Nishta Raheesty Nem" src="https://bii.dk/media/pkqfmujr/nishta-raheesty-nem-00089-g.jpg?rxy=0.629281372476021,0.47382116554450443&width=366&height=355&v=1dba9eb1d9e1670&format=webp&quality=85">
@@ -67,6 +70,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Business Developer
         </td>
     </tr>
+    </div>
+    <div>
     <tr>
         <td>
             <img alt="Francesco Russo" src="https://novonordiskfonden.dk//app/uploads/Francesco_Russo_FRU_NNF_TEMP-150x150.jpg">
@@ -81,6 +86,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Scientific Manager
         </td>
     </tr>
+    </div>
+    <div>
     <tr>
         <td>
             <img alt="Cathal Mahon" src="https://bii.dk/media/jdejbvl4/cathal-00648-g.jpg?rxy=0.6401117218224771,0.3826642854564162&width=366&height=355&v=1dba9ead369cf90&format=webp&quality=85">
@@ -95,6 +102,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Chief Business Officer
         </td>
     </tr>
+    </div>
+    <div>
         <tr>
         <td>
             <img alt="Morten Bache" src="https://media.licdn.com/dms/image/v2/C4D03AQEaKrX4l2GVKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535103225764?e=2147483647&v=beta&t=C4hMV2s6Y6P1_eUMOS-DOas00NqQY2F94ZJThQAQcdE">
@@ -109,6 +118,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Scientific Director
         </td>
     </tr>
+    </div>
+    <div>
     <tr>
         <td>
             <img alt="Ulrik Nicolai de Lichtenberg" src="https://media.licdn.com/dms/image/v2/D4E03AQGU0Z-c6a_c_g/profile-displayphoto-shrink_200_200/B4EZTwjmTMHcAY-/0/1739202651786?e=1756339200&v=beta&t=CMwib8lDoCb0RQEtv1isPoVrpGQvALT1EzWCTQ6vz9g">
@@ -123,6 +134,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Director, Scientific Projects @ Gefion
         </td>
     </tr>
+    </div>
+    <div>
     <tr>
         <td>
             <img alt="Marius Almstedt" src="https://images.squarespace-cdn.com/content/v1/659418820e4ebd577040f8e7/7c12748e-26b5-43f7-a27f-d270344268b0/Marius+Almstedt.jpg?format=500w">
@@ -137,6 +150,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Director Strategy & Growth
         </td>
     </tr>
+    </div>
+    <div>
         <tr>
         <td>
             <img alt="Tobias Denzler" src="https://images.squarespace-cdn.com/content/v1/659418820e4ebd577040f8e7/4738aa39-1aa1-422b-ac6e-ce593bedee82/Tobias-Denzler_QAI-Ventures.jpg?format=500w">
@@ -151,6 +166,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Head Science & Technology
         </td>
     </tr>
+    </div>
+    <div>
      <tr>
         <td>
             <img alt="Maxime Oliva" src="https://media.licdn.com/dms/image/v2/D4E03AQFAol6_qNk28w/profile-displayphoto-crop_800_800/B4EZfvGHdNHEAI-/0/1752063047959?e=1757548800&v=beta&t=AQEDd5F13Pr4HTsQF28yrRK7jG8mHaZH8h0ae7hWkbA">
@@ -165,6 +182,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Senior Quantum Computing Scientist
         </td>
     </tr>
+    </div>
+    <div>
     <tr>
         <td>
             <img alt="" src=" ">
@@ -179,6 +198,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Senior Director, Phamacometrics
         </td>
     </tr>
+    </div>
+    <div>
         <tr>
         <td>
             <img alt="Henrik Lindén" src="https://media.licdn.com/dms/image/v2/D4D03AQEg8vAWmvuRIA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726240331849?e=1757548800&v=beta&t=BpUfM9Qkf_jG4kYLLGh3MmKVnOEZt2LwzMdRTAMFumw">
@@ -193,6 +214,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Senior Research Scientist, Discovery PKPD and QSP Modelling
         </td>
     </tr>
+    </div>
+    <div>
     <tr>
         <td>
             <img alt="Jeppe Guilford Manuel" src="https://media.licdn.com/dms/image/v2/C5603AQGjoiskafwvWA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1536676282951?e=1757548800&v=beta&t=fNVWKne-8FuBk_lKoI57x_TQyUuTByS4RqZP59X_9Mc">
@@ -207,6 +230,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Data Science External Affairs & Intelligence Director
         </td>
     </tr>
+    </div>
+    <div>
     <tr>
         <td>
             <img alt="Fanny Sie" src="https://media.licdn.com/dms/image/v2/D5603AQE1c-71_hfncQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1672708912309?e=1757548800&v=beta&t=2vJCKECC7ixHzPOst-knCZFq9-IrD_XqvhhLxA0RCao">
@@ -221,6 +246,8 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Head of AI and Emerging Technology External Collaboration, Roche Global Informatics
         </td>
     </tr>
+    </div>
+    <div>
         <tr>
         <td>
             <img alt="Michael DAndrea" src="https://media.licdn.com/dms/image/v2/C5603AQH2V3Hc_jew8Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1649388837889?e=1757548800&v=beta&t=ZUpKaLD5gff86CMkNQcapvCNrmyW7injBcwRz5fQUe0">
@@ -228,13 +255,14 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
         <td>
             <strong>Michael DAndrea</strong>
             <span class="profile-links">
-                <a title="Website" href="https://roche.com"><i class="bi bi-globe2"></i></a>
+                <a title="Website" href="https://www.gene.com/"><i class="bi bi-globe2"></i></a>
                 <a title="LinkedIn" href="https://www.linkedin.com/in/michaeldandreaus/"><i class="bi bi-linkedin"></i></a>
             </span>
-            <br>Genentech
+            <br>Genentech (A member of the Roche Group)
             <br>Principal Data Scientist
         </td>
     </tr>
+    </div>
 </table>
 
 ### Acknowledgements
