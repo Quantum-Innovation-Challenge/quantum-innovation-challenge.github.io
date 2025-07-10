@@ -34,7 +34,7 @@ The schedule for the event was as follows, with all times listed in Central Euro
 {% endif %}
 
 
-### Phase 1: Jul 01 - Aug 31
+### Phase 1: Jul 01 - Sep 15
 
 During the first weeks of Phase 1 we will compile an extensive Q&A summary with all your questions.
 You will have time until the 15th of September to submit your project via a pull request to the Quantum-Challenge-2025 repository. 
