@@ -1,4 +1,4 @@
-# AC BO Hackathon Website
+# Quantum Innovation Challenge Website
 
 This is the repository that hosts the source code for the Quantum Challenge website. This is based on the [Bayesian Optimization Hackathon for Chemistry and Materials](https://github.com/AC-BO-Hackathon/ac-bo-hackathon.github.io), which in turn is based on the [LLM Hackathon website repository](https://github.com/materials-data-facility/llm-hackathon), which in turn is based on a template built by the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) at the University of Bristol. See below for instructions regarding development using this template. To see the actual website and learn more about the hackathon, visit [https://quantum-innovation-challenge.github.io/](https://quantum-innovation-challenge.github.io/).
 

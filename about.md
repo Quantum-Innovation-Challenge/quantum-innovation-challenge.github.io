@@ -207,7 +207,34 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Data Science External Affiars & Intelligence Director
         </td>
     </tr>
-
+    <tr>
+        <td>
+            <img alt="Fanny Sie" src="https://media.licdn.com/dms/image/v2/D5603AQE1c-71_hfncQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1672708912309?e=1757548800&v=beta&t=2vJCKECC7ixHzPOst-knCZFq9-IrD_XqvhhLxA0RCao">
+        </td>
+        <td>
+            <strong>Fanny Sie</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://roche.com"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/fanny-sie-92966940/"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Roche Holding AG
+            <br>Head of AI and Emerging Technology External Collaboration, Roche Global Informatics
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <img alt="Michael DAndrea" src="https://media.licdn.com/dms/image/v2/C5603AQH2V3Hc_jew8Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1649388837889?e=1757548800&v=beta&t=ZUpKaLD5gff86CMkNQcapvCNrmyW7injBcwRz5fQUe0">
+        </td>
+        <td>
+            <strong>Michael DAndrea</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://roche.com"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/michaeldandreaus/"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Genentech
+            <br>Principal Data Scientist
+        </td>
+    </tr>
 </table>
 
 ### Acknowledgements
