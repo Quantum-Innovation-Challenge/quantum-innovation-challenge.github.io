@@ -159,7 +159,7 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <strong>Maxime Oliva</strong>
             <span class="profile-links">
                 <a title="Website" href="https://novonordisk.com"><i class="bi bi-globe2"></i></a>
-                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/maxime-oliva-414bb4117/"><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Novo Nordisk A/S
             <br>Senior Quantum Computing Scientist
@@ -173,7 +173,7 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <strong>Niels Rode Kristensen</strong>
             <span class="profile-links">
                 <a title="Website" href="https://novonordisk.com"><i class="bi bi-globe2"></i></a>
-                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/niels-rode-kristensen-aa5749/"><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Novo Nordisk A/S
             <br>Senior Director, Phamacometrics
@@ -187,10 +187,10 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <strong>Henrik Lindén</strong>
             <span class="profile-links">
                 <a title="Website" href="https://novonordisk.com"><i class="bi bi-globe2"></i></a>
-                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/henrik-lind%C3%A9n-b21636162/"><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Novo Nordisk A/S
-            <br>Senior Research Scientist, Discorey PKPD and QSP modelling
+            <br>Senior Research Scientist, Discovery PKPD and QSP Modelling
         </td>
     </tr>
     <tr>
@@ -201,10 +201,10 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <strong>Jeppe Guilford Manuel</strong>
             <span class="profile-links">
                 <a title="Website" href="https://novonordisk.com"><i class="bi bi-globe2"></i></a>
-                <a title="LinkedIn" href=""><i class="bi bi-linkedin"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/jeppe-g-manuel-318532/"><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Novo Nordisk A/S
-            <br>Data Science External Affiars & Intelligence Director
+            <br>Data Science External Affairs & Intelligence Director
         </td>
     </tr>
     <tr>
