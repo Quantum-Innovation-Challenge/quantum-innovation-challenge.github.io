@@ -69,7 +69,7 @@ The [Novo Nordisk Foundation (NNF)](https://novonordiskfonden.dk/en/), [BioInnov
 <br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
-        <img src="./assets//MQS_Logo_Text_Black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
+        <img src="./assets//MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
     </a>
     <a href="https://dcai.dk/">
         <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
