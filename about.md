@@ -37,7 +37,7 @@ The event included researchers and industrial participants at all levels who are
 
 To contact us about the quantum challenge, please contact us via mail quantum_challenge@mqs.dk. Molecular Quantum Solutions (MQS) is the technical support of this challenge.
 
-<table class="team-list">
+<div class="team-list">
 <div>
     <tr>
         <td>
