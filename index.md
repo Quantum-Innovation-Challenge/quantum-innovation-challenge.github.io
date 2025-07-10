@@ -50,7 +50,7 @@ menu_icon: house-door
         <dd>Applications for Phase I closes. Evaluation within two weeks and top five projects will receive access to the Gefion Supercomputer for the Phase II project developments.</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Top five projects presentations at the <a href="https://qt.eu/events/eqtc2025">European Quantum Technologies Conference (EQTC)</a> in Copenhagen.</dd>
+        <dd>Top five projects presentations at the <a href="https://qt.eu/events/eqtc2025">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.</dd>
         
         <dd>Final winner presentation at leading quantum computing conference in spring 2026.</dd>
     </dl>

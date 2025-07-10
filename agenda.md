@@ -34,29 +34,22 @@ The schedule for the event was as follows, with all times listed in Central Euro
 {% endif %}
 
 
-## Jun 23 - Jun 30
-
-Brainstorm, build, team up.
-
-1. Brainstorm project ideas and form teams
-   1. Read [the project description](_/../projects.md)
-   2. If you'd like to solicit team members or get feedback, post your project idea via a github issue in the Quantum-Challenge-2025 repository
-   3. If you would like to join a team, use the Element channel () to express your interest and describe your background.
-   4. Submit your [project proposal](_/../submission.md) to get feedback and then you are ready for developing your project during phase 1.
-4. Check also the resources which allow you to retrieve valuable knowledge with respect to this challenge, [complete the orientation modules](_/../resources.md)
-
-
 ### Phase 1: Jul 01 - Aug 31
 
-During the first two weeks of Phase 1 we will compile an extensive Q&A summary with all your questions. From the 15th of July we will not respond to questions anymore and you will have time until the 31st of August to submit your project via a pull request to the Quantum-Challenge-2025 repository. 
+During the first weeks of Phase 1 we will compile an extensive Q&A summary with all your questions.
+You will have time until the 15th of September to submit your project via a pull request to the Quantum-Challenge-2025 repository. 
 
 
-### Phase 2: Sep 15 - Oct 15
+### Phase 2: Sep 15 - European Quantum Technologies Conference 2025
+
+Phase 2 of the challenge will include the evaluation and the feedback notification on their submitted project. The top five teams will receive access to the Danish supercomputer Gefion.
 
 
-### Final presentations 
+### Final presentations (10-12 November 2025)
 
-- European Quantum Technologies Conference 2025 (10-12 November)
+The top five teams will present their projects at the European Quantum Technologies Conference 2025 in Copenhagen giving the teams the opportunity to connect with the European quantum computing community and establish valuable relationships.
+
+A follow up participation of the top five teams for a conference in Spring 2026 is also in the planning.
 
 
 ### After the challenge
