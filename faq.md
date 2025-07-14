@@ -13,7 +13,7 @@ The individual qubits/qutrits/qudits are in a superposition state and entangleme
 Important to acknowledge is that the results the quantum compute algorithm are read out from a quantum computer by destroying the superposition states. This implicates that the results are stochastic by nature and the algorithm has to be run many times on the quantum hardware to receive a probability distribution of the solution and hopefully with a clear answer what the solution is.
 
 
-### 2. Am I eligible to participate in the hackathon?
+### 2. Am I eligible to participate in the challenge?
 
 Yes! The hackathon is open to everyone, regardless of background or experience. We encourage participants from all career stages, including students, researchers, and professionals, to join us. For code-based projects, we recommend at least beginner Python programming experience[<sup>(?)</sup>][faq]{:title="Do I need to use Python, or can I use other languages?"} and basic familiarity with git and GitHub. Prior to the hackathon, we also recommend that participants study the basic concepts behind Bayesian optimization. For those looking to learn or refresh their knowledge on these topics, please study the items provided in the [resources page](_/../resources.md).
 
@@ -46,7 +46,7 @@ Yes, you may participate in multiple projects. For example, one may wish to appl
 
 ### 8. Does my GitHub repository need to be public?
 
-During the course of the hackathon, your repository can remain private. However, to be considered for phase 2 and the final winners evaluation, your repository must be made public together with a pull request to the Quantum-Challenge-2025 repository.
+During the course of the challenge, your repository can remain private. However, to be considered for phase 2 and the final winners evaluation, your repository must be made public together with a pull request to the Quantum-Challenge-2025 repository.
 This ensures that the work is accessible to the community and can be reviewed by the judges[<sup>(?)</sup>][faq]{:title="What is expected from me if I act as a judge?"} during the [judging and showcase section](_/../agenda.md). You are also welcome to make your repository public at any time leading up to or during the challenge.
 
 

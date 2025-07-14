@@ -96,7 +96,7 @@ In addition to [git](https://git-scm.com/), we also recommend that you [familiar
 
 ## Python
 
-Programming expertise is not required, but at least beginner Python programming experience is recommended for participation in code-focused projects of the hackathon. For those looking for a brief, interactive refresher on Python programming, see the GitHub Classroom assignment from the first section on this page. For those without prior Python experience, we recommend you complete an introductory Python course in preparation for the hackathon. Some resources are listed below:
+Programming expertise is not required, but at least beginner Python programming experience is recommended for participation in code-focused projects of the challenge. For those looking for a brief, interactive refresher on Python programming, see the GitHub Classroom assignment from the first section on this page. For those without prior Python experience, we recommend you complete an introductory Python course in preparation for the challenge. Some resources are listed below:
 
 <table>
     <tr>

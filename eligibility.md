@@ -20,10 +20,10 @@ The projects must be submitted via a GitHub pull request where your code reposit
 # Eligibility
 
 To be eligible for participating in the Quantum Innovation Challenge, the following requirements must be met:
-1. Teams must consist of an academic member and start-up members. 
+1. Teams must consist of at least one academic member. 
 2. The academic member must be employed or affiliated with a university, hospital, or other non-profit research institution and will receive the voucher grant for Gefion access during Phase 2. The institution will serve as administering institution for the grant.
 3. Each team member must have an active role. Each team is responsible to define the role of each team member.
-4. The academic member must send a hosting letter signed by the head of department of the administering institution to quantum_challenge@mqs.dk.
+4. The academic member must send a hosting letter signed by the head of department of the administering institution to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>.
 5. Teams may submit only one proposal for this challenge.
 
 
@@ -71,7 +71,7 @@ When all proposals have been assessed, teams will be notified about whether they
 # 5. Team skills 0-5 (pts)
 - Skillset: Does the team cover the necessary experience in quantum/AI techniques?
 
-# 6. Proof of Concept / Prototype (non-mandatory; 0-5pts)
+# 6. Proof of Concept / Prototype (0-5pts)
 - Prototype Implementation: Has the team built a minimal working proof of concept? 
 - Initial Results: Are preliminary results provided?
 - Demonstration of Key Concepts: Does the proof of concept validate core ideas effectively?

@@ -68,7 +68,7 @@ With the emergence of near-term quantum computers and powerful GPU-based methods
 
 Academic/industrial researchers, start-ups and students can propose projects with respect to this year's [challenge topic](_/../projects.md) applying quantum computing and quantum-inspired algorithms to:
 
-- existing benchmarks or new benchmarks as further defined by the Quantum Challenge 2025 topic
+- existing benchmarks or new benchmarks as further defined by the [Quantum Challenge 2025 topic](./../projects.md)
 - creating sub-algorithms based on quantum computing methods
 - designing quantum-enhanced sampling and optimization techniques
 
@@ -89,7 +89,7 @@ Support and participation resources:
 
 - Participants are welcome to connect and form teams using our dedicated [Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) (see also [https://element.io](https://element.io))
 - Orientation materials and technical guidance are available on the [Resources page](./../resources.md)
-- Pre-registrations and questions can be sent to quantum_challenge@mqs.dk. All inquiries will be addressed collectively on the [FAQ page](./../faq.md)
+- Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the [FAQ page](./../faq.md)
 
 
 ## Why participate?
