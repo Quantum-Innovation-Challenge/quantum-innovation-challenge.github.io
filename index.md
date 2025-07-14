@@ -87,20 +87,20 @@ To be eligible for submission:
 
 Support and participation resources:
 
-- Participants are welcome to connect and form teams using our dedicated Element space (see also https://element.io)
-- Orientation materials and technical guidance are available on the [Resources page]
-- Pre-registrations and questions can be sent to quantum_challenge@mqs.dk. All inquiries will be addressed collectively on the [FAQ page]
+- Participants are welcome to connect and form teams using our dedicated [Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) (see also [https://element.io](https://element.io))
+- Orientation materials and technical guidance are available on the [Resources page](./../resources.md)
+- Pre-registrations and questions can be sent to quantum_challenge@mqs.dk. All inquiries will be addressed collectively on the [FAQ page](./../faq.md)
 
 
 ## Why participate?
 
-- Five teams will be selected to present their work at the European Quantum Technologies Conference 2025 (EQTC) in Copenhagen
+- Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen
 - Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions
 - The winning solution will be announced in Spring 2026 during another leading European quantum event
 
 Do not miss this opportunity to engage in quantum innovation at the frontier of life sciences.
 
-📅 Visit the [Agenda page] to view the full timeline.
+📅 Visit the [Agenda page](./../agenda.md) to view the full timeline.
 
 
 ## Submitted Projects
@@ -115,7 +115,7 @@ The top-ranked projects will be highlighted here:
 | 4th  | []()                                                 |           |              |
 | 5th  | []()                                                 |           |              |
 
-For a full list of the submitted challenge projects, we encourage you to take a look at the [challenge page](_/../projects.md).
+For a full list of the submitted challenge projects, we encourage you to take a look at the [Challenge page](_/../projects.md).
 
 
 ## Partners
