@@ -51,28 +51,28 @@ menu_icon: house-door
         {% endif %}
 
         <dt>{{ site.registration_closes_date }}</dt>
-        <dd>Phase I:
+        <dd><b>Phase I</b>
         <br>
-        Submission of the projects closes on the 30th of September.
+        - Submission of the projects closes on the 30th of September.
         <br>
-        Evaluation will be conducted from the 1st until the 15th of October.
+        - Evaluation will be conducted from the 1st until the 15th of October.
         <br>
-        The top five teams will receive GPU hours for the Gefion Supercomputer for the Phase II of the project developments.</dd>
+        - The top five teams will receive GPU hours for the Gefion Supercomputer for the Phase II of the project developments.</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Phase II:
+        <dd><b>Phase II</b>
         <br>
-        The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.
+        - The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.
         <br>
-        Travel costs and accomodation for all teams are sponsored and will be covered.
+        - Travel costs and accomodation for all teams are sponsored and will be covered.
         <br>
-        Until the end of December 2025 the top 5 teams will receive access to the Gefion Supercomputer.</dd>
+        - Until the end of December 2025 the top 5 teams will receive access to the Gefion Supercomputer.</dd>
         
-        <dd>Phase III:
+        <dd><b>Phase III</b>
         <br>
-        Finalization of the projects until the 31st of January 2026.
+        - Finalization of the projects until the 31st of January 2026.
         <br>
-        The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.</dd>
+        - The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.</dd>
     </dl>
 </div>
 
