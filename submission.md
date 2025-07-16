@@ -148,7 +148,7 @@ This pull request will be considered your final submission for phase 1 of the ch
 ### 5. Team skills 0-5 (pts)
 - Skillset: Does the team cover the necessary experience in quantum/AI techniques?
 
-### 6. Proof of Concept / Prototype (non-mandatory; 0-5pts)
+### 6. Proof of Concept / Prototype (0-5pts)
 - Prototype Implementation: Has the team built a minimal working proof of concept? 
 - Initial Results: Are preliminary results provided?
 - Demonstration of Key Concepts: Does the proof of concept validate core ideas effectively?

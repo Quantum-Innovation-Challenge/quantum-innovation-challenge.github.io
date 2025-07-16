@@ -38,6 +38,8 @@ menu_icon: house-door
                 Applications open for participants<br>
                 {% if registration_status == 'open' %}
                     <a href="mailto:quantum_challenge@mqs.dk" class="btn">Register now</a>
+                    <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">View Challenge</a>
+                    <a href="https://matrix.to/#/#mqs-community-space:mozilla.org" class="btn">Find team members via Element Space</a>
                 {% elsif registration_status == 'closed' %}
                     <a class="btn disabled">Registration has closed</a>
                 {% elsif registration_status == 'soon' %}
@@ -47,12 +49,12 @@ menu_icon: house-door
         {% endif %}
 
         <dt>{{ site.registration_closes_date }}</dt>
-        <dd>Applications for Phase I closes. Evaluation within two weeks and top five projects will receive access to the Gefion Supercomputer for the Phase II project developments.</dd>
+        <dd>Applications for Phase I closes. Evaluation will be conducted from the 1st until the 15th of October and the top five teams will be notified on the 16th of October which will receive access and credits (7000 minutes per team) to the Gefion Supercomputer for the Phase II of the project developments.</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Top five projects presentations at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.</dd>
+        <dd>During Phase II the top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen. Travel costs and accomodation for all teams are sponsored and will be covered.</dd>
         
-        <dd>Final winner presentation at leading quantum computing conference in spring 2026.</dd>
+        <dd>Phase III: Final project presentations and winner announcements at leading quantum computing conference in spring 2026.</dd>
     </dl>
 </div>
 
@@ -87,7 +89,7 @@ To be eligible for submission:
 
 Support and participation resources:
 
-- Participants are welcome to connect and form teams using our dedicated [Element space](https://matrix.to/#/#mqs-community-space:mozilla.org) (see also [https://element.io](https://element.io))
+- Participants are welcome to connect and form teams using our dedicated [Element Space](https://matrix.to/#/#mqs-community-space:mozilla.org) (see also [https://element.io](https://element.io))
 - Orientation materials and technical guidance are available on the [Resources page](./../resources.md)
 - Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the [FAQ page](./../faq.md)
 
