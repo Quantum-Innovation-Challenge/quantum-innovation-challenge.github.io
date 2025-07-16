@@ -29,7 +29,7 @@ theme: minima
 # and registration_status flags below
 header_pages:
   - eligibility.md
-  - registration.md
+#  - registration.md
   - agenda.md
   - projects.md
   - submission.md
