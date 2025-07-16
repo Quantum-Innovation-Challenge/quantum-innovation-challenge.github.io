@@ -116,6 +116,7 @@ Support and participation resources:
 
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
 - Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions.
+- 4136 GPU hours on Gefion sponsored by DCAI.
 - The winning solution will be announced in Spring 2026 during another leading European quantum event.
 - Networking and access to a global community of experts from the academic and industrial life science community.
 - Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.
