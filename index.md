@@ -68,7 +68,7 @@ menu_icon: house-door
         <br>
         - Until the end of December 2025 the top 5 teams will receive access to the Gefion Supercomputer.</dd>
         
-        <dd><b>Phase III</b>
+        <dd><b>Phase III (Q1/Q2 2026)</b>
         <br>
         - Finalization of the projects until the 31st of January 2026.
         <br>
