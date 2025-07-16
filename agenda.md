@@ -34,25 +34,29 @@ The schedule for the event was as follows, with all times listed in Central Euro
 {% endif %}
 
 
-### Phase 1: Jul 01 - Sep 15
+### Phase I: July - 30th of September
 
-During the first weeks of Phase 1 we will compile an extensive Q&A summary with all your questions.
-You will have time until the 15th of September to submit your project via a pull request to the Quantum-Challenge-2025 repository. 
+During the first weeks of Phase 1 we will compile an extensive FQA summary with all your questions and try to fix all outstanding issues you might have to set up a team and work on a project. 
 
+You will have time until the 30th of September to submit your project via a pull request to the <a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025">LSQI-Challenge-2025 repository</a>.
 
-### Phase 2: Sep 15 - European Quantum Technologies Conference 2025
-
-Phase 2 of the challenge will include the evaluation and the feedback notification on their submitted project. The top five teams will receive access to the Danish supercomputer Gefion.
+The possibility to submit your project will close at 10am CET on the 30th of September, later pull requests will be disregarded.
 
 
-### Final presentations (10-12 November 2025)
+### Phase II: 15th of October - 12th of November
 
-The top five teams will present their projects at the European Quantum Technologies Conference 2025 in Copenhagen giving the teams the opportunity to connect with the European quantum computing community and establish valuable relationships.
+Phase 2 of the challenge will include the evaluation (1st of October - 14th of October) and the feedback notification on the submitted projects (latest the 14th of October).
+The top five teams will receive access to the Danish supercomputer Gefion throughout Q4 2025.
+The top five teams will present their projects at the European Quantum Technologies Conference 2025 in Copenhagen (10-12 November 2025) giving the teams the opportunity to connect with the European quantum computing community and establish valuable relationships.
 
-A follow up participation of the top five teams for a conference in Spring 2026 is also in the planning.
+
+### Phase III: Q4 2025 - Q1 2026
+
+The final code repositories and reports are expected to be pushed to the respective repository until the 31st of January 2026.
+The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.
 
 
 ### After the challenge
 
-The Quantum-Challenge-2025 will be a documentation of all projects and a valuable resource for academia and industry.
-All submitted projects have been screened to align with the necessary open-source and free license (Apache/MIT).
+The <a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025">LSQI-Challenge-2025 repository</a> will serve as the documentation for all projects and will become a valuable resource for academia and industry while the participating project teams have made valuable contacts to academia and industry to foster further venture building.
+All submitted projects will have been screened to align with the open-source and free license (Apache/MIT) condition (see also Eligibility page).

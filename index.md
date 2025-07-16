@@ -39,7 +39,7 @@ menu_icon: house-door
                 {% if registration_status == 'open' %}
                     <a href="mailto:quantum_challenge@mqs.dk" class="btn">Contact and register</a>
                     <br>
-                    <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">View Challenge</a>
+                    <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">Read about the challenge</a>
                     <br>
                     <a href="https://matrix.to/#/#mqs-community-space:mozilla.org" class="btn">Find team members via Element Space</a>
                 {% elsif registration_status == 'closed' %}
@@ -53,11 +53,11 @@ menu_icon: house-door
         <dt>{{ site.registration_closes_date }}</dt>
         <dd><b>Phase I</b>
         <br>
-        - Submission of the projects closes on the 30th of September.
+        - Submission of the projects closes on the 30th of September at 10AM Central European Time (CET).
         <br>
         - Evaluation will be conducted from the 1st until the 15th of October.
         <br>
-        - The top five teams will receive GPU hours for the Gefion Supercomputer for the Phase II of the project developments.</dd>
+        - The top five teams will receive GPU hours for the Gefion Supercomputer for Phase II.</dd>
 
         <dt>{{ site.event_date }}</dt>
         <dd><b>Phase II</b>
@@ -66,7 +66,7 @@ menu_icon: house-door
         <br>
         - Travel costs and accomodation for all teams are sponsored and will be covered.
         <br>
-        - Until the end of December 2025 the top 5 teams will receive access to the Gefion Supercomputer.</dd>
+        - Until the end of December 2025 the top 5 teams will have access to the Gefion Supercomputer.</dd>
         
         <dd><b>Phase III (Q1/Q2 2026)</b>
         <br>
