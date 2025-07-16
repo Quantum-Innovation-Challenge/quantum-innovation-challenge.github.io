@@ -104,7 +104,7 @@ h1.secondary {
 .aside {
     margin: 0.5*$spacing-unit 0 0.5*$spacing-unit 0.5*$spacing-unit;
     padding: 0.85*$spacing-unit 0.75*$spacing-unit;
-    background: #f0f0f0;
+    background: #9fc5e8ff;
     @include relative-font-size(1.25);
     @include media-query($on-laptop) {
         @include relative-font-size(1.125);

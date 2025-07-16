@@ -37,8 +37,10 @@ menu_icon: house-door
             <dd>
                 Applications open for participants<br>
                 {% if registration_status == 'open' %}
-                    <a href="mailto:quantum_challenge@mqs.dk" class="btn">Register now</a>
+                    <a href="mailto:quantum_challenge@mqs.dk" class="btn">Contact and register</a>
+                    <br>
                     <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">View Challenge</a>
+                    <br>
                     <a href="https://matrix.to/#/#mqs-community-space:mozilla.org" class="btn">Find team members via Element Space</a>
                 {% elsif registration_status == 'closed' %}
                     <a class="btn disabled">Registration has closed</a>
@@ -49,15 +51,27 @@ menu_icon: house-door
         {% endif %}
 
         <dt>{{ site.registration_closes_date }}</dt>
-        <dd>Phase I: Applications for Phase I closes. Evaluation will be conducted from the 1st until the 15th of October.
+        <dd>Phase I:
+        <br>
+        Submission of the projects closes on the 30th of September.
+        <br>
+        Evaluation will be conducted from the 1st until the 15th of October.
+        <br>
         The top five teams will receive GPU hours for the Gefion Supercomputer for the Phase II of the project developments.</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>Phase II: The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.
+        <dd>Phase II:
+        <br>
+        The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.
+        <br>
         Travel costs and accomodation for all teams are sponsored and will be covered.
+        <br>
         Until the end of December 2025 the top 5 teams will receive access to the Gefion Supercomputer.</dd>
         
-        <dd>Phase III: Finalization of the projects until the 31st of January 2026.
+        <dd>Phase III:
+        <br>
+        Finalization of the projects until the 31st of January 2026.
+        <br>
         The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.</dd>
     </dl>
 </div>
@@ -100,9 +114,15 @@ Support and participation resources:
 
 ## Why participate?
 
-- Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen
-- Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions
-- The winning solution will be announced in Spring 2026 during another leading European quantum event
+- Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
+- Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions.
+- The winning solution will be announced in Spring 2026 during another leading European quantum event.
+- Networking and access to a global community of experts from the academic and industrial life science community.
+- Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.
+- Direct access and support from Gefion, one of the fastest supercomputers globally, to run your challenge code (top 5 teams).
+- Global marketing and branding with free tickets to EQTC 2025, presentation opportunities and further fostering of relationships (top 5 teams).
+- Onboarding to the global QAI Ventures ecosystem with 1 year of exclusive 1:1 mentoring from investment and technology experts and a ticket to the QAI Ventures speed dating session to join upcoming venture building or accelerator programs (top 3 teams).
+
 
 Do not miss this opportunity to engage in quantum innovation at the frontier of life sciences.
 
