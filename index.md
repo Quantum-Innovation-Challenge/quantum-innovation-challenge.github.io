@@ -62,7 +62,7 @@ menu_icon: house-door
         <dt>{{ site.event_date }}</dt>
         <dd><b>Phase II</b>
         <br>
-        - The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.
+        - The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).
         <br>
         - Travel costs and accomodation for all teams are sponsored and will be covered.
         <br>
