@@ -49,12 +49,16 @@ menu_icon: house-door
         {% endif %}
 
         <dt>{{ site.registration_closes_date }}</dt>
-        <dd>Applications for Phase I closes. Evaluation will be conducted from the 1st until the 15th of October and the top five teams will be notified on the 16th of October which will receive access and credits (7000 minutes per team) to the Gefion Supercomputer for the Phase II of the project developments.</dd>
+        <dd>Phase I: Applications for Phase I closes. Evaluation will be conducted from the 1st until the 15th of October.
+        The top five teams will receive GPU hours for the Gefion Supercomputer for the Phase II of the project developments.</dd>
 
         <dt>{{ site.event_date }}</dt>
-        <dd>During Phase II the top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen. Travel costs and accomodation for all teams are sponsored and will be covered.</dd>
+        <dd>Phase II: The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.
+        Travel costs and accomodation for all teams are sponsored and will be covered.
+        Until the end of December 2025 the top 5 teams will receive access to the Gefion Supercomputer.</dd>
         
-        <dd>Phase III: Final project presentations and winner announcements at leading quantum computing conference in spring 2026.</dd>
+        <dd>Phase III: Finalization of the projects until the 31st of January 2026.
+        The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.</dd>
     </dl>
 </div>
 
