@@ -1,6 +1,6 @@
 ---
-title: Quantum Challenge Agenda 🗓️
-menu_title: Agenda
+title: Quantum Challenge 2025 Timeline
+menu_title: Timeline
 menu_icon: clock
 ---
 {% assign current_date = 'now' | date: "%Y-%m-%d" %}

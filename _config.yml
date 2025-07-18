@@ -28,10 +28,10 @@ theme: minima
 # The actual visibility of the nav bar links is influenced by the event_status
 # and registration_status flags below
 header_pages:
+  - projects.md
+  - agenda.md
   - eligibility.md
 #  - registration.md
-  - agenda.md
-  - projects.md
   - submission.md
   - videos-slides.md
   - resources.md
