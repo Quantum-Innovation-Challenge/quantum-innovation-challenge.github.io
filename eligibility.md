@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eligibility Criteria
-menu_title: Eligibility
+menu_title: Team Eligibility
 menu_icon: person-exclamation
 ---
 
