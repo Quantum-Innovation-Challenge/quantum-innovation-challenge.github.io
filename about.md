@@ -130,7 +130,7 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
         <td>
             <strong>Søren Karlsen Glensholm</strong>
              <span class="profile-links">
-                <a title="Website" href="https://danishbusinessauthority.dk/><i class="bi bi-globe2"></i></a>
+                <a title="Website" href="https://danishbusinessauthority.dk/"><i class="bi bi-globe2"></i></a>
                 <a title="LinkedIn" href="https://www.linkedin.com/in/glensholm/"><i class="bi bi-linkedin"></i></a>
             </span>
             <br>Danish Business Authority
