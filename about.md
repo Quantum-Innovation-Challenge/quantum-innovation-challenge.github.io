@@ -109,6 +109,34 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Scientific Director
         </td>
     </tr>
+        <tr>
+        <td>
+            <img alt="Lene Mandal Bastholm" src="https://media.licdn.com/dms/image/v2/C4D03AQEeHWVmODrlHA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1631787977349?e=1755734400&v=beta&t=PDxjTKhwmeJBwKybbVVhhWNDJ_sNAgYd6nTBVf6UXcY">
+        </td>
+        <td>
+            <strong>Lene Mandal Bastholm</strong>
+             <span class="profile-links">
+                <a title="Website" href="https://danishbusinessauthority.dk/"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/lene-mandal-bastholm-347b8321b/"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Danish Business Authority
+            <br>Head of Section
+        </td>
+    </tr>
+           <tr>
+        <td>
+            <img alt="Søren Karlsen Glensholm" src="https://media.licdn.com/dms/image/v2/C4D03AQEUBShZkxDAbQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1601816798717?e=1755734400&v=beta&t=5YFsyfB99WuLQqpi_XKnfTKOUBqcn4qLdJZXt7B2TZA">
+        </td>
+        <td>
+            <strong>Søren Karlsen Glensholm</strong>
+             <span class="profile-links">
+                <a title="Website" href="https://danishbusinessauthority.dk/><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/glensholm/"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br>Danish Business Authority
+            <br>Policy Officer
+        </td>
+    </tr>
     <tr>
         <td>
             <img alt="Ulrik Nicolai de Lichtenberg" src="https://media.licdn.com/dms/image/v2/D4E03AQGU0Z-c6a_c_g/profile-displayphoto-shrink_200_200/B4EZTwjmTMHcAY-/0/1739202651786?e=1756339200&v=beta&t=CMwib8lDoCb0RQEtv1isPoVrpGQvALT1EzWCTQ6vz9g">
