@@ -29,6 +29,11 @@ menu_icon: house-door
 {:.secondary}
 # sponsored by the Novo Nordisk Foundation, Danish Business Authority and Danish Centre for AI Innovation.
 
+
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="./assets/Cover_Image.png" alt="Cover Image" style="height:500px;">
+</div>
+
 <div class="aside">
     <h2><i class="bi bi-calendar3"></i> Event timeline</h2>
     <dl>
