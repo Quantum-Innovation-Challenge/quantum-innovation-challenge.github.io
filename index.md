@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quantum Innovation Challenge 2025
+title:
 menu_title: Home
 menu_icon: house-door
 ---
