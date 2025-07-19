@@ -27,7 +27,7 @@ menu_icon: house-door
 {% endif %}
 
 {:.secondary}
-# sponsored by the Novo Nordisk Foundation, Danish Business Authority and Danish Centre for AI Innovation.
+# Sponsored by the Novo Nordisk Foundation, Danish Business Authority and Danish Centre for AI Innovation.
 
 
 <div style="display: flex; align-items: left; justify-content: left;">
