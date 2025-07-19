@@ -30,8 +30,8 @@ menu_icon: house-door
 # sponsored by the Novo Nordisk Foundation, Danish Business Authority and Danish Centre for AI Innovation.
 
 
-<div style="display: flex; align-items: center; justify-content: center;">
-    <img src="./assets/Cover_Image.png" alt="Cover Image" style="height:500px;">
+<div style="display: flex; align-items: left; justify-content: left;">
+    <img src="./assets/Cover_Image.png" alt="Cover Image" style="widt:300px;">
 </div>
 
 <div class="aside">
