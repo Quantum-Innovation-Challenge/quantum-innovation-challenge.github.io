@@ -117,6 +117,10 @@ Support and participation resources:
 
 ## Why participate?
 
+<br>
+<br>
+<br>
+<br>
 
 <div style="display: flex; align-items: left; justify-content: left;">
     <img src="./assets/Benefits.png" alt="Cover Image" style="widt:300px;">
