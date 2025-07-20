@@ -82,7 +82,7 @@ menu_icon: house-door
 </div>
 
 
-## Accelerating Quantum Applications in the Life Sciences
+## Accelerating Quantum Applications<br>in the Life Sciences
 
 The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.
 
@@ -118,6 +118,12 @@ Support and participation resources:
 
 
 ## Why participate?
+
+
+<div style="display: flex; align-items: left; justify-content: left;">
+    <img src="./assets/Benefits.png" alt="Cover Image" style="widt:300px;">
+</div>
+
 
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
 - Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions.
