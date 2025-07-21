@@ -40,7 +40,7 @@ menu_icon: house-door
             <dd>
                 Applications open for participants<br>
                 {% if registration_status == 'open' %}
-                    <a href="mailto:quantum_challenge@mqs.dk" class="btn">Contact and register</a>
+                    <a href="mailto:quantum_challenge@mqs.dk" class="btn">Register your team</a>
                     <br>
                     <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">Read about the challenge</a>
                     <br>
@@ -125,7 +125,6 @@ Support and participation resources:
     <img src="./assets/Benefits.png" alt="Cover Image" style="widt:300px;">
 </div>
 
-
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
 - Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions.
 - The winning team ranking 1st place at the end of the challenge will receive 4136 GPU hours on Gefion sponsored by DCAI after the challenge.
@@ -135,7 +134,6 @@ Support and participation resources:
 - Direct access and support from Gefion, one of the fastest supercomputers globally, to run your challenge code (top 5 teams).
 - Global marketing and branding with free tickets to EQTC 2025, presentation opportunities and further fostering of relationships (top 5 teams).
 - Onboarding to the global QAI Ventures ecosystem with 1 year of exclusive 1:1 mentoring from investment and technology experts and a ticket to the QAI Ventures speed dating session to join upcoming venture building or accelerator programs (top 3 teams).
-
 
 Do not miss this opportunity to engage in quantum innovation at the frontier of life sciences.
 
