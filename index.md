@@ -203,11 +203,11 @@ For a full list of the submitted challenge projects, we encourage you to take a 
 <br>
 <div style="display: flex; align-items: center; justify-content: center;">
     <a href="https://eqtc2025.ku.dk/">
-        <img src="./assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:200px;">
+        <img src="./assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
     </a>
 </div>
-
-
+<br>
+<br>
 The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novonordisk.com/">

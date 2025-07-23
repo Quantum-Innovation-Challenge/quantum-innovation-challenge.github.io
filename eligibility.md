@@ -18,7 +18,7 @@ To prepare for the Challenge, we also recommend that participants study the basi
 ## Team Composition
 
 - Each team must consist of a minimum of two members.
-- There is no upper limit on team size, however, three members must be designated as the official project participants at the time of submission.
+- There is no upper limit on team size, however, two members must be designated as the official project participants at the time of submission.
 - Every team member must have an active and defined role described in the team’s project submission.
 
 ## Academic Participation

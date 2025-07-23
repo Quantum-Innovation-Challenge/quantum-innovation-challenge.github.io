@@ -3,6 +3,7 @@ title: Quantum Challenge 2025 Timeline
 menu_title: Timeline
 menu_icon: clock
 ---
+
 {% assign current_date = 'now' | date: "%Y-%m-%d" %}
 {% assign event_start_date = site.event_start_date | date: "%Y-%m-%d" %}
 {% assign event_close_date = site.event_close_date | date: "%Y-%m-%d" %}
@@ -33,6 +34,8 @@ The anticipated schedule is as follows, with all times listed in Central Europea
 The schedule for the event was as follows, with all times listed in Central European Time (CET):
 {% endif %}
 
+
+The Quantum Innovation Challenge consists of two phases. During Phase 1, you will form your team, and you will submit your proposal. After the evaluation of the proposals, the best five proposals will enter a Phase 2, where the teams will have the opportunity to access the Gefion AI Supercomputer. The access to Gefion will be shared among the team members. The Danish Centre for AI Innovation (DCAI) runs and operates Gefion, a large-scale NVIDIA DGX SuperPOD. It comprises 191 NVIDIA DGX H100 systems for a total of 1,528 NVIDIA H100 Tensor Core GPUs.
 
 ### Phase I: July - 30th of September
 

@@ -4,6 +4,10 @@ menu_title: Submit a Project
 menu_icon: cloud-arrow-up
 ---
 
+# Project submission requirements
+
+The projects must be submitted via a GitHub pull request where your code repository is licensed under the MIT (http://opensource.org/licenses/MIT) or Apache Version 2.0 license (http://apache.org/licenses/LICENSE-2.0). If your submitted repository has no license affiliated with it, then your submission will be regarded as invalid and not taken into evaluation.
+
 # Project initialization
 
 As the three team leaders, to initialize your project[<sup>(?)</sup>][faq]{:title="Can I participate in multiple projects?"}, please follow these steps:
