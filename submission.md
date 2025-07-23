@@ -8,6 +8,9 @@ menu_icon: cloud-arrow-up
 
 The projects must be submitted via a GitHub pull request where your code repository is licensed under the MIT (http://opensource.org/licenses/MIT) or Apache Version 2.0 license (http://apache.org/licenses/LICENSE-2.0). If your submitted repository has no license affiliated with it, then your submission will be regarded as invalid and not taken into evaluation.
 
+# Language
+Documentation regarding the challenge must be submitted in English.
+
 # Project initialization
 
 As the three team leaders, to initialize your project[<sup>(?)</sup>][faq]{:title="Can I participate in multiple projects?"}, please follow these steps:
@@ -156,5 +159,12 @@ This pull request will be considered your final submission for phase 1 of the ch
 - Prototype Implementation: Has the team built a minimal working proof of concept? 
 - Initial Results: Are preliminary results provided?
 - Demonstration of Key Concepts: Does the proof of concept validate core ideas effectively?
+
+
+## Notificaton of Results
+
+All teams will be notified by email from quantum_challenge@mqs.dk once the assessment is complete, confirming whether or not they have been selected.
+
+Please note: The scientific committee will not provide detailed individual feedback to teams that are not selected among the top five. However, efforts will be made to provide each participating team with a feedback and scoring summary to support transparency and encourage further development of their project.
 
 [faq]: {{ site.baseurl }}{% link faq.md %}

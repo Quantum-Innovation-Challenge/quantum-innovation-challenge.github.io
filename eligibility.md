@@ -34,7 +34,7 @@ To prepare for the Challenge, we also recommend that participants study the basi
 ## Hosting Letter Requirement
 
 - The academic member must submit a hosting letter, signed by the head of department of the administering institution.
-- A PDF template for the hosting letter is available. The letter should be sent to quantum_challenge@mqs.dk shortly after the team’s project submission.
+- A <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/assets/template_hosting_letter.pdf">PDF template</a> for the hosting letter is available. The letter should be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a> shortly after the team’s project submission.
 - In accordance with the EU General Data Protection Regulation (GDPR), the submitted documents will be deleted following verification and completion of the challenge.
 
 ## Project Limitation
