@@ -274,7 +274,7 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
                 <a title="LinkedIn" href="https://www.linkedin.com/in/clementjaverzacgaly/"><i class="bi bi-linkedin"></i></a>
             </span>
             <br> University of Applied Sciences and Arts Northwestern Switzerland FHNW
-            <br> Professor of applied quantum technologies
+            <br> Professor of Applied Quantum Technologies
         </td>
     </tr>
 </table>
