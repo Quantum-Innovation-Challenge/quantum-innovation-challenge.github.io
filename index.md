@@ -41,6 +41,7 @@ menu_icon: house-door
                 Applications open for participants<br>
                 {% if registration_status == 'open' %}
                     <a href="mailto:quantum_challenge@mqs.dk" class="btn">Register your team</a>
+                    <br>
                     It is needed to register your team by sending us the names of your team members and the hosting letter.
                     <br>
                     <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">Read about the challenge</a>
