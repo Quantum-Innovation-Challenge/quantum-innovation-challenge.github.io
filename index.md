@@ -191,11 +191,23 @@ For a full list of the submitted challenge projects, we encourage you to take a 
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&s" alt="Danish Business Authority" style="width:175px;">
     </a>
 </div>
-<div style="display: flex; align-items: center; justify-content: center;">
+<div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://icdk.dk/">
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px;">
     </a>
 </div>
+<div style="display: flex; align-items: left; justify-content: center;">
+    <a href="https://fhnw.ch">
+        <img src="https://www.fhnw.ch/logo/fhnw-logo-en.svg" alt="Fachhochschule Nordwestschweiz" style="width:150px;">
+    </a>
+</div>
+<br>
+<div style="display: flex; align-items: center; justify-content: center;">
+    <a href="https://eqtc2025.ku.dk/">
+        <img src="./assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:150px;">
+    </a>
+</div>
+
 
 The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:
 <div style="display: flex; align-items: left; justify-content: center;">

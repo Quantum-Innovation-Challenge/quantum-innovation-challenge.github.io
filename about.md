@@ -263,6 +263,20 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br>Principal Data Scientist
         </td>
     </tr>
+            <tr>
+        <td>
+            <img alt="Clément Javerzac-Galy" src="https://media.licdn.com/dms/image/v2/D4E03AQE7rnTDIKFxHQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726582759565?e=1756339200&v=beta&t=FhBldiDP7eO-7rcVkGZA0JM_XgQI1d0Qu70xAncCgeA">
+        </td>
+        <td>
+            <strong>Clément Javerzac-Galy</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://www.fhnw.ch/en/people/clement-javerzac"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/clementjaverzacgaly/"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br> University of Applied Sciences and Arts Northwestern Switzerland FHNW
+            <br> Professor of applied quantum technologies
+        </td>
+    </tr>
 </table>
 
 
