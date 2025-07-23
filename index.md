@@ -116,10 +116,6 @@ Support and participation resources:
 - Orientation materials and technical guidance are available on the [Resources page](./../resources.md)
 - Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the [FAQ page](./../faq.md)
 
-<br>
-<br>
-<br>
-<br>
 
 ## Why participate?
 
