@@ -68,7 +68,7 @@ Some relevant links for understanding PK/PD:
 
 
 <div style="display: flex; align-items: center; justify-content: center;">
-    <img src="./assets/pk_pd_diagram.png" alt="PK/PD Diagram" style="widt:300px;">
+    <img src="./assets/pk_pd_diagram_2.png" alt="PK/PD Diagram" style="widt:300px;">
 </div>
 
 
