@@ -67,6 +67,11 @@ Some relevant links for understanding PK/PD:
 - [Slides introducing the standard PK/PD pipeline (direct pdf link)](https://www.fagg.be/sites/default/files/content/jasper_stevens_pmx101.pdf)
 
 
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="./assets/pk_pd_diagram.png" alt="PK/PD Diagram" style="widt:300px;">
+</div>
+
+
 ## Alternative Methods
 
 This mechanistic approach has proven effective, and ODE-based models have become prominent in PK/PD. However, this also makes PK/PD labor intensive: they require extensive manual effort, expert knowledge, and many trial-and-errors. Because of the small number of participants in early clinical trial phases, PK/PD modeling is constraint by small sample sizes, limited time points available, and only a few dosing regimens investigated, which limits their accuracy and applicability. Today PK/PD is mechanistic, and hypothesis driven. Several directions have been explored to extend PK/PD. Most attempts at making it more data-driven are based on machine learning (ML), whether through ML techniques [1,2], deep learning[3-7], reinforcement learning [8], agent-based modeling [9.10], and more [1]. In 2021, the FDA mentioned “a new approach to pharmacometrics”, citing a paper showing encouraging results using an LSTM architecture [3]. The method, however, failed at predicting the PD response of drug dosing regimen different than the one used for training. These data-driven approaches have the potential to reduce human supervision and time needed when it comes to model development. They could also help discover new relationships without prior mechanistic knowledge and may be more flexible with more diverse types of data types and covariates.

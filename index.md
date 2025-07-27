@@ -33,7 +33,7 @@ menu_icon: house-door
 </div>
 
 <div class="aside">
-    <h2><i class="bi bi-calendar3"></i> Event timeline</h2>
+    <h2><i class="bi bi-calendar3"></i>Timeline</h2>
     <dl>
         {% if registration_status == "soon" or registration_status == "open" or registration_status == "demo" %}
             <dt>{{ site.registration_opens_date }}</dt>
