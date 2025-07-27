@@ -46,7 +46,7 @@ Quantum computers are expected to improve many parts of the pharmaceutical pipel
 However, there is another area where quantum computing may be helpful. While relying on a small amount of data, this area must answer some of the most important and difficult questions: What should be the dosage when switching from animals to human testing? What dosage should participants take in Phase 2 trials, where efficacy is assessed? If the dosage is too low, efficacy will be limited. If the dosage is too high, side effects may become predominant. The scientific field in charge of answering these questions is called pharmacokinetics and pharmacodynamics (PK/PD).
 
 <div style="display: flex; align-items: center; justify-content: center;">
-    <img src="./assets/Clinical_R_and_D.png" alt="Clinical R&D" style="widt:300px;">
+    <img src="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/assets/Clinical_R_and_D.png?raw=true" alt="Clinical R&D" style="widt:300px;">
 </div>
 
 
@@ -68,7 +68,7 @@ Some relevant links for understanding PK/PD:
 
 
 <div style="display: flex; align-items: center; justify-content: center;">
-    <img src="./assets/pk_pd_diagram_2.png" alt="PK/PD Diagram" style="widt:300px;">
+    <img src="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/assets/pk_pd_diagram_2.png?raw=true" alt="PK/PD Diagram" style="widt:300px;">
 </div>
 
 
