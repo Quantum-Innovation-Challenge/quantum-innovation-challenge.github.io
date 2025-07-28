@@ -33,7 +33,7 @@ menu_icon: house-door
 </div>
 
 <div class="aside">
-    <h2><i class="bi bi-calendar3"></i>Timeline</h2>
+    <h2><i class="bi bi-calendar3"></i> Timeline</h2>
     <dl>
         {% if registration_status == "soon" or registration_status == "open" or registration_status == "demo" %}
             <dt>{{ site.registration_opens_date }}</dt>
@@ -131,6 +131,7 @@ Support and participation resources:
 - Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.
 - Direct access and support from Gefion, one of the fastest supercomputers globally, to run your challenge code (top 5 teams).
 - Global marketing and branding with free tickets to EQTC 2025, presentation opportunities and further fostering of relationships (top 5 teams).
+- Novo Holdings and QAI Ventures will help to facilitate access to their global investor network.
 - Onboarding to the global QAI Ventures ecosystem with 1 year of exclusive 1:1 mentoring from investment and technology experts and a ticket to the QAI Ventures speed dating session to join upcoming venture building or accelerator programs (top 3 teams).
 
 Do not miss this opportunity to engage in quantum innovation at the frontier of life sciences.
