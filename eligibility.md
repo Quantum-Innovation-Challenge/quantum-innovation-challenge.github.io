@@ -25,11 +25,12 @@ To prepare for the Challenge, we also recommend that participants study the basi
 
 - Each team must include at least one academic member, who must be employed by or formally affiliated with a university, hospital, or other non-profit research institution.
 - Teams may consist solely of academic members, however, participation from start-ups/industry is encouraged to foster interdisciplinary collaboration.
-
+<!--
 ## Grant Administration
 
 - If selected as one of the five teams advancing to Phase 2, the academic member will be the formal recipient of the Gefion supercomputer access voucher.
 - The affiliated institution of this academic member will act as the administering institution for the grant.
+-->
 
 ## Hosting Letter Requirement
 

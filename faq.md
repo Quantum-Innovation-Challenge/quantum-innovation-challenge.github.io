@@ -22,7 +22,7 @@ Yes! The hackathon is open to everyone, regardless of background or experience. 
 
 ### 3. Do I need to have a team to participate?
 
-Yes, it is a condition to form a team of a minimum of three members with one member having an academic affiliation.
+Yes, it is a condition to form a team of a minimum of two members with one member having an academic affiliation.
 This will allow you to share ideas and learn from others! It is up to you to identify and form a team, and you can do so at any time leading up to the phase 1 challenge submission.
 
 
@@ -38,7 +38,7 @@ You will receive further information when your team has been selected as one of 
 
 ### 6. How many members can one participating group consist of?
 
-At least 3 members have to form a team where at least 1 member has an academic affiliation. There is no upper limit to the team size but 3 team members have to selected as the official members of the projects which will be submitted.
+At least 2 members have to form a team where at least 1 member has an academic affiliation. There is no upper limit to the team size but 2 team members have to selected as the official members of the projects which will be submitted.
 
 
 # Technical
@@ -66,12 +66,12 @@ This ensures that the work is accessible to the community and can be reviewed by
 
 ### 10. Would it be possible that two start-up entities form one group?
 
-There is no restriction with respect how many entities can collaborate. The only condition is that one of the three official members has an academic affiliation.
+There is no restriction with respect how many entities can collaborate. The only condition is that one of the two official members has an academic affiliation.
 
 
 ### 11. How many entities could possibly collaborate to participate in the challenge (e.g. 3 start-ups + academic research group; 2 start-ups + two academic research groups?)
 
-Same answer as for question 2: There is no upper limit, only the condition that one official member has an academic affiliation.
+Same answer as for question 6: There is no upper limit, only the condition that one official member has an academic affiliation.
 
 
 ### 12. To what degree is it allowed to mix commercial tools with a dedicated developed code base submitted to this challenge?
@@ -111,9 +111,10 @@ No, publishing the report on the arxiv will not give extra points. It is recomme
 
 The Quantum Challenge enforces submissions under Creative Commons Attribution 4.0 International License, and the code itself under Apache License 2.0 and the submitting team agrees to license the Submission under the Creative Commons Attribution 4.0 International License, and all provided code under the Apache License, Version 2.0 or MIT license.
 
-
+<!--
 ### 19. If we already have the infrastructure to make use of QPUs and GPUs (large cluster), how should we communicate the justification to further develop our submitted solution with Gefion? Could we also be selected as one of the pitch participants in the end if we do not need Gefion and show results with another HPC provider?
 
 Yes. If you have your own GPU or even QPU infrastructure then you can indicate that you would like to participate in the final evaluation and do not need access to Gefion. Although we advice to carefully assess if you have a GPU infrastructure setup with the same capabilities as Gefion has.
+-->
 
 [faq]: {{ site.baseurl }}{% link faq.md %}

@@ -61,17 +61,20 @@ menu_icon: house-door
         - Submission of the projects closes on the 30th of September at 10AM Central European Time (CET).
         <br>
         - Evaluation will be conducted from the 1st until the 15th of October.
+        <!--
         <br>
         - The top five teams will receive GPU hours for the Gefion Supercomputer for Phase II.</dd>
-
+        -->
         <dt>{{ site.event_date }}</dt>
         <dd><b>Phase II</b>
         <br>
         - The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).
         <br>
         - Travel costs and accomodation for all teams are sponsored and will be covered.
+        <!--
         <br>
         - Until the end of December 2025 the top 5 teams will have access to the Gefion Supercomputer.</dd>
+        -->
         <br>
         <dd><b>Phase III (Q1/Q2 2026)</b>
         <br>
@@ -124,8 +127,8 @@ Support and participation resources:
 </div>
 
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
-- Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions.
-- The winning team ranking 1st place at the end of the challenge will receive 4136 GPU hours on Gefion sponsored by DCAI after the challenge.
+<!-- - Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions.
+- The winning team ranking 1st place at the end of the challenge will receive 4136 GPU hours on Gefion sponsored by DCAI after the challenge.-->
 - The winning solution will be announced in Spring 2026 during another leading European quantum event.
 - Networking and access to a global community of experts from the academic and industrial life science community.
 - Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.
@@ -224,6 +227,6 @@ For further information see the list of experts on the [about page](_/../about.m
 
 - [Novo Nordisk Foundation](https://novonordiskfonden.dk/)
 - [Danish Business Authority](https://danishbusinessauthority.dk/)
-- [Danish Centre for AI Innovation - Gefion](https://dcai.dk/)
+<!-- - [Danish Centre for AI Innovation - Gefion](https://dcai.dk/)-->
 
 [faq]: {{ site.baseurl }}{% link faq.md %}

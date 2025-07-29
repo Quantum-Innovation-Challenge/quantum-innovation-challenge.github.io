@@ -35,7 +35,7 @@ The schedule for the event was as follows, with all times listed in Central Euro
 {% endif %}
 
 
-The Quantum Innovation Challenge consists of two phases. During Phase 1, you will form your team, and you will submit your proposal. After the evaluation of the proposals, the best five proposals will enter a Phase 2, where the teams will have the opportunity to access the Gefion AI Supercomputer. The access to Gefion will be shared among the team members. The Danish Centre for AI Innovation (DCAI) runs and operates Gefion, a large-scale NVIDIA DGX SuperPOD. It comprises 191 NVIDIA DGX H100 systems for a total of 1,528 NVIDIA H100 Tensor Core GPUs.
+The Quantum Innovation Challenge consists of two phases. During Phase 1, you will form your team, and you will submit your proposal. <!--After the evaluation of the proposals, the best five proposals will enter a Phase 2, where the teams will have the opportunity to access the Gefion AI Supercomputer. The access to Gefion will be shared among the team members. The Danish Centre for AI Innovation (DCAI) runs and operates Gefion, a large-scale NVIDIA DGX SuperPOD. It comprises 191 NVIDIA DGX H100 systems for a total of 1,528 NVIDIA H100 Tensor Core GPUs.-->
 
 ### Phase I: July - 30th of September
 
@@ -49,7 +49,7 @@ The possibility to submit your project will close at 10am CET on the 30th of Sep
 ### Phase II: 15th of October - 12th of November
 
 Phase 2 of the challenge will include the evaluation (1st of October - 14th of October) and the feedback notification on the submitted projects (latest the 14th of October).
-The top five teams will receive access to the Danish supercomputer Gefion throughout Q4 2025.
+<!--The top five teams will receive access to the Danish supercomputer Gefion throughout Q4 2025.-->
 The top five teams will present their projects at the European Quantum Technologies Conference 2025 in Copenhagen (10-12 November 2025) giving the teams the opportunity to connect with the European quantum computing community and establish valuable relationships.
 
 
@@ -61,5 +61,5 @@ The presentations and the winner announcement will be held at a leading quantum 
 
 ### After the challenge
 
-The <a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025">LSQI-Challenge-2025 repository</a> will serve as the documentation for all projects and will become a valuable resource for academia and industry while the participating project teams have made valuable contacts to academia and industry to foster further venture building.
+The <a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025">LSQI- Challenge-2025 repository</a> will serve as the documentation for all projects and will become a valuable resource for academia and industry while the participating project teams have made valuable contacts to academia and industry to foster further venture building.
 All submitted projects will have been screened to align with the open-source and free license (Apache/MIT) condition (see also Eligibility page).
