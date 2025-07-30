@@ -122,7 +122,7 @@ Support and participation resources:
 </div>
 
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
-- Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions.
+- After the announcement of the finalists at EQTC in November, the top 5 teams gain access to the GEFION Supercomputer to continue develop of their models. Submission deadline for the second phase is expected to be end of January 2026 with announcement of the final winner in Q1 2026
 - The winning solution will be announced in Spring 2026 during another leading European quantum event.
 - Networking and access to a global community of experts from the academic and industrial life science community.
 - Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.
@@ -192,13 +192,7 @@ For a full list of the submitted challenge projects, we encourage you to take a 
     <a href="https://icdk.dk/">
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px; margin-right:70px;">
     </a>
-    <a href="https://fhnw.ch">
-        <img src="https://www.fhnw.ch/logo/fhnw-logo-en.svg" alt="Fachhochschule Nordwestschweiz" style="width:150px;">
-    </a>
-</div>
-<br>
-<div style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://eqtc2025.ku.dk/">
+     <a href="https://eqtc2025.ku.dk/">
         <img src="./assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
     </a>
 </div>

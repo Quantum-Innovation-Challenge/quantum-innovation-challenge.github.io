@@ -277,6 +277,35 @@ To contact us about the quantum challenge, please contact us via mail quantum_ch
             <br> Professor of Applied Quantum Technologies
         </td>
     </tr>
+                <tr>
+        <td>
+            <img alt="Jeroen Bakker" src="https://media.licdn.com/dms/image/v2/C4D03AQEkjz5gQROhMQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1539116712616?e=1756944000&v=beta&t=CVz86CCr2Yk992Wi9FWZAVv3STDf5cMpH2O4TRdVcMM">
+        </td>
+        <td>
+            <strong>Jeroen Bakker</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://novoholdings.dk/"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/jeroenbakker/"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br> Novo Holdings
+            <br> Partner
+        </td>
+    </tr>
+                    <tr>
+        <td>
+            <img alt="Theodor Lundberg" src="https://media.licdn.com/dms/image/v2/D4E03AQFmXC9zqpEFmg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730217052854?e=1756944000&v=beta&t=Fn1J2393KRQM8bf5Wo0-mACexnT_FxZyJe2IT0guURU">
+        </td>
+        <td>
+            <strong>Theo Lundberg</strong>
+            <span class="profile-links">
+                <a title="Website" href="https://novoholdings.dk/"><i class="bi bi-globe2"></i></a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/theodorlundberg/"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <br> Novo Holdings
+            <br> Investor
+        </td>
+    </tr>
+    
 </table>
 
 
