@@ -60,15 +60,16 @@ menu_icon: house-door
         <br>
         - Submission of the projects closes on the 30th of September at 10AM Central European Time (CET).
         <br>
-        - Evaluation will be conducted from the 1st until the 15th of October.
+        - Evaluation will be conducted from the 1st until the 15th of October.</dd>
         <br>
-        - The top five teams will receive GPU hours for the Gefion Supercomputer for Phase II.</dd>
         <dt>{{ site.event_date }}</dt>
         <dd><b>Phase II</b>
         <br>
         - The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).
         <br>
-        - Travel costs and accomodation for all teams are sponsored and will be covered.</dd>
+        - Travel costs and accomodation for all teams are sponsored and will be covered.
+        <br>
+        - Scheduled access to Gefion after EQTC until end of January 2026 (Phase III).</dd>
         <br>
         <dd><b>Phase III (Q1/Q2 2026)</b>
         <br>
@@ -264,15 +265,10 @@ For further information see the list of experts on the [about page](_/../about.m
       </div>
       
       <div class="form-group">
-        <label for="pdf_document">PDF Document (Optional)</label>
+        <label for="pdf_document">Hosting Letter (pdf; optional), please send before submission of your project</label>
         <input type="file" id="pdf_document" name="pdf_document" accept=".pdf">
       </div>
-      
-      <div class="form-group checkbox-group">
-        <input type="checkbox" id="tc_accepted" name="tc_accepted" required>
-        <label for="tc_accepted">I accept the terms and conditions *</label>
-      </div>
-      
+
       <div class="form-group" style="display: none;">
         <input type="text" id="email_honeypot" name="email_honeypot">
       </div>
