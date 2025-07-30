@@ -110,6 +110,11 @@ Programming expertise is not required, but at least beginner Python programming 
     <tr>
         <td><a href="https://courses.packtpub.com/courses/python">The Python Workshop by Packt</a></td>
     </tr>
+    <tr>
+        <td><a href="https://people.duke.edu/~ccc14/sta-663/WrappingRLibraries.html">Wrapping R libraries with Rpy</a></td>
+        <td><a href="https://rviews.rstudio.com/2022/05/25/calling-r-from-python-with-rpy2/">Calling R from Python with rpy2</a></td>
+        <td><a href="https://rpy2.github.io/doc/v2.9.x/html/index.html">Documentation for rpy2</a></td>
+    </tr>
 </table>
 
 If you have no prior programming experience, you may wish to start with the [Python Beginners Guide for Non-programmers by Python Software Foundation](https://www.python.org/about/gettingstarted/).
@@ -182,4 +187,16 @@ If you would like to see a specific tool listed here, please navigate to the "Im
 
 </li>
 
-</ul>
+<li class="resource-block" markdown="1">
+
+#### [Pk/Pd Tools and Packages]()
+
+[nlmixr: an R package for population PKPD modeling ](https://github.com/nlmixrdevelopment/nlmixr)
+
+[ggPMX R package](https://github.com/ggPMXdevelopment/ggPMX)
+
+[Metrum Research Group](https://github.com/metrumresearchgroup)
+
+</li>
+
+</ul> 
