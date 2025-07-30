@@ -71,7 +71,7 @@ menu_icon: house-door
         <br>
         - Scheduled access to Gefion after EQTC until end of January 2026 (Phase III).</dd>
         <br>
-        <dd><b>13 November 2025 - 30 January 2026</b>
+        <dd><b>13 November 2025 - 31 January 2026</b>
         <br>
         <b>Phase III</b>
         <br>
