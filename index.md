@@ -68,9 +68,7 @@ menu_icon: house-door
         <br>
         - The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).
         <br>
-        - Travel costs and accomodation for all teams are sponsored and will be covered.
-        <br>
-        - Until the end of December 2025 the top 5 teams will have access to the Gefion Supercomputer.</dd>
+        - Travel costs and accomodation for all teams are sponsored and will be covered.</dd>
         <br>
         <dd><b>Phase III (Q1/Q2 2026)</b>
         <br>
@@ -124,7 +122,6 @@ Support and participation resources:
 
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
 - Each of the top 5 teams will receive a voucher for access to the Gefion AI Supercomputer to test and validate their solutions.
-- The winning team ranking 1st place at the end of the challenge will receive 4136 GPU hours on Gefion sponsored by DCAI after the challenge.
 - The winning solution will be announced in Spring 2026 during another leading European quantum event.
 - Networking and access to a global community of experts from the academic and industrial life science community.
 - Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.

@@ -111,10 +111,4 @@ No, publishing the report on the arxiv will not give extra points. It is recomme
 
 The Quantum Challenge enforces submissions under Creative Commons Attribution 4.0 International License, and the code itself under Apache License 2.0 and the submitting team agrees to license the Submission under the Creative Commons Attribution 4.0 International License, and all provided code under the Apache License, Version 2.0 or MIT license.
 
-<!--
-### 19. If we already have the infrastructure to make use of QPUs and GPUs (large cluster), how should we communicate the justification to further develop our submitted solution with Gefion? Could we also be selected as one of the pitch participants in the end if we do not need Gefion and show results with another HPC provider?
-
-Yes. If you have your own GPU or even QPU infrastructure then you can indicate that you would like to participate in the final evaluation and do not need access to Gefion. Although we advice to carefully assess if you have a GPU infrastructure setup with the same capabilities as Gefion has.
--->
-
 [faq]: {{ site.baseurl }}{% link faq.md %}

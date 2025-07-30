@@ -49,7 +49,7 @@ The possibility to submit your project will close at 10am CET on the 30th of Sep
 ### Phase II: 15th of October - 12th of November
 
 Phase 2 of the challenge will include the evaluation (1st of October - 14th of October) and the feedback notification on the submitted projects (latest the 14th of October).
-<!--The top five teams will receive access to the Danish supercomputer Gefion throughout Q4 2025.-->
+The top five teams will receive access to the Danish supercomputer Gefion throughout Q4 2025.
 The top five teams will present their projects at the European Quantum Technologies Conference 2025 in Copenhagen (10-12 November 2025) giving the teams the opportunity to connect with the European quantum computing community and establish valuable relationships.
 
 
