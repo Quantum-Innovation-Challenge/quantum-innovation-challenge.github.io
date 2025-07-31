@@ -326,7 +326,6 @@ document.getElementById('registrationForm').addEventListener('submit', async fun
       team_member_1_email: document.getElementById('team_member_1_email').value,
       team_member_2_name: document.getElementById('team_member_2_name').value,
       team_member_2_email: document.getElementById('team_member_2_email').value,
-      tc_accepted: document.getElementById('tc_accepted').checked,
       email_honeypot: document.getElementById('email_honeypot').value
     };
     
