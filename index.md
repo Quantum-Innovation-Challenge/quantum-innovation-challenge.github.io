@@ -94,9 +94,9 @@ With the emergence of near-term quantum computers and powerful GPU-based methods
 
 ## Your Role
 
-Academic/industrial researchers, start-ups and students can propose projects with respect to this year's [challenge topic](_/../projects.md) applying quantum computing and quantum-inspired algorithms to:
+Academic/industrial researchers, start-ups and students can propose projects with respect to this year's [challenge topic](https://quantum-innovation-challenge.github.io/projects/) applying quantum computing and quantum-inspired algorithms to:
 
-- existing benchmarks or new benchmarks as further defined by the [Quantum Challenge 2025 topic](./../projects.md)
+- existing benchmarks or new benchmarks as further defined by the [Quantum Challenge 2025 topic](https://quantum-innovation-challenge.github.io/projects/)
 - creating sub-algorithms based on quantum computing methods
 - designing quantum-enhanced sampling and optimization techniques
 
@@ -111,13 +111,13 @@ To be eligible for submission:
 
 - Each team must include at least one clearly documented academic participant in a main role
 - Teams should have prior programming experience and basic familiarity with git and GitHub
-- Full eligibility details are available on the [Eligibility page](_/../eligibility.md)
+- Full eligibility details are available on the [Eligibility page](https://quantum-innovation-challenge.github.io/eligibility/)
 
 Support and participation resources:
 
 - Participants are welcome to connect and form teams using our dedicated [Element Space](https://matrix.to/#/#mqs-community-space:mozilla.org) (see also [https://element.io](https://element.io))
-- Orientation materials and technical guidance are available on the [Resources page](./../resources.md)
-- Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the [FAQ page](./../faq.md)
+- Orientation materials and technical guidance are available on the [Resources page](https://quantum-innovation-challenge.github.io/resources/)
+- Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the [FAQ page](https://quantum-innovation-challenge.github.io/faq/)
 
     
 ## Why participate?
@@ -153,7 +153,7 @@ The top-ranked projects will be highlighted here:
 | 4th  | []()                                                 |           |              |
 | 5th  | []()                                                 |           |              |
 
-For a full list of the submitted challenge projects, we encourage you to take a look at the [Challenge page](_/../projects.md).
+For a full list of the submitted challenge projects, we encourage you to take a look at the [Submit a Project page](https://quantum-innovation-challenge.github.io/submission/).
 
 
 ## Partners
