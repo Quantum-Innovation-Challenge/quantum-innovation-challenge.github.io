@@ -138,7 +138,7 @@ Support and participation resources:
 
 Do not miss this opportunity to engage in quantum innovation at the frontier of life sciences.
 
-📅 Visit the [Agenda page](./../agenda.md) to view the full timeline.
+📅 Visit the [Timeline page](https://quantum-innovation-challenge.github.io/agenda/) to view the full agenda.
 
 
 ## Submitted Projects
