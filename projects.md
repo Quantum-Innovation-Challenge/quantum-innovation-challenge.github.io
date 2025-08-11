@@ -94,7 +94,9 @@ No matter the direction taken, creativity is most welcomed, provided that scient
 
 A phase 1 placebo-controlled clinical trial testing three dose levels (1 mg, 3 mg, and 10 mg) of a new compound dosed once daily for three weeks has just been completed. Data from 48 subjects is available (36 on active treatment and 12 on placebo). The subjects weigh between 50 and 100 kg and half of them have also taken some concomitant medication, i.e., another drug. Pharmacokinetic (PK) data (measurements of compound concentration) is available for the subjects randomized to active treatment, and pharmacodynamic (PD) data (measurement of a biomarker) is available for all subjects. Prior knowledge about the structure of a PK-PD model that can describe the observed data is limited, but the data shows that the new compound has a long half-life and that it can suppress the level of the biomarker. The data also shows that the concomitant medication affects the biomarker.
 
-Disclaimer: This dataset is synthetic and has been generated to reflect realistic clinical trial data. The data file (EstData.csv) is located in the data folder of the challenge repository: [Link](https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/data)
+Disclaimer: This dataset is synthetic and has been generated to reflect realistic clinical trial data. The data file (EstData.csv) is located in the data folder of the challenge repository: 
+
+<a class="plausible-event-name=Download+Dataset" target="_blank" href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/data"> Download Dataset here</a>
 
 
 ## Tasks to solve
