@@ -41,7 +41,7 @@ The Quantum Innovation Challenge consists of two phases. During Phase 1, you wil
 
 During the first weeks of Phase 1 we will compile an extensive FQA summary with all your questions and try to fix all outstanding issues you might have to set up a team and work on a project. 
 
-You will have time until the 30th of September to submit your project via a pull request to the <a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025">LSQI-Challenge-2025 repository</a>.
+You will have time until the 30th of September to submit your project via a pull request to the <a  class="plausible-event-name=LSQI+Repo+Click" href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025">LSQI-Challenge-2025 repository</a>.
 
 The possibility to submit your project will close at 10am CET on the 30th of September, later pull requests will be disregarded.
 
@@ -61,5 +61,5 @@ The presentations and the winner announcement will be held at a leading quantum 
 
 ### After the challenge
 
-The <a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025">LSQI- Challenge-2025 repository</a> will serve as the documentation for all projects and will become a valuable resource for academia and industry while the participating project teams have made valuable contacts to academia and industry to foster further venture building.
+The <a class="plausible-event-name=LSQI+Repo+Click" href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025">LSQI- Challenge-2025 repository</a> will serve as the documentation for all projects and will become a valuable resource for academia and industry while the participating project teams have made valuable contacts to academia and industry to foster further venture building.
 All submitted projects will have been screened to align with the open-source and free license (Apache/MIT) condition (see also Eligibility page).

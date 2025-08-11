@@ -40,13 +40,13 @@ menu_icon: house-door
             <dd>
                 Applications open for participants<br>
                 {% if registration_status == 'open' %}
-                    <button class="btn" onclick="openRegistrationModal()">Register your team</button>
+                    <button class="btn plausible-event-name=Register+Team" onclick="openRegistrationModal()">Register your team</button>
                     <br>
                     It is needed to register your team by sending us the names of your team members and the hosting letter.
                     <br>
                     <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">Read about the challenge</a>
                     <br>
-                    <a href="https://matrix.to/#/#mqs-community-space:mozilla.org" class="btn">Find team members via Element Space</a>
+                    <a href="https://matrix.to/#/#mqs-community-space:mozilla.org " class="btn plausible-event-name=Element+Space+Click">Find team members via Element Space</a>
                 {% elsif registration_status == 'closed' %}
                     <a class="btn disabled">Registration has closed</a>
                 {% elsif registration_status == 'soon' %}

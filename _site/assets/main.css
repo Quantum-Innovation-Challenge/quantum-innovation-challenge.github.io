@@ -206,7 +206,7 @@ table td { border: 1px solid #e8e8e8; }
 .site-nav .page-link.active { color: #fff; font-weight: 600; pointer-events: none; }
 @media screen and (max-width: 600px) { .site-nav .page-link.active { color: #000; } }
 
-.site-title { display: block; background: no-repeat center left url(MQS_Logo_Text_black.png); background-size: 60px; padding: 15px 0 15px 70px; line-height: 23px; font-weight: 500; margin-right: 10px; }
+.site-title { display: block; background: no-repeat center left url(); background-size: 60px; padding: 15px 0 15px 70px; line-height: 23px; font-weight: 500; margin-right: 10px; }
 .site-title small { font-size: 59%; }
 .site-title, .site-title:visited { color: #fff; }
 .site-title.active { pointer-events: none; }
