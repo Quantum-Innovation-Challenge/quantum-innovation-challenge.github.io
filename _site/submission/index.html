@@ -1,103 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="bg-quantum antialiased  " lang=" en">
 
-  <head>
-    <script defer data-domain="quantum-innovation-challenge.github.io"
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script defer data-domain="quantum-innovation-challenge.github.io"
     src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
   <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-  </head><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Submit a Project | Quantum Innovation Challenge</title>
-<meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Submit a Project" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="The Life Science Quantum Innovation Challenge for Pharmaceutical Development is a virtual competition combined with a pitch presentation event, organized by the Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS) and QAI Ventures. Leading up to and at the beginning of the event, participants will brainstorm projects and form teams. Over the course of the event, teams will work together to deliver the project and showcase their project at the end of phase 1 (July-September). After phase 1, 5 teams with an academic affiliation will be selected and will retrieve access to Denmark’s supercomputer Gefion (Phase 2). Phase 2 will run in October/November. The winner teams will be invited to showcase their project Q1 of 2025 at a selected conference. Come join us to explore, collaborate, innovate, and contribute to the advancement of quantum computing and quantum-inspired computing for pharmaceutical development!" />
-<meta property="og:description" content="The Life Science Quantum Innovation Challenge for Pharmaceutical Development is a virtual competition combined with a pitch presentation event, organized by the Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS) and QAI Ventures. Leading up to and at the beginning of the event, participants will brainstorm projects and form teams. Over the course of the event, teams will work together to deliver the project and showcase their project at the end of phase 1 (July-September). After phase 1, 5 teams with an academic affiliation will be selected and will retrieve access to Denmark’s supercomputer Gefion (Phase 2). Phase 2 will run in October/November. The winner teams will be invited to showcase their project Q1 of 2025 at a selected conference. Come join us to explore, collaborate, innovate, and contribute to the advancement of quantum computing and quantum-inspired computing for pharmaceutical development!" />
-<link rel="canonical" href="https://quantum-innovation-challenge.github.io//submission/" />
-<meta property="og:url" content="https://quantum-innovation-challenge.github.io//submission/" />
-<meta property="og:site_name" content="Quantum Innovation Challenge" />
-<meta property="og:image" content="https://quantum-innovation-challenge.github.io//assets/advert.png" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://quantum-innovation-challenge.github.io//assets/advert.png" />
-<meta property="twitter:title" content="Submit a Project" />
-<meta name="twitter:site" content="@" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"The Life Science Quantum Innovation Challenge for Pharmaceutical Development is a virtual competition combined with a pitch presentation event, organized by the Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS) and QAI Ventures. Leading up to and at the beginning of the event, participants will brainstorm projects and form teams. Over the course of the event, teams will work together to deliver the project and showcase their project at the end of phase 1 (July-September). After phase 1, 5 teams with an academic affiliation will be selected and will retrieve access to Denmark’s supercomputer Gefion (Phase 2). Phase 2 will run in October/November. The winner teams will be invited to showcase their project Q1 of 2025 at a selected conference. Come join us to explore, collaborate, innovate, and contribute to the advancement of quantum computing and quantum-inspired computing for pharmaceutical development!","headline":"Submit a Project","image":"https://quantum-innovation-challenge.github.io//assets/advert.png","url":"https://quantum-innovation-challenge.github.io//submission/"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://quantum-innovation-challenge.github.io//feed.xml" title="Quantum Innovation Challenge" /></head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
+
+</head>
+
 <body>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 
+  <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
 
 
+  <main class="page-content p-5 relative z-10" aria-label="Content">
+ 
+    <div class="wrapper border-electron/25 border-1"><script>
+// Navigation Sphere JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  const sphereContainer = document.getElementById('navigationSphere');
+  if (!sphereContainer) return;
+  
+  const canvas = sphereContainer.querySelector('.sphere-canvas');
+  const points = [];
+  const cant = 120;
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
 
+  // Initialize points
+  function initializePoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[1.5px] h-[1.5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out group-hover:bg-quantum group-[.frontpage]/app:!bg-electron';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updatePoints();
+  }
 
-
-
-<header class="site-header" role="banner">
-
-  <div class="wrapper"><a class="site-title " rel="author" href="/">
+  // Update point positions based on mouse movement
+  function updatePoints() {
+    const angleX = (-mouseX / 4) * Math.PI / 420;
+    const angleY = (mouseY / 4) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
       
-        <span class="hide-very-narrow">Life Science Quantum Computing</span><br><span class="hide-very-narrow">Innovation Challenge</span>
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
       
-    </a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 1.5;
+      
+      const point = points[i];
+      if (point && point.element) {
+        const translateX = 15 + x * 12;
+        const translateY = 15 + rotatedY * 12;
+        const translateZ = scale * 0.5;
+        
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
 
-        <div class="trigger"><a class="page-link " href="/projects/">
-                <i class="bi bi-briefcase"></i>
-                
-                  <span>Challenge 2025</span>
-                
-              </a><a class="page-link " href="/agenda/">
-                <i class="bi bi-clock"></i>
-                
-                  <span>Timeline</span>
-                
-              </a><a class="page-link " href="/eligibility/">
-                <i class="bi bi-person-exclamation"></i>
-                
-                  <span>Team Eligibility</span>
-                
-              </a><a class="page-link active" href="/submission/">
-                <i class="bi bi-cloud-arrow-up"></i>
-                
-                  <span>Submit a Project</span>
-                
-              </a><a class="page-link " href="/videos-slides/">
-                <i class="bi bi-film"></i>
-                
-                  <span>Videos &amp; Slides</span>
-                
-              </a><a class="page-link " href="/resources/">
-                <i class="bi bi-journal-code"></i>
-                
-                  <span>Resources</span>
-                
-              </a><a class="page-link " href="/faq/">
-                <i class="bi bi-question-circle"></i>
-                
-                  <span>FAQ</span>
-                
-              </a><a class="page-link " href="/about/">
-                <i class="bi bi-globe2"></i>
-                
-                  <span>About</span>
-                
-              </a></div>
-      </nav></div>
+  // Mouse move event listener
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updatePoints();
+  });
+
+  // Initialize the sphere
+  initializePoints();
+});
+</script>
+
+<header class="group/header overflow-hidden w-full z-10"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out  border-quantum/25">
+    <!-- Left side - Logo and Title -->
+    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl   items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
+      <!-- Canvas for animated points (small sphere - keep current size) -->  
+      <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
+        <div class="sphere-canvas relative w-full h-full"></div>
+      </div>
+      <!-- Title -->
+      <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
+        <a class="site-title " rel="author" href="/">
+          
+            Quantum Innovation Challenge
+          
+        </a>
+      </h1>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </div>
+ 
+
+
+
+    <!-- Navigation Links -->
+    <nav class="flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 hidden xl:flex font-space-mono"><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/challenge/">
+              <i class="bi bi-briefcase"></i>
+              
+                <span>Challenge 2025</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/agenda/">
+              <i class="bi bi-clock"></i>
+              
+                <span>Timeline</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/eligibility/">
+              <i class="bi bi-person-exclamation"></i>
+              
+                <span>Eligibility</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white active" href="/submission/">
+              <i class="bi bi-cloud-arrow-up"></i>
+              
+                <span>Submit a Project</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/videos-slides/">
+              <i class="bi bi-film"></i>
+              
+                <span>Videos &amp; Slides</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/resources/">
+              <i class="bi bi-journal-code"></i>
+              
+                <span>Resources</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/faq/">
+              <i class="bi bi-question-circle"></i>
+              
+                <span>FAQ</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/about/">
+              <i class="bi bi-globe2"></i>
+              
+                <span>About</span>
+              
+            </a></nav>  
+
+    <!-- Submit Project Button -->
+    <button class="flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl  py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+      <span class="relative z-10">Submit Project</span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+  </div>
 </header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
+
+<!--
 
     <div id="breadcrumbs">
         
@@ -110,14 +189,9 @@
             
         
     </div>
-<article class="post">
+-->
 
-  <header class="post-header">
-    <h1 class="post-title">Submit a Project</h1>
-  </header>
-
-  <div class="post-content">
-    <h1 id="project-submission-requirements">Project submission requirements</h1>
+      <h1 id="project-submission-requirements">Project submission requirements</h1>
 
 <p>The projects must be submitted via a GitHub pull request where your code repository is licensed under the MIT (http://opensource.org/licenses/MIT) or Apache Version 2.0 license (http://apache.org/licenses/LICENSE-2.0). If your submitted repository has no license affiliated with it, then your submission will be regarded as invalid and not taken into evaluation.</p>
 
@@ -153,7 +227,7 @@ Further, please also state the project name, your three team members names, GitH
     <p>Submit a pull request to Quantum-Challenge-2025 repo with the title “Submit project &lt;team-name: project-name&gt;” and tag your team members in the pull request description using the <code>@</code> symbol followed by their real names and affilitions. It is very important that the scientific evaluation committee can see the affilitions of the team members due to the needed academic affiliation of one team member. Make also sure that you have sent us via email the confirmation of the academic background of that team member in form of a … .</p>
   </li>
   <li>
-    <p>Once the pull request is merged, your project will appear on <a href="/projects/">the projects page</a> of this portal and will also be moved into the projects folder together with all other projects in the Quantum-Challenge-2025 repo.</p>
+    <p>Once the pull request is merged, your project will appear on <a href="_/../projects.md">the projects page</a> of this portal and will also be moved into the projects folder together with all other projects in the Quantum-Challenge-2025 repo.</p>
   </li>
 </ol>
 
@@ -301,12 +375,8 @@ youtube_video: <span class="nt">&lt;your-video-id&gt;</span>
 <p>Please note: The scientific committee will not provide detailed individual feedback to teams that are not selected among the top five. However, efforts will be made to provide each participating team with a feedback and scoring summary to support transparency and encourage further development of their project.</p>
 
 
-  </div>
-
-</article>
-
-      </div>
-    </main><footer class="site-footer h-card">
+    </div>
+  </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
 
   <div class="wrapper">
@@ -329,10 +399,10 @@ youtube_video: <span class="nt">&lt;your-video-id&gt;</span>
       </div>
 
       <div class="footer-col footer-col-3 icon-list">
-        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/submission.md">
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/submission.md">
           View page source
         </a><br>
-        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/submission.md">
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/submission.md">
           Improve this page
         </a>
       </div>
@@ -340,6 +410,54 @@ youtube_video: <span class="nt">&lt;your-video-id&gt;</span>
   </div>
 
 </footer>
-</body>
+</style>
+  <script>
+    inlineSVG.init({
+      svgSelector: 'img.svg', // the class attached to all images that should be inlined
+      initClass: 'js-inlinesvg', // class added to <html>
+    }, function () {
+      console.log('All SVGs inlined');
+    });
+  </script>
+  <script>
+    particlesJS("particles-js", { 
+        "particles": { 
+            "number": { "value": 85, "density": { "enable": true, "value_area": 946.9771699587272 } }, 
+            "color": { "value": "#ffffff" }, 
+            "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, 
+            "opacity": { "value": 0.25, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.05, "sync": false } }, 
+            "size": { "value": 1, "random": true, "anim": { "enable": false, "speed": 10, "size_min": 0.1, "sync": false } }, 
+            "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.05, "width": 1 }, 
+            "move": { "enable": true, "speed": 0.5, "direction": "top-right", "random": true, "straight": false, "out_mode": "bounce", "bounce": false, "attract": { "enable": false, "rotateX": 1500, "rotateY": 1200 } } 
+        }, 
+        "interactivity": { 
+            "detect_on": "window", 
+            "events": { 
+                "onhover": { "enable": true, "mode": "grab" }, 
+                "onclick": { "enable": false, "mode": "push" }, 
+                "resize": true 
+            }, 
+            "modes": { "grab": { "distance": 150, "line_linked": { "opacity": 0.2 } }, "bubble": { "distance": 100, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } 
+        }, 
+        "retina_detect": true 
+    });
+
+    // Enable grab effect while keeping content clickable
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.querySelector('#particles-js canvas');
+      if (canvas) {
+        canvas.style.pointerEvents = 'none';
+      }
+      
+      // Re-enable hover detection on window for grab effect
+      document.addEventListener('mousemove', function(e) {
+        if (window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS.interactivity.events.onhover.enable) {
+          window.pJSDom[0].pJS.interactivity.mouse.pos_x = e.clientX;
+          window.pJSDom[0].pJS.interactivity.mouse.pos_y = e.clientY;
+        }
+      });
+    });
+  </script>
+</body> 
 
 </html>

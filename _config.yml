@@ -1,5 +1,5 @@
 title: Quantum Innovation Challenge
-nav_title: <span class="hide-very-narrow">Life Science Quantum Computing</span><br><span class="hide-very-narrow">Innovation Challenge</span>
+nav_title: Quantum Innovation Challenge
 event_date: 15 October - 12 November 2025
 event_start_date: 21 July 2025
 event_close_date: 30 September 2025
@@ -23,21 +23,21 @@ description:
 url: "https://quantum-innovation-challenge.github.io/"
 github_repo: Quantum-Innovation-Challenge
 
-theme: minima
+# theme: minima
 
 # The actual visibility of the nav bar links is influenced by the event_status
 # and registration_status flags below
 header_pages:
-  - index.md
-  - projects.md
-  - agenda.md
-  - eligibility.md
-#  - registration.md
-  - submission.md
-  - videos-slides.md
-  - resources.md
-  - faq.md
-  - about.md
+  - _pages/index.md
+  - _pages/challenge.md
+  - _pages/agenda.md
+  - _pages/eligibility.md
+#  - _pages/registration.md
+  - _pages/submission.md
+  - _pages/videos-slides.md
+  - _pages/resources.md
+  - _pages/faq.md
+  - _pages/about.md
 
 # Event status
 #   soon = event is yet to happen
@@ -62,6 +62,9 @@ collections:
     output: true
     permalink: /:collection/:name/
 
+# Include pages directory
+include: ["_pages"]
+
 # Social media links
 # (See default layout below)
 twitter:
@@ -77,6 +80,11 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      permalink: /:basename/
 
 # Simplify tables of contents
 kramdown:

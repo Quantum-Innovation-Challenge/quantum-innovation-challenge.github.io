@@ -1,0 +1,94 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@theme {
+	--color-quantum: #002826;
+	--color-electron: #99d4e5;
+	--color-purple: #1a0f2c;
+	--color-node: #e6efc5;
+	--color-secondary: #96c8a2;
+	--font-space-mono: "Space Mono", "sans-serif";
+	--font-space-grotesk: "Space Grotesk", "sans-serif";
+	--font-sans: var(--font-space-grotesk);
+	--default-font-family: var(--font-space-grotesk);
+	--font-family: var(--font-space-grotesk);
+
+}
+
+@layer base {
+	html {
+		/* resulting css */
+
+		color: white;
+		/* background-color: var(--color-quantum); */
+		font-family: var(--font-space-grotesk);
+	}
+
+	body {
+		font-family: var(--font-space-grotesk);
+		background-color: transparent;
+		display: block;
+		height: 100%;
+		min-height: 100vh;
+		scroll-behavior: smooth;
+	}
+
+	.noise {
+		background-color: transparent;
+		background-image: url(https://safe-travels-vw.netlify.app/_nuxt/noise.4aa40b2a.svg);
+		height: 100vh;
+		left: 0;
+		mix-blend-mode: multiply;
+		opacity: 1;
+		pointer-events: none;
+		position: fixed;
+		top: 0;
+		width: 100vw;
+		z-index: 20;
+	}
+}
+
+@layer utilities {
+  .prose {
+	--tw-prose-body: #fff;
+	--tw-prose-headings: #FFF;
+	--tw-prose-lead: var(--tw-prose-invert-lead);
+	--tw-prose-links: var(--color-electron);
+	--tw-prose-bold: var(--tw-prose-invert-bold);
+	--tw-prose-counters: var(--color-electron);
+	--tw-prose-bullets: var(--color-electron);
+	--tw-prose-hr: var(--color-electron);
+	--tw-prose-quotes: var(--color-electron);
+	--tw-prose-quote-borders: var(--color-electron);
+	--tw-prose-captions: var(--tw-prose-invert-captions);
+	--tw-prose-kbd: var(--tw-prose-invert-kbd);
+	--tw-prose-kbd-shadows: var(--tw-prose-invert-kbd-shadows);
+	--tw-prose-code: var(--tw-prose-invert-code);
+	--tw-prose-pre-code: var(--tw-prose-invert-pre-code);
+	--tw-prose-pre-bg: var(--tw-prose-invert-pre-bg);
+	--tw-prose-th-borders: var(--tw-prose-invert-th-borders);
+	--tw-prose-td-borders: var(--tw-prose-invert-td-borders);
+    max-width: none; /* Optional: remove width limit */
+  }
+
+  /* Custom prose variant with better text wrapping */
+.prose-wrapped {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.prose-wrapped p,
+.prose-wrapped li,
+.prose-wrapped td,
+.prose-wrapped th {
+  word-break: break-word;
+}
+
+.prose-wrapped a,
+.prose-wrapped code {
+  word-break: break-all;
+}
+
+  .prose a:hover {
+    color: var(--color-elight);
+  }
+}

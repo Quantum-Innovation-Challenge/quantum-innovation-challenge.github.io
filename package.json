@@ -1,0 +1,20 @@
+{
+  "name": "quantum-innovation-challenge",
+  "version": "1.0.0",
+  "description": "Quantum Innovation Challenge Jekyll site with Tailwind CSS v4",
+  "scripts": {
+    "css:dev": "npx tailwindcss --input assets/tailwind.css --output assets/main.css --watch",
+    "css:build": "npx tailwindcss --input assets/tailwind.css --output assets/main.css --minify",
+    "jekyll:dev": "bundle exec jekyll serve --livereload",
+    "jekyll:build": "bundle exec jekyll build",
+    "dev": "npm run css:build && npm run jekyll:dev",
+    "dev:watch": "npx concurrently \"npm run css:dev\" \"npm run jekyll:dev\"",
+    "build": "npm run css:build && npm run jekyll:build"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "concurrently": "^8.2.2",
+    "tailwindcss": "^4.0.0"
+  }
+}
