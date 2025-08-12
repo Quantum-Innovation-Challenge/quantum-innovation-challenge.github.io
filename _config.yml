@@ -20,7 +20,11 @@ description:
   Phase 2 will run in October/November. The winner teams will be invited to showcase their project Q1 of 2025 at a selected conference.
   Come join us to explore, collaborate, innovate, and contribute to the advancement of quantum computing and quantum-inspired computing for pharmaceutical development!
 
-url: "https://quantum-innovation-challenge.github.io/"
+# Original settings for organization GitHub Pages:
+# url: "https://quantum-innovation-challenge.github.io/"
+# For personal GitHub Pages deployment:
+url: "https://cnthiesen.github.io"
+baseurl: "/quantum-innovation-challenge"
 github_repo: Quantum-Innovation-Challenge
 
 # theme: minima
