@@ -47,23 +47,23 @@ permalink: /
         A joint innovation challenge partnership between
       </p>
       <div class=" max-w-screen-xl flex gap-10 justify-center items-center  text-white p-6">
-        <img src="/assets/partners/nnf.svg" alt="logo" class="svg h-full w-22 "
+        <img src="{{ site.baseurl }}/assets/partners/nnf.svg" alt="logo" class="svg h-full w-22 "
           >
-        <img src="/assets/partners/bii.svg" alt="logo" class="svg h-full w-32"
+        <img src="{{ site.baseurl }}/assets/partners/bii.svg" alt="logo" class="svg h-full w-32"
           >
-        <img src="/assets/partners/nh.svg" alt="logo" class="svg h-full w-18"
+        <img src="{{ site.baseurl }}/assets/partners/nh.svg" alt="logo" class="svg h-full w-18"
           >
-        <img src="/assets/partners/mqs.svg" alt="logo" class="svg h-full w-32"
+        <img src="{{ site.baseurl }}/assets/partners/mqs.svg" alt="logo" class="svg h-full w-32"
           >
-        <img src="/assets/partners/dcai.svg" alt="logo" class="svg h-full w-20"
+        <img src="{{ site.baseurl }}/assets/partners/dcai.svg" alt="logo" class="svg h-full w-20"
           >
-        <img src="/assets/partners/qai.svg" alt="logo" class="svg h-full w-34"
+        <img src="{{ site.baseurl }}/assets/partners/qai.svg" alt="logo" class="svg h-full w-34"
           >
-        <img src="/assets/partners/dba.svg" alt="logo" class="svg h-full w-34"
+        <img src="{{ site.baseurl }}/assets/partners/dba.svg" alt="logo" class="svg h-full w-34"
           >
-        <img src="/assets/partners/erhvervsstyrelsen.svg" alt="logo" class="svg h-full w-56"
+        <img src="{{ site.baseurl }}/assets/partners/erhvervsstyrelsen.svg" alt="logo" class="svg h-full w-56"
           >
-        <img src="/assets/partners/icd.svg" alt="logo" class="svg h-full w-26"
+        <img src="{{ site.baseurl }}/assets/partners/icd.svg" alt="logo" class="svg h-full w-26"
           >
 
       </div>
@@ -168,7 +168,7 @@ Support and participation resources:
 ## Why participate?
 
 <div style="display: flex; align-items: left; justify-content: left;">
-    <img src="/assets/Benefits.png" alt="Cover Image" style="widt:300px;">
+    <img src="{{ site.baseurl }}/assets/Benefits.png" alt="Cover Image" style="widt:300px;">
 </div>
 
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
@@ -214,10 +214,10 @@ For a full list of the submitted challenge projects, we encourage you to take a 
 <br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
-        <img src="/assets/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
+        <img src="{{ site.baseurl }}/assets/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
     </a>
     <a href="https://dcai.dk/">
-        <img src="/assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
+        <img src="{{ site.baseurl }}/assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
     </a>
 </div>
 <div style="display: flex; align-items: left; justify-content: center;">
@@ -243,7 +243,7 @@ For a full list of the submitted challenge projects, we encourage you to take a 
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px; margin-right:70px;">
     </a>
      <a href="https://eqtc2025.ku.dk/">
-        <img src="/assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
+        <img src="{{ site.baseurl }}/assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
     </a>
 </div>
 <br>

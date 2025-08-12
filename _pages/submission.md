@@ -23,7 +23,7 @@ You do not already have to share a link to the repository you are working on for
 
 By experience we know that it can also be strategic to first share your repository to the public just before submission so that nobody can copy your ideas or build on top of them. But a challenge project like this over several months will probably not win just because you were hiding your development until just before the deadline. Check out the evaluation criteria to read up on how the scientific committee of this challenge will evaluate each project.
 
-![project submission](../assets/)
+![project submission]({{ site.baseurl }}/assets/project-submission.png)
 
 In summary:
 
