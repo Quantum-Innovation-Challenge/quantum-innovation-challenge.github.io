@@ -168,7 +168,7 @@ Support and participation resources:
 ## Why participate?
 
 <div style="display: flex; align-items: left; justify-content: left;">
-    <img src="./assets/Benefits.png" alt="Cover Image" style="widt:300px;">
+    <img src="/assets/Benefits.png" alt="Cover Image" style="widt:300px;">
 </div>
 
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
@@ -214,10 +214,10 @@ For a full list of the submitted challenge projects, we encourage you to take a 
 <br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
-        <img src="./assets//MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
+        <img src="/assets/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
     </a>
     <a href="https://dcai.dk/">
-        <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
+        <img src="/assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
     </a>
 </div>
 <div style="display: flex; align-items: left; justify-content: center;">
@@ -243,7 +243,7 @@ For a full list of the submitted challenge projects, we encourage you to take a 
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px; margin-right:70px;">
     </a>
      <a href="https://eqtc2025.ku.dk/">
-        <img src="./assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
+        <img src="/assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
     </a>
 </div>
 <br>
