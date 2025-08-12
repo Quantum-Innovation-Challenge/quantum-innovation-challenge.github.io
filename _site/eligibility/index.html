@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html class="bg-quantum antialiased  " lang=" en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script defer data-domain="quantum-innovation-challenge.github.io"
+    src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+  <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
+
+
+  <main class="page-content p-5 relative z-10" aria-label="Content">
+ 
+    <div class="wrapper border-electron/25 border-1"><script>
+// Navigation Sphere JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  const sphereContainer = document.getElementById('navigationSphere');
+  if (!sphereContainer) return;
+  
+  const canvas = sphereContainer.querySelector('.sphere-canvas');
+  const points = [];
+  const cant = 120;
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
+
+  // Initialize points
+  function initializePoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[1.5px] h-[1.5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out group-hover:bg-quantum group-[.frontpage]/app:!bg-electron';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updatePoints();
+  }
+
+  // Update point positions based on mouse movement
+  function updatePoints() {
+    const angleX = (-mouseX / 4) * Math.PI / 420;
+    const angleY = (mouseY / 4) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
+      
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
+      
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 1.5;
+      
+      const point = points[i];
+      if (point && point.element) {
+        const translateX = 15 + x * 12;
+        const translateY = 15 + rotatedY * 12;
+        const translateZ = scale * 0.5;
+        
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
+
+  // Mouse move event listener
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updatePoints();
+  });
+
+  // Initialize the sphere
+  initializePoints();
+});
+</script>
+
+<header class="group/header overflow-hidden w-full z-10"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out  border-quantum/25">
+    <!-- Left side - Logo and Title -->
+    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl   items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
+      <!-- Canvas for animated points (small sphere - keep current size) -->  
+      <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
+        <div class="sphere-canvas relative w-full h-full"></div>
+      </div>
+      <!-- Title -->
+      <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
+        <a class="site-title " rel="author" href="/">
+          
+            Quantum Innovation Challenge
+          
+        </a>
+      </h1>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </div>
+ 
+
+
+
+    <!-- Navigation Links -->
+    <nav class="flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 hidden xl:flex font-space-mono"><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/challenge/">
+              <i class="bi bi-briefcase"></i>
+              
+                <span>Challenge 2025</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/agenda/">
+              <i class="bi bi-clock"></i>
+              
+                <span>Timeline</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white active" href="/eligibility/">
+              <i class="bi bi-person-exclamation"></i>
+              
+                <span>Eligibility</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/submission/">
+              <i class="bi bi-cloud-arrow-up"></i>
+              
+                <span>Submit a Project</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/videos-slides/">
+              <i class="bi bi-film"></i>
+              
+                <span>Videos &amp; Slides</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/resources/">
+              <i class="bi bi-journal-code"></i>
+              
+                <span>Resources</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/faq/">
+              <i class="bi bi-question-circle"></i>
+              
+                <span>FAQ</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/about/">
+              <i class="bi bi-globe2"></i>
+              
+                <span>About</span>
+              
+            </a></nav>  
+
+    <!-- Submit Project Button -->
+    <button class="flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl  py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+      <span class="relative z-10">Submit Project</span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+  </div>
+</header>
+
+<!--
+
+    <div id="breadcrumbs">
+        
+        <a href="/">Home</a>
+        
+            
+                
+                    / Eligibility
+                
+            
+        
+    </div>
+-->
+
+      <h1 id="who-can-participate">Who can participate?</h1>
+
+<p>The hackathon is open to teams of all backgrounds and experience levels, provided they meet the eligibility criteria outlined below. We encourage participants from all career stages, including students, researchers, and professionals, to join us.
+Participants are welcome to connect and form teams using our dedicated Element Space (see also https://element.io).
+For code-based projects, we recommend at least beginner Python programming experience(?) and basic familiarity with git and GitHub.
+To prepare for the Challenge, we also recommend that participants study the basic concepts behind Bayesian optimization. For those looking to learn or refresh their knowledge on these topics, please study the items provided in the resources page.</p>
+
+<h1 id="eligibility-criteria">Eligibility Criteria</h1>
+
+<h2 id="team-composition">Team Composition</h2>
+
+<ul>
+  <li>Each team must consist of a minimum of two members.</li>
+  <li>There is no upper limit on team size, however, two members must be designated as the official project participants at the time of submission.</li>
+  <li>Every team member must have an active and defined role described in the team’s project submission.</li>
+</ul>
+
+<h2 id="academic-participation">Academic Participation</h2>
+
+<ul>
+  <li>Each team must include at least one academic member, who must be employed by or formally affiliated with a university, hospital, or other non-profit research institution.</li>
+  <li>Teams may consist solely of academic members, however, participation from start-ups/industry is encouraged to foster interdisciplinary collaboration.</li>
+</ul>
+
+<h2 id="grant-administration">Grant Administration</h2>
+
+<ul>
+  <li>If selected as one of the five teams advancing to Phase 2, the academic member will be the formal recipient of the Gefion supercomputer access voucher.</li>
+  <li>The affiliated institution of this academic member will act as the administering institution for the grant.</li>
+</ul>
+
+<h2 id="hosting-letter-requirement">Hosting Letter Requirement</h2>
+
+<ul>
+  <li>The academic member must submit a hosting letter, signed by the head of department of the administering institution.</li>
+  <li>A <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/assets/template_hosting_letter.pdf">PDF template</a> for the hosting letter is available. The letter should be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a> shortly after the team’s project submission.</li>
+  <li>In accordance with the EU General Data Protection Regulation (GDPR), the submitted documents will be deleted following verification and completion of the challenge.</li>
+</ul>
+
+<h2 id="project-limitation">Project Limitation</h2>
+
+<ul>
+  <li>Each team may submit only one project for this challenge.</li>
+  <li>Individual participants may contribute to multiple projects, each submitted by a different team using a separate template. For instance, a participant might wish to contribute to both an algorithmic benchmark and a tutorial-oriented concept. Participants should be mindful of time constraints and communicate clearly with all teams involved.</li>
+</ul>
+
+<h1 id="intellectual-property-ip-and-knowledge-sharing-principles">Intellectual Property (IP) and Knowledge Sharing Principles</h1>
+
+<ol>
+  <li>All projects conducted under the Challenge are strictly “pre-competitive” and intended to foster shared learning and public dissemination of results.</li>
+  <li>Start-ups participating in the competition and the industry partners involved in organizing the initiative cannot receive patentable IP funded by the financial sponsors.</li>
+  <li>Any foreground knowledge generated under the project must not be protected by any form of intellectual property rights, including patents, and cannot be kept confidential or treated as trade secrets.</li>
+  <li>All foreground knowledge must be made publicly available as soon as reasonably practicable. The start-up and the academic member involved in the Challenge, the industrial partners involved in organizing the initiative and third parties will have the same right to use the foreground knowledge without restrictions.</li>
+  <li>The academic institutions, start-ups and industrial partners are entitled to conduct research based on the foreground knowledge. Any results, findings and/or data generated outside the scope of the project stemming from such research may be subject to intellectual property protection, including patenting, if applicable. However, the project teams and industrial partners involved in the Challenge initiative are prohibited from seeking any intellectual property protection on any results, findings or data generated outside the scope of the project but derived from or based on the foreground knowledge generated during the project before the foreground knowledge has been published.</li>
+  <li>Any subsequent IP based on the projects must be based on additional funding and research will not be funded by the financial sponsors of the Challenge initiative.</li>
+  <li>Any knowledge generated by the projects will be made publicly available.</li>
+</ol>
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Quantum Innovation Challenge</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        
+      </div>
+
+      <div class="footer-col footer-col-2 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge">
+          <i class="bi bi-github"></i>
+          <span class="username">Quantum-Innovation-Challenge</span>
+        </a><br>
+        <a href="/code-of-conduct/">
+          Code of conduct
+        </a>
+      </div>
+
+      <div class="footer-col footer-col-3 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/eligibility.md">
+          View page source
+        </a><br>
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/eligibility.md">
+          Improve this page
+        </a>
+      </div>
+
+  </div>
+
+</footer>
+</style>
+  <script>
+    inlineSVG.init({
+      svgSelector: 'img.svg', // the class attached to all images that should be inlined
+      initClass: 'js-inlinesvg', // class added to <html>
+    }, function () {
+      console.log('All SVGs inlined');
+    });
+  </script>
+  <script>
+    particlesJS("particles-js", { 
+        "particles": { 
+            "number": { "value": 85, "density": { "enable": true, "value_area": 946.9771699587272 } }, 
+            "color": { "value": "#ffffff" }, 
+            "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, 
+            "opacity": { "value": 0.25, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.05, "sync": false } }, 
+            "size": { "value": 1, "random": true, "anim": { "enable": false, "speed": 10, "size_min": 0.1, "sync": false } }, 
+            "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.05, "width": 1 }, 
+            "move": { "enable": true, "speed": 0.5, "direction": "top-right", "random": true, "straight": false, "out_mode": "bounce", "bounce": false, "attract": { "enable": false, "rotateX": 1500, "rotateY": 1200 } } 
+        }, 
+        "interactivity": { 
+            "detect_on": "window", 
+            "events": { 
+                "onhover": { "enable": true, "mode": "grab" }, 
+                "onclick": { "enable": false, "mode": "push" }, 
+                "resize": true 
+            }, 
+            "modes": { "grab": { "distance": 150, "line_linked": { "opacity": 0.2 } }, "bubble": { "distance": 100, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } 
+        }, 
+        "retina_detect": true 
+    });
+
+    // Enable grab effect while keeping content clickable
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.querySelector('#particles-js canvas');
+      if (canvas) {
+        canvas.style.pointerEvents = 'none';
+      }
+      
+      // Re-enable hover detection on window for grab effect
+      document.addEventListener('mousemove', function(e) {
+        if (window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS.interactivity.events.onhover.enable) {
+          window.pJSDom[0].pJS.interactivity.mouse.pos_x = e.clientX;
+          window.pJSDom[0].pJS.interactivity.mouse.pos_y = e.clientY;
+        }
+      });
+    });
+  </script>
+</body> 
+
+</html>

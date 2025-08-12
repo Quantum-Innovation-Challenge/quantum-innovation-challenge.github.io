@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html class="bg-quantum antialiased  " lang=" en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script defer data-domain="quantum-innovation-challenge.github.io"
+    src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+  <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
+
+
+  <main class="page-content p-5 relative z-10" aria-label="Content">
+ 
+    <div class="wrapper border-electron/25 border-1"><script>
+// Navigation Sphere JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  const sphereContainer = document.getElementById('navigationSphere');
+  if (!sphereContainer) return;
+  
+  const canvas = sphereContainer.querySelector('.sphere-canvas');
+  const points = [];
+  const cant = 120;
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
+
+  // Initialize points
+  function initializePoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[1.5px] h-[1.5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out group-hover:bg-quantum group-[.frontpage]/app:!bg-electron';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updatePoints();
+  }
+
+  // Update point positions based on mouse movement
+  function updatePoints() {
+    const angleX = (-mouseX / 4) * Math.PI / 420;
+    const angleY = (mouseY / 4) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
+      
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
+      
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 1.5;
+      
+      const point = points[i];
+      if (point && point.element) {
+        const translateX = 15 + x * 12;
+        const translateY = 15 + rotatedY * 12;
+        const translateZ = scale * 0.5;
+        
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
+
+  // Mouse move event listener
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updatePoints();
+  });
+
+  // Initialize the sphere
+  initializePoints();
+});
+</script>
+
+<header class="group/header overflow-hidden w-full z-10"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out  border-quantum/25">
+    <!-- Left side - Logo and Title -->
+    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl   items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
+      <!-- Canvas for animated points (small sphere - keep current size) -->  
+      <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
+        <div class="sphere-canvas relative w-full h-full"></div>
+      </div>
+      <!-- Title -->
+      <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
+        <a class="site-title " rel="author" href="/">
+          
+            Quantum Innovation Challenge
+          
+        </a>
+      </h1>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </div>
+ 
+
+
+
+    <!-- Navigation Links -->
+    <nav class="flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 hidden xl:flex font-space-mono"><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/challenge/">
+              <i class="bi bi-briefcase"></i>
+              
+                <span>Challenge 2025</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/agenda/">
+              <i class="bi bi-clock"></i>
+              
+                <span>Timeline</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/eligibility/">
+              <i class="bi bi-person-exclamation"></i>
+              
+                <span>Eligibility</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/submission/">
+              <i class="bi bi-cloud-arrow-up"></i>
+              
+                <span>Submit a Project</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/videos-slides/">
+              <i class="bi bi-film"></i>
+              
+                <span>Videos &amp; Slides</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white active" href="/resources/">
+              <i class="bi bi-journal-code"></i>
+              
+                <span>Resources</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/faq/">
+              <i class="bi bi-question-circle"></i>
+              
+                <span>FAQ</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/about/">
+              <i class="bi bi-globe2"></i>
+              
+                <span>About</span>
+              
+            </a></nav>  
+
+    <!-- Submit Project Button -->
+    <button class="flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl  py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+      <span class="relative z-10">Submit Project</span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+  </div>
+</header>
+
+<!--
+
+    <div id="breadcrumbs">
+        
+        <a href="/">Home</a>
+        
+            
+                
+                    / Quantum Challenge Resources
+                
+            
+        
+    </div>
+-->
+
+      <ul class="grid">
+
+<li class="resource-block">
+
+    <h2 id="getting-started">Getting Started</h2>
+
+    <h4 id="element---join-the-element-community-space-to-connect-and-form-teams"><a href="https://matrix.to/#/#mqs-community-space:mozilla.org">Element</a> - Join the Element community space to connect and form teams.</h4>
+
+    <h4 id="project-proposals---team-leaders-should-submit-their-project-proposals-using-the-instructions-here"><a href="/submission/">Project Proposals</a> - team leaders should submit their project proposals using the instructions here.</h4>
+
+  </li>
+
+<li class="resource-block">
+
+    <h2 id="orientation-modules">Orientation Modules</h2>
+
+    <p>Please familiarize yourself with the tools and concepts which you will need to deliver a project for this challenge.
+You will need to <a href="https://github.com/join">create a GitHub account</a> to submit your project until the deadline.
+In addition to <a href="https://git-scm.com/">git</a>, we also recommend that you <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">familiarize yourself with Markdown syntax</a> if this is new to you.</p>
+
+  </li>
+
+<li class="resource-block">
+
+    <h2 id="quantum-computing">Quantum Computing</h2>
+
+    <h3 id="introduction">Introduction</h3>
+
+    <p><a href="https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1481">The prospects of quantum computing in computational molecular biology</a></p>
+
+    <p><a href="https://unitaryfoundation.github.io/survey-2024/">Unitary Foundation 2024 Quantum Open Source Survey</a></p>
+
+    <h3 id="quantum-computing-packages-and-simulators">Quantum Computing Packages and Simulators</h3>
+
+    <p><a href="https://qiskit.github.io/qiskit-aer/">Qiskit</a></p>
+
+    <p><a href="https://pennylane.ai/devices">pennylane</a></p>
+
+    <p><a href="https://quantumai.google/cirq/simulate">Cirq</a></p>
+
+    <p><a href="https://docs.nvidia.com/cuda/cuquantum/latest/overview.html#quantum-circuit-simulation">cuQuantum</a></p>
+
+    <p><a href="https://the-walrus.readthedocs.io/en/latest/">The Walrus</a></p>
+
+    <p><a href="https://strawberryfields.readthedocs.io/en/stable/introduction/introduction.html">Strawberry Fields</a></p>
+
+    <p><a href="https://docs.meetiqm.com/">IQM</a></p>
+
+    <p><a href="https://docs.quantinuum.com/tket/api-docs/index.html">pytket</a></p>
+
+    <p><a href="https://qrisp.eu/index.html">qrisp</a></p>
+
+    <p><a href="https://github.com/amazon-braket/amazon-braket-sdk-python">amazon-braket-sdk</a></p>
+
+    <h3 id="quantum-inspired-computing">Quantum-inspired Computing</h3>
+
+    <p><a href="https://www.nature.com/articles/s41598-025-90520-3">Simulated Annealing</a></p>
+
+    <p><a href="https://github.com/nonizawa/GPU-pSAv">Simulated Annealing via GPU-pSAv</a></p>
+
+    <p><a href="https://github.com/cool-japan/quantrs">Quantum Annealing via QuantRS2</a></p>
+
+    <p><a href="https://arxiv.org/abs/2502.08060">Quantum Annealing Enhanced Markov-Chain Monte Carlo</a></p>
+
+    <h3 id="sampling">Sampling</h3>
+
+    <p><a href="https://www.nature.com/articles/s41534-017-0018-2">Quantum sampling problems, BosonSampling and quantum supremacy</a></p>
+
+    <p><a href="https://arxiv.org/abs/2402.16341">Sampling Problems on a Quantum Computer</a></p>
+
+    <p><a href="https://arxiv.org/abs/2506.11576">Quantum Circuits for the Metropolis-Hastings Algorithm</a></p>
+
+    <p><a href="https://arxiv.org/abs/2406.16023">Quantum Metropolis Sampling via Weak Measurement</a></p>
+
+    <h3 id="quantum-computing-for-clinical-research">Quantum Computing for Clinical Research</h3>
+
+    <p><a href="https://www.sdu.dk/-/media/files/forskning/dias/research/dias-grantapplication.pdf">Quantum computing for clinical research</a></p>
+
+    <p><a href="https://doi.org/10.1016/j.tips.2024.08.005">How can quantum computing be applied in clinical trial design and optimization?</a></p>
+
+    <p><a href="https://www.youtube.com/watch?v=peazYkETsUY">Quantum Clinical Trial Optimization Challenge Winner Presentations – Presented by Ingenii &amp; Aqora</a></p>
+
+  </li>
+
+<li class="resource-block">
+
+    <h2 id="python">Python</h2>
+
+    <p>Programming expertise is not required, but at least beginner Python programming experience is recommended for participation in code-focused projects of the challenge. For those looking for a brief, interactive refresher on Python programming, see the GitHub Classroom assignment from the first section on this page. For those without prior Python experience, we recommend you complete an introductory Python course in preparation for the challenge. Some resources are listed below:</p>
+
+    <table>
+    <tr>
+        <td><a href="https://www.coursera.org/specializations/python">Python for Everybody by University of Michigan</a></td>
+        <td><a href="https://www.codecademy.com/learn/learn-python-3">Learn Python 3 by CodeAcademy</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://youtube.com/playlist?list=PLL0SWcFqypCmkHClksnGlab3wglEVMqNN">Intro to Python Programming for Materials Engineers</a></td>
+        <td><a href="https://wiki.python.org/moin/BeginnersGuide/Programmers">Python Beginners Guide for Programmers by Python Software Foundation</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://courses.packtpub.com/courses/python">The Python Workshop by Packt</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://people.duke.edu/~ccc14/sta-663/WrappingRLibraries.html">Wrapping R libraries with Rpy</a></td>
+        <td><a href="https://rviews.rstudio.com/2022/05/25/calling-r-from-python-with-rpy2/">Calling R from Python with rpy2</a></td>
+        <td><a href="https://rpy2.github.io/doc/v2.9.x/html/index.html">Documentation for rpy2</a></td>
+    </tr>
+</table>
+
+    <p>If you have no prior programming experience, you may wish to start with the <a href="https://www.python.org/about/gettingstarted/">Python Beginners Guide for Non-programmers by Python Software Foundation</a>.</p>
+
+    <div>
+  <a href="https://www.youtube.com/watch?v=x7X9w_GIm1s" title="Play video">
+    <div class="video-container">
+      <img alt="What is Python?" src="https://i1.ytimg.com/vi/x7X9w_GIm1s/hqdefault.jpg" />
+      <span class="play-button bi bi-play-fill"></span>
+    </div>
+    <h3>What is Python?</h3>
+  </a>
+</div>
+
+  </li>
+
+<li class="resource-block">
+
+    <h2 id="quantum-computing-toolspackages">Quantum Computing Tools/Packages</h2>
+
+    <p>Use of the tools listed on this page is not a requirement.
+A diverse set of packages and implementations is encouraged.
+Likewise, multiple teams using the same package is not a problem, in part because implementations can remain private during the course of the challenge and since solutions will still vary considerably.
+If you would like to see a specific tool listed here, please navigate to the “Improve this page” link at the bottom of the page and open a pull request.</p>
+
+  </li>
+
+<li class="resource-block">
+
+    <h4 id="qutip"><a href="https://qutip.org/">QuTip</a></h4>
+
+    <div style="text-align: center;">
+<img src="https://qutip.org/images/logo.png" alt="QuTip" style="width=150px" />
+</div>
+
+    <p><a href="https://qutip.readthedocs.io/en/latest/guide/dynamics/dynamics-monte.html">Monte Carlo Solver</a></p>
+
+    <p><a href="https://qutip.readthedocs.io/en/latest/guide/guide-random.html">Generating Random Quantum States &amp; Operators</a></p>
+
+    <p><a href="https://github.com/qutip/QuantumToolbox.jl">QuantumToolbox.jl</a></p>
+
+  </li>
+
+<li class="resource-block">
+
+    <h4 id="openacc"><a href="https://www.openacc.org/">OpenACC</a></h4>
+
+    <div style="text-align: center;">
+<img src="https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/computeworks/images/OpenACC-logo-tagline-2C-RGB.png" alt="OpenACC" style="width=150px" />
+</div>
+
+    <p><a href="https://enccs.github.io/OpenACC-CUDA-beginners/">OpenACC and Cuda for Beginners</a></p>
+
+    <p><a href="https://developer.nvidia.com/openacc">OpenACC: More Science Less Programming</a></p>
+
+  </li>
+
+<li class="resource-block">
+
+    <h4 id="quimb"><a href="https://quimb.readthedocs.io/en/latest/">quimb</a></h4>
+
+    <div style="text-align: center;">
+<img src="https://quimb.readthedocs.io/en/latest/_static/quimb_logo_title.png" alt="quimb" style="width=150px" />
+</div>
+
+    <p><a href="https://pennylane.ai/qml/demos/tutorial_mps">Introducing matrix product states for quantum practitioners</a></p>
+
+    <p><a href="https://www.icfo.eu/download-file/files/event_documents/30032023132546000000.pdf">Simulating quantum circuits with tensor networks</a></p>
+
+    <p><a href="https://docs.quantum.ibm.com/api/qiskit-addon-aqc-tensor/simulation-quimb-quimb-simulator">Qiskit Quimb Simulator</a></p>
+
+    <p><a href="https://arxiv.org/abs/2104.10523">Tensor Network Quantum Virtual Machine for Simulating Quantum Circuits at Exascale</a></p>
+
+  </li>
+
+<li class="resource-block">
+
+    <h4 id="pkpd-tools-and-packages"><a href="">Pk/Pd Tools and Packages</a></h4>
+
+    <p><a href="https://github.com/nlmixrdevelopment/nlmixr">nlmixr: an R package for population PKPD modeling </a></p>
+
+    <p><a href="https://github.com/ggPMXdevelopment/ggPMX">ggPMX R package</a></p>
+
+    <p><a href="https://github.com/metrumresearchgroup">Metrum Research Group</a></p>
+
+  </li>
+
+</ul>
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Quantum Innovation Challenge</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        
+      </div>
+
+      <div class="footer-col footer-col-2 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge">
+          <i class="bi bi-github"></i>
+          <span class="username">Quantum-Innovation-Challenge</span>
+        </a><br>
+        <a href="/code-of-conduct/">
+          Code of conduct
+        </a>
+      </div>
+
+      <div class="footer-col footer-col-3 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/resources.md">
+          View page source
+        </a><br>
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/resources.md">
+          Improve this page
+        </a>
+      </div>
+
+  </div>
+
+</footer>
+</style>
+  <script>
+    inlineSVG.init({
+      svgSelector: 'img.svg', // the class attached to all images that should be inlined
+      initClass: 'js-inlinesvg', // class added to <html>
+    }, function () {
+      console.log('All SVGs inlined');
+    });
+  </script>
+  <script>
+    particlesJS("particles-js", { 
+        "particles": { 
+            "number": { "value": 85, "density": { "enable": true, "value_area": 946.9771699587272 } }, 
+            "color": { "value": "#ffffff" }, 
+            "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, 
+            "opacity": { "value": 0.25, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.05, "sync": false } }, 
+            "size": { "value": 1, "random": true, "anim": { "enable": false, "speed": 10, "size_min": 0.1, "sync": false } }, 
+            "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.05, "width": 1 }, 
+            "move": { "enable": true, "speed": 0.5, "direction": "top-right", "random": true, "straight": false, "out_mode": "bounce", "bounce": false, "attract": { "enable": false, "rotateX": 1500, "rotateY": 1200 } } 
+        }, 
+        "interactivity": { 
+            "detect_on": "window", 
+            "events": { 
+                "onhover": { "enable": true, "mode": "grab" }, 
+                "onclick": { "enable": false, "mode": "push" }, 
+                "resize": true 
+            }, 
+            "modes": { "grab": { "distance": 150, "line_linked": { "opacity": 0.2 } }, "bubble": { "distance": 100, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } 
+        }, 
+        "retina_detect": true 
+    });
+
+    // Enable grab effect while keeping content clickable
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.querySelector('#particles-js canvas');
+      if (canvas) {
+        canvas.style.pointerEvents = 'none';
+      }
+      
+      // Re-enable hover detection on window for grab effect
+      document.addEventListener('mousemove', function(e) {
+        if (window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS.interactivity.events.onhover.enable) {
+          window.pJSDom[0].pJS.interactivity.mouse.pos_x = e.clientX;
+          window.pJSDom[0].pJS.interactivity.mouse.pos_y = e.clientY;
+        }
+      });
+    });
+  </script>
+</body> 
+
+</html>

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html class="bg-quantum antialiased  " lang=" en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script defer data-domain="quantum-innovation-challenge.github.io"
+    src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+  <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
+
+
+  <main class="page-content p-5 relative z-10" aria-label="Content">
+ 
+    <div class="wrapper border-electron/25 border-1"><script>
+// Navigation Sphere JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  const sphereContainer = document.getElementById('navigationSphere');
+  if (!sphereContainer) return;
+  
+  const canvas = sphereContainer.querySelector('.sphere-canvas');
+  const points = [];
+  const cant = 120;
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
+
+  // Initialize points
+  function initializePoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[1.5px] h-[1.5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out group-hover:bg-quantum group-[.frontpage]/app:!bg-electron';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updatePoints();
+  }
+
+  // Update point positions based on mouse movement
+  function updatePoints() {
+    const angleX = (-mouseX / 4) * Math.PI / 420;
+    const angleY = (mouseY / 4) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
+      
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
+      
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 1.5;
+      
+      const point = points[i];
+      if (point && point.element) {
+        const translateX = 15 + x * 12;
+        const translateY = 15 + rotatedY * 12;
+        const translateZ = scale * 0.5;
+        
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
+
+  // Mouse move event listener
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updatePoints();
+  });
+
+  // Initialize the sphere
+  initializePoints();
+});
+</script>
+
+<header class="group/header overflow-hidden w-full z-10"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out  border-quantum/25">
+    <!-- Left side - Logo and Title -->
+    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl   items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
+      <!-- Canvas for animated points (small sphere - keep current size) -->  
+      <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
+        <div class="sphere-canvas relative w-full h-full"></div>
+      </div>
+      <!-- Title -->
+      <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
+        <a class="site-title " rel="author" href="/">
+          
+            Quantum Innovation Challenge
+          
+        </a>
+      </h1>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </div>
+ 
+
+
+
+    <!-- Navigation Links -->
+    <nav class="flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 hidden xl:flex font-space-mono"><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/challenge/">
+              <i class="bi bi-briefcase"></i>
+              
+                <span>Challenge 2025</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/agenda/">
+              <i class="bi bi-clock"></i>
+              
+                <span>Timeline</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/eligibility/">
+              <i class="bi bi-person-exclamation"></i>
+              
+                <span>Eligibility</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white active" href="/submission/">
+              <i class="bi bi-cloud-arrow-up"></i>
+              
+                <span>Submit a Project</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/videos-slides/">
+              <i class="bi bi-film"></i>
+              
+                <span>Videos &amp; Slides</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/resources/">
+              <i class="bi bi-journal-code"></i>
+              
+                <span>Resources</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/faq/">
+              <i class="bi bi-question-circle"></i>
+              
+                <span>FAQ</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/about/">
+              <i class="bi bi-globe2"></i>
+              
+                <span>About</span>
+              
+            </a></nav>  
+
+    <!-- Submit Project Button -->
+    <button class="flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl  py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+      <span class="relative z-10">Submit Project</span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+  </div>
+</header>
+
+<!--
+
+    <div id="breadcrumbs">
+        
+        <a href="/">Home</a>
+        
+            
+                
+                    / Submit a Project
+                
+            
+        
+    </div>
+-->
+
+      <h1 id="project-submission-requirements">Project submission requirements</h1>
+
+<p>The projects must be submitted via a GitHub pull request where your code repository is licensed under the MIT (http://opensource.org/licenses/MIT) or Apache Version 2.0 license (http://apache.org/licenses/LICENSE-2.0). If your submitted repository has no license affiliated with it, then your submission will be regarded as invalid and not taken into evaluation.</p>
+
+<h1 id="language">Language</h1>
+<p>Documentation regarding the challenge must be submitted in English.</p>
+
+<h1 id="project-initialization">Project initialization</h1>
+
+<p>As the three team leaders, to initialize your project<a href="/faq/" title="Can I participate in multiple projects?"><sup>(?)</sup></a>, please follow these steps:</p>
+
+<ol>
+  <li>Use <a href="https://github.com/Quantum-Innovation-Challenge/">this link to open up an issue in the respective challenge repository</a>. For example, if your team name is “Bayes Bandits”, the file should be named <code class="language-plaintext highlighter-rouge">project-bayes-bandits.md</code>.
+The team name can be whatever you want it to be as long it aligns with our code of conduct.
+Further, please also state the project name, your three team members names, GitHub usernames, and your company/institution affiliations.</li>
+</ol>
+
+<p>You do not already have to share a link to the repository you are working on for the challenge but feel free to also shae the link with your public challenge repo if you feel comfortable doing it. But we recommend to fork the Quantum-Challenge-2025 repo because you later have to submit your project with a pull request.</p>
+
+<p>By experience we know that it can also be strategic to first share your repository to the public just before submission so that nobody can copy your ideas or build on top of them. But a challenge project like this over several months will probably not win just because you were hiding your development until just before the deadline. Check out the evaluation criteria to read up on how the scientific committee of this challenge will evaluate each project.</p>
+
+<p><img src="../assets/" alt="project submission" /></p>
+
+<p>In summary:</p>
+
+<ol>
+  <li>
+    <p>Fork the Quantum-Challenge-2025 repo</p>
+  </li>
+  <li>
+    <p>Open op a github issue stating your team details and affilitions</p>
+  </li>
+  <li>
+    <p>Submit a pull request to Quantum-Challenge-2025 repo with the title “Submit project &lt;team-name: project-name&gt;” and tag your team members in the pull request description using the <code>@</code> symbol followed by their real names and affilitions. It is very important that the scientific evaluation committee can see the affilitions of the team members due to the needed academic affiliation of one team member. Make also sure that you have sent us via email the confirmation of the academic background of that team member in form of a … .</p>
+  </li>
+  <li>
+    <p>Once the pull request is merged, your project will appear on <a href="_/../projects.md">the projects page</a> of this portal and will also be moved into the projects folder together with all other projects in the Quantum-Challenge-2025 repo.</p>
+  </li>
+</ol>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">number</span><span class="pi">:</span> <span class="m">1</span> <span class="c1"># leave as-is, maintainers will adjust</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Project 1 title</span>
+<span class="na">topic</span><span class="pi">:</span> <span class="s">&lt;topic-name&gt;</span>
+<span class="na">team_leads</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Project lead 1 (Institution 1) @gh-username1</span>
+  <span class="pi">-</span> <span class="s">Project lead 2 (Institution 2) @gh-username2</span>
+
+<span class="c1"># Comment these lines by prepending the pound symbol (#) to each line to hide these elements</span>
+<span class="na">contributors</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Contributor 1 (Institution 1) @gh-username3</span>
+  <span class="pi">-</span> <span class="s">Contributor 2 (Institution 2) @gh-username4</span>
+
+<span class="c1"># github: &lt;your-github-account&gt;/&lt;your-repo-name&gt;</span>
+<span class="c1"># youtube_video: &lt;your-video-id&gt;</span>
+
+<span class="nn">---</span>
+
+<span class="s">Project 1 description</span>
+
+<span class="na">References</span><span class="pi">:</span>
+
+</code></pre></div></div>
+
+<p>Here is an example of a filled-in project file called <code class="language-plaintext highlighter-rouge">foobar.md</code> for the “Quantumpharma Lifesaver” team. Please replace any colons (<code class="language-plaintext highlighter-rouge">:</code>) with hyphens (<code class="language-plaintext highlighter-rouge">-</code>) in the title, if applicable, and ensure that the filename ends with the Markdown (<code class="language-plaintext highlighter-rouge">.md</code>) extension. Also, ensure that you include the first line with <code class="language-plaintext highlighter-rouge">---</code> (required for the webpage to build correctly). The references section is optional. Please include links in Markdown format where appropriate.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">number</span><span class="pi">:</span> <span class="m">1</span> <span class="c1"># leave as-is, maintainers will adjust</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Quantum Graph Neural Networks for Biopharmaceutical Development</span>
+<span class="na">topic</span><span class="pi">:</span> <span class="s">general</span>
+<span class="na">team_leads</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Jane Doe (University of Invention) @jdoe</span>
+  <span class="pi">-</span> <span class="s">John Smith (Institute of Discovery) @john-smith</span>
+
+<span class="na">contributors</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Larry Lab (University of Invention) @labamation</span>
+  <span class="pi">-</span> <span class="s">David Data (University of Science) @data4everyone</span>
+  <span class="pi">-</span> <span class="s">Rachel Research (Institute of Discovery) @researchlife</span>
+
+<span class="c1"># github: &lt;your-github-account&gt;/&lt;your-repo-name&gt;</span>
+<span class="c1"># youtube_video: &lt;your-video-id&gt;</span>
+
+<span class="nn">---</span>
+
+<span class="s">This project will investigate the application of quantum graph neural networks to pharmaceutical drug development involving several sub-algorithms with quantum computing simulators and quantum-inspired methods. A benchmarking study has been established and is presented in this project report.</span>
+
+<span class="na">References</span><span class="pi">:</span>
+
+<span class="s">1.</span> 
+
+<span class="s">2.</span> 
+
+
+<span class="err">```</span><span class="s">markdown</span>
+<span class="na">github</span><span class="pi">:</span> <span class="s">&lt;your-github-account&gt;/&lt;your-repo-name&gt;</span>
+</code></pre></div></div>
+
+<p>will be replaced with:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>github: <span class="nt">&lt;Quantum-Innovation-Challenge&gt;</span>/<span class="nt">&lt;Quantum-Challenge-2025&gt;</span>
+</code></pre></div></div>
+
+<h1 id="project-showcase-and-evaluation">Project showcase and evaluation</h1>
+
+<p>You can showcase your project in multiple ways and it is up to you how you would like to communicate your project in form of a video, a pdf report, a poster, or even an prototype software tool on-boarding documentation.</p>
+
+<p>It is very important that your submitted pull request with the repo content holds all the needed information and links to be able to judge your project fully.</p>
+
+<h2 id="end-of-quantum-challenge">End of Quantum Challenge</h2>
+
+<p>To ensure a dynamic and engaging submission process, we ask that all challenge teams announce their final projects through social media (e.g., BlueSky, LinkedIn, YouTube etc.) and then link to their project folder within the Quantum-Challenge-2025 repo.</p>
+
+<p>By sharing your work with a broader audience, you’ll help to promote groundbreaking research within pharmaceutical development while inspiring others to contribute to the field.</p>
+
+<p>Here is a guideline for the optional presentation of your project:</p>
+
+<ol>
+  <li>
+    <p>Optional but recommended: Create a concise video presentation (3 minutes or less) summarizing your team’s project, highlighting its application and novelty, and presenting your project outputs.</p>
+  </li>
+  <li>
+    <p>Upload your video to YouTube (unlisted is fine) and post about it on social media (e.g., BlueSky, LinkedIn, etc.)</p>
+  </li>
+  <li>
+    <p>With the pull request, update your project file with the YouTube video ID (e.g., IVaWl2tL06c<code class="language-plaintext highlighter-rouge"> for https://youtu.be/IVaWl2tL06c</code>) and a sentence with a link to the social media post:</p>
+  </li>
+</ol>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>github: Quantum-Challenge-2025/<span class="nt">&lt;project-name&gt;</span>
+youtube_video: <span class="nt">&lt;your-video-id&gt;</span>
+</code></pre></div></div>
+
+<p>For the social media post, you would add a sentence like <code class="language-plaintext highlighter-rouge">Check out our social media post on [LinkedIn](&lt;your link here&gt;)!</code> before the References section.</p>
+
+<p>This pull request will be considered your final submission for phase 1 of the challenge.</p>
+
+<h2 id="assessment-criteria">Assessment criteria</h2>
+
+<h3 id="1-problem-understanding--approach-0-5-pts">1. Problem Understanding &amp; Approach (0-5 pts)</h3>
+
+<ul>
+  <li>Comparison to state of the art: Does the team clearly define the problem and put it into context?</li>
+  <li>Technical Feasibility: Is the approach reasonable given current or near turn quantum computational/AI hardware capacities?</li>
+  <li>Innovativeness: Does the solution bring a novel perspective or improvement compared to existing approaches? Has the participant demonstrated (potential) advantage over classical methods (e.g. speedup, accuracy, resource efficiency)?</li>
+  <li>Scalability: Can the approach be extended or scaled up? For larger datasets can this solution adapted for another use case?</li>
+</ul>
+
+<h3 id="2-computational-resource-estimation-0-5-pts">2. Computational Resource Estimation (0-5 pts)</h3>
+<ul>
+  <li>Hardware Requirements: Did the team estimate the needed computational resources (GPUs, CPUs)?</li>
+</ul>
+
+<h3 id="3-technical-assessment-0-5-pts">3. Technical Assessment (0-5 pts)</h3>
+<ul>
+  <li>Choice of Algorithms: Are the selected algorithms appropriate for the task?</li>
+  <li>Justification of Methods: Is there a solid reasoning behind using specific architectures or techniques?</li>
+  <li>Benchmark with existing solutions: Are existing solutions considered and benchmarked?</li>
+</ul>
+
+<h3 id="4-structure-of-the-work-plan-0-5-pts">4. Structure of the Work Plan (0-5 pts)</h3>
+<ul>
+  <li>Step-by-Step Breakdown: Does the participant outline a clear roadmap how to approach the challenge?</li>
+  <li>Risk Assessment &amp; Mitigation: Are potential failure points identified with alternative solutions?</li>
+</ul>
+
+<h3 id="5-team-skills-0-5-pts">5. Team skills 0-5 (pts)</h3>
+<ul>
+  <li>Skillset: Does the team cover the necessary experience in quantum/AI techniques?</li>
+</ul>
+
+<h3 id="6-proof-of-concept--prototype-0-5pts">6. Proof of Concept / Prototype (0-5pts)</h3>
+<ul>
+  <li>Prototype Implementation: Has the team built a minimal working proof of concept?</li>
+  <li>Initial Results: Are preliminary results provided?</li>
+  <li>Demonstration of Key Concepts: Does the proof of concept validate core ideas effectively?</li>
+</ul>
+
+<h2 id="notificaton-of-results">Notificaton of Results</h2>
+
+<p>All teams will be notified by email from quantum_challenge@mqs.dk once the assessment is complete, confirming whether or not they have been selected.</p>
+
+<p>Please note: The scientific committee will not provide detailed individual feedback to teams that are not selected among the top five. However, efforts will be made to provide each participating team with a feedback and scoring summary to support transparency and encourage further development of their project.</p>
+
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Quantum Innovation Challenge</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        
+      </div>
+
+      <div class="footer-col footer-col-2 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge">
+          <i class="bi bi-github"></i>
+          <span class="username">Quantum-Innovation-Challenge</span>
+        </a><br>
+        <a href="/code-of-conduct/">
+          Code of conduct
+        </a>
+      </div>
+
+      <div class="footer-col footer-col-3 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/submission.md">
+          View page source
+        </a><br>
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/submission.md">
+          Improve this page
+        </a>
+      </div>
+
+  </div>
+
+</footer>
+</style>
+  <script>
+    inlineSVG.init({
+      svgSelector: 'img.svg', // the class attached to all images that should be inlined
+      initClass: 'js-inlinesvg', // class added to <html>
+    }, function () {
+      console.log('All SVGs inlined');
+    });
+  </script>
+  <script>
+    particlesJS("particles-js", { 
+        "particles": { 
+            "number": { "value": 85, "density": { "enable": true, "value_area": 946.9771699587272 } }, 
+            "color": { "value": "#ffffff" }, 
+            "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, 
+            "opacity": { "value": 0.25, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.05, "sync": false } }, 
+            "size": { "value": 1, "random": true, "anim": { "enable": false, "speed": 10, "size_min": 0.1, "sync": false } }, 
+            "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.05, "width": 1 }, 
+            "move": { "enable": true, "speed": 0.5, "direction": "top-right", "random": true, "straight": false, "out_mode": "bounce", "bounce": false, "attract": { "enable": false, "rotateX": 1500, "rotateY": 1200 } } 
+        }, 
+        "interactivity": { 
+            "detect_on": "window", 
+            "events": { 
+                "onhover": { "enable": true, "mode": "grab" }, 
+                "onclick": { "enable": false, "mode": "push" }, 
+                "resize": true 
+            }, 
+            "modes": { "grab": { "distance": 150, "line_linked": { "opacity": 0.2 } }, "bubble": { "distance": 100, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } 
+        }, 
+        "retina_detect": true 
+    });
+
+    // Enable grab effect while keeping content clickable
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.querySelector('#particles-js canvas');
+      if (canvas) {
+        canvas.style.pointerEvents = 'none';
+      }
+      
+      // Re-enable hover detection on window for grab effect
+      document.addEventListener('mousemove', function(e) {
+        if (window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS.interactivity.events.onhover.enable) {
+          window.pJSDom[0].pJS.interactivity.mouse.pos_x = e.clientX;
+          window.pJSDom[0].pJS.interactivity.mouse.pos_y = e.clientY;
+        }
+      });
+    });
+  </script>
+</body> 
+
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html class="bg-quantum antialiased  " lang=" en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script defer data-domain="quantum-innovation-challenge.github.io"
+    src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+  <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
+
+
+  <main class="page-content p-5 relative z-10" aria-label="Content">
+ 
+    <div class="wrapper border-electron/25 border-1"><script>
+// Navigation Sphere JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  const sphereContainer = document.getElementById('navigationSphere');
+  if (!sphereContainer) return;
+  
+  const canvas = sphereContainer.querySelector('.sphere-canvas');
+  const points = [];
+  const cant = 120;
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
+
+  // Initialize points
+  function initializePoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[1.5px] h-[1.5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out group-hover:bg-quantum group-[.frontpage]/app:!bg-electron';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updatePoints();
+  }
+
+  // Update point positions based on mouse movement
+  function updatePoints() {
+    const angleX = (-mouseX / 4) * Math.PI / 420;
+    const angleY = (mouseY / 4) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
+      
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
+      
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 1.5;
+      
+      const point = points[i];
+      if (point && point.element) {
+        const translateX = 15 + x * 12;
+        const translateY = 15 + rotatedY * 12;
+        const translateZ = scale * 0.5;
+        
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
+
+  // Mouse move event listener
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updatePoints();
+  });
+
+  // Initialize the sphere
+  initializePoints();
+});
+</script>
+
+<header class="group/header overflow-hidden w-full z-10"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out  border-quantum/25">
+    <!-- Left side - Logo and Title -->
+    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl   items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
+      <!-- Canvas for animated points (small sphere - keep current size) -->  
+      <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
+        <div class="sphere-canvas relative w-full h-full"></div>
+      </div>
+      <!-- Title -->
+      <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
+        <a class="site-title " rel="author" href="/">
+          
+            Quantum Innovation Challenge
+          
+        </a>
+      </h1>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </div>
+ 
+
+
+
+    <!-- Navigation Links -->
+    <nav class="flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 hidden xl:flex font-space-mono"><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/challenge/">
+              <i class="bi bi-briefcase"></i>
+              
+                <span>Challenge 2025</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/agenda/">
+              <i class="bi bi-clock"></i>
+              
+                <span>Timeline</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/eligibility/">
+              <i class="bi bi-person-exclamation"></i>
+              
+                <span>Eligibility</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/submission/">
+              <i class="bi bi-cloud-arrow-up"></i>
+              
+                <span>Submit a Project</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/videos-slides/">
+              <i class="bi bi-film"></i>
+              
+                <span>Videos &amp; Slides</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/resources/">
+              <i class="bi bi-journal-code"></i>
+              
+                <span>Resources</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white active" href="/faq/">
+              <i class="bi bi-question-circle"></i>
+              
+                <span>FAQ</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/about/">
+              <i class="bi bi-globe2"></i>
+              
+                <span>About</span>
+              
+            </a></nav>  
+
+    <!-- Submit Project Button -->
+    <button class="flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl  py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+      <span class="relative z-10">Submit Project</span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+  </div>
+</header>
+
+<!--
+
+    <div id="breadcrumbs">
+        
+        <a href="/">Home</a>
+        
+            
+                
+                    / Frequently Asked Questions
+                
+            
+        
+    </div>
+-->
+
+      <h1 id="general">General</h1>
+
+<h3 id="1-what-is-quantum-computing-and-why-is-it-important-for-the-physical-sciences">1. What is quantum computing, and why is it important for the physical sciences?</h3>
+
+<p>Quantum computers allow to design algorithms within an extended state space (via qubits, qutrits, qudits for example) which classical compute hardware technologies are not able to provide with bit-based calcuation procedures when scaling the problem size.</p>
+
+<p>The individual qubits/qutrits/qudits are in a superposition state and entanglement between them are defined based on the specific algorithm where the challenge is how to implement the quantum compute algorithm with respect to the mathematical problem one wants to tackle.</p>
+
+<p>Important to acknowledge is that the results the quantum compute algorithm are read out from a quantum computer by destroying the superposition states. This implicates that the results are stochastic by nature and the algorithm has to be run many times on the quantum hardware to receive a probability distribution of the solution and hopefully with a clear answer what the solution is.</p>
+
+<h3 id="2-am-i-eligible-to-participate-in-the-challenge">2. Am I eligible to participate in the challenge?</h3>
+
+<p>Yes! The hackathon is open to everyone, regardless of background or experience. We encourage participants from all career stages, including students, researchers, and professionals, to join us. For code-based projects, we recommend at least beginner Python programming experience<a href="/faq/" title="Do I need to use Python, or can I use other languages?"><sup>(?)</sup></a> and basic familiarity with git and GitHub. Prior to the hackathon, we also recommend that participants study the basic concepts behind Bayesian optimization. For those looking to learn or refresh their knowledge on these topics, please study the items provided in the <a href="/resources/">resources page</a>.</p>
+
+<h3 id="3-do-i-need-to-have-a-team-to-participate">3. Do I need to have a team to participate?</h3>
+
+<p>Yes, it is a condition to form a team of a minimum of two members with one member having an academic affiliation.
+This will allow you to share ideas and learn from others! It is up to you to identify and form a team, and you can do so at any time leading up to the phase 1 challenge submission.</p>
+
+<h3 id="4-can-i-participate-in-multiple-projects">4. Can I participate in multiple projects?</h3>
+
+<p>Yes, you may participate in multiple projects. For example, one may wish to apply a particular algorithm to a benchmark <em>and</em> create a concept-focused instructional tutorial to accompany it. Each of these would be considered a separate project with its own template. However, we encourage participants to be realistic about the limited time available during the challenge as well as communicate this to other team members if participating in multiple projects.</p>
+
+<h3 id="5-how-do-i-prepare-for-the-project-presentation-at-eqtc-2025-if-our-team-is-one-of-the-top-five-teams">5. How do I prepare for the project presentation at EQTC 2025 if our team is one of the top five teams?</h3>
+
+<p>You will receive further information when your team has been selected as one of the winner teams to present at the conference.</p>
+
+<h3 id="6-how-many-members-can-one-participating-group-consist-of">6. How many members can one participating group consist of?</h3>
+
+<p>At least 2 members have to form a team where at least 1 member has an academic affiliation. There is no upper limit to the team size but 2 team members have to selected as the official members of the projects which will be submitted.</p>
+
+<h1 id="technical">Technical</h1>
+
+<h3 id="7-are-there-specific-packages-i-should-use">7. Are there specific packages I should use?</h3>
+
+<p>This is a BYOP (“bring-your-own-package”) event. We have some recommendations for newcomers, but we hope to see a diverse set of solutions applied to the benchmark tasks. Likewise, multiple teams using the same package is not a problem, since solutions can remain private during the course of the challenge until submission.</p>
+
+<h3 id="8-do-i-need-to-use-python-or-can-i-use-other-languages">8. Do I need to use Python, or can I use other languages?</h3>
+
+<p>We recommend using Python, as it is the most common language for scientific computing and has a wide range of libraries with respect to quantum computing. However, you are welcome to use other languages if you prefer.</p>
+
+<h3 id="9-does-it-have-to-be-quantum-computing-or-quantum-inspired-computing-or-are-other-algorithms-allowed">9. Does it have to be quantum computing or quantum-inspired computing, or are other algorithms allowed?</h3>
+
+<p>Yes, there needs to be some sub-algorithm or connected algorithm which makes use of a quantum computing based method or quantum-inspired method to enhance a model or calculation pipeline.</p>
+
+<h3 id="10-does-my-github-repository-need-to-be-public">10. Does my GitHub repository need to be public?</h3>
+
+<p>During the course of the challenge, your repository can remain private. However, to be considered for phase 2 and the final winners evaluation, your repository must be made public together with a pull request to the Quantum-Challenge-2025 repository.
+This ensures that the work is accessible to the community and can be reviewed by the judges<a href="/faq/" title="What is expected from me if I act as a judge?"><sup>(?)</sup></a> during the <a href="/agenda/">judging and showcase section</a>. You are also welcome to make your repository public at any time leading up to or during the challenge.</p>
+
+<h3 id="10-would-it-be-possible-that-two-start-up-entities-form-one-group">10. Would it be possible that two start-up entities form one group?</h3>
+
+<p>There is no restriction with respect how many entities can collaborate. The only condition is that one of the two official members has an academic affiliation.</p>
+
+<h3 id="11-how-many-entities-could-possibly-collaborate-to-participate-in-the-challenge-eg-3-start-ups--academic-research-group-2-start-ups--two-academic-research-groups">11. How many entities could possibly collaborate to participate in the challenge (e.g. 3 start-ups + academic research group; 2 start-ups + two academic research groups?)</h3>
+
+<p>Same answer as for question 6: There is no upper limit, only the condition that one official member has an academic affiliation.</p>
+
+<h3 id="12-to-what-degree-is-it-allowed-to-mix-commercial-tools-with-a-dedicated-developed-code-base-submitted-to-this-challenge">12. To what degree is it allowed to mix commercial tools with a dedicated developed code base submitted to this challenge?</h3>
+
+<p>Commercial software tools can not be developed further during this challenge and submissions showcasing new capabilities of the commercial tool will be deemed not acceptable for this challenge.
+Commercial software tools can be applied to generate data sets. These data sets have to be shared and made accessible in the project repository being submitted.</p>
+
+<h3 id="13-is-it-allowed-to-apply-our-own-commercial-product-in-combination-with-an-additional-code-base-being-submitted-to-this-challenge">13. Is it allowed to apply our own commercial product in combination with an additional code base being submitted to this challenge?</h3>
+
+<p>The commercial tool should be seen as a data generator and all data generated with the commercial tool has to be shared in the repository when submitting a project.
+The algorithm and/or method should also be well documented in form of a pre-review, reviewed paper or public accessible documentation.
+Project submissions which solely rely on the commercial tool and no additional methods, algorithms or model has been developed during the challenge, will most likely get worse ratings than a project submission with extensive documented code which has been made accessible in the project repository.</p>
+
+<h3 id="14-in-which-format-and-form-should-the-code-base-be-submitted-and-which-format-should-the-report-have-word-doc-latex-markdown">14. In which format and form should the code base be submitted and which format should the report have? (Word doc, latex, markdown?)</h3>
+
+<p>There is no restriction to which programming language or text format files should be used. Important is that the code is well documented and executable.</p>
+
+<h3 id="15-should-we-also-present-our-contribution-with-a-video-would-a-video-enhance-our-chances-to-get-to-the-second-round">15. Should we also present our contribution with a video? Would a video enhance our chances to get to the second round?</h3>
+
+<p>Video contributions are welcome but enhancing the chances to get accepted to the second round will be evaluated case by case. A video contribution will be helpful when it showcases well the scientific content of the submitted project.</p>
+
+<h3 id="16-we-usually-submit-to-hackathonschallenges-a-report-a-video-a-slide-deck-and-a-code-repository-what-is-expected-in-this-challenge">16. We usually submit to hackathons/challenges a report, a video, a slide deck and a code repository. What is expected in this challenge?</h3>
+
+<p>The minimum requirement is a well documented code repository where the code is executable and the results presented in a report can be easily replicated. But we want to note that a video can help us to understand your project better.</p>
+
+<h3 id="17-would-publishing-our-report-via-arxiv-give-extra-points">17. Would publishing our report via arxiv give extra points?</h3>
+
+<p>No, publishing the report on the arxiv will not give extra points. It is recommended to deliver a well structured report in the repository in form of a pdf file.</p>
+
+<h3 id="18-we-assume-that-the-submitted-code-base-would-be-released-under-the-mit-license-or-are-other-licenses-also-allowed">18. We assume that the submitted code base would be released under the MIT license or are other licenses also allowed?</h3>
+
+<p>The Quantum Challenge enforces submissions under Creative Commons Attribution 4.0 International License, and the code itself under Apache License 2.0 and the submitting team agrees to license the Submission under the Creative Commons Attribution 4.0 International License, and all provided code under the Apache License, Version 2.0 or MIT license.</p>
+
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Quantum Innovation Challenge</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        
+      </div>
+
+      <div class="footer-col footer-col-2 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge">
+          <i class="bi bi-github"></i>
+          <span class="username">Quantum-Innovation-Challenge</span>
+        </a><br>
+        <a href="/code-of-conduct/">
+          Code of conduct
+        </a>
+      </div>
+
+      <div class="footer-col footer-col-3 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/faq.md">
+          View page source
+        </a><br>
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/faq.md">
+          Improve this page
+        </a>
+      </div>
+
+  </div>
+
+</footer>
+</style>
+  <script>
+    inlineSVG.init({
+      svgSelector: 'img.svg', // the class attached to all images that should be inlined
+      initClass: 'js-inlinesvg', // class added to <html>
+    }, function () {
+      console.log('All SVGs inlined');
+    });
+  </script>
+  <script>
+    particlesJS("particles-js", { 
+        "particles": { 
+            "number": { "value": 85, "density": { "enable": true, "value_area": 946.9771699587272 } }, 
+            "color": { "value": "#ffffff" }, 
+            "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, 
+            "opacity": { "value": 0.25, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.05, "sync": false } }, 
+            "size": { "value": 1, "random": true, "anim": { "enable": false, "speed": 10, "size_min": 0.1, "sync": false } }, 
+            "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.05, "width": 1 }, 
+            "move": { "enable": true, "speed": 0.5, "direction": "top-right", "random": true, "straight": false, "out_mode": "bounce", "bounce": false, "attract": { "enable": false, "rotateX": 1500, "rotateY": 1200 } } 
+        }, 
+        "interactivity": { 
+            "detect_on": "window", 
+            "events": { 
+                "onhover": { "enable": true, "mode": "grab" }, 
+                "onclick": { "enable": false, "mode": "push" }, 
+                "resize": true 
+            }, 
+            "modes": { "grab": { "distance": 150, "line_linked": { "opacity": 0.2 } }, "bubble": { "distance": 100, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } 
+        }, 
+        "retina_detect": true 
+    });
+
+    // Enable grab effect while keeping content clickable
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.querySelector('#particles-js canvas');
+      if (canvas) {
+        canvas.style.pointerEvents = 'none';
+      }
+      
+      // Re-enable hover detection on window for grab effect
+      document.addEventListener('mousemove', function(e) {
+        if (window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS.interactivity.events.onhover.enable) {
+          window.pJSDom[0].pJS.interactivity.mouse.pos_x = e.clientX;
+          window.pJSDom[0].pJS.interactivity.mouse.pos_y = e.clientY;
+        }
+      });
+    });
+  </script>
+</body> 
+
+</html>

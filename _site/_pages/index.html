@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html class="bg-quantum antialiased  " lang=" en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script defer data-domain="quantum-innovation-challenge.github.io"
+    src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+  <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
+
+
+  <main class="page-content p-5 relative z-10" aria-label="Content">
+ 
+    <div class="wrapper border-electron/25 border-1"><script>
+// Navigation Sphere JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  const sphereContainer = document.getElementById('navigationSphere');
+  if (!sphereContainer) return;
+  
+  const canvas = sphereContainer.querySelector('.sphere-canvas');
+  const points = [];
+  const cant = 120;
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
+
+  // Initialize points
+  function initializePoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[1.5px] h-[1.5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out group-hover:bg-quantum group-[.frontpage]/app:!bg-electron';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updatePoints();
+  }
+
+  // Update point positions based on mouse movement
+  function updatePoints() {
+    const angleX = (-mouseX / 4) * Math.PI / 420;
+    const angleY = (mouseY / 4) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
+      
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
+      
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 1.5;
+      
+      const point = points[i];
+      if (point && point.element) {
+        const translateX = 15 + x * 12;
+        const translateY = 15 + rotatedY * 12;
+        const translateZ = scale * 0.5;
+        
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
+
+  // Mouse move event listener
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updatePoints();
+  });
+
+  // Initialize the sphere
+  initializePoints();
+});
+</script>
+
+<header class="group/header overflow-hidden w-full z-10"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out  border-quantum/25">
+    <!-- Left side - Logo and Title -->
+    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl   items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
+      <!-- Canvas for animated points (small sphere - keep current size) -->  
+      <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
+        <div class="sphere-canvas relative w-full h-full"></div>
+      </div>
+      <!-- Title -->
+      <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
+        <a class="site-title " rel="author" href="/">
+          
+            Quantum Innovation Challenge
+          
+        </a>
+      </h1>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </div>
+ 
+
+
+
+    <!-- Navigation Links -->
+    <nav class="flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 hidden xl:flex font-space-mono"><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/challenge/">
+              <i class="bi bi-briefcase"></i>
+              
+                <span>Challenge 2025</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/agenda/">
+              <i class="bi bi-clock"></i>
+              
+                <span>Timeline</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/eligibility/">
+              <i class="bi bi-person-exclamation"></i>
+              
+                <span>Eligibility</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/submission/">
+              <i class="bi bi-cloud-arrow-up"></i>
+              
+                <span>Submit a Project</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/videos-slides/">
+              <i class="bi bi-film"></i>
+              
+                <span>Videos &amp; Slides</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/resources/">
+              <i class="bi bi-journal-code"></i>
+              
+                <span>Resources</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/faq/">
+              <i class="bi bi-question-circle"></i>
+              
+                <span>FAQ</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/about/">
+              <i class="bi bi-globe2"></i>
+              
+                <span>About</span>
+              
+            </a></nav>  
+
+    <!-- Submit Project Button -->
+    <button class="flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl  py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+      <span class="relative z-10">Submit Project</span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+  </div>
+</header>
+
+<!--
+
+    <div id="breadcrumbs">
+        
+        <a href="/">Home</a>
+        
+            
+                
+                    / Quantum Innovation Challenge Website
+                
+            
+        
+    </div>
+-->
+
+      <h1 id="quantum-innovation-challenge-website">Quantum Innovation Challenge Website</h1>
+
+<p>This is the repository that hosts the source code for the Quantum Challenge website. This is based on the <a href="https://github.com/AC-BO-Hackathon/ac-bo-hackathon.github.io">Bayesian Optimization Hackathon for Chemistry and Materials</a>, which in turn is based on the <a href="https://github.com/materials-data-facility/llm-hackathon">LLM Hackathon website repository</a>, which in turn is based on a template built by the <a href="https://www.bristol.ac.uk/golding/">Jean Golding Institute</a> at the University of Bristol. See below for instructions regarding development using this template. To see the actual website and learn more about the hackathon, visit <a href="https://quantum-innovation-challenge.github.io/">https://quantum-innovation-challenge.github.io/</a>.</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>The template is designed to get you started as quickly as possible with a working website. For this reason we have built a <a href="https://pages.github.com/">GitHub Pages</a> website so you can also host it for free and allow others to collaborate easily.</p>
+
+<p>Most of the pages have been written to require only minor editing, however you have the flexibility to completely change them or add new pages as required.</p>
+
+<p>Demo: <a href="https://jgibristol.github.io/hackathon-template">https://jgibristol.github.io/hackathon-template</a></p>
+
+<h3 id="github-pages">GitHub pages</h3>
+
+<p><a href="https://docs.github.com/en/pages">GitHub Pages</a> allows you to create a website using a GitHub-customised version of the static site generator <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+
+<ol>
+  <li>Fork this repository in GitHub
+    <ul>
+      <li>If you have a GitHub organisation for the event and want this to be it’s primary website, name your new repository: <code class="language-plaintext highlighter-rouge">your-organisation-name.github.io</code></li>
+    </ul>
+  </li>
+  <li>Under your new repository settings, go to <code class="language-plaintext highlighter-rouge">Settings</code> &gt; <code class="language-plaintext highlighter-rouge">Pages</code>
+    <ul>
+      <li>Switch GitHub pages on</li>
+      <li>Ensure the <code class="language-plaintext highlighter-rouge">Source</code> is set to the <code class="language-plaintext highlighter-rouge">main</code> branch and <code class="language-plaintext highlighter-rouge">/ (root)</code> directory</li>
+      <li><strong>Don’t</strong> adjust the theme, this is set in <code class="language-plaintext highlighter-rouge">_config.yml</code></li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="local-development">Local development</h3>
+
+<p>Although you can do all you development via the GitHub website, it is recommended that you clone your GitHub repository locally. This will allow you to test your changes locally in a web browser before committing them.</p>
+
+<p>Jekyll requires <a href="https://www.ruby-lang.org">Ruby</a> in order to run. It uses a file called <code class="language-plaintext highlighter-rouge">Gemfile</code> to define which Ruby libraries are required. We have already taken some necessary setup steps, including creating the Jekyll site and the associated <code class="language-plaintext highlighter-rouge">Gemfile</code> and <code class="language-plaintext highlighter-rouge">Gemfile.lock</code> files.</p>
+
+<p>The GitHub Pages docs contain <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll">detailed instructions on testing you site locally</a> using different operating systems, however in summary the process is:</p>
+
+<ol>
+  <li>(On Windows) <a href="https://gitforwindows.org/">Install Git Bash</a> if you don’t have it already
+    <ul>
+      <li>It is recommended you run the rest of these commands from within a Git Bash window</li>
+    </ul>
+  </li>
+  <li>Clone the GitHub repository to a local Git repository
+    <ul>
+      <li>Run the command: <code class="language-plaintext highlighter-rouge">git clone https://github.com/your-organisation/your-repository.git</code></li>
+      <li>Or: <code class="language-plaintext highlighter-rouge">git clone git@github.com:your-organisation/your-repository.git</code></li>
+    </ul>
+  </li>
+  <li>Install Ruby
+    <ul>
+      <li>Check if it’s already installed by running the command <code class="language-plaintext highlighter-rouge">ruby -v</code></li>
+      <li>Follow the <a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby installation docs</a> for your operating system if it isn’t</li>
+    </ul>
+  </li>
+  <li>Install Bundler
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">cd</code> to your repository’s root directory if you’re not there already</li>
+      <li>Run the command: <code class="language-plaintext highlighter-rouge">gem install bundler</code></li>
+      <li>This tool will assist in the next step with installing the Ruby libraries specified in the <code class="language-plaintext highlighter-rouge">Gemfile</code></li>
+      <li>See the <a href="https://bundler.io/">Bundler website</a> for more information</li>
+    </ul>
+  </li>
+  <li>Install Jekyll and other required Ruby libraries
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">cd</code> to your repository’s root directory if you’re not there already</li>
+      <li>Run the command: <code class="language-plaintext highlighter-rouge">bundle install</code></li>
+    </ul>
+  </li>
+  <li>Run a local web server to test your site
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">cd</code> to your repository’s root directory if you’re not there already</li>
+      <li>Run the command: <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></li>
+      <li>Then visit: <a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a></li>
+      <li>Or, if you are hosting the website in a subdirectory then you can run <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve -b /subdirectory-name-here</code> and then visit <a href="http://127.0.0.1:4000/subdirectory-name-here/">http://127.0.0.1:4000/subdirectory-name-here/</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>All together, that’s:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/your-organisation/your-repository.git
+<span class="nv">$ </span><span class="nb">cd </span>your-repository
+<span class="nv">$ </span>gem <span class="nb">install </span>bundler
+<span class="nv">$ </span>bundle <span class="nb">install</span>
+<span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve <span class="nt">-b</span> /your-repository
+</code></pre></div></div>
+
+<h3 id="editing-the-website">Editing the website</h3>
+
+<p>A Jekyll website is a collection of Markdown pages and a set of templates used to render them into HTML files. The pages are written using the <a href="https://kramdown.gettalong.org/quickref.html">Kramdown</a> flavour of Markdown and the templates are written in <a href="https://shopify.github.io/liquid/">Liquid</a> template language with <a href="https://jekyllrb.com/docs/liquid/">some Jekyll additions</a>.</p>
+
+<p>With the default GitHub pages setup (where GitHub will render you site for you when you push changes to your repository), you are limited to Jekyll version 3.9.0 and a <a href="https://pages.github.com/versions/">subset of Jekyll plugins</a> (you can’t add your own).</p>
+
+<p>We have tried to put as many of the common site settings and variables in <code class="language-plaintext highlighter-rouge">_config.yml</code>, which is the configuration file used by Jekyll. Note that when developing locally, if you change the <code class="language-plaintext highlighter-rouge">_config.yml</code> then you will need to restart the local web server (the command <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code>) because this change will not be automatically detected.</p>
+
+<h4 id="things-to-change-in-_configyml">Things to change in <code class="language-plaintext highlighter-rouge">_config.yml</code></h4>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">title</code>: The name of the site used in the title bar and various other places</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">nav_title</code>: The name and strapline of the site used in the top nav, with optional <code class="language-plaintext highlighter-rouge">&lt;span&gt;</code> tags allowing for parts of it to be hidden when viewing on a mobile phone</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">event_date</code>: The date(s) of your event, displayed in various places around the site</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">registration_opens_date</code>: As above, but the date registration opens (this doesn’t control when the form is actually diaplayed – see below for how to do this)</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">registration_closes_date</code>: As above, but the date registration closes</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">author</code>: The organising institution</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">mailbox_address</code>: An email address for correspondence (recommended to be a shared mailbox)</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">description</code>: A short event description, visible to search engines and on social media previews</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">url</code>: The address of your published site (without the trailing slash)</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">github_repo</code>: The name of your GitHub organisation (or site repository, if you prefer)</p>
+  </li>
+</ul>
+
+<p>As the event organisation progresses, you will want to show different content on your site:</p>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">event_status</code>: Controls which pages are displayed, depending on whether the event is in the future, happening now, or was in the past (by default, the pages affected by this setting are <code class="language-plaintext highlighter-rouge">Index</code> (the homepage), <code class="language-plaintext highlighter-rouge">Registration</code>, <code class="language-plaintext highlighter-rouge">Agenda</code> and <code class="language-plaintext highlighter-rouge">Videos &amp; slides</code>)</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">registration_status</code>: Controls whether the link to your registration for is displayed</p>
+  </li>
+</ul>
+
+<h4 id="other-things-to-change">Other things to change</h4>
+
+<ul>
+  <li>
+    <p>The content of the individual pages (<code class="language-plaintext highlighter-rouge">index.md</code>, <code class="language-plaintext highlighter-rouge">agenda.md</code>, for example), as not everything will be covered by the configuration file</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">assets/logo.png</code>: The logo displayed on the top nav bar</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">assets/advert.png</code>: The image displayed on social media when people share the site</p>
+  </li>
+  <li>
+    <p>If you want to add extra pages to the nav bar, then change <code class="language-plaintext highlighter-rouge">header_pages</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code></p>
+    <ul>
+      <li>Set <code class="language-plaintext highlighter-rouge">menu_title</code> and <code class="language-plaintext highlighter-rouge">menu_icon</code> in the <a href="https://jekyllrb.com/docs/front-matter/">front matter</a> of the page</li>
+      <li>You can additionally control page visibility using <code class="language-plaintext highlighter-rouge">event_status</code></li>
+      <li>Icons are the <a href="https://icons.getbootstrap.com/">Bootstrap Icons</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="editing-tips">Editing tips</h4>
+
+<ul>
+  <li>
+    <p>Use <a href="https://jekyllrb.com/docs/variables/">Liquid variables</a> to refer to variables set in <code class="language-plaintext highlighter-rouge">_config.yml</code> or the <a href="https://jekyllrb.com/docs/front-matter/">front matter</a> of a page, for example:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>15 October - 12 November 2025
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Use the <a href="https://jekyllrb.com/docs/liquid/tags/#links">Liquid link tag</a> to link to other pages using their Markdown filename, for example:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Link to code of conduct](/code-of-conduct/)
+</code></pre></div>    </div>
+
+    <p>The link will be automatically rendered to the correct HTML file. Always start links from the root of the site, and because this is Jekyll 3.9 (rather than 4), you need to prepend the link with ``</p>
+  </li>
+</ul>
+
+<h3 id="publish-your-changes">Publish your changes</h3>
+
+<p>After committing your changes, push the <code class="language-plaintext highlighter-rouge">main</code> branch back to GitHub, and the site will be built automatically. This may take a few minutes and you may need to force refresh the page in your web browser to see changes.</p>
+
+<p>For example:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git add <span class="nb">.</span>
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s2">"Add agenda to website"</span>
+<span class="nv">$ </span>git push
+</code></pre></div></div>
+
+<h2 id="contributors">Contributors</h2>
+
+<ul>
+  <li><a href="https://github.com/MQS-mark">Mark Nicholas Jones</a>, Molecular Quantum Solutions (MQS), quantum_challenge@mqs.dk</li>
+</ul>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This is based on the <a href="https://github.com/AC-BO-Hackathon/ac-bo-hackathon.github.io">Bayesian Optimization Hackathon for Chemistry and Materials</a>, which in turn is based on the <a href="https://github.com/materials-data-facility/llm-hackathon">LLM Hackathon website repository</a> [<a href="https://materials-data-facility.github.io/llm-hackathon/">website</a>], which in turn is based on a template built by the <a href="https://www.bristol.ac.uk/golding/">Jean Golding Institute</a> at the University of Bristol. See below for instructions regarding development using this template. To see the actual website and learn more about the hackathon, visit <a href="https://ac-bo-hackathon.github.io/">https://ac-bo-hackathon.github.io/</a>.</p>
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Quantum Innovation Challenge</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        
+      </div>
+
+      <div class="footer-col footer-col-2 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge">
+          <i class="bi bi-github"></i>
+          <span class="username">Quantum-Innovation-Challenge</span>
+        </a><br>
+        <a href="/code-of-conduct/">
+          Code of conduct
+        </a>
+      </div>
+
+      <div class="footer-col footer-col-3 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/README.md">
+          View page source
+        </a><br>
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/README.md">
+          Improve this page
+        </a>
+      </div>
+
+  </div>
+
+</footer>
+</style>
+  <script>
+    inlineSVG.init({
+      svgSelector: 'img.svg', // the class attached to all images that should be inlined
+      initClass: 'js-inlinesvg', // class added to <html>
+    }, function () {
+      console.log('All SVGs inlined');
+    });
+  </script>
+  <script>
+    particlesJS("particles-js", { 
+        "particles": { 
+            "number": { "value": 85, "density": { "enable": true, "value_area": 946.9771699587272 } }, 
+            "color": { "value": "#ffffff" }, 
+            "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, 
+            "opacity": { "value": 0.25, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.05, "sync": false } }, 
+            "size": { "value": 1, "random": true, "anim": { "enable": false, "speed": 10, "size_min": 0.1, "sync": false } }, 
+            "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.05, "width": 1 }, 
+            "move": { "enable": true, "speed": 0.5, "direction": "top-right", "random": true, "straight": false, "out_mode": "bounce", "bounce": false, "attract": { "enable": false, "rotateX": 1500, "rotateY": 1200 } } 
+        }, 
+        "interactivity": { 
+            "detect_on": "window", 
+            "events": { 
+                "onhover": { "enable": true, "mode": "grab" }, 
+                "onclick": { "enable": false, "mode": "push" }, 
+                "resize": true 
+            }, 
+            "modes": { "grab": { "distance": 150, "line_linked": { "opacity": 0.2 } }, "bubble": { "distance": 100, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } 
+        }, 
+        "retina_detect": true 
+    });
+
+    // Enable grab effect while keeping content clickable
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.querySelector('#particles-js canvas');
+      if (canvas) {
+        canvas.style.pointerEvents = 'none';
+      }
+      
+      // Re-enable hover detection on window for grab effect
+      document.addEventListener('mousemove', function(e) {
+        if (window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS.interactivity.events.onhover.enable) {
+          window.pJSDom[0].pJS.interactivity.mouse.pos_x = e.clientX;
+          window.pJSDom[0].pJS.interactivity.mouse.pos_y = e.clientY;
+        }
+      });
+    });
+  </script>
+</body> 
+
+</html>

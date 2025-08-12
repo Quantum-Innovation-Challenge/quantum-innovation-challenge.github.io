@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html class="bg-quantum antialiased  " lang=" en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script defer data-domain="quantum-innovation-challenge.github.io"
+    src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+  <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
+
+
+  <main class="page-content p-5 relative z-10" aria-label="Content">
+ 
+    <div class="wrapper border-electron/25 border-1"><script>
+// Navigation Sphere JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  const sphereContainer = document.getElementById('navigationSphere');
+  if (!sphereContainer) return;
+  
+  const canvas = sphereContainer.querySelector('.sphere-canvas');
+  const points = [];
+  const cant = 120;
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
+
+  // Initialize points
+  function initializePoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[1.5px] h-[1.5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out group-hover:bg-quantum group-[.frontpage]/app:!bg-electron';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updatePoints();
+  }
+
+  // Update point positions based on mouse movement
+  function updatePoints() {
+    const angleX = (-mouseX / 4) * Math.PI / 420;
+    const angleY = (mouseY / 4) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
+      
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
+      
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 1.5;
+      
+      const point = points[i];
+      if (point && point.element) {
+        const translateX = 15 + x * 12;
+        const translateY = 15 + rotatedY * 12;
+        const translateZ = scale * 0.5;
+        
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
+
+  // Mouse move event listener
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updatePoints();
+  });
+
+  // Initialize the sphere
+  initializePoints();
+});
+</script>
+
+<header class="group/header overflow-hidden w-full z-10"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out  border-quantum/25">
+    <!-- Left side - Logo and Title -->
+    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl   items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
+      <!-- Canvas for animated points (small sphere - keep current size) -->  
+      <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
+        <div class="sphere-canvas relative w-full h-full"></div>
+      </div>
+      <!-- Title -->
+      <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
+        <a class="site-title active" rel="author" href="/">
+          
+            Quantum Innovation Challenge
+          
+        </a>
+      </h1>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </div>
+ 
+
+
+
+    <!-- Navigation Links -->
+    <nav class="flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 hidden xl:flex font-space-mono"><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/challenge/">
+              <i class="bi bi-briefcase"></i>
+              
+                <span>Challenge 2025</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/agenda/">
+              <i class="bi bi-clock"></i>
+              
+                <span>Timeline</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/eligibility/">
+              <i class="bi bi-person-exclamation"></i>
+              
+                <span>Eligibility</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/submission/">
+              <i class="bi bi-cloud-arrow-up"></i>
+              
+                <span>Submit a Project</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/videos-slides/">
+              <i class="bi bi-film"></i>
+              
+                <span>Videos &amp; Slides</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/resources/">
+              <i class="bi bi-journal-code"></i>
+              
+                <span>Resources</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/faq/">
+              <i class="bi bi-question-circle"></i>
+              
+                <span>FAQ</span>
+              
+            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/about/">
+              <i class="bi bi-globe2"></i>
+              
+                <span>About</span>
+              
+            </a></nav>  
+
+    <!-- Submit Project Button -->
+    <button class="flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl  py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+      <span class="relative z-10">Submit Project</span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+  </div>
+</header>
+
+<!--
+-->
+
+      
+<!-- 
+<div style="display: flex; align-items: left; justify-content: left;">
+    <img src="./assets/Cover_Image.png" alt="Cover Image" style="widt:300px;">
+</div> -->
+
+<section class="h-[500px] flex max-w-screen-lg mx-auto text-center items-center justify-center">
+  <div class="flex-1 gap-4 flex flex-col">
+    <h1 class="font-space-mono text-4xl font-bold">Quantum Innovation Challenge 2025</h1>
+    <p class="tracking-[1px] font-space-mono text-lg">The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.</p>
+  </div>
+</section>
+
+<section class="flex flex-col mx-auto text-center items-center justify-center mb-18 border-electron/25 border-y-1 py-10">
+      <p class="text-electron/100  mb-5 tracking-[1px] text-lg font-space-mono">
+        A joint innovation challenge partnership between
+      </p>
+      <div class=" max-w-screen-xl flex gap-10 justify-center items-center  text-white p-6">
+        <img src="/assets/partners/nnf.svg" alt="logo" class="svg h-full w-22 " />
+        <img src="/assets/partners/bii.svg" alt="logo" class="svg h-full w-32" />
+        <img src="/assets/partners/nh.svg" alt="logo" class="svg h-full w-18" />
+        <img src="/assets/partners/mqs.svg" alt="logo" class="svg h-full w-32" />
+        <img src="/assets/partners/dcai.svg" alt="logo" class="svg h-full w-20" />
+        <img src="/assets/partners/qai.svg" alt="logo" class="svg h-full w-34" />
+        <img src="/assets/partners/dba.svg" alt="logo" class="svg h-full w-34" />
+        <img src="/assets/partners/erhvervsstyrelsen.svg" alt="logo" class="svg h-full w-56" />
+        <img src="/assets/partners/icd.svg" alt="logo" class="svg h-full w-26" />
+
+      </div>
+    
+</section>
+
+<div class="aside">
+    <h2><i class="bi bi-calendar3"></i> Timeline</h2>
+    <dl>
+        
+            <dt>31 July 2025</dt>
+            <dd>
+                Applications open for participants<br />
+                
+                    <button class="btn plausible-event-name=Register+Team" onclick="openRegistrationModal()">Register your team</button>
+                    <br />
+                    It is needed to register your team by sending us the names of your team members and the hosting letter.
+                    <br />
+                    <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">Read about the challenge</a>
+                    <br />
+                    <a href="https://matrix.to/#/#mqs-community-space:mozilla.org " class="btn plausible-event-name=Element+Space+Click">Find team members via Element Space</a>
+                
+            </dd>
+        
+
+        <dt>30 September 2025</dt>
+        <dd><b>Phase I</b>
+        <br />
+        - Submission of the projects closes on the 30th of September at 10AM Central European Time (CET).
+        <br />
+        - Evaluation will be conducted from the 1st until the 15th of October.</dd>
+        <br />
+        <dt>15 October - 12 November 2025</dt>
+        <dd><b>Phase II</b>
+        <br />
+        - The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).
+        <br />
+        - Travel costs and accomodation for all teams are sponsored and will be covered.
+        <br />
+        - Scheduled access to Gefion after EQTC until end of January 2026 (Phase III).</dd>
+        <br />
+        <dd><b>13 November 2025 - 31 January 2026</b>
+        <br />
+        <b>Phase III</b>
+        <br />
+        - Finalization of the projects until the 31st of January 2026.
+        <br />
+        - The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.
+        <br />
+        - A prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.
+        </dd>
+    </dl>
+</div>
+
+<h2 id="accelerating-quantum-applicationsin-the-life-sciences">Accelerating Quantum Applications<br />in the Life Sciences</h2>
+
+<p>The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.</p>
+
+<p>With the emergence of near-term quantum computers and powerful GPU-based methods, there is a growing need to understand their strengths and limitations, reduce barriers to adoption, and apply them to real-world problems in drug development. This virtual challenge is designed to foster collaborative, open research that contributes to this mission.</p>
+
+<h2 id="your-role">Your Role</h2>
+
+<p>Academic/industrial researchers, start-ups and students can propose projects with respect to this year’s <a href="https://quantum-innovation-challenge.github.io/projects/">challenge topic</a> applying quantum computing and quantum-inspired algorithms to:</p>
+
+<ul>
+  <li>existing benchmarks or new benchmarks as further defined by the <a href="https://quantum-innovation-challenge.github.io/projects/">Quantum Challenge 2025 topic</a></li>
+  <li>creating sub-algorithms based on quantum computing methods</li>
+  <li>designing quantum-enhanced sampling and optimization techniques</li>
+</ul>
+
+<p>Following the challenge, results will be collated and secured under open-source and free license agreements (Apache/MIT) in the dedicated Quantum-Challenge-2025 repository.</p>
+
+<h2 id="who-can-participate">Who can participate?</h2>
+
+<p>The challenge encourages cross-disciplinary and international collaboration. It is open to teams of academic and industrial researchers, start-ups, and students who are interested in using quantum computing and quantum-inspired methods to advance pharmaceutical development.</p>
+
+<p>To be eligible for submission:</p>
+
+<ul>
+  <li>Each team must include at least one clearly documented academic participant in a main role</li>
+  <li>Teams should have prior programming experience and basic familiarity with git and GitHub</li>
+  <li>Full eligibility details are available on the <a href="https://quantum-innovation-challenge.github.io/eligibility/">Eligibility page</a></li>
+</ul>
+
+<p>Support and participation resources:</p>
+
+<ul>
+  <li>Participants are welcome to connect and form teams using our dedicated <a href="https://matrix.to/#/#mqs-community-space:mozilla.org">Element Space</a> (see also <a href="https://element.io">https://element.io</a>)</li>
+  <li>Orientation materials and technical guidance are available on the <a href="https://quantum-innovation-challenge.github.io/resources/">Resources page</a></li>
+  <li>Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the <a href="https://quantum-innovation-challenge.github.io/faq/">FAQ page</a></li>
+</ul>
+
+<h2 id="why-participate">Why participate?</h2>
+
+<div style="display: flex; align-items: left; justify-content: left;">
+    <img src="./assets/Benefits.png" alt="Cover Image" style="widt:300px;" />
+</div>
+
+<ul>
+  <li>Five teams will be selected to present their work at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.</li>
+  <li>After the announcement of the finalists at EQTC in November, the 5 finalists gain access to the GEFION Supercomputer to continue the development of their models. Submission deadline for the second phase is expected to be end of January 2026 with announcement of the final winner in Q1 2026.</li>
+  <li>The winning solution will be announced in Spring 2026 during another leading European quantum event and a prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.</li>
+  <li>Networking and access to a global community of experts from the academic and industrial life science community.</li>
+  <li>Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.</li>
+  <li>Direct access and support from Gefion, one of the fastest supercomputers globally, to run your challenge code (5 finalists).</li>
+  <li>Global marketing and branding with free tickets to EQTC 2025, presentation opportunities and further fostering of relationships (5 finalists).</li>
+  <li>Novo Holdings and QAI Ventures will help to facilitate access to their global investor network.</li>
+  <li>Onboarding to the global QAI Ventures ecosystem with 1 year of exclusive 1:1 mentoring from investment and technology experts and a ticket to the QAI Ventures speed dating session to join upcoming venture building or accelerator programs (top 3 teams).</li>
+</ul>
+
+<p>Do not miss this opportunity to engage in quantum innovation at the frontier of life sciences.</p>
+
+<p>📅 Visit the <a href="https://quantum-innovation-challenge.github.io/agenda/">Timeline page</a> to view the full agenda.</p>
+
+<h2 id="submitted-projects">Submitted Projects</h2>
+
+<p>The top-ranked projects will be highlighted here:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Project #</th>
+      <th>Team Name</th>
+      <th>Project Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1st</td>
+      <td><a href=""></a></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2nd</td>
+      <td><a href=""></a></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3rd</td>
+      <td><a href=""></a></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4th</td>
+      <td><a href=""></a></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5th</td>
+      <td><a href=""></a></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="https://quantum-innovation-challenge.github.io/submission/">Submit a Project page</a>.</p>
+
+<h2 id="partners">Partners</h2>
+
+<div style="display: flex; align-items: left; justify-content: center;">
+    <a href="https://novonordiskfonden.dk/">
+        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:150px; margin-right:70px;" />
+    </a>
+    <a href="https://bii.dk/">
+        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:150px;" />
+    </a>
+</div>
+<p><br /></p>
+<div style="display: flex; align-items: left; justify-content: center;">
+    <a href="https://mqs.dk">
+        <img src="./assets//MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px" />
+    </a>
+    <a href="https://dcai.dk/">
+        <img src="./assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;" />
+    </a>
+</div>
+<div style="display: flex; align-items: left; justify-content: center;">
+    <a href="https://qai-ventures.com">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&amp;s" alt="QAI Ventures" style="width:125px; margin-right:95px;" />
+    </a>
+        <a href="https://investindk.com/">
+        <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:200px;" />
+    </a>
+</div>
+<p><br /></p>
+<div style="display: flex; align-items: left; justify-content: center;">
+    <a href="https://novoholdings.dk/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:150px; margin-right:70px;" />
+    </a>
+    <a href="https://danishbusinessauthority.dk/">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&amp;s" alt="Danish Business Authority" style="width:175px;" />
+    </a>
+</div>
+<p><br /></p>
+<div style="display: flex; align-items: left; justify-content: center;">
+    <a href="https://icdk.dk/">
+        <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px; margin-right:70px;" />
+    </a>
+     <a href="https://eqtc2025.ku.dk/">
+        <img src="./assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;" />
+    </a>
+</div>
+<p><br />
+<br />
+The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:</p>
+<div style="display: flex; align-items: left; justify-content: center;">
+    <a href="https://novonordisk.com/">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Novo_Nordisk_-_Logo.svg" alt="Novo Nordisk A/S" style="height:75px; margin-right: 70px;" />
+    </a>
+    <a href="https://roche.com/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hoffmann-La_Roche_logo.svg/1200px-Hoffmann-La_Roche_logo.svg.png" alt="Roche Holding AG" style="height:75px;" />
+    </a>
+</div>
+
+<p>For further information see the list of experts on the <a href="/about/">about page</a>.</p>
+
+<h2 id="financial-sponsors">Financial Sponsors</h2>
+
+<ul>
+  <li><a href="https://novonordiskfonden.dk/">Novo Nordisk Foundation</a></li>
+  <li><a href="https://danishbusinessauthority.dk/">Danish Business Authority</a></li>
+</ul>
+
+<!-- Registration Modal -->
+<div id="registrationModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeRegistrationModal()">&times;</span>
+    <h2>Register Your Team</h2>
+    
+    <form id="registrationForm" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="team_member_1_name">Team Member 1 Name *</label>
+        <input type="text" id="team_member_1_name" name="team_member_1_name" required="" />
+      </div>
+      
+      <div class="form-group">
+        <label for="team_member_1_email">Team Member 1 Email *</label>
+        <input type="email" id="team_member_1_email" name="team_member_1_email" required="" />
+      </div>
+      
+      <div class="form-group">
+        <label for="team_member_2_name">Team Member 2 Name *</label>
+        <input type="text" id="team_member_2_name" name="team_member_2_name" required="" />
+      </div>
+      
+      <div class="form-group">
+        <label for="team_member_2_email">Team Member 2 Email *</label>
+        <input type="email" id="team_member_2_email" name="team_member_2_email" required="" />
+      </div>
+      
+      <div class="form-group">
+        <label>Additional Team Members</label>
+        <div id="additional-members-container">
+          <!-- Additional members will be added here dynamically -->
+        </div>
+        <button type="button" class="btn btn-secondary" onclick="addTeamMember()" style="margin-top: 10px;">+ Add Team Member</button>
+      </div>
+      
+      <div class="form-group">
+        <label for="additional_notes">Additional Notes</label>
+        <textarea id="additional_notes" name="additional_notes" placeholder="Our team is excited to participate in the quantum challenge!"></textarea>
+      </div>
+      
+      <div class="form-group">
+        <label for="pdf_document">Hosting Letter (pdf; optional), please send before submission of your project</label>
+        <input type="file" id="pdf_document" name="pdf_document" accept=".pdf" />
+      </div>
+
+      <div class="form-group" style="display: none;">
+        <input type="text" id="email_honeypot" name="email_honeypot" />
+      </div>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn">Submit Registration</button>
+        <button type="button" class="btn btn-secondary" onclick="closeRegistrationModal()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+function openRegistrationModal() {
+  document.getElementById('registrationModal').style.display = 'block';
+}
+
+function closeRegistrationModal() {
+  document.getElementById('registrationModal').style.display = 'none';
+}
+
+// Close modal when clicking outside of it
+window.onclick = function(event) {
+  const modal = document.getElementById('registrationModal');
+  if (event.target == modal) {
+    closeRegistrationModal();
+  }
+}
+
+// Function to handle file upload and convert to base64
+async function handleFileUpload(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      // Convert to base64 (remove the data:application/pdf;base64, prefix)
+      const base64Content = reader.result.split(',')[1];
+      resolve({
+        name: file.name,
+        size: file.size,
+        type: file.type,
+        content: base64Content
+      });
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+document.getElementById('registrationForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  
+  try {
+    // Prepare JSON payload with exact structure
+    const payload = {
+      team_member_1_name: document.getElementById('team_member_1_name').value,
+      team_member_1_email: document.getElementById('team_member_1_email').value,
+      team_member_2_name: document.getElementById('team_member_2_name').value,
+      team_member_2_email: document.getElementById('team_member_2_email').value,
+      tc_accepted: true,
+      email_honeypot: document.getElementById('email_honeypot').value
+    };
+    
+    // Add optional fields
+    const additionalMembers = getAdditionalTeamMembers();
+    if (additionalMembers.length > 0) {
+      payload.extra_team_members = additionalMembers;
+    }
+    
+    const additionalNotes = document.getElementById('additional_notes').value;
+    if (additionalNotes.trim()) {
+      payload.additional_notes = additionalNotes;
+    }
+    
+    // Handle file upload if selected
+    const pdfFile = document.getElementById('pdf_document').files[0];
+    if (pdfFile) {
+      payload.pdf_document_base64 = await handleFileUpload(pdfFile);
+    }
+    
+    // Debug: Log the JSON payload
+    console.log('=== FORM SUBMISSION DEBUG ===');
+    console.log('JSON payload:', payload);
+    console.log('=== END DEBUG ===');
+    
+    // Submit to API with application/json
+    const response = await fetch('https://api.contact.mqs.dk/quantumChallengeForm', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload)
+    });
+    
+    if (response.ok) {
+      alert('Registration submitted successfully!');
+      closeRegistrationModal();
+      document.getElementById('registrationForm').reset();
+    } else {
+      throw new Error('Registration failed');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    alert('Registration failed. Please try again.');
+  }
+});
+
+function addTeamMember() {
+  const container = document.getElementById('additional-members-container');
+  const memberCount = container.children.length;
+  const memberNumber = memberCount + 3; // Start from 3 since we have 2 required members
+
+  const memberDiv = document.createElement('div');
+  memberDiv.className = 'additional-member';
+  memberDiv.style.border = '1px solid #ddd';
+  memberDiv.style.padding = '15px';
+  memberDiv.style.marginBottom = '15px';
+  memberDiv.style.borderRadius = '5px';
+  memberDiv.style.backgroundColor = '#f9f9f9';
+  memberDiv.innerHTML = `
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+      <h4 style="margin: 0;">Team Member ${memberNumber}</h4>
+      <button type="button" class="btn btn-danger" onclick="removeTeamMember(this)" style="padding: 5px 10px; font-size: 12px;">Remove</button>
+    </div>
+    <div class="form-group" style="margin-bottom: 10px;">
+      <label>Name *</label>
+      <input type="text" name="team_member_${memberNumber}_name" required>
+    </div>
+    <div class="form-group" style="margin-bottom: 0;">
+      <label>Email *</label>
+      <input type="email" name="team_member_${memberNumber}_email" required>
+    </div>
+  `;
+  container.appendChild(memberDiv);
+}
+
+function removeTeamMember(button) {
+  button.closest('.additional-member').remove();
+}
+
+function getAdditionalTeamMembers() {
+  const container = document.getElementById('additional-members-container');
+  const members = [];
+  const memberDivs = container.querySelectorAll('.additional-member');
+  
+  memberDivs.forEach((memberDiv, index) => {
+    const nameInput = memberDiv.querySelector('input[type="text"]');
+    const emailInput = memberDiv.querySelector('input[type="email"]');
+    
+    if (nameInput && emailInput && nameInput.value.trim() && emailInput.value.trim()) {
+      members.push({
+        name: nameInput.value.trim(),
+        email: emailInput.value.trim()
+      });
+    }
+  });
+  
+  return members;
+}
+</script>
+
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Quantum Innovation Challenge</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        
+      </div>
+
+      <div class="footer-col footer-col-2 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge">
+          <i class="bi bi-github"></i>
+          <span class="username">Quantum-Innovation-Challenge</span>
+        </a><br>
+        <a href="/code-of-conduct/">
+          Code of conduct
+        </a>
+      </div>
+
+      <div class="footer-col footer-col-3 icon-list">
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/index.md">
+          View page source
+        </a><br>
+        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/index.md">
+          Improve this page
+        </a>
+      </div>
+
+  </div>
+
+</footer>
+</style>
+  <script>
+    inlineSVG.init({
+      svgSelector: 'img.svg', // the class attached to all images that should be inlined
+      initClass: 'js-inlinesvg', // class added to <html>
+    }, function () {
+      console.log('All SVGs inlined');
+    });
+  </script>
+  <script>
+    particlesJS("particles-js", { 
+        "particles": { 
+            "number": { "value": 85, "density": { "enable": true, "value_area": 946.9771699587272 } }, 
+            "color": { "value": "#ffffff" }, 
+            "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, 
+            "opacity": { "value": 0.25, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.05, "sync": false } }, 
+            "size": { "value": 1, "random": true, "anim": { "enable": false, "speed": 10, "size_min": 0.1, "sync": false } }, 
+            "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.05, "width": 1 }, 
+            "move": { "enable": true, "speed": 0.5, "direction": "top-right", "random": true, "straight": false, "out_mode": "bounce", "bounce": false, "attract": { "enable": false, "rotateX": 1500, "rotateY": 1200 } } 
+        }, 
+        "interactivity": { 
+            "detect_on": "window", 
+            "events": { 
+                "onhover": { "enable": true, "mode": "grab" }, 
+                "onclick": { "enable": false, "mode": "push" }, 
+                "resize": true 
+            }, 
+            "modes": { "grab": { "distance": 150, "line_linked": { "opacity": 0.2 } }, "bubble": { "distance": 100, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } 
+        }, 
+        "retina_detect": true 
+    });
+
+    // Enable grab effect while keeping content clickable
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.querySelector('#particles-js canvas');
+      if (canvas) {
+        canvas.style.pointerEvents = 'none';
+      }
+      
+      // Re-enable hover detection on window for grab effect
+      document.addEventListener('mousemove', function(e) {
+        if (window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS.interactivity.events.onhover.enable) {
+          window.pJSDom[0].pJS.interactivity.mouse.pos_x = e.clientX;
+          window.pJSDom[0].pJS.interactivity.mouse.pos_y = e.clientY;
+        }
+      });
+    });
+  </script>
+</body> 
+
+</html>
