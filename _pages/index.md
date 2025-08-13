@@ -134,29 +134,29 @@ permalink: /
 
 <h2> Why participate? </h2>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-4">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="{{ "/assets/icons/supercomputer.svg" | relative_url }}" class="svg w-12 h-12 text-electron">
 <p class="font-bold text-center">Access to the Gefion AI supercomputer </p>
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="{{ "/assets/icons/globe.svg" | relative_url }}" class="svg w-12 h-12 text-electron">
 <p class="font-bold text-center">Join QAI venture and Novo Holdings ecosystem (1:1 mentoring) </p>
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="{{ "/assets/icons/collaborate.svg" | relative_url }}" class="svg w-12 h-12 text-electron">
 <p class="font-bold text-center">Sparring with life science, quantum computing and AI experts</p>
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="{{ "/assets/icons/exposure.svg" | relative_url }}" class="svg w-12 h-12 text-electron">
 <p class="font-bold text-center">Exposure at high impact conferences</p>
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="{{ "/assets/icons/open-source.svg" | relative_url }}" class="svg w-12 h-12 text-electron">
 <p class="font-bold text-center">Community driven open-source and free license efforts</p>
 </div>
 
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="{{ "/assets/icons/network.svg" | relative_url }}" class="svg w-12 h-12 text-electron">
 <p class="font-bold text-center">Supported and extended networking opportunities</p>
 </div>

@@ -528,29 +528,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h2> Why participate? </h2>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-4">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="/assets/icons/supercomputer.svg" class="svg w-12 h-12 text-electron" />
 <p class="font-bold text-center">Access to the Gefion AI supercomputer </p>
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="/assets/icons/globe.svg" class="svg w-12 h-12 text-electron" />
 <p class="font-bold text-center">Join QAI venture and Novo Holdings ecosystem (1:1 mentoring) </p>
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="/assets/icons/collaborate.svg" class="svg w-12 h-12 text-electron" />
 <p class="font-bold text-center">Sparring with life science, quantum computing and AI experts</p>
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="/assets/icons/exposure.svg" class="svg w-12 h-12 text-electron" />
 <p class="font-bold text-center">Exposure at high impact conferences</p>
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="/assets/icons/open-source.svg" class="svg w-12 h-12 text-electron" />
 <p class="font-bold text-center">Community driven open-source and free license efforts</p>
 </div>
 
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<div class="flex flex-col items-center justify-start p-5 border-1 border-electron/25 bg-electron/5">
 <img src="/assets/icons/network.svg" class="svg w-12 h-12 text-electron" />
 <p class="font-bold text-center">Supported and extended networking opportunities</p>
 </div>
@@ -817,8 +817,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const cant = 240; // More points for a denser sphere
   const offset = 2 / cant;
   const increment = Math.PI * (3 - Math.sqrt(5));  
-  let mouseX = 0;
-  let mouseY = 0;
+  let startTime = Date.now();
 
   // Calculate scaling factors based on sphere size
   const sphereRadius = (FOOTER_SPHERE_SIZE_PX - 8) / 2; // Leave 4px padding on each side
@@ -840,12 +839,19 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
     updateFooterPoints();
+    // Start the animation loop
+    animateFooterSphere();
   }
 
-  // Update point positions for footer sphere (bigger)
+  // Update point positions based on time for slow rotation (similar to header)
   function updateFooterPoints() {
-    const angleX = (-mouseX / 6) * Math.PI / 420;
-    const angleY = (mouseY / 6) * Math.PI / 420;
+    const currentTime = Date.now();
+    const elapsed = (currentTime - startTime) / 1000; // Convert to seconds
+    
+    // Slow rotation - slightly different speed than header for variety
+    const rotationSpeed = 0.25; // Radians per second (slightly slower than header)
+    const angleX = elapsed * rotationSpeed * 0.7; // Rotate around X axis
+    const angleY = elapsed * rotationSpeed; // Rotate around Y axis
     
     for (let i = 0; i < cant; i++) {
       const y = (i * offset - 1) + (offset / 2);
@@ -874,12 +880,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Mouse move event listener for footer sphere
-  document.addEventListener('mousemove', function(event) {
-    mouseX = event.pageX;
-    mouseY = event.pageY;
+  // Animation loop for continuous rotation
+  function animateFooterSphere() {
     updateFooterPoints();
-  });
+    requestAnimationFrame(animateFooterSphere);
+  }
 
   // Initialize the footer sphere
   initializeFooterPoints();

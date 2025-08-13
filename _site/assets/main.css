@@ -1064,12 +1064,6 @@
   .max-w-7xl {
     max-width: var(--container-7xl);
   }
-  .max-w-\[150px\] {
-    max-width: 150px;
-  }
-  .max-w-\[200px\] {
-    max-width: 200px;
-  }
   .max-w-full {
     max-width: 100%;
   }
@@ -1198,6 +1192,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-start {
+    justify-content: flex-start;
   }
   .justify-items-start {
     justify-items: start;

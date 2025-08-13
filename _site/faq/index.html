@@ -349,7 +349,7 @@ document.addEventListener('DOMContentLoaded', function() {
 -->
 
       <section class="h-[240px]  text-center border-b  font-space-mono border-electron/25 flex flex-col justify-center items-center"> 
-  <div class="max-w-screen-lg mx-auto">
+  <div class="max-w-screen-lg mx-auto px-5">
     <h1 class="text-2xl font-bold">Frequently Asked Questions</h1>
     <p class="text-lg">Answers to frequently asked questions about the Quantum Challenge 2025</p>
   </div>
@@ -858,8 +858,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const cant = 240; // More points for a denser sphere
   const offset = 2 / cant;
   const increment = Math.PI * (3 - Math.sqrt(5));  
-  let mouseX = 0;
-  let mouseY = 0;
+  let startTime = Date.now();
 
   // Calculate scaling factors based on sphere size
   const sphereRadius = (FOOTER_SPHERE_SIZE_PX - 8) / 2; // Leave 4px padding on each side
@@ -881,12 +880,19 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
     updateFooterPoints();
+    // Start the animation loop
+    animateFooterSphere();
   }
 
-  // Update point positions for footer sphere (bigger)
+  // Update point positions based on time for slow rotation (similar to header)
   function updateFooterPoints() {
-    const angleX = (-mouseX / 6) * Math.PI / 420;
-    const angleY = (mouseY / 6) * Math.PI / 420;
+    const currentTime = Date.now();
+    const elapsed = (currentTime - startTime) / 1000; // Convert to seconds
+    
+    // Slow rotation - slightly different speed than header for variety
+    const rotationSpeed = 0.25; // Radians per second (slightly slower than header)
+    const angleX = elapsed * rotationSpeed * 0.7; // Rotate around X axis
+    const angleY = elapsed * rotationSpeed; // Rotate around Y axis
     
     for (let i = 0; i < cant; i++) {
       const y = (i * offset - 1) + (offset / 2);
@@ -915,12 +921,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Mouse move event listener for footer sphere
-  document.addEventListener('mousemove', function(event) {
-    mouseX = event.pageX;
-    mouseY = event.pageY;
+  // Animation loop for continuous rotation
+  function animateFooterSphere() {
     updateFooterPoints();
-  });
+    requestAnimationFrame(animateFooterSphere);
+  }
 
   // Initialize the footer sphere
   initializeFooterPoints();
