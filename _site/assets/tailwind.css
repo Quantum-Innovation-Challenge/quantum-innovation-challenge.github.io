@@ -30,7 +30,27 @@
 		height: 100%;
 		min-height: 100vh;
 		scroll-behavior: smooth;
+		
 	}
+
+			h2 {
+				font-family: var(--font-space-mono);
+				font-weight: 700;
+			font-size: 1.3rem;
+		}
+
+		h3 {
+			font-weight: 700;
+			font-size: 1.2rem;
+		}
+
+		h4 {
+			font-size: 1.1rem;
+		}
+
+		h5 {
+			font-size: 1rem;
+		}
 
 	.noise {
 		background-color: transparent;
@@ -47,8 +67,10 @@
 	}
 }
 
+
 @layer utilities {
   .prose {
+		font-size: 1.1rem;
 	--tw-prose-body: #fff;
 	--tw-prose-headings: #FFF;
 	--tw-prose-lead: var(--tw-prose-invert-lead);
@@ -68,6 +90,24 @@
 	--tw-prose-th-borders: var(--tw-prose-invert-th-borders);
 	--tw-prose-td-borders: var(--tw-prose-invert-td-borders);
     max-width: none; /* Optional: remove width limit */
+		line-height: 1.5;
+
+		h2 {
+			font-size: 1.3rem;
+		}
+
+		h3 {
+			font-size: 1.2rem;
+		}
+
+		h4 {
+			font-size: 1.1rem;
+		}
+
+		h5 {
+			font-size: 1rem;
+		}
+		
   }
 
   /* Custom prose variant with better text wrapping */
@@ -85,10 +125,11 @@
 
 .prose-wrapped a,
 .prose-wrapped code {
-  word-break: break-all;
+  word-break: break-word;
 }
 
   .prose a:hover {
     color: var(--color-elight);
   }
 }
+

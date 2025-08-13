@@ -1,202 +1,233 @@
 ---
-title: Quantum Challenge Resources
+title: Resources
+subtitle: Find the relevant resources you need to participate in the Quantum Challenge 2025
 menu_title: Resources
 menu_icon: journal-code
 ---
 
-<ul class="grid">
+{% include subpage_header.html %}
 
-<li class="resource-block" markdown="1">
+<section class="px-5 max-w-screen-lg mx-auto text-white py-10 gap-4 flex flex-col  ">
 
-## Getting Started
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-4 prose prose-invert space-y-10 align-items-start justify-items-start" >
 
-#### [Element](https://matrix.to/#/#mqs-community-space:mozilla.org) - Join the Element community space to connect and form teams.
+<li class="border border-electron/25  p-4">
 
-#### [Project Proposals](_/../submission.md) - team leaders should submit their project proposals using the instructions here.
+<h3 class="mt-1">Getting Started</h3>
 
-</li>
+<p><a href="https://matrix.to/#/#mqs-community-space:mozilla.org">Element</a> - Join the Element community space to connect and form teams.</p>
 
-<li class="resource-block" markdown="1">
-
-## Orientation Modules
-
-Please familiarize yourself with the tools and concepts which you will need to deliver a project for this challenge.
-You will need to [create a GitHub account](https://github.com/join) to submit your project until the deadline.
-In addition to [git](https://git-scm.com/), we also recommend that you [familiarize yourself with Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) if this is new to you.
+<p><a href="_/../submission.md">Project Proposals</a> - team leaders should submit their project proposals using the instructions here.</p>
 
 </li>
 
-<li class="resource-block" markdown="1">
+<li class="border border-electron/25  p-4">
 
-## Quantum Computing
+<h3 class="mt-1">Orientation Modules</h3>
 
-### Introduction
+<p>Please familiarize yourself with the tools and concepts which you will need to deliver a project for this challenge.
+You will need to <a href="https://github.com/join">create a GitHub account</a> to submit your project until the deadline.
+In addition to <a href="https://git-scm.com/">git</a>, we also recommend that you <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">familiarize yourself with Markdown syntax</a> if this is new to you.
+</p>
+</li>
 
-[The prospects of quantum computing in computational molecular biology](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1481)
+<li class="border border-electron/25  p-4">
 
-[Unitary Foundation 2024 Quantum Open Source Survey](https://unitaryfoundation.github.io/survey-2024/)
+<h3 class="mt-1">Quantum Computing</h3>
 
+<h4 class="mt-1">Introduction</h4>
 
-### Quantum Computing Packages and Simulators
+<a target="_blank" href="https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1481">The prospects of quantum computing in computational molecular biology</a>
 
-[Qiskit](https://qiskit.github.io/qiskit-aer/)
+<a target="_blank" href="https://unitaryfoundation.github.io/survey-2024/">Unitary Foundation 2024 Quantum Open Source Survey</a>
 
-[pennylane](https://pennylane.ai/devices)
+<h4>Quantum Computing Packages and Simulators</h4>
+<div class="flex flex-col gap-2">
+<a  target="_blank" href="https://qiskit.github.io/qiskit-aer/">Qiskit</a>
 
-[Cirq](https://quantumai.google/cirq/simulate)
+<a  target="_blank" href="https://pennylane.ai/devices">pennylane</a>
 
-[cuQuantum](https://docs.nvidia.com/cuda/cuquantum/latest/overview.html#quantum-circuit-simulation)
+<a  target="_blank" href="https://quantumai.google/cirq/simulate">Cirq</a>
 
-[The Walrus](https://the-walrus.readthedocs.io/en/latest/)
+<a  target="_blank" href="https://docs.nvidia.com/cuda/cuquantum/latest/overview.html#quantum-circuit-simulation">cuQuantum</a>
 
-[Strawberry Fields](https://strawberryfields.readthedocs.io/en/stable/introduction/introduction.html)
+<a  target="_blank" href="https://the-walrus.readthedocs.io/en/latest/">The Walrus</a>
 
-[IQM](https://docs.meetiqm.com/)
+<a  target="_blank" href="https://strawberryfields.readthedocs.io/en/stable/introduction/introduction.html">Strawberry Fields</a>
 
-[pytket](https://docs.quantinuum.com/tket/api-docs/index.html)
+<a  target="_blank" href="https://docs.meetiqm.com/">IQM</a>
 
-[qrisp](https://qrisp.eu/index.html)
+<a  target="_blank" href="https://docs.quantinuum.com/tket/api-docs/index.html">pytket</a>
 
-[amazon-braket-sdk](https://github.com/amazon-braket/amazon-braket-sdk-python)
+<a  target="_blank" href="https://qrisp.eu/index.html">qrisp</a>
 
+<a  target="_blank" href="https://github.com/amazon-braket/amazon-braket-sdk-python">amazon-braket-sdk</a>
 
-### Quantum-inspired Computing
+</div>
 
-[Simulated Annealing](https://www.nature.com/articles/s41598-025-90520-3)
+<h4 >Quantum-inspired Computing</h4>
+<div class="flex flex-col gap-2">
+<a target="_blank" href="https://www.nature.com/articles/s41598-025-90520-3">Simulated Annealing</a>
 
-[Simulated Annealing via GPU-pSAv](https://github.com/nonizawa/GPU-pSAv)
+<a target="_blank" href="https://github.com/nonizawa/GPU-pSAv">Simulated Annealing via GPU-pSAv</a>
 
-[Quantum Annealing via QuantRS2](https://github.com/cool-japan/quantrs)
+<a target="_blank" href="https://github.com/cool-japan/quantrs">Quantum Annealing via QuantRS2</a>
 
-[Quantum Annealing Enhanced Markov-Chain Monte Carlo](https://arxiv.org/abs/2502.08060)
+<a target="_blank" href="https://arxiv.org/abs/2502.08060">Quantum Annealing Enhanced Markov-Chain Monte Carlo</a>
 
-### Sampling
+</div>
 
-[Quantum sampling problems, BosonSampling and quantum supremacy](https://www.nature.com/articles/s41534-017-0018-2)
+<h4>Sampling</h4>
 
-[Sampling Problems on a Quantum Computer](https://arxiv.org/abs/2402.16341)
+<div class="flex flex-col gap-2">
+<a target="_blank" href="https://www.nature.com/articles/s41534-017-0018-2">Quantum sampling problems, BosonSampling and quantum supremacy</a>
 
-[Quantum Circuits for the Metropolis-Hastings Algorithm](https://arxiv.org/abs/2506.11576)
+<a target="_blank" href="https://arxiv.org/abs/2402.16341">Sampling Problems on a Quantum Computer</a>
 
-[Quantum Metropolis Sampling via Weak Measurement](https://arxiv.org/abs/2406.16023)
+<a target="_blank" href="https://arxiv.org/abs/2506.11576">Quantum Circuits for the Metropolis-Hastings Algorithm</a>
 
+<a target="_blank" href="https://arxiv.org/abs/2406.16023">Quantum Metropolis Sampling via Weak Measurement</a>
 
-### Quantum Computing for Clinical Research
+</div>
 
-[Quantum computing for clinical research](https://www.sdu.dk/-/media/files/forskning/dias/research/dias-grantapplication.pdf)
+<h4 >Quantum Computing for Clinical Research</h4>
 
-[How can quantum computing be applied in clinical trial design and optimization?](https://doi.org/10.1016/j.tips.2024.08.005)
+<div class="flex flex-col gap-2">
+<a target="_blank" href="https://www.sdu.dk/-/media/files/forskning/dias/research/dias-grantapplication.pdf">Quantum computing for clinical research</a>
 
-[Quantum Clinical Trial Optimization Challenge Winner Presentations – Presented by Ingenii & Aqora](https://www.youtube.com/watch?v=peazYkETsUY)
+<a target="_blank" href="https://doi.org/10.1016/j.tips.2024.08.005">How can quantum computing be applied in clinical trial design and optimization?</a>
+
+<a target="_blank" href="https://www.youtube.com/watch?v=peazYkETsUY">Quantum Clinical Trial Optimization Challenge Winner Presentations – Presented by Ingenii & Aqora</a>
+
+</div>
 
 </li>
 
-<li class="resource-block" markdown="1">
+<li class="border border-electron/25  p-4">
 
+<h3 class="mt-1">Python</h3>
 
-## Python
+<p>Programming expertise is not required, but at least beginner Python programming experience is recommended for participation in code-focused projects of the challenge. For those looking for a brief, interactive refresher on Python programming, see the GitHub Classroom assignment from the first section on this page. For those without prior Python experience, we recommend you complete an introductory Python course in preparation for the challenge. Some resources are listed below:</p>
 
-Programming expertise is not required, but at least beginner Python programming experience is recommended for participation in code-focused projects of the challenge. For those looking for a brief, interactive refresher on Python programming, see the GitHub Classroom assignment from the first section on this page. For those without prior Python experience, we recommend you complete an introductory Python course in preparation for the challenge. Some resources are listed below:
+<div class="flex flex-col gap-2">
+<a href="https://www.coursera.org/specializations/python">Python for Everybody by University of Michigan</a>
 
-<table>
-    <tr>
-        <td><a href="https://www.coursera.org/specializations/python">Python for Everybody by University of Michigan</a></td>
-        <td><a href="https://www.codecademy.com/learn/learn-python-3">Learn Python 3 by CodeAcademy</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://youtube.com/playlist?list=PLL0SWcFqypCmkHClksnGlab3wglEVMqNN">Intro to Python Programming for Materials Engineers</a></td>
-        <td><a href="https://wiki.python.org/moin/BeginnersGuide/Programmers">Python Beginners Guide for Programmers by Python Software Foundation</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://courses.packtpub.com/courses/python">The Python Workshop by Packt</a></td>
-    </tr>
-    <tr>
-        <td><a href="https://people.duke.edu/~ccc14/sta-663/WrappingRLibraries.html">Wrapping R libraries with Rpy</a></td>
-        <td><a href="https://rviews.rstudio.com/2022/05/25/calling-r-from-python-with-rpy2/">Calling R from Python with rpy2</a></td>
-        <td><a href="https://rpy2.github.io/doc/v2.9.x/html/index.html">Documentation for rpy2</a></td>
-    </tr>
-</table>
+<a href="https://www.codecademy.com/learn/learn-python-3">Learn Python 3 by CodeAcademy</a>
 
-If you have no prior programming experience, you may wish to start with the [Python Beginners Guide for Non-programmers by Python Software Foundation](https://www.python.org/about/gettingstarted/).
+<a href="https://youtube.com/playlist?list=PLL0SWcFqypCmkHClksnGlab3wglEVMqNN">Intro to Python Programming for Materials Engineers</a>
 
-{% include youtube.html video="x7X9w_GIm1s" title="What is Python?" %}
+<a href="https://wiki.python.org/moin/BeginnersGuide/Programmers">Python Beginners Guide for Programmers by Python Software Foundation</a>
+
+<a href="https://courses.packtpub.com/courses/python">The Python Workshop by Packt</a>
+
+<a href="https://people.duke.edu/~ccc14/sta-663/WrappingRLibraries.html">Wrapping R libraries with Rpy</a>
+
+<a href="https://rviews.rstudio.com/2022/05/25/calling-r-from-python-with-rpy2/">Calling R from Python with rpy2</a>
+
+<a href="https://rpy2.github.io/doc/v2.9.x/html/index.html">Documentation for rpy2</a>
+
+<a href="https://people.duke.edu/~ccc14/sta-663/WrappingRLibraries.html">Wrapping R libraries with Rpy</a>
+<a href="https://rviews.rstudio.com/2022/05/25/calling-r-from-python-with-rpy2/">Calling R from Python with rpy2</a>
+<a href="https://rpy2.github.io/doc/v2.9.x/html/index.html">Documentation for rpy2</a>
+
+</div>
+
+<p> If you have no prior programming experience, you may wish to start with the <a href="https://www.python.org/about/gettingstarted/">Python Beginners Guide for Non-programmers by Python Software Foundation</a>.</p>
+
+<h4> Video Courses</h4>
+
+<div class="flex flex-col gap-2">
+<a href="https://www.youtube.com/watch?v=x7X9w_GIm1s">What is Python?</a>
+
+<a href="https://www.youtube.com/watch?v=s_ht4AKnTo0">Python for Beginners</a>
+
+<a href="https://www.youtube.com/watch?v=rfscVS0vtbw">Python Tutorial for Beginners</a>
+
+</div>
 
 </li>
 
-<li class="resource-block" markdown="1">
+<li class="border border-electron/25  p-4">
 
+<h3 class="mt-1">Quantum Computing Tools/Packages</h3>
 
-## Quantum Computing Tools/Packages
-
-Use of the tools listed on this page is not a requirement.
+<p>Use of the tools listed on this page is not a requirement.
 A diverse set of packages and implementations is encouraged.
 Likewise, multiple teams using the same package is not a problem, in part because implementations can remain private during the course of the challenge and since solutions will still vary considerably.
-If you would like to see a specific tool listed here, please navigate to the "Improve this page" link at the bottom of the page and open a pull request.
+If you would like to see a specific tool listed here, please navigate to the "Improve this page" link at the bottom of the page and open a pull request.</p>
 
 </li>
 
-<li class="resource-block" markdown="1">
+<li class="border border-electron/25 p-4">
 
-#### [QuTip](https://qutip.org/)
+<h4 class="mt-1">QuTip</h4>
 
-<div style="text-align: center;">
 <img src="https://qutip.org/images/logo.png" alt="QuTip" style="width=150px">
+
+<div class="flex flex-col gap-2">
+<a target="_blank" href="https://qutip.readthedocs.io/en/latest/guide/dynamics/dynamics-monte.html">Monte Carlo Solver</a>
+
+<a target="_blank" href="https://qutip.readthedocs.io/en/latest/guide/guide-random.html">Generating Random Quantum States & Operators</a>
+
+<a target="_blank" href="https://github.com/qutip/QuantumToolbox.jl">QuantumToolbox.jl</a>
 </div>
-
-
-[Monte Carlo Solver](https://qutip.readthedocs.io/en/latest/guide/dynamics/dynamics-monte.html)
-
-[Generating Random Quantum States & Operators](https://qutip.readthedocs.io/en/latest/guide/guide-random.html)
-
-[QuantumToolbox.jl](https://github.com/qutip/QuantumToolbox.jl)
-
 </li>
 
-<li class="resource-block" markdown="1">
+<li class="border border-electron/25  p-4">
 
-#### [OpenACC](https://www.openacc.org/)
+<h4 class="mt-1">OpenACC</h4>
 
-
-<div style="text-align: center;">
 <img src="https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/computeworks/images/OpenACC-logo-tagline-2C-RGB.png" alt="OpenACC" style="width=150px">
+
+
+
+<div class="flex flex-col gap-2">
+<a target="_blank" href="https://www.openacc.org/">OpenACC</a>
+<a target="_blank" href="https://enccs.github.io/OpenACC-CUDA-beginners/">OpenACC and Cuda for Beginners</a>
+
+<a target="_blank" href="https://developer.nvidia.com/openacc">OpenACC: More Science Less Programming</a>
+
 </div>
-
-
-[OpenACC and Cuda for Beginners](https://enccs.github.io/OpenACC-CUDA-beginners/)
-
-[OpenACC: More Science Less Programming](https://developer.nvidia.com/openacc)
 
 </li>
 
-<li class="resource-block" markdown="1">
+<li class="border border-electron/25  p-4">
 
-#### [quimb](https://quimb.readthedocs.io/en/latest/)
-
-<div style="text-align: center;">
+<h4 class="mt-1">quimb</h4>
 <img src="https://quimb.readthedocs.io/en/latest/_static/quimb_logo_title.png" alt="quimb" style="width=150px">
+<div class="flex flex-col gap-2">
+<a target="_blank" href="https://quimb.readthedocs.io/en/latest/">quimb</a>
+
+
+<a target="_blank" href="https://pennylane.ai/qml/demos/tutorial_mps">Introducing matrix product states for quantum practitioners</a>
+
+<a target="_blank" href="https://www.icfo.eu/download-file/files/event_documents/30032023132546000000.pdf">Simulating quantum circuits with tensor networks</a>
+
+<a target="_blank" href="https://docs.quantum.ibm.com/api/qiskit-addon-aqc-tensor/simulation-quimb-quimb-simulator">Qiskit Quimb Simulator</a>
+
+<a target="_blank" href="https://arxiv.org/abs/2104.10523">Tensor Network Quantum Virtual Machine for Simulating Quantum Circuits at Exascale</a>
+
 </div>
-
-
-[Introducing matrix product states for quantum practitioners](https://pennylane.ai/qml/demos/tutorial_mps)
-
-[Simulating quantum circuits with tensor networks](https://www.icfo.eu/download-file/files/event_documents/30032023132546000000.pdf)
-
-[Qiskit Quimb Simulator](https://docs.quantum.ibm.com/api/qiskit-addon-aqc-tensor/simulation-quimb-quimb-simulator)
-
-[Tensor Network Quantum Virtual Machine for Simulating Quantum Circuits at Exascale](https://arxiv.org/abs/2104.10523)
 
 </li>
 
-<li class="resource-block" markdown="1">
+<li class="border border-electron/25  p-4">
 
-#### [Pk/Pd Tools and Packages]()
+<h4 class="mt-1">Pk/Pd Tools and Packages</h4>
 
-[nlmixr: an R package for population PKPD modeling ](https://github.com/nlmixrdevelopment/nlmixr)
+<div class="flex flex-col gap-2">
 
-[ggPMX R package](https://github.com/ggPMXdevelopment/ggPMX)
+<a target="_blank" href="https://github.com/nlmixrdevelopment/nlmixr">nlmixr: an R package for population PKPD modeling</a>
 
-[Metrum Research Group](https://github.com/metrumresearchgroup)
+<a target="_blank" href="https://github.com/ggPMXdevelopment/ggPMX">ggPMX R package</a>
+
+<a target="_blank" href="https://github.com/metrumresearchgroup">Metrum Research Group</a>
+
+<a target="_blank" href="https://github.com/metrumresearchgroup/nlmixr2">nlmixr2: an R package for population PKPD modeling</a>
+
+</div>
 
 </li>
 
 </ul> 
+</section>

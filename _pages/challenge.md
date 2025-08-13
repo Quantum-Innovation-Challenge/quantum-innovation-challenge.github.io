@@ -49,77 +49,77 @@ menu_icon: briefcase
 
 <div class="my-8 w-full">
   <!-- Clinical R&D Timeline -->
-  <div class="border border-electron/25 rounded-3xl overflow-hidden">
+  <div class="border border-electron/25  overflow-hidden">
     <div class="border-b border-electron/25 p-4">
       <h3 class=" text-center text-white">Clinical R&D Timeline</h3>
     </div>
     
     <div class="relative ">
       <!-- Timeline line -->
-      <div class="absolute left-7.5 top-0 bottom-0 w-px bg-electron/25"></div>
+      <div class="absolute left-7 top-0 bottom-0 w-px bg-electron/25"></div>
       
       <!-- Pre-clinical Phase -->
       <div class="flex items-start p-6 border-b border-electron/25">
-        <div class="flex-shrink-0 w-3 h-3 bg-blue-400 rounded-full   z-10 relative"></div>
+        <div class="flex-shrink-0 w-2 h-2 bg-electron rounded-full   z-10 relative"></div>
         <div class="ml-6 flex-1">
           <div class="flex items-center justify-between">
-            <h4 class="text-lg font-medium text-white">Pre-clinical</h4>
+            <h4 class="text-lg font-bold text-white">Pre-clinical</h4>
             <span class="text-xs text-electron bg-electron/10 px-2 py-1 rounded">Several years</span>
           </div>
-          <h5 class="text-sm font-medium text-blue-400 mt-1">Laboratory Studies</h5>
-          <p class="text-white text-sm mt-2">Generate experimental data about solubilities, solvents selection, dosing and toxicity levels via animal experiments or organ chips.</p>
+          <h5 class="text-electron  font-medium  mt-1">Laboratory Studies</h5>
+          <p class="text-white  mt-2">Generate experimental data about solubilities, solvents selection, dosing and toxicity levels via animal experiments or organ chips.</p>
         </div>
       </div>
       
       <!-- Phase 1 -->
       <div class="flex items-start p-6 border-b border-electron/25">
-        <div class="flex-shrink-0 w-3 h-3 bg-teal-400 rounded-full   z-10 relative"></div>
+        <div class="flex-shrink-0 w-2 h-2 bg-electron rounded-full   z-10 relative"></div>
         <div class="ml-6 flex-1">
           <div class="flex items-center justify-between">
-            <h4 class="text-lg font-medium text-white">Phase 1</h4>
+            <h4 class="text-lg font-bold text-white">Phase 1</h4>
             <span class="text-xs text-electron bg-electron/10 px-2 py-1 rounded">Several months</span>
           </div>
-          <h5 class="text-sm font-medium text-teal-400 mt-1">Safety</h5>
-          <p class="text-white text-sm mt-2">Evaluate safety with first human test group by gathering information how the drug formulation interacts with the human body. <strong>~50 patients</strong></p>
+          <h5 class="text-electron font-medium mt-1">Safety</h5>
+          <p class="text-white  mt-2">Evaluate safety with first human test group by gathering information how the drug formulation interacts with the human body. <strong>~50 patients</strong></p>
         </div>
       </div>
       
       <!-- Phase 2 -->
       <div class="flex items-start p-6 border-b border-electron/25">
-        <div class="flex-shrink-0 w-3 h-3 bg-green-400 rounded-full   z-10 relative"></div>
+        <div class="flex-shrink-0 w-2 h-2 bg-electron rounded-full   z-10 relative"></div>
         <div class="ml-6 flex-1">
           <div class="flex items-center justify-between">
-            <h4 class="text-lg font-medium text-white">Phase 2</h4>
+            <h4 class="text-lg font-bold text-white">Phase 2</h4>
             <span class="text-xs text-electron bg-electron/10 px-2 py-1 rounded">Several months</span>
           </div>
-          <h5 class="text-sm font-medium text-green-400 mt-1">Safety & Dosing</h5>
-          <p class="text-white text-sm mt-2">Further safety evaluations. Monitoring side effects. Check which dose works best and is most effective. <strong>~200 patients</strong></p>
+          <h5 class="text-electron  font-medium  mt-1">Safety & Dosing</h5>
+          <p class="text-white  mt-2">Further safety evaluations. Monitoring side effects. Check which dose works best and is most effective. <strong>~200 patients</strong></p>
         </div>
       </div>
       
       <!-- Phase 3 -->
       <div class="flex items-start p-6 border-b border-electron/25">
-        <div class="flex-shrink-0 w-3 h-3 bg-yellow-400 rounded-full   z-10 relative"></div>
+        <div class="flex-shrink-0 w-2 h-2 bg-electron rounded-full   z-10 relative"></div>
         <div class="ml-6 flex-1">
           <div class="flex items-center justify-between">
-            <h4 class="text-lg font-medium text-white">Phase 3</h4>
+            <h4 class="text-lg font-bold text-white">Phase 3</h4>
             <span class="text-xs text-electron bg-electron/10 px-2 py-1 rounded">Several years</span>
           </div>
-          <h5 class="text-sm font-medium text-yellow-400 mt-1">Safety & Efficacy</h5>
-          <p class="text-white text-sm mt-2">Effectiveness confirmation and continued monitoring. <strong>~1,000+ patients</strong></p>
+          <h5 class="text-electron  font-medium  mt-1">Safety & Efficacy</h5>
+          <p class="text-white  mt-2">Effectiveness confirmation and continued monitoring. <strong>~1,000+ patients</strong></p>
         </div>
       </div>
       
       <!-- FDA Review -->
       <div class="flex items-start p-6 border-b border-electron/25">
-        <div class="flex-shrink-0 w-3 h-3 bg-purple-400 rounded-full   z-10 relative"></div>
+        <div class="flex-shrink-0 w-2 h-2 bg-electron rounded-full   z-10 relative"></div>
         <div class="ml-6 flex-1">
           <div class="flex items-center justify-between">
-            <h4 class="text-lg font-medium text-white">FDA Review</h4>
+            <h4 class="text-lg font-bold text-white">FDA Review</h4>
             <span class="text-xs text-electron bg-electron/10 px-2 py-1 rounded">~1 year</span>
           </div>
-          <h5 class="text-sm font-medium text-purple-400 mt-1">Regulatory Approval</h5>
-          <p class="text-white text-sm mt-2">Comprehensive review of all clinical data before market approval. Continuous monitoring for long-term side effects post-approval.</p>
+          <h5 class="text-electron  font-medium  mt-1">Regulatory Approval</h5>
+          <p class="text-white  mt-2">Comprehensive review of all clinical data before market approval. Continuous monitoring for long-term side effects post-approval.</p>
         </div>
       </div>
     </div>
@@ -231,14 +231,14 @@ This mechanistic approach has proven effective, and ODE-based models have become
 <div class="flex flex-col gap-5 mt-2">
 <h2 class="text-2xl font-bold">Bibliography</h2>
 <div class="bibliography gap-5 flex flex-col ">
-<div class="bibliography-item text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 1 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words" >M. McComb, R. Bies, and M. Ramanathan, “Machine learning in pharmacometrics: Opportunities and challenges,” Br. J. Clin. Pharmacol., vol. 88, no. 4, pp. 1482–1499, Apr. 2022, doi: </p>
 <a href="https://doi.org/10.1111/bcp.14801" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 2 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">X. Jia et al., "Application of Machine Learning and Mechanistic Modeling to Predict Intravenous Pharmacokinetic Profiles in Humans," J. Med. Chem., vol. 68, no. 7, pp. 7737–7750, Apr. 2025.</p>
@@ -246,371 +246,371 @@ This mechanistic approach has proven effective, and ODE-based models have become
 </div>
 </div>
 
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 3 </div> 
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">X. Liu et al., "Long short-term memory recurrent neural network for pharmacokinetic- pharmacodynamic modeling," Int J. Clin. Pharmacol. Ther., vol. 59, no. 02, pp. 138–146, Feb. 2021</p>
 <a href="https://doi.org/10.5414/CP203800" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 4 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">C. Liu, Y. Xu, Q. Liu, H. Zhu, and Y. Wang, "Application of machine learning based methods in exposure–response analysis," J. Pharmacokinet. Pharmacodyn., vol. 49, no. 4, pp. 401–410, Aug. 2022</p>
 <a href="https://doi.org/10.1007/s10928-022-09802-2" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 5 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">G. Liu, L. Brooks, J. Canty, D. Lu, J. Y. Jin, and J. Lu, "Deep-NCA: A deep learning methodology for performing noncompartmental analysis of pharmacokinetic data," CPT Pharmacomet. Syst. Pharmacol., vol. 13, no. 5, pp. 870–879, May 2024</p>
 <a href="https://doi.org/10.1002/psp4.13124" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 6 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">J. Lu, B. Bender, J. Y. Jin, and Y. Guan, "Deep learning prediction of patient response time course from early data via neural-pharmacokinetic/pharmacodynamic modelling," Nat. Mach. Intell., vol. 3, no. 8, pp. 696–704, Jun. 2021</p>
 <a href="https://doi.org/10.1038/s42256-021-00357-4" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 7 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">A. Tang, "Machine Learning for Pharmacokinetic/Pharmacodynamic Modeling," J. Pharm. Sci., vol. 112, no. 5, pp. 1460–1475, May 2023</p>
 <a href="https://doi.org/10.1016/j.xphs.2023.01.010" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 8 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">B. Ribba, S. Dudal, T. Lavé, and R. W. Peck, "Model-Informed Artificial Intelligence: Reinforcement Learning for Precision Dosing," Clin. Pharmacol. Ther., vol. 107, no. 4, pp. 853–857, Apr. 2020</p>
 <a href="https://doi.org/10.1002/cpt.1777" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 9 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">P. Bloomingdale, V. A. Nguyen, J. Niu, and D. E. Mager, "Boolean network modeling in systems pharmacology," J. Pharmacokinet. Pharmacodyn., vol. 45, no. 1, pp. 159–180, Feb. 2018</p>
 <a href="https://doi.org/10.1007/s10928-017-9567-4" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 10 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">J. Cosgrove et al., "Agent-Based Modeling in Systems Pharmacology: Agent-Based Modeling in Systems Pharmacology," CPT Pharmacomet. Syst. Pharmacol., vol. 4, no. 11, pp. 615–629, Nov. 2015</p>
 <a href="https://doi.org/10.1002/psp4.12018" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 11 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">E. Gil-Fuster, J. Eisert, and C. Bravo-Prieto, "Understanding quantum machine learning also requires rethinking generalization," Nat. Commun., vol. 15, no. 1, p. 2277, Mar. 2024</p>
 <a href="https://doi.org/10.1038/s41467-024-45882-z" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 12 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. Schuld, M. Fingerhuth, and F. Petruccione, "Implementing a distance-based classifier with a quantum interference circuit," EPL Europhys. Lett., vol. 119, no. 6, p. 60002, Sep. 2017</p>
 <a href="https://doi.org/10.1209/0295-5075/119/60002" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 13 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">V. Havlíček et al., "Supervised learning with quantum-enhanced feature spaces," Nat. 2019 5677747, vol. 567, no. 7747, Mar. 2019</p>
 <a href="https://doi.org/10.1038/s41586-019-0980-2" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 14 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. Schuld and N. Killoran, "Quantum Machine Learning in Feature Hilbert Spaces," Phys. Rev. Lett., vol. 122, no. 4, p. 040504, Feb. 2019</p>
 <a href="https://doi.org/10.1103/PhysRevLett.122.040504" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 15 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. Benedetti, D. Garcia-Pintos, O. Perdomo, V. Leyton-Ortega, Y. Nam, and A. Perdomo-Ortiz, "A generative modeling approach for benchmarking and training shallow quantum circuits," Npj Quantum Inf., vol. 5, no. 1, p. 45, May 2019</p>
 <a href="https://doi.org/10.1038/s41534-019-0157-8" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 16 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">D. Zhu et al., "Training of quantum circuits on a hybrid quantum computer," Sci. Adv., vol. 5, no. 10, p. eaaw9918, Oct. 2019</p>
 <a href="https://doi.org/10.1126/sciadv.aaw9918" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 17 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">A. Pérez-Salinas, A. Cervera-Lierta, E. Gil-Fuster, and J. I. Latorre, "Data re-uploading for a universal quantum classifier," Quantum, vol. 4, p. 226, Feb. 2020</p>
 <a href="https://doi.org/10.22331/q-2020-02- 06-226" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 18 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">B. Coyle, D. Mills, V. Danos, and E. Kashefi, "The Born supremacy: quantum advantage and training of an Ising Born machine," Npj Quantum Inf., vol. 6, no. 1, p. 60, Jul. 2020</p>
 <a href="https://doi.org/10.1038/s41534-020-00288-9" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 19 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">S. Lloyd, M. Schuld, A. Ijaz, J. Izaac, and N. Killoran, "Quantum embeddings for machine learning," 2020, arXiv. doi: [10.48550/ARXIV.2001.03622](https://doi.org/10.48550/ARXIV.2001.03622).</p>
 <a href="https://doi.org/10.48550/ARXIV.2001.03622" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 20 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">T. Hubregtsen, D. Wierichs, E. Gil-Fuster, P.-J. H. S. Derks, P. K. Faehrmann, and J. J. Meyer, "Training quantum embedding kernels on near-term quantum computers," Phys. Rev. A, vol. 106, no. 4, p. 042431, Oct. 2022, doi: [10.1103/PhysRevA.106.042431](https://doi.org/10.1103/PhysRevA.106.042431).</p>
 <a href="https://doi.org/10.1103/PhysRevA.106.042431" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 21 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. S. Rudolph, N. B. Toussaint, A. Katabarwa, S. Johri, B. Peropadre, and A. Perdomo-Ortiz, "Generation of High-Resolution Handwritten Digits with an Ion-Trap Quantum Computer," Phys. Rev. X, vol. 12, no. 3, p. 031010, Jul. 2022, doi: [10.1103/PhysRevX.12.031010](https://doi.org/10.1103/PhysRevX.12.031010).</p>
 <a href="https://doi.org/10.1103/PhysRevX.12.031010" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 22 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">C. Bravo-Prieto, J. Baglio, M. Cè, A. Francis, D. M. Grabowska, and S. Carrazza, "Style-based quantum generative adversarial networks for Monte Carlo events," Quantum, vol. 6, p. 777, Aug. 2022, doi: [10.22331/q-2022-08-17-777](https://doi.org/10.22331/q-2022-08-17-777).</p>
 <a href="https://doi.org/10.22331/q-2022-08-17-777" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 23 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">S. Sim, P. D. Johnson, and A. Aspuru-Guzik, "Expressibility and Entangling Capability of Parameterized Quantum Circuits for Hybrid Quantum-Classical Algorithms," Adv. Quantum Technol., vol. 2, no. 12, p. 1900070, Dec. 2019, doi: [10.1002/qute.201900070](https://doi.org/10.1002/qute.201900070).</p>
 <a href="https://doi.org/10.1002/qute.201900070" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 24 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">C. Bravo-Prieto, J. Lumbreras-Zarapico, L. Tagliacozzo, and J. I. Latorre, "Scaling of variational quantum circuit depth for condensed matter systems," Quantum, vol. 4, p. 272, May 2020, doi: [10.22331/q-2020-05-28-272](https://doi.org/10.22331/q-2020-05-28-272).</p>
 <a href="https://doi.org/10.22331/q-2020-05-28-272" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 25 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">Y. Wu, J. Yao, P. Zhang, and H. Zhai, "Expressivity of quantum neural networks," Phys. Rev. Res., vol. 3, no. 3, p. L032049, Aug. 2021, doi: [10.1103/PhysRevResearch.3.L032049](https://doi.org/10.1103/PhysRevResearch.3.L032049).</p>
 <a href="https://doi.org/10.1103/PhysRevResearch.3.L032049" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 26 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">D. Herman, R. Raymond, M. Li, N. Robles, A. Mezzacapo, and M. Pistoia, "Expressivity of Variational Quantum Machine Learning on the Boolean Cube," IEEE Trans. Quantum Eng., vol. 4, pp. 1–18, 2023, doi: [10.1109/TQE.2023.3255206](https://doi.org/10.1109/TQE.2023.3255206).</p>
 <a href="https://doi.org/10.1109/TQE.2023.3255206" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 27 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">T. Hubregtsen, J. Pichlmeier, P. Stecher, and K. Bertels, "Evaluation of parameterized quantum circuits: on the relation between classification accuracy, expressibility, and entangling capability," Quantum Mach. Intell., vol. 3, no. 1, p. 9, Jun. 2021, doi: [10.1007/s42484-021-00038-w](https://doi.org/10.1007/s42484-021-00038-w).</p>
 <a href="https://doi.org/10.1007/s42484-021-00038-w" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 28 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">T. Haug, K. Bharti, and M. S. Kim, "Capacity and Quantum Geometry of Parametrized Quantum Circuits," PRX Quantum, vol. 2, no. 4, p. 040309, Oct. 2021, doi: [10.1103/PRXQuantum.2.040309](https://doi.org/10.1103/PRXQuantum.2.040309).</p>
 <a href="https://doi.org/10.1103/PRXQuantum.2.040309" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 29 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">Z. Holmes, K. Sharma, M. Cerezo, and P. J. Coles, "Connecting Ansatz Expressibility to Gradient Magnitudes and Barren Plateaus," PRX Quantum, vol. 3, no. 1, p. 010313, Jan. 2022, doi: [10.1103/PRXQuantum.3.010313](https://doi.org/10.1103/PRXQuantum.3.010313).</p>
 <a href="https://doi.org/10.1103/PRXQuantum.3.010313" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 30 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">J. R. McClean, S. Boixo, V. N. Smelyanskiy, R. Babbush, and H. Neven, "Barren plateaus in quantum neural network training landscapes," Nat. Commun., vol. 9, no. 1, p. 4812, Nov. 2018, doi: [10.1038/s41467-018-07090-4](https://doi.org/10.1038/s41467-018-07090-4).</p>
 <a href="https://doi.org/10.1038/s41467-018-07090-4" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 31 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. Cerezo, A. Sone, T. Volkoff, L. Cincio, and P. J. Coles, "Cost function dependent barren plateaus in shallow parametrized quantum circuits," Nat. Commun., vol. 12, no. 1, p. 1791, Mar. 2021, doi: [10.1038/s41467-021-21728-w](https://doi.org/10.1038/s41467-021-21728-w).</p>
 <a href="https://doi.org/10.1038/s41467-021-21728-w" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 32 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">A. Arrasmith, M. Cerezo, P. Czarnik, L. Cincio, and P. J. Coles, "Effect of barren plateaus on gradient-free optimization," Quantum, vol. 5, p. 558, Oct. 2021, doi: [10.22331/q-2021-10-05-558](https://doi.org/10.22331/q-2021-10-05-558).</p>
 <a href="https://doi.org/10.22331/q-2021-10-05-558" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 33 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">J. Kim, J. Kim, and D. Rosa, "Universal effectiveness of high-depth circuits in variational eigenproblems," Phys. Rev. Res., vol. 3, no. 2, p. 023203, Jun. 2021, doi: [10.1103/PhysRevResearch.3.023203](https://doi.org/10.1103/PhysRevResearch.3.023203).</p>
 <a href="https://doi.org/10.1103/PhysRevResearch.3.023203" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 34 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">S. Wang et al., "Noise-induced barren plateaus in variational quantum algorithms," Nat. Commun., vol. 12, no. 1, p. 6961, Nov. 2021, doi: [10.1038/s41467-021-27045-6](https://doi.org/10.1038/s41467-021-27045-6).</p>
 <a href="https://doi.org/10.1038/s41467-021-27045-6" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 35 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">A. Pesah, M. Cerezo, S. Wang, T. Volkoff, A. T. Sornborger, and P. J. Coles, "Absence of Barren Plateaus in Quantum Convolutional Neural Networks," Phys. Rev. X, vol. 11, no. 4, p. 041011, Oct. 2021, doi: [10.1103/PhysRevX.11.041011](https://doi.org/10.1103/PhysRevX.11.041011).</p>
 <a href="https://doi.org/10.1103/PhysRevX.11.041011" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 36 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">C. Ortiz Marrero, M. Kieferová, and N. Wiebe, "Entanglement-Induced Barren Plateaus," PRX Quantum, vol. 2, no. 4, p. 040316, Oct. 2021, doi: [10.1103/PRXQuantum.2.040316](https://doi.org/10.1103/PRXQuantum.2.040316).</p>
 <a href="https://doi.org/10.1103/PRXQuantum.2.040316" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 37 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. Larocca, N. Ju, D. García-Martín, P. J. Coles, and M. Cerezo, "Theory of overparametrization in quantum neural networks," Nat. Comput. Sci., vol. 3, no. 6, pp. 542–551, Jun. 2023, doi: [10.1038/s43588-023-00467-6](https://doi.org/10.1038/s43588-023-00467-6).</p>
 <a href="https://doi.org/10.1038/s43588-023-00467-6" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 38 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">K. Sharma, M. Cerezo, L. Cincio, and P. J. Coles, "Trainability of Dissipative Perceptron-Based Quantum Neural Networks," Phys. Rev. Lett., vol. 128, no. 18, p. 180505, May 2022, doi: [10.1103/PhysRevLett.128.180505](https://doi.org/10.1103/PhysRevLett.128.180505).</p>
 <a href="https://doi.org/10.1103/PhysRevLett.128.180505" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 39 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. S. Rudolph et al., "Trainability barriers and opportunities in quantum generative modeling," 2023, arXiv. doi: [10.48550/ARXIV.2305.02881](https://doi.org/10.48550/ARXIV.2305.02881).</p>
 <a href="https://doi.org/10.48550/ARXIV.2305.02881" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 40 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. C. Caro and I. Datta, "Pseudo-dimension of quantum circuits," Quantum Mach. Intell., vol. 2, no. 2, p. 14, Dec. 2020, doi: [10.1007/s42484-020-00027-5](https://doi.org/10.1007/s42484-020-00027-5).</p>
 <a href="https://doi.org/10.1007/s42484-020-00027-5" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 41 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">A. Abbas, D. Sutter, C. Zoufal, A. Lucchi, A. Figalli, and S. Woerner, "The power of quantum neural networks," Nat. Comput. Sci., vol. 1, no. 6, pp. 403–409, Jun. 2021, doi: [10.1038/s43588-021-00084-1](https://doi.org/10.1038/s43588-021-00084-1).</p>
 <a href="https://doi.org/10.1038/s43588-021-00084-1" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 42 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">L. Banchi, J. Pereira, and S. Pirandola, "Generalization in Quantum Machine Learning: A Quantum Information Standpoint," PRX Quantum, vol. 2, no. 4, p. 040321, Nov. 2021, doi: [10.1103/PRXQuantum.2.040321](https://doi.org/10.1103/PRXQuantum.2.040321).</p>
 <a href="https://doi.org/10.1103/PRXQuantum.2.040321" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 43 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">K. Bu, D. E. Koh, L. Li, Q. Luo, and Y. Zhang, "Effects of quantum resources and noise on the statistical complexity of quantum circuits," Quantum Sci. Technol., vol. 8, no. 2, p. 025013, Apr. 2023, doi: [10.1088/2058-9565/acb56a](https://doi.org/10.1088/2058-9565/acb56a).</p>
 <a href="https://doi.org/10.1088/2058-9565/acb56a" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 44 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">K. Bu, D. E. Koh, L. Li, Q. Luo, and Y. Zhang, "Rademacher complexity of noisy quantum circuits," 2021, arXiv. doi: [10.48550/ARXIV.2103.03139](https://doi.org/10.48550/ARXIV.2103.03139).</p>
 <a href="https://doi.org/10.48550/ARXIV.2103.03139" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 45 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">K. Bu, D. E. Koh, L. Li, Q. Luo, and Y. Zhang, "Statistical complexity of quantum circuits," Phys. Rev. A, vol. 105, no. 6, p. 062431, Jun. 2022, doi: [10.1103/PhysRevA.105.062431](https://doi.org/10.1103/PhysRevA.105.062431).</p>
 <a href="https://doi.org/10.1103/PhysRevA.105.062431" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 46 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">Y. Du, Z. Tu, X. Yuan, and D. Tao, "Efficient Measure for the Expressivity of Variational Quantum Algorithms," Phys. Rev. Lett., vol. 128, no. 8, p. 080506, Feb. 2022, doi: [10.1103/PhysRevLett.128.080506](https://doi.org/10.1103/PhysRevLett.128.080506).</p>
 <a href="https://doi.org/10.1103/PhysRevLett.128.080506" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 47 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">C. Gyurik, D. Vreumingen, Van, and V. Dunjko, "Structural risk minimization for quantum linear classifiers," Quantum, vol. 7, p. 893, Jan. 2023, doi: [10.22331/q-2023-01-13-893](https://doi.org/10.22331/q-2023-01-13-893).</p>
 <a href="https://doi.org/10.22331/q-2023-01-13-893" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 48 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. C. Caro, E. Gil-Fuster, J. J. Meyer, J. Eisert, and R. Sweke, "Encoding-dependent generalization bounds for parametrized quantum circuits," Quantum, vol. 5, p. 582, Nov. 2021, doi: [10.22331/q-2021-11-17-582](https://doi.org/10.22331/q-2021-11-17-582).</p>
 <a href="https://doi.org/10.22331/q-2021-11-17-582" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 49 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. C. Caro et al., "Generalization in quantum machine learning from few training data," Nat. Commun., vol. 13, no. 1, p. 4919, Aug. 2022, doi: [10.1038/s41467-022-32550-3](https://doi.org/10.1038/s41467-022-32550-3).</p>
 <a href="https://doi.org/10.1038/s41467-022-32550-3" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 50 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">M. C. Caro et al., "Out-of-distribution generalization for learning quantum dynamics," Nat. Commun., vol. 14, no. 1, p. 3751, Jul. 2023, doi: [10.1038/s41467-023-39381-w](https://doi.org/10.1038/s41467-023-39381-w).</p>
 <a href="https://doi.org/10.1038/s41467-023-39381-w" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 51 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">Y. Qian, X. Wang, Y. Du, X. Wu, and D. Tao, "The Dilemma of Quantum Neural Networks," IEEE Trans. Neural Netw. Learn. Syst., vol. 35, no. 4, pp. 5603–5615, Apr. 2024, doi: [10.1109/TNNLS.2022.3208313](https://doi.org/10.1109/TNNLS.2022.3208313).</p>
 <a href="https://doi.org/10.1109/TNNLS.2022.3208313" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 52 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">Y. Du, Y. Yang, D. Tao, and M.-H. Hsieh, "Problem-Dependent Power of Quantum Neural Networks on Multiclass Classification," Phys. Rev. Lett., vol. 131, no. 14, p. 140601, Oct. 2023, doi: [10.1103/PhysRevLett.131.140601](https://doi.org/10.1103/PhysRevLett.131.140601).</p>
 <a href="https://doi.org/10.1103/PhysRevLett.131.140601" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 53 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">L. Schatzki, M. Larocca, Q. T. Nguyen, F. Sauvage, and M. Cerezo, "Theoretical guarantees for permutation-equivariant quantum neural networks," Npj Quantum Inf., vol. 10, no. 1, p. 12, Jan. 2024, doi: [10.1038/s41534-024-00804-1](https://doi.org/10.1038/s41534-024-00804-1).</p>
 <a href="https://doi.org/10.1038/s41534-024-00804-1" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 54 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">E. Peters and M. Schuld, "Generalization despite overfitting in quantum machine learning models," Quantum, vol. 7, p. 1210, Dec. 2023, doi: [10.22331/q-2023-12-20-1210](https://doi.org/10.22331/q-2023-12-20-1210).</p>
 <a href="https://doi.org/10.22331/q-2023-12-20-1210" class="text-electron">View source</a>
 </div>
 </div>
-<div class="bibliography-item word-break text-sm p-3 border-1 border-electron/25 flex gap-2">
+<div class="bibliography-item word-break  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 55 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
 <p class="break-words">T. Haug and M. S. Kim, "Generalization of Quantum Machine Learning Models Using Quantum Fisher Information Metric," Phys. Rev. Lett., vol. 133, no. 5, p. 050603, Jul. 2024, doi: [10.1103/PhysRevLett.133.050603](https://doi.org/10.1103/PhysRevLett.133.050603).</p>

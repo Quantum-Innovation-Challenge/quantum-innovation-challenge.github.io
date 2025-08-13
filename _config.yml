@@ -39,7 +39,7 @@ header_pages:
   - _pages/eligibility.md
 #  - _pages/registration.md
   - _pages/submission.md
-  # - _pages/videos-slides.md
+  - _pages/videos.md
   - _pages/resources.md
   - _pages/faq.md
   - _pages/about.md
@@ -94,3 +94,222 @@ defaults:
 # Simplify tables of contents
 kramdown:
   toc_levels: "2,3"
+
+# Team members
+team_members:
+  - name: "Mark Nicholas Jones"
+    image: "https://avatars.githubusercontent.com/u/61972059?v=4"
+    organization: "Molecular Quantum Solutions (MQS)"
+    role: "CEO/CTO"
+    website: "https://mqs.dk/"
+    github: "https://github.com/MQS-mark"
+    linkedin: "https://www.linkedin.com/in/mark-nicholas-jones-7730b1b4"
+    
+  - name: "Nishta Raheesty Nem"
+    image: "https://bii.dk/media/pkqfmujr/nishta-raheesty-nem-00089-g.jpg?rxy=0.629281372476021,0.47382116554450443&width=366&height=355&v=1dba9eb1d9e1670&format=webp&quality=85"
+    organization: "Bio Innovation Institute (BII)"
+    role: "Business Developer"
+    website: "https://bii.dk"
+    linkedin: "https://www.linkedin.com/in/raheestynem"
+    
+  - name: "Francesco Russo"
+    image: "https://novonordiskfonden.dk//app/uploads/Francesco_Russo_FRU_NNF_TEMP-150x150.jpg"
+    organization: "Novo Nordisk Foundation"
+    role: "Scientific Manager"
+    website: "https://novonordiskfonden.dk/"
+    linkedin: "https://www.linkedin.com/in/russof85"
+    
+  - name: "Cathal Mahon"
+    image: "https://bii.dk/media/jdejbvl4/cathal-00648-g.jpg?rxy=0.6401117218224771,0.3826642854564162&width=366&height=355&v=1dba9ead369cf90&format=webp&quality=85"
+    organization: "Bio Innovation Institute (BII)"
+    role: "Chief Business Officer"
+    website: "https://bii.dk/"
+    linkedin: "https://www.linkedin.com/in/cathalmahon"
+
+  - name: "Christian Nicolai Thiesen"
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQF8PNgVxYLXBQ/profile-displayphoto-crop_800_800/B4DZhahwluGQAM-/0/1753865457447?e=1758153600&v=beta&t=Zl5lwYD_b0MqYBZrSg4Gvpbf0DSjt1QBPW6OjV4hnTs"
+    organization: "Bio Innovation Institute (BII)"
+    role: "Consultant"
+    website: "https://bii.dk/"
+    linkedin: "https://www.linkedin.com/in/cnthiesen/"
+    
+  - name: "Morten Bache"
+    image: "https://media.licdn.com/dms/image/v2/C4D03AQEaKrX4l2GVKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535103225764?e=2147483647&v=beta&t=C4hMV2s6Y6P1_eUMOS-DOas00NqQY2F94ZJThQAQcdE"
+    organization: "Novo Nordisk Foundation"
+    role: "Scientific Director"
+    website: "https://novonordiskfonden.dk/"
+    linkedin: "https://www.linkedin.com/in/mortenbache/"
+    
+  - name: "Lene Mandal Bastholm"
+    image: "https://media.licdn.com/dms/image/v2/C4D03AQEeHWVmODrlHA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1631787977349?e=1755734400&v=beta&t=PDxjTKhwmeJBwKybbVVhhWNDJ_sNAgYd6nTBVf6UXcY"
+    organization: "Danish Business Authority"
+    role: "Head of Section"
+    website: "https://danishbusinessauthority.dk/"
+    linkedin: "https://www.linkedin.com/in/lene-mandal-bastholm-347b8321b/"
+    
+  - name: "Søren Karlsen Glensholm"
+    image: "https://media.licdn.com/dms/image/v2/C4D03AQEUBShZkxDAbQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1601816798717?e=1755734400&v=beta&t=5YFsyfB99WuLQqpi_XKnfTKOUBqcn4qLdJZXt7B2TZA"
+    organization: "Danish Business Authority"
+    role: "Policy Officer"
+    website: "https://danishbusinessauthority.dk/"
+    linkedin: "https://www.linkedin.com/in/glensholm/"
+    
+  - name: "Ulrik Nicolai de Lichtenberg"
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQGU0Z-c6a_c_g/profile-displayphoto-shrink_200_200/B4EZTwjmTMHcAY-/0/1739202651786?e=1756339200&v=beta&t=CMwib8lDoCb0RQEtv1isPoVrpGQvALT1EzWCTQ6vz9g"
+    organization: "Danish Centre for AI Innovation (DCAI)"
+    role: "Director, Scientific Projects @ Gefion"
+    website: "https://dcai.dk"
+    linkedin: "https://www.linkedin.com/in/ulrik-nicolai-de-lichtenberg"
+    
+  - name: "Marius Almstedt"
+    image: "https://images.squarespace-cdn.com/content/v1/659418820e4ebd577040f8e7/7c12748e-26b5-43f7-a27f-d270344268b0/Marius+Almstedt.jpg?format=500w"
+    organization: "QAI Ventures"
+    role: "Director Strategy & Growth"
+    website: "https://qai-ventures.com"
+    linkedin: "https://www.linkedin.com/in/mariusalmstedt/"
+    
+  - name: "Tobias Denzler"
+    image: "https://images.squarespace-cdn.com/content/v1/659418820e4ebd577040f8e7/4738aa39-1aa1-422b-ac6e-ce593bedee82/Tobias-Denzler_QAI-Ventures.jpg?format=500w"
+    organization: "QAI Ventures"
+    role: "Head Science & Technology"
+    website: "https://qai-ventures.com"
+    linkedin: "https://www.linkedin.com/in/tdenzler/"
+    
+  - name: "Maxime Oliva"
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQFAol6_qNk28w/profile-displayphoto-crop_800_800/B4EZfvGHdNHEAI-/0/1752063047959?e=1757548800&v=beta&t=AQEDd5F13Pr4HTsQF28yrRK7jG8mHaZH8h0ae7hWkbA"
+    organization: "Novo Nordisk A/S"
+    role: "Senior Quantum Computing Scientist"
+    website: "https://novonordisk.com"
+    linkedin: "https://www.linkedin.com/in/maxime-oliva-414bb4117/"
+    
+  - name: "Niels Rode Kristensen"
+    image: ""
+    organization: "Novo Nordisk A/S"
+    role: "Senior Director, Pharmacometrics"
+    website: "https://novonordisk.com"
+    linkedin: "https://www.linkedin.com/in/niels-rode-kristensen-aa5749/"
+    
+  - name: "Henrik Lindén"
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQEg8vAWmvuRIA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726240331849?e=1757548800&v=beta&t=BpUfM9Qkf_jG4kYLLGh3MmKVnOEZt2LwzMdRTAMFumw"
+    organization: "Novo Nordisk A/S"
+    role: "Senior Research Scientist, Discovery PKPD and QSP Modelling"
+    website: "https://novonordisk.com"
+    linkedin: "https://www.linkedin.com/in/henrik-lind%C3%A9n-b21636162/"
+    
+  - name: "Jeppe Guilford Manuel"
+    image: "https://media.licdn.com/dms/image/v2/C5603AQGjoiskafwvWA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1536676282951?e=1757548800&v=beta&t=fNVWKne-8FuBk_lKoI57x_TQyUuTByS4RqZP59X_9Mc"
+    organization: "Novo Nordisk A/S"
+    role: "Data Science External Affairs & Intelligence Director"
+    website: "https://novonordisk.com"
+    linkedin: "https://www.linkedin.com/in/jeppe-g-manuel-318532/"
+    
+  - name: "Fanny Sie"
+    image: "https://media.licdn.com/dms/image/v2/D5603AQE1c-71_hfncQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1672708912309?e=1757548800&v=beta&t=2vJCKECC7ixHzPOst-knCZFq9-IrD_XqvhhLxA0RCao"
+    organization: "Roche Holding AG"
+    role: "Head of AI and Emerging Technology External Collaboration, Roche Global Informatics"
+    website: "https://roche.com"
+    linkedin: "https://www.linkedin.com/in/fanny-sie-92966940/"
+    
+  - name: "Michael DAndrea"
+    image: "https://media.licdn.com/dms/image/v2/C5603AQH2V3Hc_jew8Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1649388837889?e=1757548800&v=beta&t=ZUpKaLD5gff86CMkNQcapvCNrmyW7injBcwRz5fQUe0"
+    organization: "Genentech (A member of the Roche Group)"
+    role: "Principal Data Scientist"
+    website: "https://www.gene.com/"
+    linkedin: "https://www.linkedin.com/in/michaeldandreaus/"
+    
+  - name: "Clément Javerzac-Galy"
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQE7rnTDIKFxHQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726582759565?e=1756339200&v=beta&t=FhBldiDP7eO-7rcVkGZA0JM_XgQI1d0Qu70xAncCgeA"
+    organization: "University of Applied Sciences and Arts Northwestern Switzerland FHNW"
+    role: "Professor of Applied Quantum Technologies"
+    website: "https://www.fhnw.ch/en/people/clement-javerzac"
+    linkedin: "https://www.linkedin.com/in/clementjaverzacgaly/"
+    
+  - name: "Jeroen Bakker"
+    image: "https://media.licdn.com/dms/image/v2/C4D03AQEkjz5gQROhMQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1539116712616?e=1756944000&v=beta&t=CVz86CCr2Yk992Wi9FWZAVv3STDf5cMpH2O4TRdVcMM"
+    organization: "Novo Holdings"
+    role: "Partner"
+    website: "https://novoholdings.dk/"
+    linkedin: "https://www.linkedin.com/in/jeroenbakker/"
+    
+  - name: "Theo Lundberg"
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQFmXC9zqpEFmg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730217052854?e=1756944000&v=beta&t=Fn1J2393KRQM8bf5Wo0-mACexnT_FxZyJe2IT0guURU"
+    organization: "Novo Holdings"
+    role: "Investor"
+    website: "https://novoholdings.dk/"
+    linkedin: "https://www.linkedin.com/in/theodorlundberg/"
+
+
+
+# FAQ Data
+faq_sections:
+  - title: "General Questions"
+    id: "general"
+    questions:
+      - question: "What is quantum computing, and why is it important for the physical sciences?"
+        answer: |
+          Quantum computers allow to design algorithms within an extended state space (via qubits, qutrits, qudits for example) which classical compute hardware technologies are not able to provide with bit-based calcuation procedures when scaling the problem size.
+
+          The individual qubits/qutrits/qudits are in a superposition state and entanglement between them are defined based on the specific algorithm where the challenge is how to implement the quantum compute algorithm with respect to the mathematical problem one wants to tackle.
+          
+          Important to acknowledge is that the results the quantum compute algorithm are read out from a quantum computer by destroying the superposition states. This implicates that the results are stochastic by nature and the algorithm has to be run many times on the quantum hardware to receive a probability distribution of the solution and hopefully with a clear answer what the solution is.
+
+      - question: "Am I eligible to participate in the challenge?"
+        answer: |
+          Yes! The hackathon is open to everyone, regardless of background or experience. We encourage participants from all career stages, including students, researchers, and professionals, to join us. For code-based projects, we recommend at least beginner Python programming experience and basic familiarity with git and GitHub. Prior to the hackathon, we also recommend that participants study the basic concepts behind Bayesian optimization. For those looking to learn or refresh their knowledge on these topics, please study the items provided in the [resources page]({{ site.baseurl }}/resources/).
+
+      - question: "Do I need to have a team to participate?"
+        answer: "Yes, it is a condition to form a team of a minimum of two members with one member having an academic affiliation. This will allow you to share ideas and learn from others! It is up to you to identify and form a team, and you can do so at any time leading up to the phase 1 challenge submission."
+
+      - question: "Can I participate in multiple projects?"
+        answer: "Yes, you may participate in multiple projects. For example, one may wish to apply a particular algorithm to a benchmark *and* create a concept-focused instructional tutorial to accompany it. Each of these would be considered a separate project with its own template. However, we encourage participants to be realistic about the limited time available during the challenge as well as communicate this to other team members if participating in multiple projects."
+
+      - question: "How do I prepare for the project presentation at EQTC 2025 if our team is one of the top five teams?"
+        answer: "You will receive further information when your team has been selected as one of the winner teams to present at the conference."
+
+      - question: "How many members can one participating group consist of?"
+        answer: "At least 2 members have to form a team where at least 1 member has an academic affiliation. There is no upper limit to the team size but 2 team members have to selected as the official members of the projects which will be submitted."
+
+  - title: "Technical Questions"
+    id: "technical"
+    questions:
+      - question: "Are there specific packages I should use?"
+        answer: "This is a BYOP (\"bring-your-own-package\") event. We have some recommendations for newcomers, but we hope to see a diverse set of solutions applied to the benchmark tasks. Likewise, multiple teams using the same package is not a problem, since solutions can remain private during the course of the challenge until submission."
+
+      - question: "Do I need to use Python, or can I use other languages?"
+        answer: "We recommend using Python, as it is the most common language for scientific computing and has a wide range of libraries with respect to quantum computing. However, you are welcome to use other languages if you prefer."
+
+      - question: "Does it have to be quantum computing or quantum-inspired computing, or are other algorithms allowed?"
+        answer: "Yes, there needs to be some sub-algorithm or connected algorithm which makes use of a quantum computing based method or quantum-inspired method to enhance a model or calculation pipeline."
+
+      - question: "Does my GitHub repository need to be public?"
+        answer: "During the course of the challenge, your repository can remain private. However, to be considered for phase 2 and the final winners evaluation, your repository must be made public together with a pull request to the Quantum-Challenge-2025 repository. This ensures that the work is accessible to the community and can be reviewed by the judges during the [judging and showcase section]({{ site.baseurl }}/agenda/). You are also welcome to make your repository public at any time leading up to or during the challenge."
+
+      - question: "Would it be possible that two start-up entities form one group?"
+        answer: "There is no restriction with respect how many entities can collaborate. The only condition is that one of the two official members has an academic affiliation."
+
+      - question: "How many entities could possibly collaborate to participate in the challenge?"
+        answer: "Same answer as for question 6: There is no upper limit, only the condition that one official member has an academic affiliation."
+
+      - question: "To what degree is it allowed to mix commercial tools with a dedicated developed code base?"
+        answer: "Commercial software tools can not be developed further during this challenge and submissions showcasing new capabilities of the commercial tool will be deemed not acceptable for this challenge. Commercial software tools can be applied to generate data sets. These data sets have to be shared and made accessible in the project repository being submitted."
+
+      - question: "Is it allowed to apply our own commercial product in combination with an additional code base?"
+        answer: |
+          The commercial tool should be seen as a data generator and all data generated with the commercial tool has to be shared in the repository when submitting a project. The algorithm and/or method should also be well documented in form of a pre-review, reviewed paper or public accessible documentation. 
+          
+          Project submissions which solely rely on the commercial tool and no additional methods, algorithms or model has been developed during the challenge, will most likely get worse ratings than a project submission with extensive documented code which has been made accessible in the project repository.
+
+      - question: "In which format and form should the code base be submitted?"
+        answer: "There is no restriction to which programming language or text format files should be used. Important is that the code is well documented and executable."
+
+      - question: "Should we also present our contribution with a video?"
+        answer: "Video contributions are welcome but enhancing the chances to get accepted to the second round will be evaluated case by case. A video contribution will be helpful when it showcases well the scientific content of the submitted project."
+
+      - question: "What is expected in this challenge?"
+        answer: "The minimum requirement is a well documented code repository where the code is executable and the results presented in a report can be easily replicated. But we want to note that a video can help us to understand your project better."
+
+      - question: "Would publishing our report via arxiv give extra points?"
+        answer: "No, publishing the report on the arxiv will not give extra points. It is recommended to deliver a well structured report in the repository in form of a pdf file."
+
+      - question: "What license should we use for our submissions?"
+        answer: "The Quantum Challenge enforces submissions under Creative Commons Attribution 4.0 International License, and the code itself under Apache License 2.0 and the submitting team agrees to license the Submission under the Creative Commons Attribution 4.0 International License, and all provided code under the Apache License, Version 2.0 or MIT license."

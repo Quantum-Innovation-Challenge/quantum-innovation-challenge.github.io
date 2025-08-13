@@ -16,8 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const cant = 120;
   const offset = 2 / cant;
   const increment = Math.PI * (3 - Math.sqrt(5));  
-  let mouseX = 0;
-  let mouseY = 0;
+  let startTime = Date.now();
 
   // Calculate scaling factors based on sphere size
   const sphereRadius = (SPHERE_SIZE_PX - 4) / 2; // Leave 2px padding on each side
@@ -39,12 +38,19 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
     updatePoints();
+    // Start the animation loop
+    animateSphere();
   }
 
-  // Update point positions based on mouse movement
+  // Update point positions based on time for slow rotation
   function updatePoints() {
-    const angleX = (-mouseX / 4) * Math.PI / 420;
-    const angleY = (mouseY / 4) * Math.PI / 420;
+    const currentTime = Date.now();
+    const elapsed = (currentTime - startTime) / 1000; // Convert to seconds
+    
+    // Slow rotation - adjust these values to change rotation speed
+    const rotationSpeed = 0.3; // Radians per second (lower = slower)
+    const angleX = elapsed * rotationSpeed * 0.5; // Rotate around X axis
+    const angleY = elapsed * rotationSpeed; // Rotate around Y axis
     
     for (let i = 0; i < cant; i++) {
       const y = (i * offset - 1) + (offset / 2);
@@ -73,12 +79,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Mouse move event listener
-  document.addEventListener('mousemove', function(event) {
-    mouseX = event.pageX;
-    mouseY = event.pageY;
+  // Animation loop for continuous rotation
+  function animateSphere() {
     updatePoints();
-  });
+    requestAnimationFrame(animateSphere);
+  }
 
   // Initialize the sphere
   initializePoints();

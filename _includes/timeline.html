@@ -1,0 +1,93 @@
+
+<div class="flex gap-2 items-center px-0 lg:px-5 ">
+    <img src="{{ "/assets/icons/timeline-calendar.svg" | relative_url }}" class="svg w-6 h-6 text-white hidden lg:block">
+    <h2 class="my-0"> Timeline</h2>
+</div>
+
+<!-- Challenge Timeline -->
+<div class="w-full not-prose">
+    <div class=" ">  
+        <div class="relative gap-10 flex flex-col">
+            
+            {% if registration_status == "soon" or registration_status == "open" or registration_status == "demo" %}
+            <!-- Registration Phase -->
+            <div class="border-b border-electron/25 pt-4 pb-8">
+                <div class="pb-4 lg:px-4">
+                    <div class="flex flex-col gap-2">
+                        <div class="text-electron text-lg ">{{ site.registration_opens_date }}</div>
+                        <p class="text-white ">Applications open for participants. It's a quick setup. Just share your team roster and hosting letter to join the quantum challenge.</p>
+                        {% if registration_status == 'open' %}
+                            <button id="registerTeamButton" class="plausible-event-name=Register+Team w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" onclick="openRegistrationModal()">
+                                <span class="relative z-10">
+                                    <span>Register your team</span>
+                                </span>
+                            </button>
+                            
+                            <p class=" text-white/80">Don't have have a team? Find team members via Element Space</p>
+                            <a target="_blank" id="findTeamMembersButton" class="plausible-event-name=Find+Team+Members+Click w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" href="https://matrix.to/#/#mqs-community-space:mozilla.org ">
+                                <span class="relative z-10">
+                                    <span>Find team members</span>
+                                </span>
+                            </a>
+                        {% elsif registration_status == 'closed' %}
+                            <a class="btn disabled">Registration has closed</a>
+                        {% elsif registration_status == 'soon' %}
+                            <a class="btn disabled">Registration opens soon</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Phase I -->
+            <div class="border-b border-electron/25 pt-4 pb-8">
+                <div class="pb-4 lg:px-4">
+                    <div class="flex flex-col gap-2">
+                        <div class="text-electron text-lg ">{{ site.registration_closes_date }}</div>
+                        <h4 class="text-lg font-bold text-white">Phase 1</h4>
+                        <div class="text-white space-y-2">
+                            <p>Submission of the projects closes on the 30th of September at 10AM Central European Time (CET).</p>
+                            <p>Evaluation will be conducted from the 1st until the 15th of October.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase II -->
+            <div class="border-b border-electron/25 pt-4 pb-8">
+                <div class="pb-4 lg:px-4">
+                    <div class="flex flex-col gap-2">
+                        <div class="text-electron text-lg ">{{ site.event_date }}</div>
+                        <h4 class="text-lg font-bold text-white">Phase II</h4>
+                        <div class="text-white space-y-2">
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).</li>
+                                <li>Travel costs and accomodation for all teams are sponsored and will be covered.</li>
+                                <li>Scheduled access to Gefion after EQTC until end of January 2026 (Phase III)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase III -->
+            <div class="pt-4 pb-8">
+                <div class="pb-4 lg:px-4">
+                    <div class="flex flex-col gap-2">
+                        <div class="text-electron text-lg ">{{ site.event_date }}</div>
+                        <h4 class="text-lg font-bold text-white">Phase III</h4>
+                        <div class="text-white space-y-2">
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>Finalization of the projects until the 31st of January 2026.</li>
+                                <li>The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.</li>
+                                <li>A prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

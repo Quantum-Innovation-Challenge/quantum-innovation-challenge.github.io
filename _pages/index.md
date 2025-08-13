@@ -43,7 +43,7 @@ permalink: /
 </section>
 
 <section class="flex flex-col mx-auto text-center items-center justify-center mb-12 border-electron/25 py-10">
-  <p class="text-electron/50 text-sm uppercase tracking-[1px] text-lg font-space-mono px-5 ">
+  <p class="text-white/50 text-sm uppercase tracking-[1px] text-lg font-space-mono px-5 ">
     A joint innovation challenge partnership between
   </p>
   
@@ -84,11 +84,11 @@ permalink: /
 
 
 <section class="border-t-1 border-electron/25 ">
-<div class="flex flex-col-reverse lg:flex-row">
+<div class="flex items-start max-w-screen-xl mx-auto gap-10"> 
 <div class="flex-1 py-16 w-full lg:w-auto px-5" id="left-content">
 <div class="max-w-screen-lg! mx-auto prose-wrapped prose">
 
-<h2> Accelerating Quantum Applications<br>in the Life Sciences</h2>
+<h2> Accelerating Quantum Applications in the Life Sciences</h2>
 
 <p>The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.</p>
 
@@ -118,10 +118,16 @@ permalink: /
 <li>Full eligibility details are available on the <a href="https://quantum-innovation-challenge.github.io/eligibility/">Eligibility page</a></li>
 </ul>
 
+
+
+<div class="block lg:hidden mx-auto">
+ {% include timeline.html %}
+</div>
+
 <h2> Support and participation resources: </h2>
 
 <ul>
-<li>Participants are welcome to connect and form teams using our dedicated <a href="https://matrix.to/#/#mqs-community-space:mozilla.org">Element Space</a> (see also <a href="https://element.io">https://element.io</a>)</li>
+<li>Participants are welcome to connect and form teams using our dedicated <a target="_blank" href='https://matrix.to/#/#mqs-community-space:mozilla.org'>Element Space</a> (see also <a target="_blank" href="https://element.io">https://element.io</a>)</li>
 <li>Orientation materials and technical guidance are available on the <a href="https://quantum-innovation-challenge.github.io/resources/">Resources page</a></li>
 <li>Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the <a href="https://quantum-innovation-challenge.github.io/faq/">FAQ page</a></li>
 </ul>
@@ -225,9 +231,9 @@ permalink: /
 
 
 <h2> Partners </h2>
-<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 not-prose"> 
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 not-prose"> 
 <div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
-<a target="_blank" class="w-full h-full text-[#00185A]!" href="https://novonordiskfonden.dk/">
+<a target="_blank" class="w-full h-full text-[#00185A]!" href="https://novonordiskfonden.dk" style="color: #00185A !important">
 <img src="{{ "/assets/partners/nnf.svg" | relative_url }}" alt="Novo Nordisk Foundation" class="svg w-full h-full  object-cover">
 </a> 
 </div>
@@ -277,14 +283,14 @@ permalink: /
 </a>
 </div>
 </div>
-<p>The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:</p>
-<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 not-prose"> 
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<p class="text-xl">The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:</p>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 not-prose"> 
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[200px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
 <a target="_blank" class="w-full h-full text-[#00185A]!" href="https://novonordisk.com/">
 <img src="{{ "/assets/partners/novo-nordisk.svg" | relative_url }}" alt="Novo Nordisk Foundation" class="svg w-full h-full  object-cover">
 </a> 
 </div>
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[200px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
 <a target="_blank" class="w-full h-full text-[#00185A]!" href="https://roche.com/">
 <img src="{{ "/assets/partners/roche.svg" | relative_url }}" alt="Novo Nordisk Foundation" class="svg w-full h-full  object-cover">
 </a> 
@@ -296,100 +302,17 @@ permalink: /
 
 <h2> Financial Sponsors </h2>
 <ul>
-<li> <a href="https://novonordiskfonden.dk/">Novo Nordisk Foundation</a> </li>
+<li> <a target="_blank" href="https://novonordiskfonden.dk/">Novo Nordisk Foundation</a> </li>
 <li> <a href="https://danishbusinessauthority.dk/">Danish Business Authority</a> </li>
 </ul>
 </div>
 
 </div>
-<div class="w-full lg:min-w-[360px] lg:w-[360px] lg:max-w-[360px] py-16 border-l-0 lg:border-l-1 border-b-1  border-electron/25 px-8 w-full lg:w-[320px] lg:min-w-[320px] lg:max-w-[320px]  " id="right-sidebar">
-<div class="flex gap-2 items-center">
-    <img src="{{ "/assets/icons/timeline-calendar.svg" | relative_url }}" class="svg w-6 h-6 text-white">
-    <h2 class="font-bold text-lg"> Timeline</h2>
+ <div class="hidden lg:flex flex-col lg:min-w-[360px] lg:w-[360px] lg:max-w-[360px] my-16 py-8 border-1 border-electron/25" id="right-sidebar">
+     {% include timeline.html %}
 </div>
 
-<div class="flex gap-6 flex-col">
-        {% if registration_status == "soon" or registration_status == "open" or registration_status == "demo" %}
-
-            
-            <div class="flex flex-col gap-2">
-            <div class="text-electron">{{ site.registration_opens_date }}</div>
-                <p class="text-white">Applications open for participants</p>
-                {% if registration_status == 'open' %}
-                    <button id="registerTeamButton"  class="plausible-event-name=Register+Team w-full lg:text-sm xl:text-base flex items-center text-white border-1 border-electron/25 bg-electron/5 py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" onclick="openRegistrationModal()">
-      <span class="relative z-10">
-
-          <span>Register your team</span>
-      </span>
-      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-    </button>
-
-                    <p class="text-sm">Quick setup: Just share your team roster and hosting letter to join the quantum challenge.</p>
-
-                    <p>Don't have have a team? Find team members via Element Space</p>
-                                     <a target="_blank" id="findTeamMembersButton" class="plausible-event-name=Find+Team+Members+Click w-full lg:text-sm xl:text-base flex items-center text-white border-1 border-electron/25 bg-electron/5 py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group"  href="https://matrix.to/#/#mqs-community-space:mozilla.org ">
-      <span class="relative z-10">
-
-          <span>Find team members</span>
-      </span>
-      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-    </a>
-
-                {% elsif registration_status == 'closed' %}
-                    <a class="btn disabled">Registration has closed</a>
-                {% elsif registration_status == 'soon' %}
-                    <a class="btn disabled">Registration opens soon</a>
-                {% endif %}
-            </div>
-        {% endif %}
-
-
-        <div class="flex flex-col gap-2">
-        <div class="flex flex-col gap-1">
-        <div class="flex gap-2 items-center">
-            <img src="{{ "/assets/icons/timeline-item.svg" | relative_url }}" class="svg w-6 h-6 ">
-            <h2 class="font-bold text-lg">Phase 1</h2>
-        </div>
-        <div class="text-electron ">{{ site.registration_closes_date }}</div>
-</div>
-        <p>Submission of the projects closes on the 30th of September at 10AM Central European Time (CET).</p>
-        <p>Evaluation will be conducted from the 1st until the 15th of October.</p>
-        </div>
-        <div class="flex flex-col gap-2">
-        <div class="flex flex-col gap-1">
-        <div class="flex gap-2 items-center">
-            <img src="{{ "/assets/icons/timeline-item.svg" | relative_url }}" class="svg w-6 h-6 ">
-            <h2 class="font-bold text-lg">Phase II</h2>
-        </div>
-        <div class="text-electron ">{{ site.event_date }}</div>
-        </div>
-        <ul class="list-disc list-inside space-y-2">
-        <li>The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).</li>
-        <li>Travel costs and accomodation for all teams are sponsored and will be covered.</li>
-        <li>Scheduled access to Gefion after EQTC until end of January 2026 (Phase III)</li>
-        </ul>
-        </div>
-        <div class="flex flex-col gap-2">
-        <div class="flex flex-col gap-1">
-        <div class="flex gap-2 items-center">
-            <img src="{{ "/assets/icons/timeline-item.svg" | relative_url }}" class="svg w-6 h-6 ">
-            <h2 class="font-bold text-lg">Phase III</h2>
-        </div>
-        <div class="text-electron ">{{ site.event_date }}</div>
-        </div>
-        <ul class="list-disc list-inside space-y-2">
-        <li>Finalization of the projects until the 31st of January 2026.</li>
-        <li>The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.</li>
-            <li>A prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.</li>
-        </ul>
-        </div>
-        
-        
-
-</div>
-</div>
 </div>
 
 </section>
 
-{% include registration.html %}
