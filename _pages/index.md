@@ -42,14 +42,14 @@ permalink: /
   </div>
 </section>
 
-<section class="flex flex-col mx-auto text-center items-center justify-center mb-18 border-electron/25 py-10">
-  <p class="text-electron/50 text-sm mb-5 uppercase tracking-[1px] text-lg font-space-mono px-5 ">
+<section class="flex flex-col mx-auto text-center items-center justify-center mb-12 border-electron/25 py-10">
+  <p class="text-electron/50 text-sm uppercase tracking-[1px] text-lg font-space-mono px-5 ">
     A joint innovation challenge partnership between
   </p>
   
   <!-- Partner Grid -->
-  <div class="border-y-1 w-full px-5 border-electron/25">
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-6 lg:grid-cols-5 xl:grid-cols-9 gap-8 md:gap-10 lg:gap-12 xl:gap-8 py-8 place-items-center w-full max-w-7xl mx-auto items-center justify-center ">
+  <div class="w-full px-5 border-electron/25">
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-6 lg:grid-cols-5 xl:grid-cols-9 gap-8 md:gap-10 lg:gap-12 xl:gap-8 py-4 place-items-center w-full max-w-7xl mx-auto items-center justify-center ">
     <div class="flex justify-center items-center h-16 w-full">
       <img src="{{ "/assets/partners/nnf.svg" | relative_url}}" alt="Novo Nordisk Foundation" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all ">
     </div>
@@ -85,7 +85,7 @@ permalink: /
 
 <section class="border-t-1 border-electron/25 ">
 <div class="flex flex-col-reverse lg:flex-row">
-<div class="flex-1 py-16 w-full lg:w-auto" id="left-content">
+<div class="flex-1 py-16 w-full lg:w-auto px-5" id="left-content">
 <div class="max-w-screen-lg! mx-auto prose-wrapped prose">
 
 <h2> Accelerating Quantum Applications<br>in the Life Sciences</h2>
@@ -128,7 +128,7 @@ permalink: /
 
 <h2> Why participate? </h2>
 
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 <div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
 <img src="{{ "/assets/icons/supercomputer.svg" | relative_url }}" class="svg w-12 h-12 text-electron">
 <p class="font-bold text-center">Access to the Gefion AI supercomputer </p>
@@ -223,76 +223,84 @@ permalink: /
 
 <p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="https://quantum-innovation-challenge.github.io/submission/">Submit a Project page</a>.</p>
 
+
 <h2> Partners </h2>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 not-prose"> 
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full text-[#00185A]!" href="https://novonordiskfonden.dk/">
+<img src="{{ "/assets/partners/nnf.svg" | relative_url }}" alt="Novo Nordisk Foundation" class="svg w-full h-full  object-cover">
+</a> 
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px] hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full text-[#00464B]!" href="https://bii.dk/">
+<img src="{{ "/assets/partners/bii.svg" | relative_url }}" alt="BioInnovation Institute" class="svg w-full h-full  object-cover">
+</a>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px] hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full text-[#00185A]!" href="https://novo-holdings.com/">
+<img src="{{ "/assets/partners/nh.svg" | relative_url }}" alt="Novo Holdings" class="svg w-full h-full  object-cover">
+</a>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white hover:bg-electron p-5 h-[150px]  cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full text-black!" href="https://mqs.dk/">
+<img src="{{ "/assets/partners/mqs.svg" | relative_url }}" alt="Molecular Quantum Solutions (MQS)" class="svg w-full h-full  object-cover">
+</a> 
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px] hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full" href="https://dcai.dk/">
+<img src="{{ "/assets/partners/dcai-full.svg" | relative_url }}" alt="Danish Centre for AI Innovation" class="svg w-full h-full text-black object-cover">
+</a>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px] hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full" href="https://qai-ventures.com/">
+<img src="{{ "/assets/partners/qai.svg" | relative_url }}" alt="QAI Ventures" class="svg w-full h-full text-black object-cover">
+</a>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px] hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full" href="https://investindk.com/">
+<img src="{{ "/assets/partners/erhvervsstyrelsen-color.svg" | relative_url }}" alt="Invest in Denmark" class="svg w-full h-full text-black object-cover">
+</a>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px] hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full" href="https://danishbusinessauthority.dk/">
+<img src="{{ "/assets/partners/dba.svg" | relative_url }}" alt="Danish Business Authority" class="svg w-full h-full text-black object-cover">
+</a>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px] hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full" href="https://icdk.dk/">
+<img src="{{ "/assets/partners/icd.svg" | relative_url }}" alt="Innovation Centre Denmark" class="svg w-full h-full text-black object-cover">
+</a>
+</div>
+<div class="flex flex-col items-center justify-center  border-1 border-electron/25 bg-white p-2.5 flex justify-center items-center h-[150px] hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full flex justify-center items-center" href="https://eqtc2025.ku.dk/">
+<img src="{{ "/assets/partners/eqtc.png" | relative_url }}" alt="European Quantum Technologies Conference 2025" class=" w-full ">
+</a>
+</div>
+</div>
+<p>The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:</p>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 not-prose"> 
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full text-[#00185A]!" href="https://novonordisk.com/">
+<img src="{{ "/assets/partners/novo-nordisk.svg" | relative_url }}" alt="Novo Nordisk Foundation" class="svg w-full h-full  object-cover">
+</a> 
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
+<a target="_blank" class="w-full h-full text-[#00185A]!" href="https://roche.com/">
+<img src="{{ "/assets/partners/roche.svg" | relative_url }}" alt="Novo Nordisk Foundation" class="svg w-full h-full  object-cover">
+</a> 
+</div>
+</div>
 
-<div class="grid grid-cols-4 gap-4">
-<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
-<img src="{{ "/assets/partners/nnf.svg" | relative_url }}" alt="Novo Nordisk Foundation" class="svg w-12 h-12 text-electron">
+
+<p>For further information see the list of experts on the <a href="{{ site.baseurl }}/about/">about page</a>.</p>
+
+<h2> Financial Sponsors </h2>
+<ul>
+<li> <a href="https://novonordiskfonden.dk/">Novo Nordisk Foundation</a> </li>
+<li> <a href="https://danishbusinessauthority.dk/">Danish Business Authority</a> </li>
+</ul>
 </div>
 
-<div style="display: flex; align-items: left; justify-content: center;">
-    <a href="https://novonordiskfonden.dk/">
-        <img src="https://novonordiskfonden.dk//app/uploads/NNF-INT_logo_blue_RGB_solid.png" alt="Novo Nordisk Foundation" style="width:150px; margin-right:70px;">
-    </a>
-    <a href="https://bii.dk/">
-        <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:150px;">
-    </a>
-</div>
-<br>
-<div style="display: flex; align-items: left; justify-content: center;">
-    <a href="https://mqs.dk">
-        <img src="{{ site.asset_url }}/assets/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
-    </a>
-    <a href="https://dcai.dk/">
-        <img src="{{ site.asset_url }}/assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
-    </a>
-</div>
-<div style="display: flex; align-items: left; justify-content: center;">
-    <a href="https://qai-ventures.com">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4yFd81seqGxOo0wpiPf_e27HXz6YQQHtZdw&s" alt="QAI Ventures" style="width:125px; margin-right:95px;">
-    </a>
-        <a href="https://investindk.com/">
-        <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:200px;">
-    </a>
-</div>
-<br>
-<div style="display: flex; align-items: left; justify-content: center;">
-    <a href="https://novoholdings.dk/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:150px; margin-right:70px;">
-    </a>
-    <a href="https://danishbusinessauthority.dk/">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&s" alt="Danish Business Authority" style="width:175px;">
-    </a>
-</div>
-<br>
-<div style="display: flex; align-items: left; justify-content: center;">
-    <a href="https://icdk.dk/">
-        <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px; margin-right:70px;">
-    </a>
-     <a href="https://eqtc2025.ku.dk/">
-        <img src="{{ site.asset_url }}/assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
-    </a>
-</div>
-<br>
-<br> 
-The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:
-<div style="display: flex; align-items: left; justify-content: center;">
-    <a href="https://novonordisk.com/">
-        <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Novo_Nordisk_-_Logo.svg" alt="Novo Nordisk A/S" style="height:75px; margin-right: 70px;">
-    </a>
-    <a href="https://roche.com/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hoffmann-La_Roche_logo.svg/1200px-Hoffmann-La_Roche_logo.svg.png" alt="Roche Holding AG" style="height:75px;">
-    </a>
-</div>
-
-For further information see the list of experts on the [about page](_/../about.md).
-
-## Financial Sponsors
-
-- [Novo Nordisk Foundation](https://novonordiskfonden.dk/)
-- [Danish Business Authority](https://danishbusinessauthority.dk/)
-</div>
-</div>
 </div>
 <div class="w-full lg:min-w-[360px] lg:w-[360px] lg:max-w-[360px] py-16 border-l-0 lg:border-l-1 border-b-1  border-electron/25 px-8 w-full lg:w-[320px] lg:min-w-[320px] lg:max-w-[320px]  " id="right-sidebar">
 <div class="flex gap-2 items-center">

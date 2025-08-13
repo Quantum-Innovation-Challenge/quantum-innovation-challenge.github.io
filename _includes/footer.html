@@ -1,34 +1,159 @@
-<footer class="site-footer h-card">
+<script>
+// Footer Sphere JavaScript (larger version)
+document.addEventListener('DOMContentLoaded', function() {
+  // FOOTER SPHERE SIZE CONFIGURATION - Change this one value to scale the entire sphere
+  const FOOTER_SPHERE_SIZE_PX = 100; // Change to 50 for a 50px sphere, 200 for 200px, etc.
+  
+  const footerSphereContainer = document.getElementById('footerNavigationSphere');
+  if (!footerSphereContainer) return;
+  
+  // Update container size dynamically
+  footerSphereContainer.style.width = `${FOOTER_SPHERE_SIZE_PX}px`;
+  footerSphereContainer.style.height = `${FOOTER_SPHERE_SIZE_PX}px`;
+  
+  const canvas = footerSphereContainer.querySelector('.footer-sphere-canvas');
+  const points = [];
+  const cant = 240; // More points for a denser sphere
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
+
+  // Calculate scaling factors based on sphere size
+  const sphereRadius = (FOOTER_SPHERE_SIZE_PX - 8) / 2; // Leave 4px padding on each side
+  const centerOffset = FOOTER_SPHERE_SIZE_PX / 2;
+
+  // Initialize points for footer sphere
+  function initializeFooterPoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[2px] h-[2px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out hover:bg-quantum';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updateFooterPoints();
+  }
+
+  // Update point positions for footer sphere (bigger)
+  function updateFooterPoints() {
+    const angleX = (-mouseX / 6) * Math.PI / 420;
+    const angleY = (mouseY / 6) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
+      
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
+      
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 2;
+      
+      const point = points[i];
+      if (point && point.element) {
+        // Scale coordinates based on footer sphere size
+        const translateX = centerOffset + x * sphereRadius;
+        const translateY = centerOffset + rotatedY * sphereRadius;
+        const translateZ = scale * 0.8;
+        
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
+
+  // Mouse move event listener for footer sphere
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updateFooterPoints();
+  });
+
+  // Initialize the footer sphere
+  initializeFooterPoints();
+});
+</script>
+
+<footer class="relative  border-t border-electron/25 mt-20">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        {{ site.author }}
+  
+  <!-- Main Footer Content -->
+  <div class="relative z-10 max-w-7xl mx-auto px-6 py-16">
+    
+    <!-- Top Section with Logo, Sphere and Title -->
+    <div class="flex flex-col lg:flex-row items-center justify-between mb-12">
+      <!-- Left side - Logo, Sphere and Title -->
+      <div class="flex items-center space-x-6 mb-8 lg:mb-0">
+        <!-- Canvas for animated points - size now controlled by JavaScript -->  
+        <div id="footerNavigationSphere" class="relative flex-shrink-0"> 
+          <div class="footer-sphere-canvas relative w-full h-full"></div>
+        </div>
+        <!-- Title -->
+        <div>
+          <h2 class="text-2xl lg:text-3xl font-bold text-white mb-2">
+            <a href="{{ "/" | relative_url }}" class="hover:text-electron transition-colors duration-300">
+              <span class="">Quantum Innovation Challenge</span>
+            </a>
+          </h2>
+          <!-- <p class="text-white/70 text-sm">{{ site.description | default: "Advancing quantum computing innovation" }}</p> -->
+        </div>
       </div>
+      
+      <!-- Register Button -->
+      <button class="bg-electron/20 hover:bg-electron/40 text-white border border-electron/25 rounded-lg px-8 py-3 transition-all duration-300 ease-in-out hover:text-quantum font-medium" onclick="openRegistrationModal()">
+        Register Your Team
+      </button>
+    </div>
 
-      <div class="footer-col footer-col-2 icon-list">
-        <a href="https://github.com/{{ site.github_repo }}">
-          <i class="bi bi-github"></i>
-          <span class="username">{{ site.github_repo }}</span>
-        </a><br>
-        <a href="{{ site.baseurl }}/code-of-conduct/">
-          Code of conduct
-        </a>
+
+    <!-- Bottom Section -->
+    <div class="border-t border-electron/25 pt-8">
+      <div class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+        
+        <!-- Left side - Author and Links -->
+        <div class="flex flex-col lg:flex-row items-center space-y-4 ">
+          <div class="text-white/70 text-sm">
+            {{ site.author }}
+          </div>
+          
+          <div class="flex items-center space-x-6 text-sm">
+            <a href="https://github.com/{{ site.github_repo }}" class="text-white/70 hover:text-white transition-colors duration-300 flex items-center">
+              <i class="bi bi-github mr-2"></i>
+              <span>{{ site.github_repo }}</span>
+            </a>
+            
+            <a href="{{ site.baseurl }}/code-of-conduct/" class="text-white/70 hover:text-white transition-colors duration-300">
+              Code of Conduct
+            </a>
+          </div>
+        </div>
+
+        <!-- Right side - Page Links -->
+        <div class="flex items-center space-x-6 text-sm">
+          <a href="{{ site.github.repository_url }}/blob/main/{{ page.path }}" class="text-white/70 hover:text-white transition-colors duration-300">
+            View Page Source
+          </a>
+          
+          <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" class="text-white/70 hover:text-white transition-colors duration-300">
+            Improve This Page
+          </a>
+        </div>
       </div>
+      
 
-      <div class="footer-col footer-col-3 icon-list">
-        <a href="{{ site.github.repository_url }}/blob/main/{{ page.path }}">
-          View page source
-        </a><br>
-        <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}">
-          Improve this page
-        </a>
-      </div>
-
+    </div>
   </div>
 
+  
 </footer>

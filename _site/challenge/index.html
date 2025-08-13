@@ -36,8 +36,15 @@
     <div class="wrapper border-electron/25 border-1"><script>
 // Navigation Sphere JavaScript
 document.addEventListener('DOMContentLoaded', function() {
+  // SPHERE SIZE CONFIGURATION - Change this one value to scale the entire sphere
+  const SPHERE_SIZE_PX = 32; // Change to 50 for a 50px sphere, 100 for 100px, etc.
+  
   const sphereContainer = document.getElementById('navigationSphere');
   if (!sphereContainer) return;
+  
+  // Update container size dynamically
+  sphereContainer.style.width = `${SPHERE_SIZE_PX}px`;
+  sphereContainer.style.height = `${SPHERE_SIZE_PX}px`;
   
   const canvas = sphereContainer.querySelector('.sphere-canvas');
   const points = [];
@@ -46,6 +53,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const increment = Math.PI * (3 - Math.sqrt(5));  
   let mouseX = 0;
   let mouseY = 0;
+
+  // Calculate scaling factors based on sphere size
+  const sphereRadius = (SPHERE_SIZE_PX - 4) / 2; // Leave 2px padding on each side
+  const centerOffset = SPHERE_SIZE_PX / 2;
 
   // Initialize points
   function initializePoints() {
@@ -86,8 +97,9 @@ document.addEventListener('DOMContentLoaded', function() {
       
       const point = points[i];
       if (point && point.element) {
-        const translateX = 15 + x * 12;
-        const translateY = 15 + rotatedY * 12;
+        // Scale coordinates based on sphere size
+        const translateX = centerOffset + x * sphereRadius;
+        const translateY = centerOffset + rotatedY * sphereRadius;
         const translateZ = scale * 0.5;
         
         point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
@@ -155,8 +167,8 @@ document.addEventListener('DOMContentLoaded', function() {
 <header class="group/header overflow-hidden w-full z-10 relative"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out border-quantum/25" id="siteName">
     <!-- Left side - Logo and Title -->
     <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
-      <!-- Canvas for animated points (small sphere - keep current size) -->  
-      <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
+      <!-- Canvas for animated points - size now controlled by JavaScript -->  
+      <div id="navigationSphere" class="relative z-10"> 
         <div class="sphere-canvas relative w-full h-full"></div>
       </div>
       <!-- Title -->
@@ -923,43 +935,179 @@ This mechanistic approach has proven effective, and ODE-based models have become
 <ul class="grid">
   
 </ul>
- 
-    </div>
-  </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
+ <script>
+// Footer Sphere JavaScript (larger version)
+document.addEventListener('DOMContentLoaded', function() {
+  // FOOTER SPHERE SIZE CONFIGURATION - Change this one value to scale the entire sphere
+  const FOOTER_SPHERE_SIZE_PX = 100; // Change to 50 for a 50px sphere, 200 for 200px, etc.
+  
+  const footerSphereContainer = document.getElementById('footerNavigationSphere');
+  if (!footerSphereContainer) return;
+  
+  // Update container size dynamically
+  footerSphereContainer.style.width = `${FOOTER_SPHERE_SIZE_PX}px`;
+  footerSphereContainer.style.height = `${FOOTER_SPHERE_SIZE_PX}px`;
+  
+  const canvas = footerSphereContainer.querySelector('.footer-sphere-canvas');
+  const points = [];
+  const cant = 240; // More points for a denser sphere
+  const offset = 2 / cant;
+  const increment = Math.PI * (3 - Math.sqrt(5));  
+  let mouseX = 0;
+  let mouseY = 0;
 
-  <div class="wrapper">
+  // Calculate scaling factors based on sphere size
+  const sphereRadius = (FOOTER_SPHERE_SIZE_PX - 8) / 2; // Leave 4px padding on each side
+  const centerOffset = FOOTER_SPHERE_SIZE_PX / 2;
 
-    <h2 class="footer-heading">Quantum Innovation Challenge</h2>
+  // Initialize points for footer sphere
+  function initializeFooterPoints() {
+    for (let i = 0; i < cant; i++) {
+      const point = document.createElement('div');
+      point.className = 'absolute w-[2px] h-[2px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out hover:bg-quantum';
+      canvas.appendChild(point);
+      points.push({
+        element: point,
+        x: 0,
+        y: 0,
+        z: 0,
+        scale: 0,
+        opacity: 0
+      });
+    }
+    updateFooterPoints();
+  }
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+  // Update point positions for footer sphere (bigger)
+  function updateFooterPoints() {
+    const angleX = (-mouseX / 6) * Math.PI / 420;
+    const angleY = (mouseY / 6) * Math.PI / 420;
+    
+    for (let i = 0; i < cant; i++) {
+      const y = (i * offset - 1) + (offset / 2);
+      const r = Math.sqrt(1 - Math.pow(y, 2));
+      const a = ((i + 1) % cant) * increment + angleX;
+      const x = Math.cos(a) * r;
+      const z = Math.sin(a) * r;
+      
+      // Apply Y rotation
+      const rotatedY = y * Math.cos(angleY) - z * Math.sin(angleY);
+      const rotatedZ = y * Math.sin(angleY) + z * Math.cos(angleY);
+      
+      const scale = Math.round(rotatedZ * 20000) / 100;
+      const opacity = (1 + rotatedZ) / 2;
+      
+      const point = points[i];
+      if (point && point.element) {
+        // Scale coordinates based on footer sphere size
+        const translateX = centerOffset + x * sphereRadius;
+        const translateY = centerOffset + rotatedY * sphereRadius;
+        const translateZ = scale * 0.8;
         
-      </div>
+        point.element.style.transform = `translate3d(${translateX}px, ${translateY}px, ${translateZ}px)`;
+        point.element.style.opacity = opacity;
+      }
+    }
+  }
 
-      <div class="footer-col footer-col-2 icon-list">
-        <a href="https://github.com/Quantum-Innovation-Challenge">
-          <i class="bi bi-github"></i>
-          <span class="username">Quantum-Innovation-Challenge</span>
-        </a><br>
-        <a href="/code-of-conduct/">
-          Code of conduct
-        </a>
-      </div>
+  // Mouse move event listener for footer sphere
+  document.addEventListener('mousemove', function(event) {
+    mouseX = event.pageX;
+    mouseY = event.pageY;
+    updateFooterPoints();
+  });
 
-      <div class="footer-col footer-col-3 icon-list">
-        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/challenge.md">
-          View page source
-        </a><br>
-        <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/challenge.md">
-          Improve this page
-        </a>
-      </div>
+  // Initialize the footer sphere
+  initializeFooterPoints();
+});
+</script>
 
+<footer class="relative  border-t border-electron/25 mt-20">
+  <data class="u-url" href="/"></data>
+  
+  <!-- Main Footer Content -->
+  <div class="relative z-10 max-w-7xl mx-auto px-6 py-16">
+    
+    <!-- Top Section with Logo, Sphere and Title -->
+    <div class="flex flex-col lg:flex-row items-center justify-between mb-12">
+      <!-- Left side - Logo, Sphere and Title -->
+      <div class="flex items-center space-x-6 mb-8 lg:mb-0">
+        <!-- Canvas for animated points - size now controlled by JavaScript -->  
+        <div id="footerNavigationSphere" class="relative flex-shrink-0"> 
+          <div class="footer-sphere-canvas relative w-full h-full"></div>
+        </div>
+        <!-- Title -->
+        <div>
+          <h2 class="text-2xl lg:text-3xl font-bold text-white mb-2">
+            <a href="/" class="hover:text-electron transition-colors duration-300">
+              <span class="">Quantum Innovation Challenge</span>
+            </a>
+          </h2>
+          <!-- <p class="text-white/70 text-sm">The Life Science Quantum Innovation Challenge for Pharmaceutical Development is a virtual competition combined with a pitch presentation event, organized by the Bio Innovation Institute (BII), Molecular Quantum Solutions (MQS) and QAI Ventures. Leading up to and at the beginning of the event, participants will brainstorm projects and form teams. Over the course of the event, teams will work together to deliver the project and showcase their project at the end of phase 1 (July-September). After phase 1, 5 teams with an academic affiliation will be selected and will retrieve access to Denmark's supercomputer Gefion (Phase 2). Phase 2 will run in October/November. The winner teams will be invited to showcase their project Q1 of 2025 at a selected conference. Come join us to explore, collaborate, innovate, and contribute to the advancement of quantum computing and quantum-inspired computing for pharmaceutical development!</p> -->
+        </div>
+      </div>
+      
+      <!-- Register Button -->
+      <button class="bg-electron/20 hover:bg-electron/40 text-white border border-electron/25 rounded-lg px-8 py-3 transition-all duration-300 ease-in-out hover:text-quantum font-medium" onclick="openRegistrationModal()">
+        Register Your Team
+      </button>
+    </div>
+
+
+    <!-- Bottom Section -->
+    <div class="border-t border-electron/25 pt-8">
+      <div class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+        
+        <!-- Left side - Author and Links -->
+        <div class="flex flex-col lg:flex-row items-center space-y-4 ">
+          <div class="text-white/70 text-sm">
+            
+          </div>
+          
+          <div class="flex items-center space-x-6 text-sm">
+            <a href="https://github.com/Quantum-Innovation-Challenge" class="text-white/70 hover:text-white transition-colors duration-300 flex items-center">
+              <i class="bi bi-github mr-2"></i>
+              <span>Quantum-Innovation-Challenge</span>
+            </a>
+            
+            <a href="/code-of-conduct/" class="text-white/70 hover:text-white transition-colors duration-300">
+              Code of Conduct
+            </a>
+          </div>
+        </div>
+
+        <!-- Right side - Page Links -->
+        <div class="flex items-center space-x-6 text-sm">
+          <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/blob/main/_pages/challenge.md" class="text-white/70 hover:text-white transition-colors duration-300">
+            View Page Source
+          </a>
+          
+          <a href="https://github.com/Quantum-Innovation-Challenge/quantum-innovation-challenge.github.io/edit/main/_pages/challenge.md" class="text-white/70 hover:text-white transition-colors duration-300">
+            Improve This Page
+          </a>
+        </div>
+      </div>
+      
+
+    </div>
   </div>
 
+  
 </footer>
-</style>
+</div>
+  </main>
+        <!-- Copyright -->
+      <div class="text-center pt-0 pb-5">
+        <p class="text-white/50 text-xs font-space-mono">
+          © 2025 Quantum Innovation Challenge. All rights reserved.
+        </p>
+      </div>
+
+
+
+
+
+  </style>
   <script type="module">
     // Initialize inlineSVG
     inlineSVG.init({

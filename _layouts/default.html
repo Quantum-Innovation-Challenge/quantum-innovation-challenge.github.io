@@ -38,10 +38,17 @@
       <!-- {%- include breadcrumbs.html -%} -->
 
       {{ content }}
+        {%- include footer.html -%}
     </div>
   </main>
+        <!-- Copyright -->
+      <div class="text-center pt-0 pb-5">
+        <p class="text-white/50 text-xs font-space-mono">
+          © {{ 'now' | date: "%Y" }} {{ site.title | escape }}. All rights reserved.
+        </p>
+      </div>
 
-  {%- include footer.html -%}
+
 
 
 
