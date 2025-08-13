@@ -43,7 +43,7 @@ menu_icon: clock
 
   <!-- Challenge Timeline -->
   <div class="w-full">
-    <div class="border border-electron/25 rounded-3xl overflow-hidden">
+    <div class="border border-electron/25 overflow-hidden">
       <div class="relative">
         <!-- Timeline line -->
         <div class="absolute left-7 top-0 bottom-0 w-px bg-electron/25"></div>
