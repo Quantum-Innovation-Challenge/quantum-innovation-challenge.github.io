@@ -2,6 +2,10 @@
 <html class="bg-quantum antialiased  " lang="{{ page.lang | default: site.lang | default: " en" }}">
 
 <head>
+  <title>{% if page.title %}{{ page.title | append: " - " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -10,11 +14,11 @@
   <script defer data-domain="quantum-innovation-challenge.github.io"
     src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
   <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.baseurl }}/assets/site.webmanifest">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.asset_url }}/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.asset_url }}/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.asset_url }}/assets/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.asset_url }}/assets/site.webmanifest">
+  <link rel="stylesheet" href="{{ site.asset_url }}/assets/main.css">
 
   <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
 

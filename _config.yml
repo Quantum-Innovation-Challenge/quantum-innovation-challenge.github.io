@@ -24,7 +24,8 @@ description:
 # url: "https://quantum-innovation-challenge.github.io/"
 # For personal GitHub Pages deployment:
 url: "https://cnthiesen.github.io"
-baseurl: "/quantum-innovation-challenge"
+base_url: "/"
+assetsurl: "/quantum-innovation-challenge"
 github_repo: Quantum-Innovation-Challenge
 
 # theme: minima
@@ -32,13 +33,13 @@ github_repo: Quantum-Innovation-Challenge
 # The actual visibility of the nav bar links is influenced by the event_status
 # and registration_status flags below
 header_pages:
-  - _pages/index.md
+  # - _pages/index.md
   - _pages/challenge.md
   - _pages/agenda.md
   - _pages/eligibility.md
 #  - _pages/registration.md
   - _pages/submission.md
-  - _pages/videos-slides.md
+  # - _pages/videos-slides.md
   - _pages/resources.md
   - _pages/faq.md
   - _pages/about.md

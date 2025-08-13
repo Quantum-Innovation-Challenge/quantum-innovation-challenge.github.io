@@ -2,6 +2,10 @@
 <html class="bg-quantum antialiased  " lang=" en">
 
 <head>
+  <title>Submit a Project - Quantum Innovation Challenge</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -102,77 +106,201 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initialize the sphere
   initializePoints();
 });
+
+// Mobile menu toggle functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const mobileMenuButton = document.getElementById('mobileMenuButton');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const hamburgerIcon = document.getElementById('hamburgerIcon');
+  const closeIcon = document.getElementById('closeIcon');
+  
+  // Close mobile menu function
+  function closeMobileMenu() {
+    if (mobileMenu && hamburgerIcon && closeIcon) {
+      mobileMenu.classList.remove('translate-x-0');
+      mobileMenu.classList.add('translate-x-full');
+      hamburgerIcon.classList.remove('hidden');
+      closeIcon.classList.add('hidden');
+    }
+  }
+  
+  // Make closeMobileMenu available globally
+  window.closeMobileMenu = closeMobileMenu;
+  
+  if (mobileMenuButton && mobileMenu) {
+    mobileMenuButton.addEventListener('click', function() {
+      const isOpen = mobileMenu.classList.contains('translate-x-0');
+      
+      if (isOpen) {
+        closeMobileMenu();
+      } else {
+        // Open menu
+        mobileMenu.classList.remove('translate-x-full');
+        mobileMenu.classList.add('translate-x-0');
+        hamburgerIcon.classList.add('hidden');
+        closeIcon.classList.remove('hidden');
+      }
+    });
+    
+    // Close menu when clicking outside 
+    document.addEventListener('click', function(event) {
+      if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
+        closeMobileMenu();
+      }
+    });
+  }
+});
 </script>
 
-<header class="group/header overflow-hidden w-full z-10"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out  border-quantum/25">
+<header class="group/header overflow-hidden w-full z-10 relative"><div class="flex items-center justify-between transition-colors duration-500 ease-in-out border-quantum/25" id="siteName">
     <!-- Left side - Logo and Title -->
-    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl   items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
+    <div class="flex border-electron/25 border-b-1 border-r-1 rounded-br-3xl items-center space-x-3 py-3.5 px-5 h-16 group relative overflow-hidden cursor-pointer">
       <!-- Canvas for animated points (small sphere - keep current size) -->  
       <div id="navigationSphere" class="relative w-8 h-8 z-10"> 
         <div class="sphere-canvas relative w-full h-full"></div>
       </div>
       <!-- Title -->
       <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
-        <a class="site-title " rel="author" href="/">
+        <a class="site-title lg:text-sm xl:text-base " rel="author" href="/">
+          <span class="block lg:hidden xl:block ">Quantum Innovation Challenge</span>
+          <span class="hidden lg:block xl:hidden">QIC</span>
           
+          <!-- 
             Quantum Innovation Challenge
-          
+           -->
         </a>
       </h1>
       <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
     </div>
- 
 
-
-
-    <!-- Navigation Links -->
-    <nav class="flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 hidden xl:flex font-space-mono"><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/challenge/">
+    <!-- Desktop Navigation Links (hidden on mobile/tablet, shown on lg+) -->
+    <nav class="hidden lg:flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 font-space-mono"><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/challenge/">
               <i class="bi bi-briefcase"></i>
               
                 <span>Challenge 2025</span>
               
-            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/agenda/">
+            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/agenda/">
               <i class="bi bi-clock"></i>
               
                 <span>Timeline</span>
               
-            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/eligibility/">
+            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/eligibility/">
               <i class="bi bi-person-exclamation"></i>
               
                 <span>Eligibility</span>
               
-            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white active" href="/submission/">
+            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron text-electron!" href="/submission/">
               <i class="bi bi-cloud-arrow-up"></i>
               
-                <span>Submit a Project</span>
+                <span>Submission</span>
               
-            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/videos-slides/">
-              <i class="bi bi-film"></i>
-              
-                <span>Videos &amp; Slides</span>
-              
-            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/resources/">
+            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/resources/">
               <i class="bi bi-journal-code"></i>
               
                 <span>Resources</span>
               
-            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/faq/">
+            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/faq/">
               <i class="bi bi-question-circle"></i>
               
                 <span>FAQ</span>
               
-            </a><a class="text-white cursor-pointer hover:text-white transition-colors group-[.frontpage]/app:!text-white " href="/about/">
+            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/about/">
               <i class="bi bi-globe2"></i>
               
                 <span>About</span>
               
-            </a></nav>  
+            </a></nav>
 
-    <!-- Submit Project Button -->
-    <button class="flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl  py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
-      <span class="relative z-10">Submit Project</span>
+    <!-- Mobile menu button (visible on mobile/tablet, hidden on lg+) -->
+    <button id="mobileMenuButton" class="lg:hidden flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+      <!-- Hamburger icon -->
+      <div id="hamburgerIcon" class="relative z-10">
+        <div class="w-6 h-6 flex flex-col justify-center items-center">
+          <div class="w-5 h-0.5 bg-current mb-1"></div>
+          <div class="w-5 h-0.5 bg-current mb-1"></div>
+          <div class="w-5 h-0.5 bg-current"></div>
+        </div>
+      </div>
+      <!-- Close icon -->
+      <div id="closeIcon" class="hidden relative z-10">
+        <div class="w-6 h-6 flex justify-center items-center">
+          <div class="w-5 h-0.5 bg-current transform rotate-45 absolute"></div>
+          <div class="w-5 h-0.5 bg-current transform -rotate-45 absolute"></div>
+        </div>
+      </div>
       <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
     </button>
+
+    <!-- Desktop Register Button (hidden on mobile/tablet, shown on lg+) -->
+    <button id="registerTeamButton" class="lg:text-sm xl:text-base hidden lg:flex items-center text-white border-b border-l border-electron/25 rounded-bl-3xl py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" onclick="openRegistrationModal()">
+      <span class="relative z-10">
+        <span class="hidden lg:block">Register</span>
+          <span class="lg:hidden">Register</span>
+      </span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+  </div>
+
+  <!-- Mobile Menu (slides in from right) -->
+  <div id="mobileMenu" class="lg:hidden fixed top-0 right-0 h-full w-80 bg-quantum transform translate-x-full transition-transform duration-300 ease-in-out z-50 border-l border-electron/25">
+    <div class="flex flex-col h-full">
+      <!-- Mobile menu header -->
+      <div class="flex items-center justify-between p-5 border-b border-electron/25">
+        <h2 class="text-white font-bold">Navigation</h2>
+           <div id="closeIcon" class="relative z-10 cursor-pointer" onclick="closeMobileMenu()" >
+        <div class="w-6 h-6 flex justify-center items-center">
+          <div class="w-4 h-0.5 bg-current transform rotate-45 absolute"></div>
+          <div class="w-4 h-0.5 bg-current transform -rotate-45 absolute"></div>
+        </div>
+      </div>
+        <!-- <img src="/assets/icons/close.svg" alt="Close" class="w-4 h-4 cursor-pointer" onclick="closeMobileMenu()"> --> 
+      </div>
+      
+      <!-- Mobile navigation links -->
+      <nav class="flex-1 flex flex-col space-y-2 font-space-mono"><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white  py-3 px-2 border-b border-electron/10" href="/challenge/">
+                <i class="bi bi-briefcase mr-3"></i>
+                
+                  <span>Challenge 2025</span>
+                
+              </a><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white  py-3 px-2 border-b border-electron/10" href="/agenda/">
+                <i class="bi bi-clock mr-3"></i>
+                
+                  <span>Timeline</span>
+                
+              </a><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white  py-3 px-2 border-b border-electron/10" href="/eligibility/">
+                <i class="bi bi-person-exclamation mr-3"></i>
+                
+                  <span>Eligibility</span>
+                
+              </a><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white active text-quantum py-3 px-2 border-b border-electron/10" href="/submission/">
+                <i class="bi bi-cloud-arrow-up mr-3"></i>
+                
+                  <span>Submission</span>
+                
+              </a><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white  py-3 px-2 border-b border-electron/10" href="/resources/">
+                <i class="bi bi-journal-code mr-3"></i>
+                
+                  <span>Resources</span>
+                
+              </a><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white  py-3 px-2 border-b border-electron/10" href="/faq/">
+                <i class="bi bi-question-circle mr-3"></i>
+                
+                  <span>FAQ</span>
+                
+              </a><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white  py-3 px-2 border-b border-electron/10" href="/about/">
+                <i class="bi bi-globe2 mr-3"></i>
+                
+                  <span>About</span>
+                
+              </a></nav>
+      
+      <!-- Mobile register button -->
+      <div class="p-5 border-t border-electron/25">
+        <button class="w-full  flex items-center justify-center text-white bg-electron/20 hover:bg-electron/40 rounded-lg py-3.5 px-5 cursor-pointer transition-all duration-300 ease-in-out hover:text-quantum border border-electron/25" onclick="openRegistrationModal()">
+          <span class="">Register your team</span>
+        </button>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -212,7 +340,7 @@ Further, please also state the project name, your three team members names, GitH
 
 <p>By experience we know that it can also be strategic to first share your repository to the public just before submission so that nobody can copy your ideas or build on top of them. But a challenge project like this over several months will probably not win just because you were hiding your development until just before the deadline. Check out the evaluation criteria to read up on how the scientific committee of this challenge will evaluate each project.</p>
 
-<p><img src="../assets/" alt="project submission" /></p>
+<p><img src="/assets/project-submission.png" alt="project submission" /></p>
 
 <p>In summary:</p>
 

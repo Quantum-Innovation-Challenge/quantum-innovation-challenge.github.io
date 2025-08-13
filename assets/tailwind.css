@@ -20,11 +20,11 @@
 
 		color: white;
 		/* background-color: var(--color-quantum); */
-		font-family: var(--font-space-grotesk);
+		font-family: var(--font-space-mono);
 	}
 
 	body {
-		font-family: var(--font-space-grotesk);
+		font-family: var(--font-space-mono);
 		background-color: transparent;
 		display: block;
 		height: 100%;

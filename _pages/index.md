@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: Home
 menu_title: Home
 menu_icon: house-door
 permalink: /
@@ -47,23 +47,23 @@ permalink: /
         A joint innovation challenge partnership between
       </p>
       <div class=" max-w-screen-xl flex gap-10 justify-center items-center  text-white p-6">
-        <img src="{{ site.baseurl }}/assets/partners/nnf.svg" alt="logo" class="svg h-full w-22 "
+        <img src="{{ site.asset_url }}/assets/partners/nnf.svg" alt="logo" class="svg h-full w-22 "
           >
-        <img src="{{ site.baseurl }}/assets/partners/bii.svg" alt="logo" class="svg h-full w-32"
+        <img src="{{ site.asset_url }}/assets/partners/bii.svg" alt="logo" class="svg h-full w-32"
           >
-        <img src="{{ site.baseurl }}/assets/partners/nh.svg" alt="logo" class="svg h-full w-18"
+        <img src="{{ site.asset_url }}/assets/partners/nh.svg" alt="logo" class="svg h-full w-18"
           >
-        <img src="{{ site.baseurl }}/assets/partners/mqs.svg" alt="logo" class="svg h-full w-32"
+        <img src="{{ site.asset_url }}/assets/partners/mqs.svg" alt="logo" class="svg h-full w-32"
           >
-        <img src="{{ site.baseurl }}/assets/partners/dcai.svg" alt="logo" class="svg h-full w-20"
+        <img src="{{ site.asset_url }}/assets/partners/dcai.svg" alt="logo" class="svg h-full w-20"
           >
-        <img src="{{ site.baseurl }}/assets/partners/qai.svg" alt="logo" class="svg h-full w-34"
+        <img src="{{ site.asset_url }}/assets/partners/qai.svg" alt="logo" class="svg h-full w-34"
           >
-        <img src="{{ site.baseurl }}/assets/partners/dba.svg" alt="logo" class="svg h-full w-34"
+        <img src="{{ site.asset_url }}/assets/partners/dba.svg" alt="logo" class="svg h-full w-34"
           >
-        <img src="{{ site.baseurl }}/assets/partners/erhvervsstyrelsen.svg" alt="logo" class="svg h-full w-56"
+        <img src="{{ site.asset_url }}/assets/partners/erhvervsstyrelsen.svg" alt="logo" class="svg h-full w-56"
           >
-        <img src="{{ site.baseurl }}/assets/partners/icd.svg" alt="logo" class="svg h-full w-26"
+        <img src="{{ site.asset_url }}/assets/partners/icd.svg" alt="logo" class="svg h-full w-26"
           >
 
       </div>
@@ -168,7 +168,7 @@ Support and participation resources:
 ## Why participate?
 
 <div style="display: flex; align-items: left; justify-content: left;">
-    <img src="{{ site.baseurl }}/assets/Benefits.png" alt="Cover Image" style="widt:300px;">
+    <img src="{{ site.asset_url }}/assets/Benefits.png" alt="Cover Image" style="widt:300px;">
 </div>
 
 - Five teams will be selected to present their work at the [European Quantum Technologies Conference 2025 (EQTC)](https://eqtc2025.ku.dk/) in Copenhagen.
@@ -214,10 +214,10 @@ For a full list of the submitted challenge projects, we encourage you to take a 
 <br>
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
-        <img src="{{ site.baseurl }}/assets/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
+        <img src="{{ site.asset_url }}/assets/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px">
     </a>
     <a href="https://dcai.dk/">
-        <img src="{{ site.baseurl }}/assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
+        <img src="{{ site.asset_url }}/assets/DCAI_Logo_horizontal_Black_RGB.png" alt="Danish Centre for AI Innovation" style="width:175px;">
     </a>
 </div>
 <div style="display: flex; align-items: left; justify-content: center;">
@@ -243,11 +243,11 @@ For a full list of the submitted challenge projects, we encourage you to take a 
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px; margin-right:70px;">
     </a>
      <a href="https://eqtc2025.ku.dk/">
-        <img src="{{ site.baseurl }}/assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
+        <img src="{{ site.asset_url }}/assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;">
     </a>
 </div>
 <br>
-<br>
+<br> 
 The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novonordisk.com/">
@@ -268,207 +268,4 @@ For further information see the list of experts on the [about page](_/../about.m
 
 [faq]: {{ site.baseurl }}{% link _pages/faq.md %}
 
-<!-- Registration Modal -->
-<div id="registrationModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeRegistrationModal()">&times;</span>
-    <h2>Register Your Team</h2>
-    
-    <form id="registrationForm" enctype="multipart/form-data">
-      <div class="form-group">
-        <label for="team_member_1_name">Team Member 1 Name *</label>
-        <input type="text" id="team_member_1_name" name="team_member_1_name" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="team_member_1_email">Team Member 1 Email *</label>
-        <input type="email" id="team_member_1_email" name="team_member_1_email" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="team_member_2_name">Team Member 2 Name *</label>
-        <input type="text" id="team_member_2_name" name="team_member_2_name" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="team_member_2_email">Team Member 2 Email *</label>
-        <input type="email" id="team_member_2_email" name="team_member_2_email" required>
-      </div>
-      
-      <div class="form-group">
-        <label>Additional Team Members</label>
-        <div id="additional-members-container">
-          <!-- Additional members will be added here dynamically -->
-        </div>
-        <button type="button" class="btn btn-secondary" onclick="addTeamMember()" style="margin-top: 10px;">+ Add Team Member</button>
-      </div>
-      
-      <div class="form-group">
-        <label for="additional_notes">Additional Notes</label>
-        <textarea id="additional_notes" name="additional_notes" placeholder="Our team is excited to participate in the quantum challenge!"></textarea>
-      </div>
-      
-      <div class="form-group">
-        <label for="pdf_document">Hosting Letter (pdf; optional), please send before submission of your project</label>
-        <input type="file" id="pdf_document" name="pdf_document" accept=".pdf">
-      </div>
-
-      <div class="form-group" style="display: none;">
-        <input type="text" id="email_honeypot" name="email_honeypot">
-      </div>
-      
-      <div class="form-actions">
-        <button type="submit" class="btn">Submit Registration</button>
-        <button type="button" class="btn btn-secondary" onclick="closeRegistrationModal()">Cancel</button>
-      </div>
-    </form>
-  </div>
-</div>
-
-<script>
-function openRegistrationModal() {
-  document.getElementById('registrationModal').style.display = 'block';
-}
-
-function closeRegistrationModal() {
-  document.getElementById('registrationModal').style.display = 'none';
-}
-
-// Close modal when clicking outside of it
-window.onclick = function(event) {
-  const modal = document.getElementById('registrationModal');
-  if (event.target == modal) {
-    closeRegistrationModal();
-  }
-}
-
-// Function to handle file upload and convert to base64
-async function handleFileUpload(file) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = () => {
-      // Convert to base64 (remove the data:application/pdf;base64, prefix)
-      const base64Content = reader.result.split(',')[1];
-      resolve({
-        name: file.name,
-        size: file.size,
-        type: file.type,
-        content: base64Content
-      });
-    };
-    reader.onerror = reject;
-    reader.readAsDataURL(file);
-  });
-}
-
-document.getElementById('registrationForm').addEventListener('submit', async function(e) {
-  e.preventDefault();
-  
-  try {
-    // Prepare JSON payload with exact structure
-    const payload = {
-      team_member_1_name: document.getElementById('team_member_1_name').value,
-      team_member_1_email: document.getElementById('team_member_1_email').value,
-      team_member_2_name: document.getElementById('team_member_2_name').value,
-      team_member_2_email: document.getElementById('team_member_2_email').value,
-      tc_accepted: true,
-      email_honeypot: document.getElementById('email_honeypot').value
-    };
-    
-    // Add optional fields
-    const additionalMembers = getAdditionalTeamMembers();
-    if (additionalMembers.length > 0) {
-      payload.extra_team_members = additionalMembers;
-    }
-    
-    const additionalNotes = document.getElementById('additional_notes').value;
-    if (additionalNotes.trim()) {
-      payload.additional_notes = additionalNotes;
-    }
-    
-    // Handle file upload if selected
-    const pdfFile = document.getElementById('pdf_document').files[0];
-    if (pdfFile) {
-      payload.pdf_document_base64 = await handleFileUpload(pdfFile);
-    }
-    
-    // Debug: Log the JSON payload
-    console.log('=== FORM SUBMISSION DEBUG ===');
-    console.log('JSON payload:', payload);
-    console.log('=== END DEBUG ===');
-    
-    // Submit to API with application/json
-    const response = await fetch('https://api.contact.mqs.dk/quantumChallengeForm', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(payload)
-    });
-    
-    if (response.ok) {
-      alert('Registration submitted successfully!');
-      closeRegistrationModal();
-      document.getElementById('registrationForm').reset();
-    } else {
-      throw new Error('Registration failed');
-    }
-  } catch (error) {
-    console.error('Error:', error);
-    alert('Registration failed. Please try again.');
-  }
-});
-
-function addTeamMember() {
-  const container = document.getElementById('additional-members-container');
-  const memberCount = container.children.length;
-  const memberNumber = memberCount + 3; // Start from 3 since we have 2 required members
-
-  const memberDiv = document.createElement('div');
-  memberDiv.className = 'additional-member';
-  memberDiv.style.border = '1px solid #ddd';
-  memberDiv.style.padding = '15px';
-  memberDiv.style.marginBottom = '15px';
-  memberDiv.style.borderRadius = '5px';
-  memberDiv.style.backgroundColor = '#f9f9f9';
-  memberDiv.innerHTML = `
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-      <h4 style="margin: 0;">Team Member ${memberNumber}</h4>
-      <button type="button" class="btn btn-danger" onclick="removeTeamMember(this)" style="padding: 5px 10px; font-size: 12px;">Remove</button>
-    </div>
-    <div class="form-group" style="margin-bottom: 10px;">
-      <label>Name *</label>
-      <input type="text" name="team_member_${memberNumber}_name" required>
-    </div>
-    <div class="form-group" style="margin-bottom: 0;">
-      <label>Email *</label>
-      <input type="email" name="team_member_${memberNumber}_email" required>
-    </div>
-  `;
-  container.appendChild(memberDiv);
-}
-
-function removeTeamMember(button) {
-  button.closest('.additional-member').remove();
-}
-
-function getAdditionalTeamMembers() {
-  const container = document.getElementById('additional-members-container');
-  const members = [];
-  const memberDivs = container.querySelectorAll('.additional-member');
-  
-  memberDivs.forEach((memberDiv, index) => {
-    const nameInput = memberDiv.querySelector('input[type="text"]');
-    const emailInput = memberDiv.querySelector('input[type="email"]');
-    
-    if (nameInput && emailInput && nameInput.value.trim() && emailInput.value.trim()) {
-      members.push({
-        name: nameInput.value.trim(),
-        email: emailInput.value.trim()
-      });
-    }
-  });
-  
-  return members;
-}
-</script>
+{% include registration.html %}
