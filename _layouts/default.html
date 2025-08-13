@@ -14,11 +14,11 @@
   <script defer data-domain="quantum-innovation-challenge.github.io"
     src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
   <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.asset_url }}/assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.asset_url }}/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.asset_url }}/assets/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.asset_url }}/assets/site.webmanifest">
-  <link rel="stylesheet" href="{{ site.asset_url }}/assets/main.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+  <link rel="manifest" href="{{ "/assets/site.webmanifest" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 
   <script src="https://cdn.jsdelivr.net/npm/inline-svg@2.2.3/dist/inlineSVG.min.js"></script>
 
@@ -27,11 +27,11 @@
 <body>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-
+<div class="fixed inset-0 z-0 pointer-events-none noise"></div>
   <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
 
 
-  <main class="page-content p-5 relative z-10" aria-label="Content">
+  <main class="page-content p-0 md:p-5 relative z-10" aria-label="Content">
  
     <div class="wrapper border-electron/25 border-1">
       {%- include header.html -%}
@@ -46,10 +46,11 @@
 
 
   </style>
-  <script>
+  <script type="module">
+    // Initialize inlineSVG
     inlineSVG.init({
-      svgSelector: 'img.svg', // the class attached to all images that should be inlined
-      initClass: 'js-inlinesvg', // class added to <html>
+      svgSelector: 'img.svg',
+      initClass: 'js-inlinesvg',
     }, function () {
       console.log('All SVGs inlined');
     });

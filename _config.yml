@@ -24,8 +24,8 @@ description:
 # url: "https://quantum-innovation-challenge.github.io/"
 # For personal GitHub Pages deployment:
 url: "https://cnthiesen.github.io"
-base_url: "/"
-asset_url: "/quantum-innovation-challenge"
+# base_url: "/quantum-innovation-challenge"
+base_url: "/quantum"
 github_repo: Quantum-Innovation-Challenge
 
 # theme: minima

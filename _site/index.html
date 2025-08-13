@@ -27,11 +27,11 @@
 <body>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-
+<div class="fixed inset-0 z-0 pointer-events-none noise"></div>
   <div id="particles-js" class="fixed inset-5 z-0 pointer-events-none"></div>
 
 
-  <main class="page-content p-5 relative z-10" aria-label="Content">
+  <main class="page-content p-0 md:p-5 relative z-10" aria-label="Content">
  
     <div class="wrapper border-electron/25 border-1"><script>
 // Navigation Sphere JavaScript
@@ -161,9 +161,9 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
       <!-- Title -->
       <h1 class="text-white font-medium group-hover:text-quantum transition-colors duration-500 ease-in-out z-10 group-[.frontpage]/app:!text-electron">
-        <a class="site-title lg:text-sm xl:text-base active" rel="author" href="/">
-          <span class="block lg:hidden xl:block ">Quantum Innovation Challenge</span>
-          <span class="hidden lg:block xl:hidden">QIC</span>
+        <a class="lg:text-sm xl:text-base active" rel="author" href="/">
+          <span class="hidden lg:hidden xl:block ">Quantum Innovation Challenge</span>
+          <span class="xl:hidden">QIC-2025</span>
           
           <!-- 
             Quantum Innovation Challenge
@@ -174,37 +174,37 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 
     <!-- Desktop Navigation Links (hidden on mobile/tablet, shown on lg+) -->
-    <nav class="hidden lg:flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 font-space-mono"><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/challenge/">
+    <nav class="hidden lg:flex flex-1 items-center space-x-8 py-3.5 px-5 justify-center h-16 font-space-mono"><a class="text-sm  lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors  " href="/challenge/">
               <i class="bi bi-briefcase"></i>
               
-                <span>Challenge 2025</span>
+                <span>Challenge</span>
               
-            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/agenda/">
+            </a><a class="text-sm  lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors  " href="/agenda/">
               <i class="bi bi-clock"></i>
               
                 <span>Timeline</span>
               
-            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/eligibility/">
+            </a><a class="text-sm  lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors  " href="/eligibility/">
               <i class="bi bi-person-exclamation"></i>
               
                 <span>Eligibility</span>
               
-            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/submission/">
+            </a><a class="text-sm  lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors  " href="/submission/">
               <i class="bi bi-cloud-arrow-up"></i>
               
                 <span>Submission</span>
               
-            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/resources/">
+            </a><a class="text-sm  lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors  " href="/resources/">
               <i class="bi bi-journal-code"></i>
               
                 <span>Resources</span>
               
-            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/faq/">
+            </a><a class="text-sm  lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors  " href="/faq/">
               <i class="bi bi-question-circle"></i>
               
                 <span>FAQ</span>
               
-            </a><a class=" lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-electron " href="/about/">
+            </a><a class="text-sm  lg:text-sm xl:text-base text-white cursor-pointer hover:text-electron transition-colors  " href="/about/">
               <i class="bi bi-globe2"></i>
               
                 <span>About</span>
@@ -216,16 +216,16 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Hamburger icon -->
       <div id="hamburgerIcon" class="relative z-10">
         <div class="w-6 h-6 flex flex-col justify-center items-center">
-          <div class="w-5 h-0.5 bg-current mb-1"></div>
-          <div class="w-5 h-0.5 bg-current mb-1"></div>
-          <div class="w-5 h-0.5 bg-current"></div>
+          <div class="w-4 h-0.5 bg-current mb-1 md:w-5 md:h-0.5"></div>
+          <div class="w-4 h-0.5 bg-current mb-1 md:w-5 md:h-0.5"></div>
+          <div class="w-4 h-0.5 bg-current md:w-5 md:h-0.5"></div>
         </div>
       </div>
       <!-- Close icon -->
       <div id="closeIcon" class="hidden relative z-10">
         <div class="w-6 h-6 flex justify-center items-center">
-          <div class="w-5 h-0.5 bg-current transform rotate-45 absolute"></div>
-          <div class="w-5 h-0.5 bg-current transform -rotate-45 absolute"></div>
+          <div class="w-4 h-0.5 bg-current transform rotate-45 absolute md:w-5 md:h-0.5"></div>
+          <div class="w-4 h-0.5 bg-current transform -rotate-45 absolute md:w-5 md:h-0.5"></div>
         </div>
       </div>
       <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <nav class="flex-1 flex flex-col space-y-2 font-space-mono"><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white  py-3 px-2 border-b border-electron/10" href="/challenge/">
                 <i class="bi bi-briefcase mr-3"></i>
                 
-                  <span>Challenge 2025</span>
+                  <span>Challenge</span>
                 
               </a><a class="text-white cursor-pointer hover:text-electron transition-colors group-[.frontpage]/app:!text-white  py-3 px-2 border-b border-electron/10" href="/agenda/">
                 <i class="bi bi-clock mr-3"></i>
@@ -308,195 +308,203 @@ document.addEventListener('DOMContentLoaded', function() {
 -->
 
       
-<!-- 
+<!--
 <div style="display: flex; align-items: left; justify-content: left;">
     <img src="./assets/Cover_Image.png" alt="Cover Image" style="widt:300px;">
 </div> -->
 
-<section class="h-[500px] flex max-w-screen-lg mx-auto text-center items-center justify-center">
+<section class="py-24 lg:pt-32 pb-24 flex max-w-screen-lg mx-auto text-center items-center justify-center px-5">
   <div class="flex-1 gap-4 flex flex-col">
     <h1 class="font-space-mono text-4xl font-bold">Quantum Innovation Challenge 2025</h1>
-    <p class="tracking-[1px] font-space-mono text-lg">The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.</p>
+    <p class="tracking-[1px] font-space-mono text-xl">The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.</p>
   </div>
 </section>
 
-<section class="flex flex-col mx-auto text-center items-center justify-center mb-18 border-electron/25 border-y-1 py-10">
-      <p class="text-electron/100  mb-5 tracking-[1px] text-lg font-space-mono">
-        A joint innovation challenge partnership between
-      </p>
-      <div class=" max-w-screen-xl flex gap-10 justify-center items-center  text-white p-6">
-        <img src="/assets/partners/nnf.svg" alt="logo" class="svg h-full w-22 " />
-        <img src="/assets/partners/bii.svg" alt="logo" class="svg h-full w-32" />
-        <img src="/assets/partners/nh.svg" alt="logo" class="svg h-full w-18" />
-        <img src="/assets/partners/mqs.svg" alt="logo" class="svg h-full w-32" />
-        <img src="/assets/partners/dcai.svg" alt="logo" class="svg h-full w-20" />
-        <img src="/assets/partners/qai.svg" alt="logo" class="svg h-full w-34" />
-        <img src="/assets/partners/dba.svg" alt="logo" class="svg h-full w-34" />
-        <img src="/assets/partners/erhvervsstyrelsen.svg" alt="logo" class="svg h-full w-56" />
-        <img src="/assets/partners/icd.svg" alt="logo" class="svg h-full w-26" />
-
-      </div>
-    
+<section class="flex flex-col mx-auto text-center items-center justify-center mb-18 border-electron/25 py-10">
+  <p class="text-electron/50 text-sm mb-5 uppercase tracking-[1px] text-lg font-space-mono px-5 ">
+    A joint innovation challenge partnership between
+  </p>
+  
+  <!-- Partner Grid -->
+  <div class="border-y-1 w-full px-5 border-electron/25">
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-6 lg:grid-cols-5 xl:grid-cols-9 gap-8 md:gap-10 lg:gap-12 xl:gap-8 py-8 place-items-center w-full max-w-7xl mx-auto items-center justify-center ">
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/nnf.svg" alt="Novo Nordisk Foundation" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/bii.svg" alt="BII" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/nh.svg" alt="NH" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/mqs.svg" alt="MQS" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/dcai.svg" alt="DCAI" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/qai.svg" alt="QAI" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/dba.svg" alt="DBA" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/erhvervsstyrelsen.svg" alt="Erhvervsstyrelsen" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+    <div class="flex justify-center items-center h-16 w-full">
+      <img src="/assets/partners/icd.svg" alt="ICD" class="svg h-12 w-auto max-w-full object-contain brightness-0 invert transition-all " />
+    </div>
+  </div>
+  </div>
 </section>
 
-<div class="aside">
-    <h2><i class="bi bi-calendar3"></i> Timeline</h2>
-    <dl>
-        
-            <dt>31 July 2025</dt>
-            <dd>
-                Applications open for participants<br />
-                
-                    <button class="btn plausible-event-name=Register+Team" onclick="openRegistrationModal()">Register your team</button>
-                    <br />
-                    It is needed to register your team by sending us the names of your team members and the hosting letter.
-                    <br />
-                    <a href="https://quantum-innovation-challenge.github.io/projects/" class="btn">Read about the challenge</a>
-                    <br />
-                    <a href="https://matrix.to/#/#mqs-community-space:mozilla.org " class="btn plausible-event-name=Element+Space+Click">Find team members via Element Space</a>
-                
-            </dd>
-        
+<section class="border-t-1 border-electron/25 ">
+<div class="flex flex-col-reverse lg:flex-row">
+<div class="flex-1 py-16 w-full lg:w-auto" id="left-content">
+<div class="max-w-screen-lg! mx-auto prose-wrapped prose">
 
-        <dt>30 September 2025</dt>
-        <dd><b>Phase I</b>
-        <br />
-        - Submission of the projects closes on the 30th of September at 10AM Central European Time (CET).
-        <br />
-        - Evaluation will be conducted from the 1st until the 15th of October.</dd>
-        <br />
-        <dt>15 October - 12 November 2025</dt>
-        <dd><b>Phase II</b>
-        <br />
-        - The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).
-        <br />
-        - Travel costs and accomodation for all teams are sponsored and will be covered.
-        <br />
-        - Scheduled access to Gefion after EQTC until end of January 2026 (Phase III).</dd>
-        <br />
-        <dd><b>13 November 2025 - 31 January 2026</b>
-        <br />
-        <b>Phase III</b>
-        <br />
-        - Finalization of the projects until the 31st of January 2026.
-        <br />
-        - The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.
-        <br />
-        - A prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.
-        </dd>
-    </dl>
-</div>
-
-<h2 id="accelerating-quantum-applicationsin-the-life-sciences">Accelerating Quantum Applications<br />in the Life Sciences</h2>
+<h2> Accelerating Quantum Applications<br />in the Life Sciences</h2>
 
 <p>The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.</p>
 
 <p>With the emergence of near-term quantum computers and powerful GPU-based methods, there is a growing need to understand their strengths and limitations, reduce barriers to adoption, and apply them to real-world problems in drug development. This virtual challenge is designed to foster collaborative, open research that contributes to this mission.</p>
 
-<h2 id="your-role">Your Role</h2>
+<h2> Your Role </h2>
 
-<p>Academic/industrial researchers, start-ups and students can propose projects with respect to this year’s <a href="https://quantum-innovation-challenge.github.io/projects/">challenge topic</a> applying quantum computing and quantum-inspired algorithms to:</p>
+<p>Academic/industrial researchers, start-ups and students can propose projects with respect to this year's <a href="https://quantum-innovation-challenge.github.io/projects/">challenge topic</a> applying quantum computing and quantum-inspired algorithms to:</p>
 
 <ul>
-  <li>existing benchmarks or new benchmarks as further defined by the <a href="https://quantum-innovation-challenge.github.io/projects/">Quantum Challenge 2025 topic</a></li>
-  <li>creating sub-algorithms based on quantum computing methods</li>
-  <li>designing quantum-enhanced sampling and optimization techniques</li>
+<li>existing benchmarks or new benchmarks as further defined by the <a href="https://quantum-innovation-challenge.github.io/projects/">Quantum Challenge 2025 topic</a></li>
+<li>creating sub-algorithms based on quantum computing methods</li>
+<li>designing quantum-enhanced sampling and optimization techniques</li>
 </ul>
 
 <p>Following the challenge, results will be collated and secured under open-source and free license agreements (Apache/MIT) in the dedicated Quantum-Challenge-2025 repository.</p>
 
-<h2 id="who-can-participate">Who can participate?</h2>
+<h2> Who can participate? </h2>
 
 <p>The challenge encourages cross-disciplinary and international collaboration. It is open to teams of academic and industrial researchers, start-ups, and students who are interested in using quantum computing and quantum-inspired methods to advance pharmaceutical development.</p>
 
 <p>To be eligible for submission:</p>
 
 <ul>
-  <li>Each team must include at least one clearly documented academic participant in a main role</li>
-  <li>Teams should have prior programming experience and basic familiarity with git and GitHub</li>
-  <li>Full eligibility details are available on the <a href="https://quantum-innovation-challenge.github.io/eligibility/">Eligibility page</a></li>
+<li>Each team must include at least one clearly documented academic participant in a main role</li>
+<li>Teams should have prior programming experience and basic familiarity with git and GitHub</li>
+<li>Full eligibility details are available on the <a href="https://quantum-innovation-challenge.github.io/eligibility/">Eligibility page</a></li>
 </ul>
 
-<p>Support and participation resources:</p>
+<h2> Support and participation resources: </h2>
 
 <ul>
-  <li>Participants are welcome to connect and form teams using our dedicated <a href="https://matrix.to/#/#mqs-community-space:mozilla.org">Element Space</a> (see also <a href="https://element.io">https://element.io</a>)</li>
-  <li>Orientation materials and technical guidance are available on the <a href="https://quantum-innovation-challenge.github.io/resources/">Resources page</a></li>
-  <li>Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the <a href="https://quantum-innovation-challenge.github.io/faq/">FAQ page</a></li>
+<li>Participants are welcome to connect and form teams using our dedicated <a href="https://matrix.to/#/#mqs-community-space:mozilla.org">Element Space</a> (see also <a href="https://element.io">https://element.io</a>)</li>
+<li>Orientation materials and technical guidance are available on the <a href="https://quantum-innovation-challenge.github.io/resources/">Resources page</a></li>
+<li>Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the <a href="https://quantum-innovation-challenge.github.io/faq/">FAQ page</a></li>
 </ul>
 
-<h2 id="why-participate">Why participate?</h2>
+<h2> Why participate? </h2>
 
-<div style="display: flex; align-items: left; justify-content: left;">
-    <img src="/assets/Benefits.png" alt="Cover Image" style="widt:300px;" />
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<img src="/assets/icons/supercomputer.svg" class="svg w-12 h-12 text-electron" />
+<p class="font-bold text-center">Access to the Gefion AI supercomputer </p>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<img src="/assets/icons/globe.svg" class="svg w-12 h-12 text-electron" />
+<p class="font-bold text-center">Join QAI venture and Novo Holdings ecosystem (1:1 mentoring) </p>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<img src="/assets/icons/collaborate.svg" class="svg w-12 h-12 text-electron" />
+<p class="font-bold text-center">Sparring with life science, quantum computing and AI experts</p>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<img src="/assets/icons/exposure.svg" class="svg w-12 h-12 text-electron" />
+<p class="font-bold text-center">Exposure at high impact conferences</p>
+</div>
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<img src="/assets/icons/open-source.svg" class="svg w-12 h-12 text-electron" />
+<p class="font-bold text-center">Community driven open-source and free license efforts</p>
+</div>
+
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<img src="/assets/icons/network.svg" class="svg w-12 h-12 text-electron" />
+<p class="font-bold text-center">Supported and extended networking opportunities</p>
+</div>
 </div>
 
 <ul>
-  <li>Five teams will be selected to present their work at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.</li>
-  <li>After the announcement of the finalists at EQTC in November, the 5 finalists gain access to the GEFION Supercomputer to continue the development of their models. Submission deadline for the second phase is expected to be end of January 2026 with announcement of the final winner in Q1 2026.</li>
-  <li>The winning solution will be announced in Spring 2026 during another leading European quantum event and a prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.</li>
-  <li>Networking and access to a global community of experts from the academic and industrial life science community.</li>
-  <li>Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.</li>
-  <li>Direct access and support from Gefion, one of the fastest supercomputers globally, to run your challenge code (5 finalists).</li>
-  <li>Global marketing and branding with free tickets to EQTC 2025, presentation opportunities and further fostering of relationships (5 finalists).</li>
-  <li>Novo Holdings and QAI Ventures will help to facilitate access to their global investor network.</li>
-  <li>Onboarding to the global QAI Ventures ecosystem with 1 year of exclusive 1:1 mentoring from investment and technology experts and a ticket to the QAI Ventures speed dating session to join upcoming venture building or accelerator programs (top 3 teams).</li>
+<li>Five teams will be selected to present their work at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.</li>
+<li>After the announcement of the finalists at EQTC in November, the 5 finalists gain access to the GEFION Supercomputer to continue the development of their models. Submission deadline for the second phase is expected to be end of January 2026 with announcement of the final winner in Q1 2026.</li>
+<li>The winning solution will be announced in Spring 2026 during another leading European quantum event and a prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.</li>
+<li>Networking and access to a global community of experts from the academic and industrial life science community.</li>
+<li>Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.</li>
+<li>Direct access and support from Gefion, one of the fastest supercomputers globally, to run your challenge code (5 finalists).</li>
+<li>Global marketing and branding with free tickets to EQTC 2025, presentation opportunities and further fostering of relationships (5 finalists).</li>
+<li>Novo Holdings and QAI Ventures will help to facilitate access to their global investor network.</li>
+<li>Onboarding to the global QAI Ventures ecosystem with 1 year of exclusive 1:1 mentoring from investment and technology experts and a ticket to the QAI Ventures speed dating session to join upcoming venture building or accelerator programs (top 3 teams).</li>
 </ul>
 
 <p>Do not miss this opportunity to engage in quantum innovation at the frontier of life sciences.</p>
 
 <p>📅 Visit the <a href="https://quantum-innovation-challenge.github.io/agenda/">Timeline page</a> to view the full agenda.</p>
 
-<h2 id="submitted-projects">Submitted Projects</h2>
+<h2> Submitted Projects </h2>
 
 <p>The top-ranked projects will be highlighted here:</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Rank</th>
-      <th>Project #</th>
-      <th>Team Name</th>
-      <th>Project Name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1st</td>
-      <td><a href=""></a></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>2nd</td>
-      <td><a href=""></a></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>3rd</td>
-      <td><a href=""></a></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>4th</td>
-      <td><a href=""></a></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>5th</td>
-      <td><a href=""></a></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<div class="overflow-x-auto">
+  <table class="w-full mx-auto border-collapse border border-electron/25">
+    <thead>
+      <tr class="bg-electron/5">
+        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Rank</th>
+        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Project #</th>
+        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Team Name</th>
+        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Project Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">1st</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+      </tr>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">2nd</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+      </tr>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">3rd</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+      </tr>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">4th</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+      </tr>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">5th</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="https://quantum-innovation-challenge.github.io/submission/">Submit a Project page</a>.</p>
 
-<h2 id="partners">Partners</h2>
+<h2> Partners </h2>
+
+<div class="grid grid-cols-4 gap-4">
+<div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-electron/5">
+<img src="/assets/partners/nnf.svg" alt="Novo Nordisk Foundation" class="svg w-12 h-12 text-electron" />
+</div>
 
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novonordiskfonden.dk/">
@@ -506,7 +514,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <img src="https://mva.org/wp-content/uploads/2019/03/BII_Logo_Petroleum_RGB.png" alt="BioInnovation Institute" style="width:150px;" />
     </a>
 </div>
-<p><br /></p>
+<br />
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://mqs.dk">
         <img src="/assets/MQS_Logo_Text_black.png" alt="Molecular Quantum Solutions (MQS)" style="width:175px; margin-right:70px" />
@@ -523,7 +531,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <img src="https://investinodense.dk/wp-content/uploads/2022/02/Invest-in-Denmark.png" alt="Invest in Denmark" style="width:200px;" />
     </a>
 </div>
-<p><br /></p>
+<br />
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novoholdings.dk/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Novo_Holdings_logo.svg/1200px-Novo_Holdings_logo.svg.png" alt="Novo Holdings" style="width:150px; margin-right:70px;" />
@@ -532,7 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuppnIhRA_UeICVvPBL1nxTiL8KywgV71vg&amp;s" alt="Danish Business Authority" style="width:175px;" />
     </a>
 </div>
-<p><br /></p>
+<br />
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://icdk.dk/">
         <img src="https://images.squarespace-cdn.com/content/v1/62d5863a24e5b67bc23dff1f/1661420026081-N55ZWI4RWDCUTJC9J5TE/WeChat-Image_20220221111631.png" alt="Innovation Centre Denmark" style="width:150px; margin-right:70px;" />
@@ -541,9 +549,9 @@ document.addEventListener('DOMContentLoaded', function() {
         <img src="/assets/EQTC-2025.png" alt="European Quantum Technologies Conference 2025" style="width:300px;" />
     </a>
 </div>
-<p><br />
+<br />
 <br /> 
-The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:</p>
+The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Roche Holding AG:
 <div style="display: flex; align-items: left; justify-content: center;">
     <a href="https://novonordisk.com/">
         <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Novo_Nordisk_-_Logo.svg" alt="Novo Nordisk A/S" style="height:75px; margin-right: 70px;" />
@@ -553,14 +561,100 @@ The 2025 challenge is supported by industry experts from Novo Nordisk A/S and Ro
     </a>
 </div>
 
-<p>For further information see the list of experts on the <a href="/about/">about page</a>.</p>
+For further information see the list of experts on the [about page](/about/).
 
-<h2 id="financial-sponsors">Financial Sponsors</h2>
+## Financial Sponsors
 
-<ul>
-  <li><a href="https://novonordiskfonden.dk/">Novo Nordisk Foundation</a></li>
-  <li><a href="https://danishbusinessauthority.dk/">Danish Business Authority</a></li>
-</ul>
+- [Novo Nordisk Foundation](https://novonordiskfonden.dk/)
+- [Danish Business Authority](https://danishbusinessauthority.dk/)
+</div>
+</div>
+</div>
+<div class="w-full lg:min-w-[360px] lg:w-[360px] lg:max-w-[360px] py-16 border-l-0 lg:border-l-1 border-b-1  border-electron/25 px-8 w-full lg:w-[320px] lg:min-w-[320px] lg:max-w-[320px]  " id="right-sidebar">
+<div class="flex gap-2 items-center">
+    <img src="/assets/icons/timeline-calendar.svg" class="svg w-6 h-6 text-white" />
+    <h2 class="font-bold text-lg"> Timeline</h2>
+</div>
+
+<div class="flex gap-6 flex-col">
+        
+
+            
+            <div class="flex flex-col gap-2">
+            <div class="text-electron">31 July 2025</div>
+                <p class="text-white">Applications open for participants</p>
+                
+                    <button id="registerTeamButton" class="plausible-event-name=Register+Team w-full lg:text-sm xl:text-base flex items-center text-white border-1 border-electron/25 bg-electron/5 py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" onclick="openRegistrationModal()">
+      <span class="relative z-10">
+
+          <span>Register your team</span>
+      </span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </button>
+
+                    <p class="text-sm">Quick setup: Just share your team roster and hosting letter to join the quantum challenge.</p>
+
+                    <p>Don't have have a team? Find team members via Element Space</p>
+                                     <a target="_blank" id="findTeamMembersButton" class="plausible-event-name=Find+Team+Members+Click w-full lg:text-sm xl:text-base flex items-center text-white border-1 border-electron/25 bg-electron/5 py-3.5 px-5 h-16 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" href="https://matrix.to/#/#mqs-community-space:mozilla.org ">
+      <span class="relative z-10">
+
+          <span>Find team members</span>
+      </span>
+      <div class="absolute inset-0 bg-electron transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
+    </a>
+
+                
+            </div>
+        
+
+
+        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-1">
+        <div class="flex gap-2 items-center">
+            <img src="/assets/icons/timeline-item.svg" class="svg w-6 h-6 " />
+            <h2 class="font-bold text-lg">Phase 1</h2>
+        </div>
+        <div class="text-electron ">30 September 2025</div>
+</div>
+        <p>Submission of the projects closes on the 30th of September at 10AM Central European Time (CET).</p>
+        <p>Evaluation will be conducted from the 1st until the 15th of October.</p>
+        </div>
+        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-1">
+        <div class="flex gap-2 items-center">
+            <img src="/assets/icons/timeline-item.svg" class="svg w-6 h-6 " />
+            <h2 class="font-bold text-lg">Phase II</h2>
+        </div>
+        <div class="text-electron ">15 October - 12 November 2025</div>
+        </div>
+        <ul class="list-disc list-inside space-y-2">
+        <li>The top five teams are invited to present at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen (10-12 November).</li>
+        <li>Travel costs and accomodation for all teams are sponsored and will be covered.</li>
+        <li>Scheduled access to Gefion after EQTC until end of January 2026 (Phase III)</li>
+        </ul>
+        </div>
+        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-1">
+        <div class="flex gap-2 items-center">
+            <img src="/assets/icons/timeline-item.svg" class="svg w-6 h-6 " />
+            <h2 class="font-bold text-lg">Phase III</h2>
+        </div>
+        <div class="text-electron ">15 October - 12 November 2025</div>
+        </div>
+        <ul class="list-disc list-inside space-y-2">
+        <li>Finalization of the projects until the 31st of January 2026.</li>
+        <li>The presentations and the winner announcement will be held at a leading quantum computing conference in spring 2026.</li>
+            <li>A prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.</li>
+        </ul>
+        </div>
+        
+        
+
+</div>
+</div>
+</div>
+
+</section>
 
 <!-- Registration Modal -->
 <div id="registrationModal" class="fixed inset-0 bg-black/35 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
@@ -1000,10 +1094,11 @@ document.addEventListener('keydown', function(e) {
 
 </footer>
 </style>
-  <script>
+  <script type="module">
+    // Initialize inlineSVG
     inlineSVG.init({
-      svgSelector: 'img.svg', // the class attached to all images that should be inlined
-      initClass: 'js-inlinesvg', // class added to <html>
+      svgSelector: 'img.svg',
+      initClass: 'js-inlinesvg',
     }, function () {
       console.log('All SVGs inlined');
     });

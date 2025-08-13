@@ -37,7 +37,7 @@
 		background-image: url(https://safe-travels-vw.netlify.app/_nuxt/noise.4aa40b2a.svg);
 		height: 100vh;
 		left: 0;
-		mix-blend-mode: multiply;
+		mix-blend-mode: overlay;
 		opacity: 1;
 		pointer-events: none;
 		position: fixed;

@@ -2,7 +2,7 @@
 layout: project_list
 title: Quantum Challenge 2025
 subtitle: Quantum Computing for Pharmacokinetics (PK) / Pharmacodynamics (PD)
-menu_title: Challenge 2025
+menu_title: Challenge
 menu_icon: briefcase
 ---
 
