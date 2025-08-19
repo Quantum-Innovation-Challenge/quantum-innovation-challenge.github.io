@@ -23,9 +23,9 @@ description:
 # Original settings for organization GitHub Pages:
 # url: "https://quantum-innovation-challenge.github.io/"
 # For personal GitHub Pages deployment:
-url: "https://cnthiesen.github.io"
+url: "https://www.quantum-challenge.eu"
 # base_url: "/quantum-innovation-challenge"
-base_url: "/quantum"
+base_url: "/"
 github_repo: Quantum-Innovation-Challenge
 
 # theme: minima
