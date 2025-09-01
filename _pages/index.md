@@ -96,10 +96,10 @@ permalink: /
 
 <h2> Your Role </h2>
 
-<p>Academic/industrial researchers, start-ups and students can propose projects with respect to this year's <a href="https://quantum-innovation-challenge.github.io/projects/">challenge topic</a> applying quantum computing and quantum-inspired algorithms to:</p>
+<p>Academic/industrial researchers, start-ups and students can propose projects with respect to this year's <a href="/challenge/">challenge topic</a> applying quantum computing and quantum-inspired algorithms to:</p>
 
 <ul>
-<li>existing benchmarks or new benchmarks as further defined by the <a href="https://quantum-innovation-challenge.github.io/projects/">Quantum Challenge 2025 topic</a></li>
+<li>existing benchmarks or new benchmarks as further defined by the <a href="/challenge/">Quantum Challenge 2025 topic</a></li>
 <li>creating sub-algorithms based on quantum computing methods</li>
 <li>designing quantum-enhanced sampling and optimization techniques</li>
 </ul>
@@ -115,7 +115,7 @@ permalink: /
 <ul>
 <li>Each team must include at least one clearly documented academic participant in a main role</li>
 <li>Teams should have prior programming experience and basic familiarity with git and GitHub</li>
-<li>Full eligibility details are available on the <a href="https://quantum-innovation-challenge.github.io/eligibility/">Eligibility page</a></li>
+<li>Full eligibility details are available on the <a href="/eligibility/">Eligibility page</a></li>
 </ul>
 
 
@@ -128,8 +128,8 @@ permalink: /
 
 <ul>
 <li>Participants are welcome to connect and form teams using our dedicated <a target="_blank" href='https://matrix.to/#/#mqs-community-space:mozilla.org'>Element Space</a> (see also <a target="_blank" href="https://element.io">https://element.io</a>)</li>
-<li>Orientation materials and technical guidance are available on the <a href="https://quantum-innovation-challenge.github.io/resources/">Resources page</a></li>
-<li>Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the <a href="https://quantum-innovation-challenge.github.io/faq/">FAQ page</a></li>
+<li>Orientation materials and technical guidance are available on the <a href="/resources/">Resources page</a></li>
+<li>Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the <a href="/faq/">FAQ page</a></li>
 </ul>
 
 <h2> Why participate? </h2>
@@ -227,7 +227,7 @@ permalink: /
   </table>
 </div>
 
-<p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="https://quantum-innovation-challenge.github.io/submission/">Submit a Project page</a>.</p>
+<p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="/submission">Submit a Project page</a>.</p>
 
 
 <h2> Partners </h2>

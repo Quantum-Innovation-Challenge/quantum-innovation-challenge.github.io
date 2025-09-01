@@ -401,10 +401,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h2> Your Role </h2>
 
-<p>Academic/industrial researchers, start-ups and students can propose projects with respect to this year's <a href="https://quantum-innovation-challenge.github.io/projects/">challenge topic</a> applying quantum computing and quantum-inspired algorithms to:</p>
+<p>Academic/industrial researchers, start-ups and students can propose projects with respect to this year's <a href="/challenge/">challenge topic</a> applying quantum computing and quantum-inspired algorithms to:</p>
 
 <ul>
-<li>existing benchmarks or new benchmarks as further defined by the <a href="https://quantum-innovation-challenge.github.io/projects/">Quantum Challenge 2025 topic</a></li>
+<li>existing benchmarks or new benchmarks as further defined by the <a href="/challenge/">Quantum Challenge 2025 topic</a></li>
 <li>creating sub-algorithms based on quantum computing methods</li>
 <li>designing quantum-enhanced sampling and optimization techniques</li>
 </ul>
@@ -420,7 +420,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <ul>
 <li>Each team must include at least one clearly documented academic participant in a main role</li>
 <li>Teams should have prior programming experience and basic familiarity with git and GitHub</li>
-<li>Full eligibility details are available on the <a href="https://quantum-innovation-challenge.github.io/eligibility/">Eligibility page</a></li>
+<li>Full eligibility details are available on the <a href="/eligibility/">Eligibility page</a></li>
 </ul>
 
 
@@ -522,8 +522,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <ul>
 <li>Participants are welcome to connect and form teams using our dedicated <a target="_blank" href="https://matrix.to/#/#mqs-community-space:mozilla.org">Element Space</a> (see also <a target="_blank" href="https://element.io">https://element.io</a>)</li>
-<li>Orientation materials and technical guidance are available on the <a href="https://quantum-innovation-challenge.github.io/resources/">Resources page</a></li>
-<li>Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the <a href="https://quantum-innovation-challenge.github.io/faq/">FAQ page</a></li>
+<li>Orientation materials and technical guidance are available on the <a href="/resources/">Resources page</a></li>
+<li>Pre-registrations and questions can be sent to <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a>. All inquiries will be addressed collectively on the <a href="/faq/">FAQ page</a></li>
 </ul>
 
 <h2> Why participate? </h2>
@@ -621,7 +621,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </table>
 </div>
 
-<p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="https://quantum-innovation-challenge.github.io/submission/">Submit a Project page</a>.</p>
+<p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="/submission">Submit a Project page</a>.</p>
 
 
 <h2> Partners </h2>
@@ -803,7 +803,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Footer Sphere JavaScript (larger version)
 document.addEventListener('DOMContentLoaded', function() {
   // FOOTER SPHERE SIZE CONFIGURATION - Change this one value to scale the entire sphere
-  const FOOTER_SPHERE_SIZE_PX = 70; // Change to 50 for a 50px sphere, 200 for 200px, etc.
+  const FOOTER_SPHERE_SIZE_PX = 200; // Change to 50 for a 50px sphere, 200 for 200px, etc.
   
   const footerSphereContainer = document.getElementById('footerNavigationSphere');
   if (!footerSphereContainer) return;
@@ -814,7 +814,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   const canvas = footerSphereContainer.querySelector('.footer-sphere-canvas');
   const points = [];
-  const cant = 240; // More points for a denser sphere
+  const cant = 400; // More points for a denser sphere
   const offset = 2 / cant;
   const increment = Math.PI * (3 - Math.sqrt(5));  
   let startTime = Date.now();
@@ -826,8 +826,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initialize points for footer sphere
   function initializeFooterPoints() {
     for (let i = 0; i < cant; i++) {
-      const point = document.createElement('div');
-      point.className = 'absolute w-[2px] h-[2px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out hover:bg-quantum';
+      const point = document.createElement('div'); 
+      point.className = 'absolute w-[5px] h-[5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out hover:bg-quantum';
       canvas.appendChild(point);
       points.push({
         element: point,
@@ -891,7 +891,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<footer class="relative  border-t border-electron/25 pt-20">
+<footer class="relative  border-t border-electron/25 pt-20 w-[5px] h-[5px]" >
   <data class="u-url" href="/"></data>
   
   <div class="relative z-10 max-w-7xl mx-auto px-6 py-16">
@@ -902,7 +902,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="flex items-center space-x-0 lg:space-x-6 mb-8 lg:mb-0 flex-col lg:flex-row justify-center lg:justify-start w-full">
     
         <div id="footerNavigationSphere" class="relative "> 
-          <div class="footer-sphere-canvas relative w-[70px] h-[70px]"></div>
+          <div class="footer-sphere-canvas relative w-[500px] h-[500px]"></div>
         </div>
         <div>
           <h2 class="text-2xl lg:text-3xl font-bold text-white mb-2 text-center lg:text-left  mt-5 lg:mt-0">

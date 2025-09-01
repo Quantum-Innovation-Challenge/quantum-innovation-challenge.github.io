@@ -204,7 +204,7 @@ If you would like to see a specific tool listed here, please navigate to the "Im
 <h4 class="mt-1">Pk/Pd Tools and Packages</h4>
 
 <ul class="list-disc list-outside">
-<li><a target="_blank" href="https://github.com/nlmixrdevelopment/nlmixr">nlmixr: an R package for population PKPD modeling</a></li>
+<li><a target="_blank" href="https://nlmixr2.org/">nlmixr: an R package for population PKPD modeling</a></li>
 
 <li><a target="_blank" href="https://github.com/ggPMXdevelopment/ggPMX">ggPMX R package</a></li>
 

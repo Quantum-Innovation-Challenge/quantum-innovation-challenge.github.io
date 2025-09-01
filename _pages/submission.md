@@ -20,7 +20,7 @@ menu_icon: cloud-arrow-up
             
             <h2>Project initialization</h2>
             
-            <p>As the three team leaders, to initialize your project<sup><a href="#faq" title="Can I participate in multiple projects?">(?)</a></sup>, please follow these steps:</p>
+            <p>As the three team leaders, to initialize your project<sup><a href="/faq" title="Can I participate in multiple projects?">(?)</a></sup>, please follow these steps:</p>
             
             <ol>
                 <li>Use <a href="https://github.com/Quantum-Innovation-Challenge/">this link to open up an issue in the respective challenge repository</a>. For example, if your team name is "Bayes Bandits", the file should be named <code>project-bayes-bandits.md</code>. The team name can be whatever you want it to be as long it aligns with our code of conduct. Further, please also state the project name, your three team members names, GitHub usernames, and your company/institution affiliations.</li>

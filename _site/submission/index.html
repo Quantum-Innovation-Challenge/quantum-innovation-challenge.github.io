@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <h2>Project initialization</h2>
             
-            <p>As the three team leaders, to initialize your project<sup><a href="#faq" title="Can I participate in multiple projects?">(?)</a></sup>, please follow these steps:</p>
+            <p>As the three team leaders, to initialize your project<sup><a href="/faq" title="Can I participate in multiple projects?">(?)</a></sup>, please follow these steps:</p>
             
             <ol>
                 <li>Use <a href="https://github.com/Quantum-Innovation-Challenge/">this link to open up an issue in the respective challenge repository</a>. For example, if your team name is "Bayes Bandits", the file should be named <code>project-bayes-bandits.md</code>. The team name can be whatever you want it to be as long it aligns with our code of conduct. Further, please also state the project name, your three team members names, GitHub usernames, and your company/institution affiliations.</li>
@@ -530,7 +530,7 @@ References:
 // Footer Sphere JavaScript (larger version)
 document.addEventListener('DOMContentLoaded', function() {
   // FOOTER SPHERE SIZE CONFIGURATION - Change this one value to scale the entire sphere
-  const FOOTER_SPHERE_SIZE_PX = 70; // Change to 50 for a 50px sphere, 200 for 200px, etc.
+  const FOOTER_SPHERE_SIZE_PX = 200; // Change to 50 for a 50px sphere, 200 for 200px, etc.
   
   const footerSphereContainer = document.getElementById('footerNavigationSphere');
   if (!footerSphereContainer) return;
@@ -541,7 +541,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   const canvas = footerSphereContainer.querySelector('.footer-sphere-canvas');
   const points = [];
-  const cant = 240; // More points for a denser sphere
+  const cant = 400; // More points for a denser sphere
   const offset = 2 / cant;
   const increment = Math.PI * (3 - Math.sqrt(5));  
   let startTime = Date.now();
@@ -553,8 +553,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initialize points for footer sphere
   function initializeFooterPoints() {
     for (let i = 0; i < cant; i++) {
-      const point = document.createElement('div');
-      point.className = 'absolute w-[2px] h-[2px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out hover:bg-quantum';
+      const point = document.createElement('div'); 
+      point.className = 'absolute w-[5px] h-[5px] bg-white rounded-full transform-gpu transition-colors duration-500 ease-in-out hover:bg-quantum';
       canvas.appendChild(point);
       points.push({
         element: point,
@@ -618,7 +618,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<footer class="relative  border-t border-electron/25 pt-20">
+<footer class="relative  border-t border-electron/25 pt-20 w-[5px] h-[5px]" >
   <data class="u-url" href="/"></data>
   
   <div class="relative z-10 max-w-7xl mx-auto px-6 py-16">
@@ -629,7 +629,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="flex items-center space-x-0 lg:space-x-6 mb-8 lg:mb-0 flex-col lg:flex-row justify-center lg:justify-start w-full">
     
         <div id="footerNavigationSphere" class="relative "> 
-          <div class="footer-sphere-canvas relative w-[70px] h-[70px]"></div>
+          <div class="footer-sphere-canvas relative w-[500px] h-[500px]"></div>
         </div>
         <div>
           <h2 class="text-2xl lg:text-3xl font-bold text-white mb-2 text-center lg:text-left  mt-5 lg:mt-0">
