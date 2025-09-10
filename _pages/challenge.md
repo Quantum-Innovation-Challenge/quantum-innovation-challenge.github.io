@@ -30,6 +30,10 @@ menu_icon: briefcase
 
 {% include subpage_header.html %}
 
+<section class="border-t-1 border-electron/25 ">
+<div class="flex items-start max-w-screen-xl mx-auto gap-10"> 
+<div class="flex-1 py-16 w-full lg:w-auto px-5" id="left-content">
+
 <div class="px-5 max-w-screen-lg mx-auto  font-space-mono text-white py-10 gap-4 flex flex-col ">
 <article class="prose prose-invert max-w-none w-full flex-1 block break-words">
 <p>Bringing new medical products to patients is a long and complex process. Once a promising compound has been discovered, and its mechanisms of action and potential efficacy are well understood, it is moved to the clinical trial phase. These phases are split as follows:</p>
@@ -155,7 +159,7 @@ menu_icon: briefcase
 
 <h2>Alternative Methods</h2>
 <p>
-This mechanistic approach has proven effective, and ODE-based models have become prominent in PK/PD. However, this also makes PK/PD labor intensive: they require extensive manual effort, expert knowledge, and many trial-and-errors. Because of the small number of participants in early clinical trial phases, PK/PD modeling is constraint by small sample sizes, limited time points available, and only a few dosing regimens investigated, which limits their accuracy and applicability. Today PK/PD is mechanistic, and hypothesis driven. Several directions have been explored to extend PK/PD. Most attempts at making it more data-driven are based on machine learning (ML), whether through ML techniques [1,2], deep learning[3-7], reinforcement learning [8], agent-based modeling [9.10], and more [1]. In 2021, the FDA mentioned “a new approach to pharmacometrics”, citing a paper showing encouraging results using an LSTM architecture [3]. The method, however, failed at predicting the PD response of drug dosing regimen different than the one used for training. These data-driven approaches have the potential to reduce human supervision and time needed when it comes to model development. They could also help discover new relationships without prior mechanistic knowledge and may be more flexible with more diverse types of data types and covariates.
+This mechanistic approach has proven effective, and ODE-based models have become prominent in PK/PD. However, this also makes PK/PD labor intensive: they require extensive manual effort, expert knowledge, and many trial-and-errors. Because of the small number of participants in early clinical trial phases, PK/PD modeling is constraint by small sample sizes, limited time points available, and only a few dosing regimens investigated, which limits their accuracy and applicability. Today PK/PD is mechanistic, and hypothesis driven. Several directions have been explored to extend PK/PD. Most attempts at making it more data-driven are based on machine learning (ML), whether through ML techniques [1,2], deep learning[3-7], reinforcement learning [8], agent-based modeling [9.10], and more [1]. In 2021, the FDA mentioned "a new approach to pharmacometrics", citing a paper showing encouraging results using an LSTM architecture [3]. The method, however, failed at predicting the PD response of drug dosing regimen different than the one used for training. These data-driven approaches have the potential to reduce human supervision and time needed when it comes to model development. They could also help discover new relationships without prior mechanistic knowledge and may be more flexible with more diverse types of data types and covariates.
 </p>
 <p>However, many data-driven approaches are limited by the scarcity of available PK/PD data, which reduces their applicability.</p>
 
@@ -174,7 +178,7 @@ This mechanistic approach has proven effective, and ODE-based models have become
 
 <p>Disclaimer: This dataset is synthetic and has been generated to reflect realistic clinical trial data. The data file (EstData.csv) is located in the data folder of the challenge repository:</p>
 
-<a class="plausible-event-name=Download+Dataset" target="_blank" href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/data"> Download Dataset here</a>
+<a class="plausible-event-name=Download+Dataset" target="_blank" href="/assets/QIC2025-EstDat.csv"> Download Dataset here</a>
 
 <h2>Tasks to solve</h2>
 
@@ -216,7 +220,7 @@ This mechanistic approach has proven effective, and ODE-based models have become
   <li> ID: Subject identifier.</li>
   <li> BW: Body weight of the subject in kg.</li>
   <li> COMED: Concomitant medication indicator for the subject (0: No, 1: Yes)</li>
-  <li> DOSE: Dose level in mg. This column represents the amount of drug administered to the subject. It is typically measured in units like milligrams (mg) or micrograms (μg). The dose is a critical factor in determining the drug’s pharmacokinetic and pharmacodynamic properties.</li>
+  <li> DOSE: Dose level in mg. This column represents the amount of drug administered to the subject. It is typically measured in units like milligrams (mg) or micrograms (μg). The dose is a critical factor in determining the drug's pharmacokinetic and pharmacodynamic properties.</li>
   <li> TIME: Time in hours. Indicates the time elapsed since the start of the first drug administration. Time is typically measured in hours or minutes and is essential for plotting concentration-time profiles.</li>
   <li> DV (Dependent Variable): Compound concentration (mg/L) for DVID=1. Biomarker level (ng/mL) for DVID=2. This column usually represents observed data, such as drug concentration in plasma or another biological matrix. It can also refer to the measurement of a biomarker or response variable affected by the drug, such as blood pressure or heart rate.</li>
   <li> EVID (Event ID): This is an event identifier used in NONMEM (a common software in pharmacometrics). It signifies the type of event occurring:
@@ -239,7 +243,7 @@ This mechanistic approach has proven effective, and ODE-based models have become
 <div class="bibliography-item  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 1 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
-<p class="break-words" >M. McComb, R. Bies, and M. Ramanathan, “Machine learning in pharmacometrics: Opportunities and challenges,” Br. J. Clin. Pharmacol., vol. 88, no. 4, pp. 1482–1499, Apr. 2022, doi: </p>
+<p class="break-words" >M. McComb, R. Bies, and M. Ramanathan, "Machine learning in pharmacometrics: Opportunities and challenges," Br. J. Clin. Pharmacol., vol. 88, no. 4, pp. 1482–1499, Apr. 2022, doi: </p>
 <a href="https://doi.org/10.1111/bcp.14801" class="text-electron">View source</a>
 </div>
 </div>
@@ -624,4 +628,15 @@ This mechanistic approach has proven effective, and ODE-based models have become
 </div>
 
 </div></div>
+
+</div>
+
+</div>
+ <div class="hidden lg:flex flex-col lg:min-w-[360px] lg:w-[360px] lg:max-w-[360px] my-16 py-8 border-1 border-electron/25" id="right-sidebar">
+     {% include quicks.html %}
+</div>
+
+</div>
+
+</section>
 

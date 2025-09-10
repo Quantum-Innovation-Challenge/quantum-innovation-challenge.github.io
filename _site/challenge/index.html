@@ -343,28 +343,17 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </header>
 
-<!--
 
-    <div id="breadcrumbs">
-        
-        <a href="/">Home</a>
-        
-            
-                
-                    / Quantum Challenge 2025
-                
-            
-        
-    </div>
--->
-
-      
 <section class="h-[240px]  text-center border-b  font-space-mono border-electron/25 flex flex-col justify-center items-center"> 
   <div class="max-w-screen-lg mx-auto px-5">
     <h1 class="text-2xl font-bold">Quantum Challenge 2025</h1>
     <p class="text-lg">Quantum Computing for Pharmacokinetics (PK) / Pharmacodynamics (PD)</p>
   </div>
 </section>
+
+<section class="border-t-1 border-electron/25 ">
+<div class="flex items-start max-w-screen-xl mx-auto gap-10"> 
+<div class="flex-1 py-16 w-full lg:w-auto px-5" id="left-content">
 
 <div class="px-5 max-w-screen-lg mx-auto  font-space-mono text-white py-10 gap-4 flex flex-col ">
 <article class="prose prose-invert max-w-none w-full flex-1 block break-words">
@@ -387,6 +376,44 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="block lg:hidden mx-auto">
  
+<div class="flex gap-2 items-center px-0 lg:px-5 ">
+    
+    <h2 class="my-0"> Quick links</h2>
+</div>
+
+<!-- Challenge Timeline -->
+<div class="w-full not-prose">
+    <div class="flex p-5 gap-2 flex-col">
+               <a id="joinElementSpace" target="_blank" class="plausible-event-name=Find+Team+Members+Clickw-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" href="https://matrix.to/#/#mqs-community-space:mozilla.org">
+                        <span class="relative z-10">
+                            <span>Join our community</span>
+                        </span>
+                </a>  
+                  <a id="goToResources" href="/resources" class=" w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+                        <span class="relative z-10">
+                            <span>See our resources</span>
+                        </span>
+                </a>  
+                <a id="downloadDataset" href="/assets/QIC2025-EstDat.csv" class="plausible-event-name=Download+Dataset w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+                        <span class="relative z-10">
+                            <span>Download dataset</span>
+                        </span>
+                </a>  
+                <a id="registerTeamButton" class="plausible-event-name=Register+Team w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" onclick="openRegistrationModal()">
+                        <span class="relative z-10">
+                            <span>Register your team</span>
+                        </span>
+                </a>
+                <a id="goToSubmission" href="/submission/" class="w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" onclick="openRegistrationModal()">
+                        <span class="relative z-10">
+                            <span>Submit your project</span>
+                        </span>
+                </a>  
+        
+    </div>
+
+</div>
+
 </div>
 
   <!-- Clinical R&D Timeline -->
@@ -491,7 +518,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <h2>Alternative Methods</h2>
 <p>
-This mechanistic approach has proven effective, and ODE-based models have become prominent in PK/PD. However, this also makes PK/PD labor intensive: they require extensive manual effort, expert knowledge, and many trial-and-errors. Because of the small number of participants in early clinical trial phases, PK/PD modeling is constraint by small sample sizes, limited time points available, and only a few dosing regimens investigated, which limits their accuracy and applicability. Today PK/PD is mechanistic, and hypothesis driven. Several directions have been explored to extend PK/PD. Most attempts at making it more data-driven are based on machine learning (ML), whether through ML techniques [1,2], deep learning[3-7], reinforcement learning [8], agent-based modeling [9.10], and more [1]. In 2021, the FDA mentioned “a new approach to pharmacometrics”, citing a paper showing encouraging results using an LSTM architecture [3]. The method, however, failed at predicting the PD response of drug dosing regimen different than the one used for training. These data-driven approaches have the potential to reduce human supervision and time needed when it comes to model development. They could also help discover new relationships without prior mechanistic knowledge and may be more flexible with more diverse types of data types and covariates.
+This mechanistic approach has proven effective, and ODE-based models have become prominent in PK/PD. However, this also makes PK/PD labor intensive: they require extensive manual effort, expert knowledge, and many trial-and-errors. Because of the small number of participants in early clinical trial phases, PK/PD modeling is constraint by small sample sizes, limited time points available, and only a few dosing regimens investigated, which limits their accuracy and applicability. Today PK/PD is mechanistic, and hypothesis driven. Several directions have been explored to extend PK/PD. Most attempts at making it more data-driven are based on machine learning (ML), whether through ML techniques [1,2], deep learning[3-7], reinforcement learning [8], agent-based modeling [9.10], and more [1]. In 2021, the FDA mentioned "a new approach to pharmacometrics", citing a paper showing encouraging results using an LSTM architecture [3]. The method, however, failed at predicting the PD response of drug dosing regimen different than the one used for training. These data-driven approaches have the potential to reduce human supervision and time needed when it comes to model development. They could also help discover new relationships without prior mechanistic knowledge and may be more flexible with more diverse types of data types and covariates.
 </p>
 <p>However, many data-driven approaches are limited by the scarcity of available PK/PD data, which reduces their applicability.</p>
 
@@ -510,7 +537,7 @@ This mechanistic approach has proven effective, and ODE-based models have become
 
 <p>Disclaimer: This dataset is synthetic and has been generated to reflect realistic clinical trial data. The data file (EstData.csv) is located in the data folder of the challenge repository:</p>
 
-<a class="plausible-event-name=Download+Dataset" target="_blank" href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/data"> Download Dataset here</a>
+<a class="plausible-event-name=Download+Dataset" target="_blank" href="/assets/QIC2025-EstDat.csv"> Download Dataset here</a>
 
 <h2>Tasks to solve</h2>
 
@@ -552,7 +579,7 @@ This mechanistic approach has proven effective, and ODE-based models have become
   <li> ID: Subject identifier.</li>
   <li> BW: Body weight of the subject in kg.</li>
   <li> COMED: Concomitant medication indicator for the subject (0: No, 1: Yes)</li>
-  <li> DOSE: Dose level in mg. This column represents the amount of drug administered to the subject. It is typically measured in units like milligrams (mg) or micrograms (μg). The dose is a critical factor in determining the drug’s pharmacokinetic and pharmacodynamic properties.</li>
+  <li> DOSE: Dose level in mg. This column represents the amount of drug administered to the subject. It is typically measured in units like milligrams (mg) or micrograms (μg). The dose is a critical factor in determining the drug's pharmacokinetic and pharmacodynamic properties.</li>
   <li> TIME: Time in hours. Indicates the time elapsed since the start of the first drug administration. Time is typically measured in hours or minutes and is essential for plotting concentration-time profiles.</li>
   <li> DV (Dependent Variable): Compound concentration (mg/L) for DVID=1. Biomarker level (ng/mL) for DVID=2. This column usually represents observed data, such as drug concentration in plasma or another biological matrix. It can also refer to the measurement of a biomarker or response variable affected by the drug, such as blood pressure or heart rate.</li>
   <li> EVID (Event ID): This is an event identifier used in NONMEM (a common software in pharmacometrics). It signifies the type of event occurring:
@@ -575,7 +602,7 @@ This mechanistic approach has proven effective, and ODE-based models have become
 <div class="bibliography-item  p-3 border-1 border-electron/25 flex gap-2">
 <div class="text-electron"> 1 </div>
 <div class="flex flex-col gap-2 min-w-0 flex-1">
-<p class="break-words">M. McComb, R. Bies, and M. Ramanathan, “Machine learning in pharmacometrics: Opportunities and challenges,” Br. J. Clin. Pharmacol., vol. 88, no. 4, pp. 1482–1499, Apr. 2022, doi: </p>
+<p class="break-words">M. McComb, R. Bies, and M. Ramanathan, "Machine learning in pharmacometrics: Opportunities and challenges," Br. J. Clin. Pharmacol., vol. 88, no. 4, pp. 1482–1499, Apr. 2022, doi: </p>
 <a href="https://doi.org/10.1111/bcp.14801" class="text-electron">View source</a>
 </div>
 </div>
@@ -963,6 +990,54 @@ This mechanistic approach has proven effective, and ODE-based models have become
 
 </div>
 
+</div>
+ <div class="hidden lg:flex flex-col lg:min-w-[360px] lg:w-[360px] lg:max-w-[360px] my-16 py-8 border-1 border-electron/25" id="right-sidebar">
+     
+<div class="flex gap-2 items-center px-0 lg:px-5 ">
+    
+    <h2 class="my-0"> Quick links</h2>
+</div>
+
+<!-- Challenge Timeline -->
+<div class="w-full not-prose">
+    <div class="flex p-5 gap-2 flex-col">
+               <a id="joinElementSpace" target="_blank" class="plausible-event-name=Find+Team+Members+Clickw-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" href="https://matrix.to/#/#mqs-community-space:mozilla.org">
+                        <span class="relative z-10">
+                            <span>Join our community</span>
+                        </span>
+                </a>  
+                  <a id="goToResources" href="/resources" class=" w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+                        <span class="relative z-10">
+                            <span>See our resources</span>
+                        </span>
+                </a>  
+                <a id="downloadDataset" href="/assets/QIC2025-EstDat.csv" class="plausible-event-name=Download+Dataset w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+                        <span class="relative z-10">
+                            <span>Download dataset</span>
+                        </span>
+                </a>  
+                <a id="registerTeamButton" class="plausible-event-name=Register+Team w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" onclick="openRegistrationModal()">
+                        <span class="relative z-10">
+                            <span>Register your team</span>
+                        </span>
+                </a>
+                <a id="goToSubmission" href="/submission/" class="w-full lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" onclick="openRegistrationModal()">
+                        <span class="relative z-10">
+                            <span>Submit your project</span>
+                        </span>
+                </a>  
+        
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
 
 <ul class="grid">
   
@@ -1059,7 +1134,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<footer class="relative  border-t border-electron/25 pt-20 w-[5px] h-[5px]" >
+<footer class="" >
   <data class="u-url" href="/"></data>
   
   <div class="relative z-10 max-w-7xl mx-auto px-6 py-16">
