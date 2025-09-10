@@ -38,8 +38,25 @@ permalink: /
 <section class="py-24 lg:pt-32 pb-24 flex max-w-screen-lg mx-auto text-center items-center justify-center px-5">
   <div class="flex-1 gap-4 flex flex-col">
     <h1 class="font-space-mono text-4xl font-bold">Quantum Innovation Challenge 2025</h1>
-    <p class="tracking-[1px] font-space-mono text-xl">The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.</p>
+    <p class="tracking-[1px] font-space-mono text-xl">The Quantum Innovation Challenge 2025 invites researchers, start-ups, and students from around the world to explore how quantum computing and quantum-inspired algorithms can advance (bio)pharmaceutical innovation – offering selected teams exclusive access to the Gefion AI Supercomputer.
+    </p>
+
+<div class="flex gap-4 justify-center"> 
+  {% comment %} onclick="openWebinarModal()"  {% endcomment %}
+    <a id="watchWebinar" target="_blank" href="https://drive.google.com/file/d/1VhkDQWu_oHuwni-6QsHOOXPCTdtm0K-q/view?t=8" class="plausible-event-name=Watch+Webinar  lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+          <span class="relative z-10">
+              <span>Watch our webinar</span>
+          </span>
+  </a>      
+    <a id="watchWebinar" href="/jury/" class="plausible-event-name=Meet+The+Jury  lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+          <span class="relative z-10">
+              <span>Meet the jury</span>
+          </span>
+    </a>                                   
   </div>
+  
+  </div>
+
 </section>
 
 <section class="flex flex-col mx-auto text-center items-center justify-center mb-12 border-electron/25 py-10">
@@ -81,8 +98,6 @@ permalink: /
   </div>
 </section>
 
-
-
 <section class="border-t-1 border-electron/25 ">
 <div class="flex items-start max-w-screen-xl mx-auto gap-10"> 
 <div class="flex-1 py-16 w-full lg:w-auto px-5" id="left-content">
@@ -117,8 +132,6 @@ permalink: /
 <li>Teams should have prior programming experience and basic familiarity with git and GitHub</li>
 <li>Full eligibility details are available on the <a href="/eligibility/">Eligibility page</a></li>
 </ul>
-
-
 
 <div class="block lg:hidden mx-auto">
  {% include timeline.html %}
@@ -229,7 +242,6 @@ permalink: /
 
 <p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="/submission">Submit a Project page</a>.</p>
 
-
 <h2> Partners </h2>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 not-prose"> 
 <div class="flex flex-col items-center justify-center p-5 border-1 border-electron/25 bg-white p-5 h-[150px]  hover:bg-electron cursor-pointer transition-all duration-300 ease-in-out">
@@ -297,7 +309,6 @@ permalink: /
 </div>
 </div>
 
-
 <p>For further information see the list of experts on the <a href="{{ site.baseurl }}/about/">about page</a>.</p>
 
 <h2> Financial Sponsors </h2>
@@ -315,4 +326,3 @@ permalink: /
 </div>
 
 </section>
-

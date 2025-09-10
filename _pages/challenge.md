@@ -48,6 +48,11 @@ menu_icon: briefcase
 </article>
 
 <div class="my-8 w-full">
+
+<div class="block lg:hidden mx-auto">
+ {% include quicks.html %}
+</div>
+
   <!-- Clinical R&D Timeline -->
   <div class="border border-electron/25  overflow-hidden">
     <div class="border-b border-electron/25 p-4">

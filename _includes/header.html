@@ -135,18 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <header class="group/header overflow-hidden w-full z-10 relative">
-  <div class="0 w-full z-50">
-    <div class="bg-node px-5 py-3 text-center flex gap-3 items-center justify-center">
-      <img src="{{ "/assets/icons/megaphone.svg" | relative_url }}" class="svg w-6 h-6 text-quantum ">
-       <span class="text-quantum font-bold">Upcoming Challenge Webinar</span><span class="text-quantum ">September 9th 12:00 - 13:00 CET</span>  
-        
-                                   <a  href="https://www.addevent.com/event/wf26576602"   target="_blank" class="plausible-event-name=Webinar+Click  bg-quantum xl:text-base flex items-center text-electron font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-2 px-5 h-10 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group" >
-                                <span class="relative z-10">
-                                    <span>Join the webinar</span>
-                                </span>
-                            </a>
-        </div>
-  </div>
+
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   

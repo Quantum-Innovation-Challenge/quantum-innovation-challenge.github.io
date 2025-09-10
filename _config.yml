@@ -37,7 +37,7 @@ header_pages:
   - _pages/challenge.md
   - _pages/agenda.md
   - _pages/eligibility.md
-#  - _pages/registration.md
+  - _pages/jury.md
   - _pages/submission.md
   - _pages/videos.md
   - _pages/resources.md
@@ -95,6 +95,58 @@ defaults:
 kramdown:
   toc_levels: "2,3"
 
+
+# j
+jury_members:
+  - name: "Cathal Mahon"
+    image: "/assets/Cathal.png"
+    organization: "Bio Innovation Institute (BII)"
+    role: "Chief Business Officer"
+    website: "https://bii.dk/"
+    linkedin: "https://www.linkedin.com/in/cathalmahon"
+  - name: "Clément Javerzac-Galy"
+    image: "/assets/Clement.png"
+    organization: "University of Applied Sciences and Arts Northwestern Switzerland FHNW"
+    role: "Professor of Applied Quantum Technologies"
+    website: "https://www.fhnw.ch/en/people/clement-javerzac"
+    linkedin: "https://www.linkedin.com/in/clementjaverzacgaly/"
+  - name: "Jeroen Bakker"
+    image: "/assets/Jeroen.png"
+    organization: "Novo Holdings"
+    role: "Partner"
+    website: "https://novoholdings.dk/"
+    linkedin: "https://www.linkedin.com/in/jeroenbakker/"
+  - name: "Ulrik Nicolai de Lichtenberg"
+    image: "/assets/Ulrik.png"
+    organization: "Danish Centre for AI Innovation (DCAI)"
+    role: "Director, Scientific Projects @ Gefion"
+    website: "https://dcai.dk"
+    linkedin: "https://www.linkedin.com/in/ulrik-nicolai-de-lichtenberg"
+  - name: "Michael DAndrea"
+    image: "/assets/Michael.png"
+    organization: "Genentech (A member of the Roche Group)"
+    role: "Principal Data Scientist"
+    website: "https://www.gene.com/"
+    linkedin: "https://www.linkedin.com/in/michaeldandreaus/"
+  - name: "Tobias Denzler"
+    image: "/assets/Tobias.png"
+    organization: "QAI Ventures"
+    role: "Head Science & Technology"
+    website: "https://qai-ventures.com"
+    linkedin: ""
+  - name: "Maxime Oliva"
+    image: "/assets/Maxime.png"
+    organization: "Novo Nordisk A/S"
+    role: "Senior Quantum Computing Scientist"
+    website: "https://novonordisk.com"
+    linkedin: "https://www.linkedin.com/in/maxime-oliva-414bb4117/"
+  - name: "Niels Rode Kristensen"
+    image: "/assets/Niels.png"
+    organization: "Novo Nordisk A/S"
+    role: "Senior Director, Pharmacometrics"
+    website: "https://novonordisk.com"
+    linkedin: "https://www.linkedin.com/in/niels-rode-kristensen-aa5749/"
+
 # Team members
 team_members:
   - name: "Mark Nicholas Jones"
@@ -120,7 +172,7 @@ team_members:
     linkedin: "https://www.linkedin.com/in/russof85"
     
   - name: "Cathal Mahon"
-    image: "https://bii.dk/media/jdejbvl4/cathal-00648-g.jpg?rxy=0.6401117218224771,0.3826642854564162&width=366&height=355&v=1dba9ead369cf90&format=webp&quality=85"
+    image: "/assets/Cathal.png"
     organization: "Bio Innovation Institute (BII)"
     role: "Chief Business Officer"
     website: "https://bii.dk/"
@@ -141,21 +193,21 @@ team_members:
     linkedin: "https://www.linkedin.com/in/mortenbache/"
     
   - name: "Lene Mandal Bastholm"
-    image: "https://media.licdn.com/dms/image/v2/C4D03AQEeHWVmODrlHA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1631787977349?e=1755734400&v=beta&t=PDxjTKhwmeJBwKybbVVhhWNDJ_sNAgYd6nTBVf6UXcY"
+    image: "/assets/Lene.png"
     organization: "Danish Business Authority"
     role: "Head of Section"
     website: "https://danishbusinessauthority.dk/"
     linkedin: "https://www.linkedin.com/in/lene-mandal-bastholm-347b8321b/"
     
   - name: "Søren Karlsen Glensholm"
-    image: "https://media.licdn.com/dms/image/v2/C4D03AQEUBShZkxDAbQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1601816798717?e=1755734400&v=beta&t=5YFsyfB99WuLQqpi_XKnfTKOUBqcn4qLdJZXt7B2TZA"
+    image: "/assets/Soren.png"
     organization: "Danish Business Authority"
     role: "Policy Officer"
     website: "https://danishbusinessauthority.dk/"
     linkedin: "https://www.linkedin.com/in/glensholm/"
     
   - name: "Ulrik Nicolai de Lichtenberg"
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQGU0Z-c6a_c_g/profile-displayphoto-shrink_200_200/B4EZTwjmTMHcAY-/0/1739202651786?e=1756339200&v=beta&t=CMwib8lDoCb0RQEtv1isPoVrpGQvALT1EzWCTQ6vz9g"
+    image: "/assets/Ulrik.png"
     organization: "Danish Centre for AI Innovation (DCAI)"
     role: "Director, Scientific Projects @ Gefion"
     website: "https://dcai.dk"
@@ -176,14 +228,14 @@ team_members:
     linkedin: "https://www.linkedin.com/in/tdenzler/"
     
   - name: "Maxime Oliva"
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQFAol6_qNk28w/profile-displayphoto-crop_800_800/B4EZfvGHdNHEAI-/0/1752063047959?e=1757548800&v=beta&t=AQEDd5F13Pr4HTsQF28yrRK7jG8mHaZH8h0ae7hWkbA"
+    image: "/assets/Maxime.png"
     organization: "Novo Nordisk A/S"
     role: "Senior Quantum Computing Scientist"
     website: "https://novonordisk.com"
     linkedin: "https://www.linkedin.com/in/maxime-oliva-414bb4117/"
     
   - name: "Niels Rode Kristensen"
-    image: ""
+    image: "/assets/Niels.png"
     organization: "Novo Nordisk A/S"
     role: "Senior Director, Pharmacometrics"
     website: "https://novonordisk.com"
@@ -211,28 +263,28 @@ team_members:
     linkedin: "https://www.linkedin.com/in/fanny-sie-92966940/"
     
   - name: "Michael DAndrea"
-    image: "https://media.licdn.com/dms/image/v2/C5603AQH2V3Hc_jew8Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1649388837889?e=1757548800&v=beta&t=ZUpKaLD5gff86CMkNQcapvCNrmyW7injBcwRz5fQUe0"
+    image: "/assets/Michael.png"
     organization: "Genentech (A member of the Roche Group)"
     role: "Principal Data Scientist"
     website: "https://www.gene.com/"
     linkedin: "https://www.linkedin.com/in/michaeldandreaus/"
     
   - name: "Clément Javerzac-Galy"
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQE7rnTDIKFxHQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726582759565?e=1756339200&v=beta&t=FhBldiDP7eO-7rcVkGZA0JM_XgQI1d0Qu70xAncCgeA"
+    image: "/assets/Clement.png"
     organization: "University of Applied Sciences and Arts Northwestern Switzerland FHNW"
     role: "Professor of Applied Quantum Technologies"
     website: "https://www.fhnw.ch/en/people/clement-javerzac"
     linkedin: "https://www.linkedin.com/in/clementjaverzacgaly/"
     
   - name: "Jeroen Bakker"
-    image: "https://media.licdn.com/dms/image/v2/C4D03AQEkjz5gQROhMQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1539116712616?e=1756944000&v=beta&t=CVz86CCr2Yk992Wi9FWZAVv3STDf5cMpH2O4TRdVcMM"
+    image: "/assets/Jeroen.png"
     organization: "Novo Holdings"
     role: "Partner"
     website: "https://novoholdings.dk/"
     linkedin: "https://www.linkedin.com/in/jeroenbakker/"
     
   - name: "Theo Lundberg"
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQFmXC9zqpEFmg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730217052854?e=1756944000&v=beta&t=Fn1J2393KRQM8bf5Wo0-mACexnT_FxZyJe2IT0guURU"
+    image: "/assets/Theo.png"
     organization: "Novo Holdings"
     role: "Investor"
     website: "https://novoholdings.dk/"
