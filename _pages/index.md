@@ -42,8 +42,8 @@ permalink: /
     </p>
 
 <div class="flex gap-4 justify-center"> 
-  {% comment %} onclick="openWebinarModal()"  {% endcomment %}
-    <a id="watchWebinar" target="_blank" href="https://drive.google.com/file/d/1VhkDQWu_oHuwni-6QsHOOXPCTdtm0K-q/view?t=8" class="plausible-event-name=Watch+Webinar  lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
+  {% comment %}   {% endcomment %}
+    <a id="watchWebinar"  onclick="openWebinarModal()" class="plausible-event-name=Watch+Webinar  lg: xl:text-base flex items-center text-white font-semibold border-1 border-electron/25 hover:bg-electron hover:text-quantum  py-3.5 px-5 h-14 cursor-pointer transition-all duration-300 ease-in-out hover:!text-quantum relative overflow-hidden group">
           <span class="relative z-10">
               <span>Watch our webinar</span>
           </span>
