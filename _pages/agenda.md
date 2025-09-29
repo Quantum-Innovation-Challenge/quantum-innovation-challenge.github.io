@@ -78,7 +78,7 @@ menu_icon: clock
             <h5 class=" font-medium  text-electron mt-1">Evaluation & Presentation</h5>
             <div class="text-white  mt-2 space-y-2">
               <p>Evaluation period (October 1-14) and feedback notification on submitted projects (latest October 14).</p>
-              <p><strong>Top 5 teams</strong> receive access to the Danish supercomputer Gefion throughout Q4 2025.</p>
+              <p><strong>Up to top 5 teams</strong> receive access to the Danish supercomputer Gefion throughout Q4 2025.</p>
               <p>Present at the European Quantum Technologies Conference 2025 in Copenhagen (November 10-12) to connect with the European quantum computing community.</p>
             </div>
           </div>

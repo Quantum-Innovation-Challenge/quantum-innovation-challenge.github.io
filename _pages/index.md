@@ -176,13 +176,13 @@ permalink: /
 </div>
 
 <ul>
-<li>Five teams will be selected to present their work at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.</li>
-<li>After the announcement of the finalists at EQTC in November, the 5 finalists gain access to the GEFION Supercomputer to continue the development of their models. Submission deadline for the second phase is expected to be end of January 2026 with announcement of the final winner in Q1 2026.</li>
+<li>Up to 5 teams will be selected to present their work at the <a href="https://eqtc2025.ku.dk/">European Quantum Technologies Conference 2025 (EQTC)</a> in Copenhagen.</li>
+<li>After the announcement of the finalists at EQTC in November, the finalists will gain access to the GEFION Supercomputer to continue the development of their models. Submission deadline for the second phase is expected to be end of January 2026 with announcement of the final winner in Q1 2026.</li>
 <li>The winning solution will be announced in Spring 2026 during another leading European quantum event and a prize is offered for the final winning team in the form of extended free access to the Gefion AI supercomputer, sponsored by DCAI.</li>
 <li>Networking and access to a global community of experts from the academic and industrial life science community.</li>
 <li>Working on a relevant life science use case with feedback and mentoring from leading industry partners, investors, and experts.</li>
-<li>Direct access and support from Gefion, one of the fastest supercomputers globally, to run your challenge code (5 finalists).</li>
-<li>Global marketing and branding with free tickets to EQTC 2025, presentation opportunities and further fostering of relationships (5 finalists).</li>
+<li>Direct access and support from Gefion, one of the fastest supercomputers globally, to run your challenge code (the finalists).</li>
+<li>Global marketing and branding with free tickets to EQTC 2025, presentation opportunities and further fostering of relationships (the finalists).</li>
 <li>Novo Holdings and QAI Ventures will help to facilitate access to their global investor network.</li>
 <li>Onboarding to the global QAI Ventures ecosystem with 1 year of exclusive 1:1 mentoring from investment and technology experts and a ticket to the QAI Ventures speed dating session to join upcoming venture building or accelerator programs (top 3 teams).</li>
 </ul>
