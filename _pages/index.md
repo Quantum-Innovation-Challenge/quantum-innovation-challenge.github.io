@@ -199,42 +199,36 @@ permalink: /
   <table class="w-full mx-auto border-collapse border border-electron/25">
     <thead>
       <tr class="bg-electron/5">
-        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Rank</th>
-        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Project #</th>
+        <!--<th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Rank</th>-->
         <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Team Name</th>
-        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Project Name</th>
+        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Project Title</th>
       </tr>
     </thead>
     <tbody>
       <tr class="hover:bg-electron/5 transition-colors">
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">1st</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Entangled Angle</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Circuit Simulation of Nonlinear Population Pharmacokinetics Using Variational Algorithms</td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">2nd</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">LoCoQuantum</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Trajectory Flow Matching (QTFM)</td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">3rd</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">jij</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">QuSOP: a quantum learning–optimization framework for robust dose selection in early clinical development</td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">4th</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">PNU</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Enhanced Machine Learning Model for Dose Optimization in Early Drug Development</td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">5th</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="" class="text-blue-600 hover:underline"></a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Dose</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Hybrid Quantum and ML PK-PD Modeling and Prediction Pipeline</td>
       </tr>
     </tbody>
   </table>
