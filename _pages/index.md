@@ -109,6 +109,69 @@ permalink: /
 
 <p>With the emergence of near-term quantum computers and powerful GPU-based methods, there is a growing need to understand their strengths and limitations, reduce barriers to adoption, and apply them to real-world problems in drug development. This virtual challenge is designed to foster collaborative, open research that contributes to this mission.</p>
 
+<h2> Submitted Projects (2025) </h2>
+
+<p>The top-ranked projects will be highlighted here:</p>
+
+<div class="overflow-x-auto">
+  <table class="w-full mx-auto border-collapse border border-electron/25">
+    <thead>
+      <tr class="bg-electron/5">
+        <!--<th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Rank</th>-->
+        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Team Name</th>
+        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Project Title</th>
+	<th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Repository Project Folder</th>
+	<th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Phase 1 Report</th>
+	<th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Phase 1 Presentation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Entangled Angle</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Circuit Simulation of Nonlinear Population Pharmacokinetics Using Variational Algorithms</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
+      </tr>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">LoCo Quantum</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Trajectory Flow Matching (QTFM)</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
+      </tr>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Pharma-Jij</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">QuSOP: a quantum learning–optimization framework for robust dose selection in early clinical development</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
+      </tr>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">PNU</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Enhanced Machine Learning Model for Dose Optimization in Early Drug Development</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
+      </tr>
+      <tr class="hover:bg-electron/5 transition-colors">
+        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Dose</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Hybrid Quantum and ML PK-PD Modeling and Prediction Pipeline</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="/submission">Submit a Project page</a>.</p>
+
 <h2> Your Role </h2>
 
 <p>Academic/industrial researchers, start-ups and students can propose projects with respect to this year's <a href="/challenge/">challenge topic</a> applying quantum computing and quantum-inspired algorithms to:</p>
@@ -191,50 +254,6 @@ permalink: /
 
 <p>📅 Visit the <a href="https://quantum-innovation-challenge.github.io/agenda/">Timeline page</a> to view the full agenda.</p>
 
-<h2> Submitted Projects </h2>
-
-<p>The top-ranked projects will be highlighted here:</p>
-
-<div class="overflow-x-auto">
-  <table class="w-full mx-auto border-collapse border border-electron/25">
-    <thead>
-      <tr class="bg-electron/5">
-        <!--<th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Rank</th>-->
-        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Team Name</th>
-        <th class="border border-electron/25 px-4 py-3 text-left font-space-mono text-sm font-semibold">Project Title</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="hover:bg-electron/5 transition-colors">
-        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Entangled Angle</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Circuit Simulation of Nonlinear Population Pharmacokinetics Using Variational Algorithms</td>
-      </tr>
-      <tr class="hover:bg-electron/5 transition-colors">
-        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">LoCoQuantum</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Trajectory Flow Matching (QTFM)</td>
-      </tr>
-      <tr class="hover:bg-electron/5 transition-colors">
-        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">jij</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">QuSOP: a quantum learning–optimization framework for robust dose selection in early clinical development</td>
-      </tr>
-      <tr class="hover:bg-electron/5 transition-colors">
-        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">PNU</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Enhanced Machine Learning Model for Dose Optimization in Early Drug Development</td>
-      </tr>
-      <tr class="hover:bg-electron/5 transition-colors">
-        <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Dose</td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Hybrid Quantum and ML PK-PD Modeling and Prediction Pipeline</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="/submission">Submit a Project page</a>.</p>
 
 <h2> Partners </h2>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 not-prose"> 
