@@ -109,9 +109,7 @@ permalink: /
 
 <p>With the emergence of near-term quantum computers and powerful GPU-based methods, there is a growing need to understand their strengths and limitations, reduce barriers to adoption, and apply them to real-world problems in drug development. This virtual challenge is designed to foster collaborative, open research that contributes to this mission.</p>
 
-<h2> Submitted Projects (2025) </h2>
-
-<p>The top-ranked projects will be highlighted here:</p>
+<h2> Phase 2 Projects (2025)</h2>
 
 <div class="overflow-x-auto">
   <table class="w-full mx-auto border-collapse border border-electron/25">
@@ -130,47 +128,47 @@ permalink: /
         <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Entangled Angle</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Circuit Simulation of Nonlinear Population Pharmacokinetics Using Variational Algorithms</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/EntangledAngle">Project Repo Link</a></td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/EntangledAngle/Quantum_Innovation_Challenge_EntangledAngle_Report_submission.pdf.pdf">Report Link</a></td>
 	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
         <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">LoCo Quantum</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Trajectory Flow Matching (QTFM)</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/01_PKPD_LoCoQuantum">Project Repo Link</a></td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/01_PKPD_LoCoQuantum/PKPD_Report.pdf">Report Link</a></td>
 	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
         <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Pharma-Jij</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">QuSOP: a quantum learning–optimization framework for robust dose selection in early clinical development</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/Pharm_jij">Project Repo Link</a></td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/Pharm_jij/Quantum_Innovation_Challenge_Pharmjij_Report_submission.pdf">Report Link</a></td>
 	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
         <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">PNU</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Enhanced Machine Learning Model for Dose Optimization in Early Drug Development</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/PNU">Project Repo Link</a></td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/PNU/Team%20PNU%20Report.pdf">Report Link</a></td>
 	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
         <!--<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"></td>-->
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Quantum Dose</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Hybrid Quantum and ML PK-PD Modeling and Prediction Pipeline</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Project Repo Link</td>
-	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Report Link</td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/QDose">Project Repo Link</a></td>
+	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/QDose/QDose_Submission.pdf">Report Link</a></td>
 	<td class="border border-electron/25 px-4 py-3 font-space-mono text-sm">Presentation Link</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<p>For a full list of the submitted challenge projects, we encourage you to take a look at the <a href="/submission">Submit a Project page</a>.</p>
+<p>For a full list of the submitted challenge projects (Phase 1), we encourage you to take a look at the <a href="/submission">Submit a Project page</a>.</p>
 
 <h2> Your Role </h2>
 
