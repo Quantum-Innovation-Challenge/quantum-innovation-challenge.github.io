@@ -129,35 +129,35 @@ permalink: /
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Quantum Circuit Simulation<br>of Nonlinear Population Pharmacokinetics<br>Using Variational Algorithms</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/EntangledAngle">Project Repo Link</a></td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/EntangledAngle/Quantum_Innovation_Challenge_EntangledAngle_Report_submission.pdf.pdf">Report Link</a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Presentation Link</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/docs/Phase1_EQTC_Presentations/EntangledAngle.pptx">Presentation Link</a></td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">LoCo Quantum</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Quantum Trajectory Flow Matching (QTFM)</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/01_PKPD_LoCoQuantum">Project Repo Link</a></td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/01_PKPD_LoCoQuantum/PKPD_Report.pdf">Report Link</a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Presentation Link</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/docs/Phase1_EQTC_Presentations/LoCoQuantum.pptx">Presentation Link</a></td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Pharma-Jij</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">QuSOP: a quantum learning–optimization framework<br>for robust dose selection in early clinical development</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/Pharm_jij">Project Repo Link</a></td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/Pharm_jij/Quantum_Innovation_Challenge_Pharmjij_Report_submission.pdf">Report Link</a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Presentation Link</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/docs/Phase1_EQTC_Presentations/Pharm_Jij.pdf">Presentation Link</a></td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">PNU</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Quantum Enhanced Machine Learning Model<br>for Dose Optimization in Early Drug Development</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/PNU">Project Repo Link</a></td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/PNU/Team%20PNU%20Report.pdf">Report Link</a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Presentation Link</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/docs/Phase1_EQTC_Presentations/PNU.pptx">Presentation Link</a></td>
       </tr>
       <tr class="hover:bg-electron/5 transition-colors">
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Quantum Dose</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Hybrid Quantum and ML PK-PD<br>Modeling and Prediction Pipeline</td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/tree/main/projects/QDose">Project Repo Link</a></td>
         <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/projects/QDose/QDose_Submission.pdf">Report Link</a></td>
-        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap">Presentation Link</td>
+        <td class="border border-electron/25 px-4 py-3 font-space-mono text-sm whitespace-nowrap"><a href="https://github.com/Quantum-Innovation-Challenge/LSQI-Challenge-2025/blob/main/docs/Phase1_EQTC_Presentations/QuantumDose.pptx">Presentation Link</a></td>
       </tr>
     </tbody>
   </table>
