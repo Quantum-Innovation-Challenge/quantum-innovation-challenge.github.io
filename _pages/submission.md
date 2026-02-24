@@ -131,7 +131,7 @@ References:
 
                 <p>This pull request will be considered your final submission for phase 1 of the challenge.</p>
 
-                <h3>Assessment criteria</h3>
+                <h3>Phase 1 Assessment Criteria</h3>
 
                 <h4>1. Problem Understanding &amp; Approach (0-5 pts)</h4>
 
@@ -177,6 +177,12 @@ References:
                 <p>All teams will be notified by email from <a href="mailto:quantum_challenge@mqs.dk">quantum_challenge@mqs.dk</a> once the assessment is complete, confirming whether or not they have been selected.</p>
 
                 <p>Please note: The scientific committee will not provide detailed individual feedback to teams that are not selected among the top five. However, efforts will be made to provide each participating team with a feedback and scoring summary to support transparency and encourage further development of their project.</p>
+
+		<h3>Final Assessment Criteria (Top 5 Projects and Winner Evaluation)</h3>
+
+		<h4>Showcasing of data usage/training, analysis and reporting</h4>
+
+		<h4>Final model performance evaluation with respect to test data set to rank project contributions</h4>
 
             </article>
         </section>

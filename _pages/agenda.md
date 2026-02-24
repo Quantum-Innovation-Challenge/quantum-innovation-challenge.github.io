@@ -90,11 +90,11 @@ menu_icon: clock
           <div class="ml-6 flex-1">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
               <h4 class="text-lg font-bold text-white">Phase III</h4>
-              <span class="text-xs text-electron bg-electron/10 px-2 py-1 rounded self-start">Q4 2025 - Q1 2026</span>
+              <span class="text-xs text-electron bg-electron/10 px-2 py-1 rounded self-start">Q4 2025 - Q2 2026</span>
             </div>
             <h5 class=" font-medium text-electron mt-1">Development & Finalization</h5>
             <div class="text-white  mt-2 space-y-2">
-              <p>Final code repositories and reports expected to be pushed to the respective repository until <strong>January 31, 2026</strong>.</p>
+              <p>Final code repositories and reports expected to be pushed to the respective repository until <strong>April 27, 2026</strong>.</p>
               <p>Presentations and winner announcement will be held at a leading quantum computing conference in spring 2026.</p>
             </div>
           </div>
