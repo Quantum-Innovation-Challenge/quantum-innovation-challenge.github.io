@@ -178,11 +178,15 @@ References:
 
                 <p>Please note: The scientific committee will not provide detailed individual feedback to teams that are not selected among the top five. However, efforts will be made to provide each participating team with a feedback and scoring summary to support transparency and encourage further development of their project.</p>
 
-		<h3>Final Assessment Criteria (Top 5 Projects and Winner Evaluation)</h3>
+		<h3>Final Phase Assessment Criteria (Top 5 Projects and Winner Evaluation)</h3>
 
-		<h4>Showcasing of data usage/training, analysis and reporting</h4>
+		<h4>1. Final model performance evaluation with respect to test data set to rank project contributions</h4>
 
-		<h4>Final model performance evaluation with respect to test data set to rank project contributions</h4>
+		<h4>2. Showcasing of data usage/training, analysis and reporting. Please be very transparent with respect to your codebase and your model/theory description.</h4>
+
+        <h4>3. Reproducibility of github project submission as a runnable code to replicate the results.</h4>
+
+
 
             </article>
         </section>
